@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f49883bf1cb10784c834933d8745d785, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  phase1_texts:
+  - This is phase 1.1
+  - This is phase 1.2
+  - This is phase 1.3
+  phase2_texts:
+  - This is phase 2.1
+  - This is phase 2.2
+  - This is phase 2.3
+  phase3_texts:
+  - This is phase 3.1
+  - This is phase 3.2
+  - This is phase 3.3
