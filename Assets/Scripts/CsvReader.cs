@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 
 public class CsvReader : MonoBehaviour
 {
@@ -26,9 +27,9 @@ public class CsvReader : MonoBehaviour
         for (int i = 1; i < lines.Length; i++)
         {
             string line = lines[i];
-            string[] values = line.Split(',');
+            List<string> values = ParseCSVLine(line);
 
-            if (values.Length < 8)
+            if (values.Count < 8)
             {
                 Debug.LogWarning("Skipping bad CSV line: " + line);
                 continue;
@@ -40,12 +41,12 @@ public class CsvReader : MonoBehaviour
                 option.EraID = int.Parse(values[0]);
                 option.EventID = values[1];
                 option.OptionID = values[2];
-                option.OptionText = values[3].Replace("\"", "");
+                option.OptionText = values[3];
 
-                option.PositiveOutcomeText = values[4].Replace("\"", "");
+                option.PositiveOutcomeText = values[4];
                 option.PositivePS_Change = int.Parse(values[5]);
 
-                option.NegativeOutcomeText = values[6].Replace("\"", "");
+                option.NegativeOutcomeText = values[6];
                 option.NegativePS_Change = int.Parse(values[7]);
 
                 if (!NarrativeDatabase.Events.ContainsKey(option.EventID))
@@ -62,6 +63,55 @@ public class CsvReader : MonoBehaviour
         }
 
         Debug.Log("Loaded " + NarrativeDatabase.Events.Count + " events from CSV.");
+    }
+
+    private List<string> ParseCSVLine(string line)
+    {
+        List<string> values = new List<string>();
+        StringBuilder currentValue = new StringBuilder();
+        bool inQuotes = false;
+
+        for (int i = 0; i < line.Length; i++)
+        {
+            char c = line[i];
+
+            if (c == '"')
+            {
+                if (inQuotes && i < line.Length - 1 && line[i+1] == '"')
+                {
+                    currentValue.Append('"');
+                    i++;
+                }
+
+                else
+                {
+                    inQuotes = !inQuotes;
+                }
+            }
+
+            else if (c == ',')
+            {
+                if (inQuotes)
+                {
+                    currentValue.Append(c);
+                }
+
+                else
+                {
+                    values.Add(currentValue.ToString());
+                    currentValue.Clear();
+                }
+            }
+
+            else
+            {
+                currentValue.Append(c);
+            }
+        }
+
+        values.Add(currentValue.ToString());
+
+        return values;
     }
 
     // Update is called once per frame
