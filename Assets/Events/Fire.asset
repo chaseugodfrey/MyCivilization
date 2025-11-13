@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Fire
   m_EditorClassIdentifier: 
-  mIntroMessage: 
-  mActionMessage: 
+  mIntroMessage: Discovery of Fire
+  mActionMessage: Damn thats fire
   mOptionMessages:
   - Fire1
   - Fire2
@@ -22,13 +22,13 @@ MonoBehaviour:
   - Fire5
   mOutcomeMessages:
   - FireOutcome1
-  - FireOutcome1
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  mOutcomeValues: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - FireOutcome2
+  - FireOutcome3
+  - FireOutcome4
+  - FireOutcome5
+  - FireOutcome6
+  - FireOutcome7
+  - FireOutcome8
+  - FireOutcome9
+  - FireOutcome10
+  mOutcomeValues: 0100000002000000030000000400000005000000060000000700000008000000090000000a000000

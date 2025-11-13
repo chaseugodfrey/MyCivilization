@@ -290,7 +290,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 132.75285}
+  m_AnchoredPosition: {x: 0.00022529946, y: 0}
   m_SizeDelta: {x: -10, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &96799640
@@ -345,10 +345,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.65
-  m_fontSizeBase: 36
+  m_fontSize: 15
+  m_fontSizeBase: 15
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -525,7 +525,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1488062955}
   m_Direction: 0
   m_Value: 0
-  m_Size: 1
+  m_Size: 0.99987227
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1129,7 +1129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eraObjs:
-  - {fileID: 11400000, guid: b14f86dcda1bd2143a5479e93d846cfa, type: 2}
+  - {fileID: 11400000, guid: 6add5c3d5f6bf9446b9166103943b4d1, type: 2}
 --- !u!4 &534110278
 Transform:
   m_ObjectHideFlags: 0
@@ -1609,7 +1609,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 583377753}
   m_HandleRect: {fileID: 583377752}
   m_Direction: 2
-  m_Value: 0.30019605
+  m_Value: 1
   m_Size: 0.3676666
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1749,7 +1749,7 @@ GameObject:
   - component: {fileID: 694685279}
   - component: {fileID: 694685278}
   m_Layer: 5
-  m_Name: YEAR TITLE
+  m_Name: ERA TITLE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2500,7 +2500,7 @@ GameObject:
   - component: {fileID: 1331616767}
   - component: {fileID: 1331616766}
   m_Layer: 5
-  m_Name: YEAR
+  m_Name: ERA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4109,10 +4109,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentEra: {fileID: 0}
   currentEvent: {fileID: 0}
-  cityManager: {fileID: 0}
+  cityManager: {fileID: 1332355117}
   eraManager: {fileID: 534110277}
   text_mainField: {fileID: 96799640}
-  text_eraTitle: {fileID: 1626364604}
+  text_eraTitle: {fileID: 1331616766}
   text_next: {fileID: 1194342314}
   text_optionA: {fileID: 1999797346}
   text_optionB: {fileID: 51325663}

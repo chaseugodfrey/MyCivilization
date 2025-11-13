@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: StoneAge
   m_EditorClassIdentifier: 
   mEraName: Stone Age
-  mEraEvents: []
+  mEraEvents:
+  - {fileID: 11400000, guid: f0ec860117296be46ba64c4f4a02fe01, type: 2}

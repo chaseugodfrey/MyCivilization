@@ -13,9 +13,7 @@ MonoBehaviour:
   m_Name: SampleEvent
   m_EditorClassIdentifier: 
   mIntroMessage: This event happened.
-  mOptionA: Bless
-  mOptionB: Smite
-  mOutcomeAMessages: []
-  mOutcomeAValues: []
-  mOutcomeBMessages: []
-  mOutcomeBValues: []
+  mActionMessage: 
+  mOptionMessages: []
+  mOutcomeMessages: []
+  mOutcomeValues: 

@@ -139,6 +139,7 @@ public class SimulationManager : MonoBehaviour
         slider.value = 5;
         LoadEraData();
     }
+
     void ClearUIText()
     {
         text_eraTitle.text = "";
