@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using NUnit.Framework;
 using System;
 using System.Collections.Generic;
@@ -7,13 +8,13 @@ using UnityEngine;
 public class EraEvent : ScriptableObject
 {
     [SerializeField] string mIntroMessage;
-    [SerializeField] string mActionMessage;
-    [SerializeField] string mOptionAText;
-    [SerializeField] string mOptionBText;
-    [SerializeField] List<string> mOutcomeAMessages;
-    [SerializeField] List<int> mOutcomeAValues;
-    [SerializeField] List<string> mOutcomeBMessages;
-    [SerializeField] List<int> mOutcomeBValues;
+    [SerializeField] string mActionMessage;    
+
+    [SerializeField] List<string> mOptionMessages;
+    [SerializeField] List<string> mOutcomeMessages;
+    [SerializeField] List<int> mOutcomeValues;
+
+    int chosenIndex;
 
     public string GetIntroMessage()
     {
@@ -24,24 +25,32 @@ public class EraEvent : ScriptableObject
         return mActionMessage;
     }
 
-    public string GetOptionAText()
+    public Tuple<string, string> GetOptionsText()
     {
-        return mOptionAText;
-    }
-    public string GetOptionBText()
-    {
-        return mOptionBText;
+        if (mOptionMessages == null || mOptionMessages.Count < 2)
+        {
+            Debug.LogWarning("Not enough options to choose from!");
+            return new Tuple<string, string>("N/A", "N/A");
+        }
+
+        int indexA = UnityEngine.Random.Range(0, mOptionMessages.Count);
+        int indexB;
+
+        // ensure indexB is different
+        do
+        {
+            indexB = UnityEngine.Random.Range(0, mOptionMessages.Count);
+        } while (indexB == indexA);
+
+        string optionA = mOptionMessages[indexA];
+        string optionB = mOptionMessages[indexB];
+
+        return new Tuple<string, string>(optionA, optionB);
     }
 
-    public Tuple<string, int> GetOptionAOutcome()
+    public Tuple<string, int> GetOptionOutcome(int index)
     {
-        int roll = UnityEngine.Random.Range(0, mOutcomeAMessages.Count);
-        return new Tuple<string, int>(mOutcomeAMessages[roll], mOutcomeAValues[roll]);
-    }
-
-    public Tuple<string, int> GetOptionBOutcome()
-    {
-        int roll = UnityEngine.Random.Range(0, mOutcomeBMessages.Count);
-        return new Tuple<string, int>(mOutcomeBMessages[roll], mOutcomeBValues[roll]);
+        int roll = UnityEngine.Random.Range(index * 2, index * 2 + 2);
+        return new Tuple<string, int>(mOutcomeMessages[roll], mOutcomeValues[roll]);
     }
 }

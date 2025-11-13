@@ -34,15 +34,9 @@ public class SimulationManager : MonoBehaviour
         }
     }
 
-    public void OptionA()
+    public void Options(int index)
     {
-        outcomeData = currentEvent.GetOptionAOutcome();
-        Advance();
-    }
-
-    public void OptionB()
-    {
-        outcomeData = currentEvent.GetOptionBOutcome();
+        outcomeData = currentEvent.GetOptionOutcome(index);
         Advance();
     }
 
@@ -53,8 +47,6 @@ public class SimulationManager : MonoBehaviour
         currentEra = eraManager.GetRandomEraObj();
         currentEvent = currentEra.GetRandomEvent();
         text_eraTitle.text = currentEra.GetEraName();
-        text_optionA.text = currentEvent.GetOptionAText();
-        text_optionB.text = currentEvent.GetOptionBText();
 
         // Enqueue Actions
         actionQueue.Enqueue(DisplayIntroMessage);
