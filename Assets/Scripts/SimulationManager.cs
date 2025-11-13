@@ -9,6 +9,7 @@ public class SimulationManager : MonoBehaviour
     [Header("Data")]
     public Era currentEra;
     public EraEvent currentEvent;
+    public CityManager cityManager;
 
     [Header("Draggables")]
     public EraManager eraManager;
