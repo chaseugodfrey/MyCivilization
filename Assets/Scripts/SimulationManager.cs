@@ -53,7 +53,7 @@ public class SimulationManager : MonoBehaviour
 
     void LoadEraData()
     {
-        if(eraCounter >= 6)
+        if(eraCounter >= 5)
         {
             DisplayTheEnd();
             return;
@@ -211,7 +211,7 @@ public class SimulationManager : MonoBehaviour
     {
         LoadEraData();
         cityManager.ActiveCity = new CityManager.City();
-        cityManager.ActiveCity.Prosperity = 10;
+        cityManager.ActiveCity.Prosperity = 80;
     }
 
 
