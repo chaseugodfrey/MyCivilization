@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25846dacfbde4d241b879346c5a6d768, type: 3}
+  m_Name: Medieval
+  m_EditorClassIdentifier: 
+  mEraName: Medieval
+  mEraEvents:
+  - {fileID: 11400000, guid: be1d5fa49dc083644b7c0bd918438016, type: 2}
+  - {fileID: 11400000, guid: 0203b26cce73a1242b099324a61941bc, type: 2}
+  - {fileID: 11400000, guid: 7a39176c1391560479e1d26d27996c8e, type: 2}
+  - {fileID: 11400000, guid: 7c29faec0d08cae48bfcd811924865f0, type: 2}
+  - {fileID: 11400000, guid: 49e77d0288b350a47a4e588d21dfcfee, type: 2}
+  - {fileID: 11400000, guid: 5f4b0a672dd8e4547850b61be1691dc8, type: 2}
+  - {fileID: 11400000, guid: aaf9a33a28dc9024eba1c1bcda5dfdc3, type: 2}
+  - {fileID: 11400000, guid: 031acaabed1fcf547b54a884fb67522f, type: 2}
+  - {fileID: 11400000, guid: ddbfb8b03e934a449b9d07199461eb8f, type: 2}
+  - {fileID: 11400000, guid: 256b3676eb247be4b894dd6fe0c98bc7, type: 2}

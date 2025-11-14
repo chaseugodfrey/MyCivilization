@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Space-E10
+  m_EditorClassIdentifier: 
+  mIntroMessage: WORKER UNREST - Miners, technicians, terraformers, or AI-handlers
+    protest working conditions across colonies.
+  mActionMessage: WORKER UNREST - Miners, technicians, terraformers, or AI-handlers
+    protest working conditions across colonies.
+  mOptionMessages:
+  - Invest in widespread infrastructure improvements.
+  - Open dialogue with affected groups to address concerns.
+  - Deploy specialised teams to analyse and mitigate the issue.
+  - Redirect national resources to aggressively solve the problem.
+  - Allow local communities autonomy to handle the situation.
+  mOutcomeMessages:
+  - Automation upgrades and AI safety systems ease labour.
+  - Glitches and malfunctions heighten worker danger.
+  - Dialogue restores cooperation across colonies.
+  - Workers feel ignored and escalate wide-scale strikes.
+  - Experts redesign labour cycles for low-gravity and hazardous environments.
+  - Flawed models worsen fatigue and accidents.
+  - Resource shifts improve conditions and pay.
+  - Diverted resources cripple essential planetary projects.
+  - Local unions rework systems autonomously.
+  - Uneven reforms cause conflict between colonies.
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff0b000000f7ffffff08000000f6ffffff07000000faffffff
+  leftIndex: 0
+  rightIndex: 0

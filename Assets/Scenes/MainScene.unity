@@ -1129,7 +1129,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eraObjs:
-  - {fileID: 11400000, guid: 6add5c3d5f6bf9446b9166103943b4d1, type: 2}
+  - {fileID: 11400000, guid: 07c418c01c56b224d9e175c368f842d0, type: 2}
+  - {fileID: 11400000, guid: c0f11ec91c2cc7842abf9915887608c3, type: 2}
+  - {fileID: 11400000, guid: d4e20f595f611f942be554ce65bfa8f0, type: 2}
+  - {fileID: 11400000, guid: 294324bdd493c294a8689ce84be02f85, type: 2}
+  - {fileID: 11400000, guid: 113301de02a18f0498cd96ee4500ed67, type: 2}
 --- !u!4 &534110278
 Transform:
   m_ObjectHideFlags: 0
