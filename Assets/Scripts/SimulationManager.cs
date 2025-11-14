@@ -20,6 +20,7 @@ public class SimulationManager : MonoBehaviour
     public TMP_Text text_optionA;
     public TMP_Text text_optionB;
     public TMP_Text text_end;
+    public TMP_Text text_cityName;
     public GameObject screen_end;
     public Slider slider;
     public GameObject mainField;
@@ -27,6 +28,7 @@ public class SimulationManager : MonoBehaviour
     public GameObject nextButton;
     public GameObject optionA;
     public GameObject optionB;
+    public GameObject nameCity;
 
     public delegate void FunctionDelegate();
     Queue<FunctionDelegate> actionQueue = new();
@@ -35,6 +37,7 @@ public class SimulationManager : MonoBehaviour
     private int eraCounter = 0;
 
     bool newEra = true;
+    bool cityNamed = false;
     public void Advance()
     {
         if (actionQueue.Count > 0)
@@ -67,30 +70,38 @@ public class SimulationManager : MonoBehaviour
         text_eraHeader.text = currentEra.GetEraName();
         cityManager.UpdateProsperityUI();
 
-        // Enqueue Actions
+        actionQueue.Enqueue(DisplayTitle);
         actionQueue.Enqueue(DisplayIntroMessage);
         actionQueue.Enqueue(DisplayAction);
         actionQueue.Enqueue(DisplayOutcome);
         actionQueue.Enqueue(EventCount);
         actionQueue.Enqueue(LoadEraData);
 
-        if (newEra)
+        if (cityNamed)
         {
-            newEra = false;
-
-            // Display Era Title
-            mainField.SetActive(false);
-            DisplayEraTitle(true);
-            nextButton.SetActive(false);
-            Invoke(nameof(DisappearingTitle), 1);
+            Advance();
         }
         else
         {
-            Advance();
+            NameCity();
         }
     }
 
     // ACTIONS
+    void NameCity()
+    {
+        nameCity.SetActive(true);
+    }
+
+    public void CityNamed()
+    {
+        cityNamed = true;
+        cityManager.ActiveCity.Name = nameCity.GetComponentInChildren<TMP_InputField>().text;
+        text_cityName.text = cityManager.ActiveCity.Name;
+        nameCity.SetActive(false);
+        newEra = true;
+        Invoke(nameof(DisappearingTitle), 1);
+    }
 
     void EventCount()
     {
@@ -155,6 +166,23 @@ public class SimulationManager : MonoBehaviour
         DisplayScreenEnd(true);
         DisplayButtonNext(false);
     }
+
+    void DisplayTitle()
+    {
+        if (newEra)
+        {
+            newEra = false;
+            mainField.SetActive(false);
+            DisplayEraTitle(true);
+            nextButton.SetActive(false);
+            Invoke(nameof(DisappearingTitle), 1);
+        }
+        else
+        {
+            Advance();
+        }
+
+    }
     void DisappearingTitle()
     {
         DisplayEraTitle(false);
@@ -205,6 +233,8 @@ public class SimulationManager : MonoBehaviour
     }
     public void RestartSimulation()
     {
+        cityNamed = false;
+        cityManager.ActiveCity.Name = "";
         DisplayScreenEnd(false);
         actionQueue.Clear();
         cityManager.ActiveCity.Prosperity = 50;
