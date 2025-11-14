@@ -10,7 +10,7 @@ public class EventDataProcessor
 {
     // These paths MUST match your project's folder structure
     private const string ERAS_SAVE_PATH = "Assets/Eras";
-    private const string EVENTS_SAVE_PATH = "Assets/Data/Events";
+    private const string EVENTS_SAVE_PATH = "Assets/Events";
 
     // This is the file to read from
     private const string CSV_FILE_NAME = "DetailedEraEvents.csv";
@@ -33,7 +33,7 @@ public class EventDataProcessor
         // 2. Create the output folders if they don't exist
         if (!AssetDatabase.IsValidFolder(EVENTS_SAVE_PATH))
         {
-            AssetDatabase.CreateFolder("Assets/Data", "Events");
+            AssetDatabase.CreateFolder("Assets", "Events");
         }
         if (!AssetDatabase.IsValidFolder(ERAS_SAVE_PATH))
         {
