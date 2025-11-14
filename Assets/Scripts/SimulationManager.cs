@@ -22,6 +22,11 @@ public class SimulationManager : MonoBehaviour
     public GameObject screen_end;
     public Slider slider;
 
+    [Header("Era Transition Settings")]
+    public int eventsPerEra = 5;
+    private int eventCounter = 0;
+    private int eraIndex = 0;
+
     public delegate void FunctionDelegate();
     Queue<FunctionDelegate> actionQueue = new();
     Tuple<string, int> outcomeData;
@@ -45,7 +50,23 @@ public class SimulationManager : MonoBehaviour
     {
         ClearUIText();
 
-        currentEra = eraManager.GetRandomEraObj();
+        if (actionQueue.Count != 0)
+        {
+            eventCounter++;
+        }
+
+        if (eventCounter >= eventsPerEra)
+        {
+            AdvanceEra();
+            return;
+        }
+
+        // old code
+        //currentEra = eraManager.GetRandomEraObj();
+        
+        // new code to get the current era
+        currentEra = eraManager.GetEraObj(eraIndex);
+
         currentEvent = currentEra.GetRandomEvent();
         text_eraTitle.text = currentEra.GetEraName();
 
@@ -58,6 +79,22 @@ public class SimulationManager : MonoBehaviour
         // Display Era Title
         DisplayEraTitle(true);
         Invoke(nameof(DisappearingTitle), 1);
+    }
+
+    // new function to transit to the next era
+    void AdvanceEra()
+    {
+        eraIndex++;
+        eventCounter = 0;
+
+        if (eraIndex >= eraManager.eraObjs.Count)
+        {
+            EndSimulation(true);
+            return;
+        }
+
+        Debug.Log($"Transitioning to Era {eraIndex + 1}: {eraManager.eraObjs[eraIndex].GetEraName()}");
+        LoadEraData();
     }
 
     // ACTIONS
@@ -137,6 +174,11 @@ public class SimulationManager : MonoBehaviour
         DisplayScreenEnd(false);
         actionQueue.Clear();
         slider.value = 5;
+
+        // added code for transition to next era
+        eraIndex = 0;
+        eventCounter = 0;
+
         LoadEraData();
     }
 
