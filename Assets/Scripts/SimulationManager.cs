@@ -52,6 +52,12 @@ public class SimulationManager : MonoBehaviour
 
     void LoadEraData()
     {
+        if(eraCounter >= 6)
+        {
+            DisplayTheEnd();
+            return;
+        }
+
         ClearUIText();
 
         currentEra = eraManager.GetEraObj(eraCounter);
