@@ -15,19 +15,28 @@ public class CsvReader : MonoBehaviour
     {
         string filePath = Path.Combine(Application.streamingAssetsPath, "narrativeData.csv");
 
+        Debug.Log("Trying to load CSV at: " + filePath);
+
         if (!File.Exists(filePath))
         {
             Debug.LogError("Cannot find the CSV file at: " + filePath);
             return;
         }
 
+        Debug.Log("CSV file FOUND! Reading...");
+
         string[] lines = File.ReadAllLines(filePath);
         NarrativeDatabase.Events.Clear();
+
+        Debug.Log("Total lines read (including header): " + lines.Length);
 
         for (int i = 1; i < lines.Length; i++)
         {
             string line = lines[i];
+            Debug.Log($"Processing line {i + 1}: {line}");
             List<string> values = ParseCSVLine(line);
+
+            Debug.Log("Parsed Values (" + values.Count + "): " + string.Join(" | ", values));
 
             if (values.Count < 8)
             {
@@ -55,6 +64,7 @@ public class CsvReader : MonoBehaviour
                 }
 
                 NarrativeDatabase.Events[option.EventID].Add(option);
+                Debug.Log($"Added EventData -> EventID: {option.EventID}, OptionID: {option.OptionID}");
             }
             catch (System.Exception e)
             {

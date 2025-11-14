@@ -1,0 +1,9 @@
+﻿EraID,EventID,OptionID,OptionText,PositiveOutcomeText,PositivePS_Change,NegativeOutcomeText,NegativePS_Change
+1,ERA1_EVT1,OPT1,Invest in agriculture,"The crops flourish, boosting prosperity.",2,The harvest fails due to pests.,-2
+1,ERA1_EVT1,OPT2,Expand trade routes,Trade thrives and wealth increases.,3,Bandits disrupt the new routes.,-3
+1,ERA1_EVT2,OPT1,Build a granary,Food supplies stabilize.,1,Construction overruns drain resources.,-1
+1,ERA1_EVT2,OPT2,Train more guards,Security improves throughout the city.,2,Training proves ineffective.,-1
+2,ERA2_EVT1,OPT1,Research new technologies,Innovations improve city life.,3,"Research fails, wasting funds.",-2
+2,ERA2_EVT1,OPT2,Host a cultural festival,Citizens' morale rises significantly.,2,Festival causes unrest.,-2
+2,ERA2_EVT2,OPT1,Enhance irrigation systems,Farming becomes more efficient.,2,System malfunctions and floods fields.,-3
+2,ERA2_EVT2,OPT2,Enforce stricter laws,Order improves.,1,People protest against harsh rules.,-2
