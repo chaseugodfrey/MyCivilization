@@ -14,7 +14,8 @@ public class EraEvent : ScriptableObject
     [SerializeField] List<string> mOutcomeMessages;
     [SerializeField] List<int> mOutcomeValues;
 
-    int chosenIndex;
+    public int leftIndex;
+    public int rightIndex;
 
     public string GetIntroMessage()
     {
@@ -33,17 +34,17 @@ public class EraEvent : ScriptableObject
             return new Tuple<string, string>("N/A", "N/A");
         }
 
-        int indexA = UnityEngine.Random.Range(0, mOptionMessages.Count);
-        int indexB;
+        int leftIndex = UnityEngine.Random.Range(0, mOptionMessages.Count);
+        int rightIndex = leftIndex;
 
         // ensure indexB is different
         do
         {
-            indexB = UnityEngine.Random.Range(0, mOptionMessages.Count);
-        } while (indexB == indexA);
+            rightIndex = UnityEngine.Random.Range(0, mOptionMessages.Count);
+        } while (rightIndex == leftIndex);
 
-        string optionA = mOptionMessages[indexA];
-        string optionB = mOptionMessages[indexB];
+        string optionA = mOptionMessages[leftIndex];
+        string optionB = mOptionMessages[rightIndex];
 
         return new Tuple<string, string>(optionA, optionB);
     }
