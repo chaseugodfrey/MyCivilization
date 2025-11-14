@@ -13,7 +13,7 @@ public class CsvReader : MonoBehaviour
 
     public void LoadNarrativeData()
     {
-        string filePath = Path.Combine(Application.streamingAssetsPath, "narrativeData.csv");
+        string filePath = Path.Combine(Application.streamingAssetsPath, "GenericEraEvents.csv");
 
         Debug.Log("Trying to load CSV at: " + filePath);
 
@@ -47,11 +47,11 @@ public class CsvReader : MonoBehaviour
             EventData option = new EventData();
             try
             {
-                option.EraID = int.Parse(values[0]);
+                option.EraID = values[0];
                 option.EraNarrative = values[1];
                 option.EventID = values[2];
                 option.EventNarrative = values[3];
-                option.EventDifficulty = int.Parse(values[4]);
+                option.EventDifficulty = values[4];
 
                 option.OptionID = values[5];
                 option.OptionText = values[6];
