@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Modern-E3
   m_EditorClassIdentifier: 
-  mIntroMessage: "ECONOMIC BOOM \u2014 A surge in technological innovation, investment,
-    or global trade brings sudden prosperity. Wealth rises rapidly, but so do the
-    risks of inequality and instability."
+  mIntroMessage: Industrial growth reshapes society through machines, science, and
+    rapid urbanisation. Nations compete for resources and influence, while citizens
+    face new freedoms and pressures. Communication accelerates ideas, and political
+    movements challenge old systems. Progress brings opportunity but also tension,
+    forcing your civilisation to balance innovation with stability in an increasingly
+    interconnected world.
   mActionMessage: "ECONOMIC BOOM \u2014 A surge in technological innovation, investment,
     or global trade brings sudden prosperity. Wealth rises rapidly, but so do the
     risks of inequality and instability."

@@ -12,9 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Modern-E8
   m_EditorClassIdentifier: 
-  mIntroMessage: "INTERNAL CONFLICT \u2014 Political extremists, activist groups,
-    or rival factions clash within the nation. Civil unrest threatens stability unless
-    decisive action is taken."
+  mIntroMessage: Industrial growth reshapes society through machines, science, and
+    rapid urbanisation. Nations compete for resources and influence, while citizens
+    face new freedoms and pressures. Communication accelerates ideas, and political
+    movements challenge old systems. Progress brings opportunity but also tension,
+    forcing your civilisation to balance innovation with stability in an increasingly
+    interconnected world.
   mActionMessage: "INTERNAL CONFLICT \u2014 Political extremists, activist groups,
     or rival factions clash within the nation. Civil unrest threatens stability unless
     decisive action is taken."

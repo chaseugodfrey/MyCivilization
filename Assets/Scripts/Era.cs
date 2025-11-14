@@ -6,6 +6,7 @@ using UnityEngine;
 public class Era : ScriptableObject
 {
     [SerializeField] string mEraName;
+    //[SerializeField] string mEraDescription;
     [SerializeField] List<EraEvent> mEraEvents;
     int mCurrentEventIndex = -1;
 
@@ -13,6 +14,11 @@ public class Era : ScriptableObject
     {
         return mEraName;
     }
+
+    //public string GetEraDescription()
+    //{
+    //    return mEraDescription;
+    //}
 
     public List<EraEvent> GetEraEvents()
     {

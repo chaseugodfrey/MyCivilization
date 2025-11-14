@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Classical-E1
   m_EditorClassIdentifier: 
-  mIntroMessage: RESOURCE SHORTAGE - Despite the splendour of the Classical age,
-    scarcity threatens civilisation as drought, failing mines, or disrupted trade
-    routes strain supplies and test public confidence.
+  mIntroMessage: "City-states strengthen into structured societies with laws, philosophy,
+    and organised armies. Roads connect regions, trade expands, and public institutions
+    shape citizens\u2019 lives. Diplomacy and conquest redefine borders, while political
+    tension grows beneath newly won prosperity. Ideas spread faster than stability,
+    testing how your civilisation balances ambition, order, and the pursuit of knowledge."
   mActionMessage: RESOURCE SHORTAGE - Despite the splendour of the Classical age,
     scarcity threatens civilisation as drought, failing mines, or disrupted trade
     routes strain supplies and test public confidence.

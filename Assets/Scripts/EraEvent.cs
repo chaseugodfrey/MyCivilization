@@ -19,10 +19,15 @@ public class EraEvent : ScriptableObject
     public int rightIndex;
     public int rolledOutcome;
 
+    public string GetEraDescription()
+    {
+        return mIntroMessage;
+    }
     public string GetIntroMessage()
     {
         return mIntroMessage;
     }
+
     public string GetActionMessage()
     {
         return mActionMessage;

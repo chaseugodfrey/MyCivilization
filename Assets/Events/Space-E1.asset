@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Space-E1
   m_EditorClassIdentifier: 
-  mIntroMessage: "RESOURCE SHORTAGE \u2014 A critical shortage emerges: deuterium
-    for fusion cores, helium-3 for lunar reactors, rare metals for shipyards, or
-    water for colonies. Mining accidents, FTL disruptions, or diplomatic tension
-    threaten stability across worlds."
+  mIntroMessage: Humanity expands beyond Earth into orbital stations, lunar cities,
+    and early colonies. Advanced reactors, terraforming, and faster-than-light travel
+    open new frontiers, but resource strain and political fragmentation grow across
+    planets. Each settlement faces unique risks, and decisions now carry consequences
+    stretching far beyond a single world or generation.
   mActionMessage: "RESOURCE SHORTAGE \u2014 A critical shortage emerges: deuterium
     for fusion cores, helium-3 for lunar reactors, rare metals for shipyards, or
     water for colonies. Mining accidents, FTL disruptions, or diplomatic tension

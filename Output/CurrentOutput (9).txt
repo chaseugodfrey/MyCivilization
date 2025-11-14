@@ -1,0 +1,90 @@
+[Stone-Bronze Era]
+Your civilisation advances from simple survival to organised living. Basic tools evolve into metalwork, villages become early settlements, and tradition guides every decision. Leaders emerge, food security improves, and small rituals honour ancestors. Yet scarcity, conflict, and limited knowledge keep progress fragile, shaping the foundations of everything your people will later build.
+
+
+Event: MORAL DILEMMA - A difficult ethical choice confronts the tribe, forcing clans to weigh tradition, survival, compassion, and long-term consequences.
+
+Choose a pragmatic solution even if it challenges tradition.
+
+Outcome: The outsider brings hidden danger — sickness, a vengeful clan, or treachery. Your goodwill backfires as the tribe pays the price for trusting an unknown stranger.
+
+
+Event: INTERNAL CONFLICT - Tensions rise between clans due to disputes over hunting grounds, resources, or personal grievances. Without intervention, violence may erupt.
+
+Propose a labour-sharing project requiring clans to work together.
+
+Outcome: Leaders gather around the central fire, voicing frustrations and misunderstandings. Through patient dialogue, they rediscover shared goals and agree to renewed cooperation.
+
+
+[Classical Era]
+City-states strengthen into structured societies with laws, philosophy, and organised armies. Roads connect regions, trade expands, and public institutions shape citizens’ lives. Diplomacy and conquest redefine borders, while political tension grows beneath newly won prosperity. Ideas spread faster than stability, testing how your civilisation balances ambition, order, and the pursuit of knowledge.
+
+
+Event: LEADERSHIP CRISIS — Senators, generals, or governors challenge central authority. Power struggles threaten stability and endanger the unity of the classical state.
+
+Rally the people through public speeches and civic demonstrations.
+
+Outcome: The senate erupts into chaos as factions accuse each other of treason. Negotiations fail, and the public witnesses a humiliating collapse of political order.
+
+
+Event: TECHNOLOGICAL BREAKTHROUGH — New inventions, engineering marvels, or mathematical insights emerge. Their impact depends on how the state chooses to apply them.
+
+Share the breakthrough across academies to inspire wider learning.
+
+Outcome: Citizens marvel at the engineering display as the invention proves reliable and transformative. Confidence in state innovation grows, inspiring new waves of curiosity and ambition.
+
+
+[Medieval Era]
+Fortified cities, noble houses, and layered loyalties define this era. Faith influences rulers, merchants connect distant markets, and knowledge survives through dedicated scholars. Yet feuds, famine, and disease challenge stability at every turn. Power shifts through alliances and conflict, and your civilisation must navigate duty, honour, and survival to endure the age.
+
+
+Event: DISEASE OUTBREAK — A mysterious sickness spreads through towns and villages. Healers, priests, and common folk struggle to understand and survive the affliction.
+
+Suspend certain taxes and tithes to ease the burden on afflicted communities.
+
+Outcome: Though harsh, the restrictions slow the spread considerably. People see the crown as willing to make difficult choices to protect the realm.
+
+
+Event: INTERNAL CONFLICT — Rival noble houses, feuding villages, or competing guilds strain the kingdom’s unity. Without careful intervention, quarrels may ignite into open violence.
+
+Temporarily separate feuding groups by redrawing minor jurisdictions.
+
+Outcome: The tribunal reveals deep grudges that neither side will abandon. Accusations of bias follow, and some lords leave more resentful than when they arrived.
+
+
+[Modern Era]
+Industrial growth reshapes society through machines, science, and rapid urbanisation. Nations compete for resources and influence, while citizens face new freedoms and pressures. Communication accelerates ideas, and political movements challenge old systems. Progress brings opportunity but also tension, forcing your civilisation to balance innovation with stability in an increasingly interconnected world.
+
+
+Event: ECONOMIC BOOM — A surge in technological innovation, investment, or global trade brings sudden prosperity. Wealth rises rapidly, but so do the risks of inequality and instability.
+
+Invest heavily in public infrastructure and modern transportation.
+
+Outcome: Projects overrun budgets and deadlines. Corruption scandals emerge, and citizens accuse leadership of mismanagement despite the booming economy.
+
+
+Event: LEADERSHIP CRISIS — Scandals, disagreements, or sudden resignations shake the government. Confidence in leadership wavers as rivals manoeuvre for power.
+
+Launch a public inquiry led by independent investigators.
+
+Outcome: The press conference spirals into hostile questioning. Poor responses go viral, worsening the scandal and deepening distrust.
+
+
+[Space Era]
+Humanity expands beyond Earth into orbital stations, lunar cities, and early colonies. Advanced reactors, terraforming, and faster-than-light travel open new frontiers, but resource strain and political fragmentation grow across planets. Each settlement faces unique risks, and decisions now carry consequences stretching far beyond a single world or generation.
+
+
+Event: ECONOMIC BOOM — Hyper-efficient automation, asteroid mining breakthroughs, or quantum markets trigger explosive economic growth. Wealth surges, but inequality across planets risks destabilising civilisation.
+
+Promote interstellar tourism showcasing terraformed worlds and orbital cities.
+
+Outcome: Labour disputes erupt between colonies competing for contracts. Accusations of unfair hiring spark waves of political backlash.
+
+
+Event: CULTURAL SCHISM — As humanity spreads across planets, cultures diverge. Colonists, Earth-born citizens, AI-driven societies, and genetically modified populations clash over identity, autonomy, and the future of civilisation.
+
+Deploy cultural ambassadors—trained mediators fluent in multiple colony customs.
+
+Outcome: Activist groups hijack the forums, spreading inflammatory messages. Interplanetary distrust deepens as conversations collapse into ideological chaos.
+
+

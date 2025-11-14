@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Medieval-E10
   m_EditorClassIdentifier: 
-  mIntroMessage: "MORAL DILEMMA \u2014 A controversial case of justice, heresy, or
-    peasant revolt forces the realm to choose between strict order and mercy. The
-    decision will echo through legend."
+  mIntroMessage: Fortified cities, noble houses, and layered loyalties define this
+    era. Faith influences rulers, merchants connect distant markets, and knowledge
+    survives through dedicated scholars. Yet feuds, famine, and disease challenge
+    stability at every turn. Power shifts through alliances and conflict, and your
+    civilisation must navigate duty, honour, and survival to endure the age.
   mActionMessage: "MORAL DILEMMA \u2014 A controversial case of justice, heresy,
     or peasant revolt forces the realm to choose between strict order and mercy.
     The decision will echo through legend."

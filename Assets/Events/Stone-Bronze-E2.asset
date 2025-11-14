@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Stone-Bronze-E2
   m_EditorClassIdentifier: 
-  mIntroMessage: CULTURAL SCHISM - Disagreements between clans over traditions, rituals,
-    and ancestral customs threaten to fracture the unity of the tribe.
+  mIntroMessage: Your civilisation advances from simple survival to organised living.
+    Basic tools evolve into metalwork, villages become early settlements, and tradition
+    guides every decision. Leaders emerge, food security improves, and small rituals
+    honour ancestors. Yet scarcity, conflict, and limited knowledge keep progress
+    fragile, shaping the foundations of everything your people will later build.
   mActionMessage: CULTURAL SCHISM - Disagreements between clans over traditions,
     rituals, and ancestral customs threaten to fracture the unity of the tribe.
   mOptionMessages:

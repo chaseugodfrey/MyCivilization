@@ -59,7 +59,7 @@ public class EventDataProcessor
             // --- Map the CSV data to the EraEvent SO fields ---
             // We must use SerializedObject because your fields (mIntroMessage etc.) are private
             SerializedObject soEvent = new SerializedObject(newEventSO);
-            soEvent.FindProperty("mIntroMessage").stringValue = firstOption.EventNarrative;
+            soEvent.FindProperty("mIntroMessage").stringValue = firstOption.EraNarrative;
             soEvent.FindProperty("mActionMessage").stringValue = firstOption.EventNarrative; // You can change this if needed
 
             // Now we map the lists. Your EraEvent.GetOptionOutcome() logic expects

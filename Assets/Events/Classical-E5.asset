@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Classical-E5
   m_EditorClassIdentifier: 
-  mIntroMessage: "TECHNOLOGICAL BREAKTHROUGH \u2014 New inventions, engineering marvels,
-    or mathematical insights emerge. Their impact depends on how the state chooses
-    to apply them."
+  mIntroMessage: "City-states strengthen into structured societies with laws, philosophy,
+    and organised armies. Roads connect regions, trade expands, and public institutions
+    shape citizens\u2019 lives. Diplomacy and conquest redefine borders, while political
+    tension grows beneath newly won prosperity. Ideas spread faster than stability,
+    testing how your civilisation balances ambition, order, and the pursuit of knowledge."
   mActionMessage: "TECHNOLOGICAL BREAKTHROUGH \u2014 New inventions, engineering
     marvels, or mathematical insights emerge. Their impact depends on how the state
     chooses to apply them."

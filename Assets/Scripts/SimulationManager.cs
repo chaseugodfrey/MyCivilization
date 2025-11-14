@@ -17,6 +17,7 @@ public class SimulationManager : MonoBehaviour
     public TMP_Text text_mainField;
     public TMP_Text text_eraHeader;
     public TMP_Text text_eraTitle;
+    public TMP_Text text_eraDescription;
     public TMP_Text text_next;
     public TMP_Text text_optionA;
     public TMP_Text text_optionB;
@@ -34,11 +35,11 @@ public class SimulationManager : MonoBehaviour
     public delegate void FunctionDelegate();
     Queue<FunctionDelegate> actionQueue = new();
     Tuple<string, int> outcomeData;
-    private int eventCounter = 0;
-    private int eraCounter = 0;
+    public int eventCounter = 0;
+    public int eraCounter = 0;
 
-    bool newEra = true;
-    bool cityNamed = false;
+    public bool newEra = true;
+    public bool cityNamed = false;
     public void Advance()
     {
         if (actionQueue.Count > 0)
@@ -57,7 +58,8 @@ public class SimulationManager : MonoBehaviour
 
     void LoadEraData()
     {
-        if(eraCounter >= 5)
+        Debug.Log("Load era Data");
+        if (eraCounter >= 5)
         {
             DisplayTheEnd();
             return;
@@ -69,12 +71,15 @@ public class SimulationManager : MonoBehaviour
         currentEvent = currentEra.GetRandomEvent();
 
         string eraName = currentEra.GetEraName();
+        Debug.Log("Era Name:" + eraName);
+        string eraDescription = currentEvent.GetEraDescription();
         text_eraTitle.text = eraName;
+        text_eraDescription.text = eraDescription;
         text_eraHeader.text = eraName;
         cityManager.UpdateProsperityUI();
 
         actionQueue.Enqueue(DisplayTitle);
-        actionQueue.Enqueue(DisplayIntroMessage);
+        //actionQueue.Enqueue(DisplayIntroMessage);
         actionQueue.Enqueue(DisplayAction);
         actionQueue.Enqueue(DisplayOutcome);
         actionQueue.Enqueue(EventCount);
@@ -82,11 +87,17 @@ public class SimulationManager : MonoBehaviour
 
         if (cityNamed)
         {
-            Advance();
+            //Advance();
         }
+        
         else
         {
             NameCity();
+        }
+
+        if(eventCounter != 0 || eraCounter != 0)
+        {
+            Advance();
         }
     }
 
@@ -103,11 +114,13 @@ public class SimulationManager : MonoBehaviour
         text_cityName.text = cityManager.ActiveCity.Name;
         nameCity.SetActive(false);
         newEra = true;
-        Invoke(nameof(DisappearingTitle), 1);
+        //Advance();
+        //Invoke(nameof(DisappearingTitle), 5);
     }
 
     void EventCount()
     {
+        Debug.Log("EventCount");
         ++eventCounter;
         if (eventCounter >=2)
         {
@@ -115,10 +128,13 @@ public class SimulationManager : MonoBehaviour
             ++eraCounter;
             newEra = true;
         }
+        DisplayMainField(false);
+        DisplayEraTitle(true);
         Advance();
     }
     void DisplayIntroMessage()
     {
+        Debug.Log("Display Intro Message");
         slider.gameObject.SetActive(true);
         string msg = currentEvent.GetIntroMessage();
         text_mainField.text = msg;
@@ -129,7 +145,11 @@ public class SimulationManager : MonoBehaviour
 
     void DisplayAction()
     {
+        Debug.Log("Display Action");
+        DisplayEraTitle(false);
+        DisplayMainField(true);
         text_mainField.text = currentEvent.GetActionMessage();
+        outputManager.AddOutputMessage("Event: " + currentEvent.GetActionMessage() + "\n");
         Tuple<string, string> leagueOfLegends = currentEvent.GetOptionsText();
         text_optionA.text = leagueOfLegends.Item1;
         text_optionB.text = leagueOfLegends.Item2;
@@ -156,6 +176,7 @@ public class SimulationManager : MonoBehaviour
 
     void DisplayOutcome()
     {
+        Debug.Log("Display Outcome");
         DisplayButtonOptions(false);
         DisplayButtonNext(true);
         SetOutcome();
@@ -181,18 +202,23 @@ public class SimulationManager : MonoBehaviour
 
     void DisplayTitle()
     {
+        Debug.Log("Display Title");
         if (newEra)
         {
-            newEra = false;
+            //newEra = false;
             mainField.SetActive(false);
             DisplayEraTitle(true);
-            nextButton.SetActive(false);
-            Invoke(nameof(DisappearingTitle), 1);
+            string eraDescription = currentEvent.GetEraDescription();
+            text_eraDescription.text = eraDescription;
+            //DisplayEraDescription(true);
+            nextButton.SetActive(true);
+           //Invoke(nameof(DisappearingTitle), 1);
         }
-        else
+        if (eventCounter == 0)
         {
-            Advance();
-        }
+            outputManager.AddOutputMessage("[" + currentEra.GetEraName() +" Era" + "]");
+            outputManager.AddOutputMessage(currentEvent.GetEraDescription() + "\n" + "\n");
+}
 
     }
     void DisappearingTitle()
@@ -205,6 +231,16 @@ public class SimulationManager : MonoBehaviour
     void DisplayEraTitle(bool active)
     {
         text_eraTitle.gameObject.SetActive(active);
+    }
+    void DisplayEraDescription(bool active)
+    {
+        text_eraDescription.gameObject.SetActive(active);
+    }
+
+    void DisplayMainField(bool active)
+    {
+        mainField.gameObject.SetActive(active);
+        text_mainField.gameObject.SetActive(active);
     }
 
     void DisplayButtonOptions(bool active)
@@ -260,6 +296,7 @@ public class SimulationManager : MonoBehaviour
     void ClearUIText()
     {
         text_eraTitle.text = "";
+        text_eraDescription.text = "";
         text_optionA.text = "";
         text_optionB.text = "";
         text_mainField.text = "";

@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Classical-E10
   m_EditorClassIdentifier: 
-  mIntroMessage: "MORAL DILEMMA \u2014 A controversy erupts over justice, law, or
-    the treatment of minority groups. Restoring moral stability requires delicate
-    leadership."
+  mIntroMessage: "City-states strengthen into structured societies with laws, philosophy,
+    and organised armies. Roads connect regions, trade expands, and public institutions
+    shape citizens\u2019 lives. Diplomacy and conquest redefine borders, while political
+    tension grows beneath newly won prosperity. Ideas spread faster than stability,
+    testing how your civilisation balances ambition, order, and the pursuit of knowledge."
   mActionMessage: "MORAL DILEMMA \u2014 A controversy erupts over justice, law, or
     the treatment of minority groups. Restoring moral stability requires delicate
     leadership."

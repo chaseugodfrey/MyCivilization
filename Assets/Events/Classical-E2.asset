@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Classical-E2
   m_EditorClassIdentifier: 
-  mIntroMessage: "CULTURAL SCHISM \u2014 Philosophers, generals, priests, and merchants
-    clash over values and the direction of the state. Ideological divides threaten
-    the harmony of the republic or kingdom."
+  mIntroMessage: "City-states strengthen into structured societies with laws, philosophy,
+    and organised armies. Roads connect regions, trade expands, and public institutions
+    shape citizens\u2019 lives. Diplomacy and conquest redefine borders, while political
+    tension grows beneath newly won prosperity. Ideas spread faster than stability,
+    testing how your civilisation balances ambition, order, and the pursuit of knowledge."
   mActionMessage: "CULTURAL SCHISM \u2014 Philosophers, generals, priests, and merchants
     clash over values and the direction of the state. Ideological divides threaten
     the harmony of the republic or kingdom."

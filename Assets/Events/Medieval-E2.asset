@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Medieval-E2
   m_EditorClassIdentifier: 
-  mIntroMessage: "CULTURAL SCHISM \u2014 Rival faiths, regional customs, and noble
-    traditions clash, threatening the kingdom\u2019s unity. Priests, nobles, and
-    common folk disagree over values that shape daily life."
+  mIntroMessage: Fortified cities, noble houses, and layered loyalties define this
+    era. Faith influences rulers, merchants connect distant markets, and knowledge
+    survives through dedicated scholars. Yet feuds, famine, and disease challenge
+    stability at every turn. Power shifts through alliances and conflict, and your
+    civilisation must navigate duty, honour, and survival to endure the age.
   mActionMessage: "CULTURAL SCHISM \u2014 Rival faiths, regional customs, and noble
     traditions clash, threatening the kingdom\u2019s unity. Priests, nobles, and
     common folk disagree over values that shape daily life."
