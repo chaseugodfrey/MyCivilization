@@ -79,6 +79,7 @@ public class SimulationManager : MonoBehaviour
             newEra = false;
 
             // Display Era Title
+            mainField.SetActive(false);
             DisplayEraTitle(true);
             nextButton.SetActive(false);
             Invoke(nameof(DisappearingTitle), 1);
@@ -185,7 +186,7 @@ public class SimulationManager : MonoBehaviour
     void ModifySlider(int val)
     {
         cityManager.ModifyProsperity(val);
-        slider.value = Mathf.Clamp(slider.value, 0, 20);
+        slider.value = Mathf.Clamp(slider.value, slider.minValue, slider.maxValue);
         if (slider.value <= 0)
         {
             EndSimulation(false);
@@ -223,7 +224,8 @@ public class SimulationManager : MonoBehaviour
     {
         LoadEraData();
         cityManager.ActiveCity = new CityManager.City();
-        cityManager.ActiveCity.Prosperity = 80;
+        cityManager.ActiveCity.Prosperity = 50;
+        cityManager.UpdateProsperityUI();
     }
 
 
