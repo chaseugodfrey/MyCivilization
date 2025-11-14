@@ -7,16 +7,35 @@ public class Era : ScriptableObject
 {
     [SerializeField] string mEraName;
     [SerializeField] List<EraEvent> mEraEvents;
+    int mCurrentEventIndex = -1;
 
     public string GetEraName()
     {
         return mEraName;
     }
 
+    public List<EraEvent> GetEraEvents()
+    {
+        return mEraEvents;
+    }
+
     public EraEvent GetRandomEvent()
     {
         // to do : reroll if event has been played
-        int roll = Random.Range(0, mEraEvents.Count);
+        int roll;
+        if(mCurrentEventIndex == -1)
+        {
+            roll = Random.Range(0, mEraEvents.Count);
+            mCurrentEventIndex = roll;
+        }
+        else
+        {
+            do
+            {
+                roll = UnityEngine.Random.Range(0, mEraEvents.Count);
+            } while (roll == mCurrentEventIndex);
+        }
+
         return mEraEvents[roll];
     }
 }

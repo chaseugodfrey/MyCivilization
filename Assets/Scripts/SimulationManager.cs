@@ -36,6 +36,8 @@ public class SimulationManager : MonoBehaviour
     public delegate void FunctionDelegate();
     Queue<FunctionDelegate> actionQueue = new();
     Tuple<string, int> outcomeData;
+    private int eventCounter = 0;
+    private int eraCounter = 0;
 
     public void Advance()
     {
@@ -57,34 +59,17 @@ public class SimulationManager : MonoBehaviour
     {
         ClearUIText();
 
-        if (actionQueue.Count != 0)
-        {
-            eventCounter++;
-        }
-
-        if (eventCounter >= eventsPerEra)
-        {
-            AdvanceEra();
-            return;
-        }
-
-        // old code
-        //currentEra = eraManager.GetRandomEraObj();
-        
-        // new code to get the current era
-        currentEra = eraManager.GetEraObj(eraIndex);
-
+        currentEra = eraManager.GetEraObj(eraCounter);
         currentEvent = currentEra.GetRandomEvent();
         text_eraTitle.text = currentEra.GetEraName();
         text_eraHeader.text = currentEra.GetEraName();
-        cityManager.ActiveCity = new CityManager.City();
-        cityManager.ActiveCity.Prosperity = 10;
         cityManager.UpdateProsperityUI();
 
         // Enqueue Actions
         actionQueue.Enqueue(DisplayIntroMessage);
         actionQueue.Enqueue(DisplayAction);
         actionQueue.Enqueue(DisplayOutcome);
+        actionQueue.Enqueue(EventCount);
         actionQueue.Enqueue(LoadEraData);
 
         // Display Era Title
@@ -109,6 +94,16 @@ public class SimulationManager : MonoBehaviour
     }
 
     // ACTIONS
+
+    void EventCount()
+    {
+        ++eventCounter;
+        if (eventCounter >=2)
+        {
+            eventCounter = 0;
+            ++eraCounter;
+        }
+    }
     void DisplayIntroMessage()
     {
         slider.gameObject.SetActive(true);
@@ -149,11 +144,17 @@ public class SimulationManager : MonoBehaviour
     void SetOutcome()
     {
         text_mainField.text = outcomeData.Item1;
-        cityManager.ModifyProsperity(outcomeData.Item2);
-        ModifySlider(0);
+        ModifySlider(outcomeData.Item2);
     }
 
     // UI SECTION
+
+    void DisplayTheEnd()
+    {
+        text_end.text = "The End";
+        DisplayScreenEnd(true);
+        DisplayButtonNext(false);
+    }
     void DisappearingTitle()
     {
         DisplayEraTitle(false);
@@ -185,17 +186,17 @@ public class SimulationManager : MonoBehaviour
 
     void ModifySlider(int val)
     {
-        slider.value += val;
+        cityManager.ModifyProsperity(val);
         slider.value = Mathf.Clamp(slider.value, 0, 20);
         if (slider.value <= 0)
         {
             EndSimulation(false);
         }
 
-        else if (slider.value >= 20)
-        {
-            EndSimulation(true);
-        }
+        //else if (slider.value >= 20)
+        //{
+        //    EndSimulation(true);
+        //}
     }
     
     void EndSimulation(bool win)
@@ -228,6 +229,8 @@ public class SimulationManager : MonoBehaviour
     private void Start()
     {
         LoadEraData();
+        cityManager.ActiveCity = new CityManager.City();
+        cityManager.ActiveCity.Prosperity = 10;
     }
 
 

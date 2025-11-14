@@ -5,11 +5,12 @@ using UnityEngine;
 public class EraManager : MonoBehaviour
 {
     public List<Era> eraObjs;
+    private int index = -1;
 
-    public Era GetRandomEraObj()
+    public Era GetNextEraObj()
     {
-        int roll = Random.Range(0, eraObjs.Count);
-        return GetEraObj(roll);
+        ++index;
+        return GetEraObj(index);
     }
 
     public Era GetEraObj(int index)
