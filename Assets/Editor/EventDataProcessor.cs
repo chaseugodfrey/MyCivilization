@@ -133,6 +133,42 @@ public class EventDataProcessor
             $"Successfully generated {parsedEvents.Count} events and {eraEventMap.Count} eras.", "OK");
     }
 
+    [MenuItem("Tools/Delete All Game Events")]
+    public static void ClearOldAssets()
+    {
+        Debug.Log("Cleaning old generated assets...");
+
+        string[] eraGUIDS = AssetDatabase.FindAssets("t:Era", new[] { ERAS_SAVE_PATH });
+        int eraCount = 0;
+
+        foreach (string guid in eraGUIDS)
+        {
+            string path = AssetDatabase.GUIDToAssetPath(guid);
+            AssetDatabase.DeleteAsset(path);
+            eraCount++;
+        }
+
+        Debug.Log($"Deleted {eraCount} old Era assets from {ERAS_SAVE_PATH}");
+
+        string[] eventGuids = AssetDatabase.FindAssets("t:EraEvent", new[] { EVENTS_SAVE_PATH });
+        int eventCount = 0;
+
+        foreach (string guid in eventGuids)
+        {
+            string path = AssetDatabase.GUIDToAssetPath(guid);
+            AssetDatabase.DeleteAsset(path);
+            eventCount++;
+        }
+
+        Debug.Log($"Deleted {eventCount} old EraEvent assets from {EVENTS_SAVE_PATH}");
+
+        AssetDatabase.SaveAssets();
+        AssetDatabase.Refresh();
+
+        EditorUtility.DisplayDialog("Clean Up Complete",
+            $"Successfully deleted {eraCount} Eras and {eventCount} Events.", "OK");
+    }
+
     // This is your LoadNarrativeData function, modified to return the dictionary
     private static Dictionary<string, List<EventData>> LoadAndParseCSV()
     {
