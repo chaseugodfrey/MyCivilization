@@ -13,6 +13,7 @@ public class SimulationManager : MonoBehaviour
 
     [Header("Draggables")]
     public EraManager eraManager;
+    public OutputManager outputManager;
     public TMP_Text text_mainField;
     public TMP_Text text_eraHeader;
     public TMP_Text text_eraTitle;
@@ -66,8 +67,10 @@ public class SimulationManager : MonoBehaviour
 
         currentEra = eraManager.GetEraObj(eraCounter);
         currentEvent = currentEra.GetRandomEvent();
-        text_eraTitle.text = currentEra.GetEraName();
-        text_eraHeader.text = currentEra.GetEraName();
+
+        string eraName = currentEra.GetEraName();
+        text_eraTitle.text = eraName;
+        text_eraHeader.text = eraName;
         cityManager.UpdateProsperityUI();
 
         actionQueue.Enqueue(DisplayTitle);
@@ -117,7 +120,9 @@ public class SimulationManager : MonoBehaviour
     void DisplayIntroMessage()
     {
         slider.gameObject.SetActive(true);
-        text_mainField.text = currentEvent.GetIntroMessage();
+        string msg = currentEvent.GetIntroMessage();
+        text_mainField.text = msg;
+        outputManager.AddOutputMessage(msg);
         DisplayButtonOptions(false);
         DisplayButtonNext(true);
     }
@@ -134,14 +139,18 @@ public class SimulationManager : MonoBehaviour
 
     public void OptionPressed(int index)
     {
+
         if (index == 0)
         {
+            outputManager.AddOutputMessage(text_optionA.text);
             outcomeData = currentEvent.GetOptionOutcome(currentEvent.leftIndex);
         }
         else
         {
+            outputManager.AddOutputMessage(text_optionB.text);
             outcomeData = currentEvent.GetOptionOutcome(currentEvent.rightIndex);
-        }            
+        }
+
         Advance();
     }
 
@@ -155,6 +164,7 @@ public class SimulationManager : MonoBehaviour
     void SetOutcome()
     {
         text_mainField.text = outcomeData.Item1;
+        outputManager.AddOutputMessage(outcomeData.Item1 + "\n");
         ModifySlider(outcomeData.Item2);
     }
 
@@ -165,6 +175,7 @@ public class SimulationManager : MonoBehaviour
         text_end.text = "The End";
         DisplayScreenEnd(true);
         DisplayButtonNext(false);
+        outputManager.CreateOutputFile();
     }
 
     void DisplayTitle()

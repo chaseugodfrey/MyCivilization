@@ -1,0 +1,40 @@
+[Stone-Bronze]
+
+LEADERSHIP CRISIS - A chieftain falls ill or councils fracture, creating uncertainty.
+Communal shelters reinforce leadership legitimacy.
+
+TECHNOLOGICAL BREAKTHROUGH - Early innovations in pottery, weaving, or metallurgy emerge.
+Improved kilns and furnaces boost productivity.
+
+[Classical]
+
+CULTURAL SCHISM - Ideological factions within society clash sharply.
+Building projects become symbols of factional rivalry.
+
+TECHNOLOGICAL BREAKTHROUGH - Innovations in engineering, science, or philosophy emerge.
+Infrastructure accidents damage public trust.
+
+[Medieval]
+
+LEADERSHIP CRISIS - Nobles rebel, monarchs weaken, or councils divide.
+Castle repairs and legal reforms restore public confidence.
+
+LEADERSHIP CRISIS - Nobles rebel, monarchs weaken, or councils divide.
+Mismanaged reforms expose corruption and weakness.
+
+[Modern]
+
+POPULATION SURGE - Urbanisation accelerates, straining infrastructure.
+Expanded housing, transport, and sanitation stabilise growth.
+
+ECONOMIC BOOM - Industrial output, global trade, or tech investment surges.
+Corruption and mismanagement waste the economic surge.
+
+[Space]
+
+LEADERSHIP CRISIS - Political divisions form between planetary governors, fleet command, and central authority.
+Reforms strengthen command chains and planetary governance.
+
+CULTURAL SCHISM - Divergence between planet-born citizens, station-dwellers, and colony cultures fractures unity.
+Shared interplanetary academies and cultural hubs strengthen unity.
+
