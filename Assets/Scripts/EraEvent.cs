@@ -16,6 +16,7 @@ public class EraEvent : ScriptableObject
 
     public int leftIndex;
     public int rightIndex;
+    public int rolledOutcome;
 
     public string GetIntroMessage()
     {
@@ -53,6 +54,7 @@ public class EraEvent : ScriptableObject
     public Tuple<string, int> GetOptionOutcome(int index)
     {
         int roll = UnityEngine.Random.Range(index * 2, index * 2 + 2);
+        rolledOutcome = roll;
         return new Tuple<string, int>(mOutcomeMessages[roll], mOutcomeValues[roll]);
     }
 }

@@ -1260,11 +1260,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   folderName: Eras
   eraObjs:
-  - {fileID: 11400000, guid: c0f11ec91c2cc7842abf9915887608c3, type: 2}
-  - {fileID: 11400000, guid: 07c418c01c56b224d9e175c368f842d0, type: 2}
-  - {fileID: 11400000, guid: 294324bdd493c294a8689ce84be02f85, type: 2}
-  - {fileID: 11400000, guid: d4e20f595f611f942be554ce65bfa8f0, type: 2}
-  - {fileID: 11400000, guid: 113301de02a18f0498cd96ee4500ed67, type: 2}
+  - {fileID: 11400000, guid: 11755b6c0d7ec0a4cb8925deb82dafd7, type: 2}
+  - {fileID: 11400000, guid: 17bb3c3e7f0d02641bc2e989a80d2103, type: 2}
+  - {fileID: 11400000, guid: 059c5f8c82717354eb0a3ddee4a84157, type: 2}
+  - {fileID: 11400000, guid: e27bef56a5893884ebba19e8d74c1602, type: 2}
+  - {fileID: 11400000, guid: 97644e78a14d17441b13bb62c36e5e97, type: 2}
 --- !u!4 &534110278
 Transform:
   m_ObjectHideFlags: 0
@@ -3449,7 +3449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 218c2a5cee07bbc4792d7015c7c0fa42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outputFileName: NewOutput.txt
+  outputFileName: CurrentOutput.txt
   outputTexts: []
 --- !u!4 &1349220299
 Transform:

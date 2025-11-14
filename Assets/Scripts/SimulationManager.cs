@@ -142,12 +142,12 @@ public class SimulationManager : MonoBehaviour
 
         if (index == 0)
         {
-            outputManager.AddOutputMessage(text_optionA.text);
+            outputManager.AddOutputMessage(text_optionA.text + "\n");
             outcomeData = currentEvent.GetOptionOutcome(currentEvent.leftIndex);
         }
         else
         {
-            outputManager.AddOutputMessage(text_optionB.text);
+            outputManager.AddOutputMessage(text_optionB.text + "\n");
             outcomeData = currentEvent.GetOptionOutcome(currentEvent.rightIndex);
         }
 
@@ -159,12 +159,13 @@ public class SimulationManager : MonoBehaviour
         DisplayButtonOptions(false);
         DisplayButtonNext(true);
         SetOutcome();
+        cityManager.LogHistoryEntry(currentEra, currentEvent,currentEvent.rolledOutcome);
     }
 
     void SetOutcome()
     {
         text_mainField.text = outcomeData.Item1;
-        outputManager.AddOutputMessage(outcomeData.Item1 + "\n");
+        outputManager.AddOutputMessage("Outcome: " + outcomeData.Item1 + "\n" + "\n");
         ModifySlider(outcomeData.Item2);
     }
 
@@ -246,6 +247,7 @@ public class SimulationManager : MonoBehaviour
     {
         cityNamed = false;
         cityManager.ActiveCity.Name = "";
+        cityManager.history.Clear();
         DisplayScreenEnd(false);
         actionQueue.Clear();
         cityManager.ActiveCity.Prosperity = 50;
