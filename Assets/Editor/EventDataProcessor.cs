@@ -131,6 +131,30 @@ public class EventDataProcessor
 
         EditorUtility.DisplayDialog("CSV Import Complete",
             $"Successfully generated {parsedEvents.Count} events and {eraEventMap.Count} eras.", "OK");
+
+        GameObject eraManagerObj = GameObject.Find("EraManager");
+        if (!eraManagerObj)
+        {
+            Debug.Log("Era Manager not found.");
+            return;
+        }
+
+        EraManager eraManager = eraManagerObj.GetComponent<EraManager>();
+        if (!eraManager)
+        {
+            Debug.Log("Era Manager script not added.");
+            return;
+        }
+
+        bool success = eraManager.LoadEraAssets();
+        if (!success)
+        {
+            Debug.Log("Folder not found.");
+        }
+        else
+        {
+            Debug.Log("Added.");
+        }
     }
 
     [MenuItem("Tools/Delete All Game Events")]
@@ -167,12 +191,37 @@ public class EventDataProcessor
 
         EditorUtility.DisplayDialog("Clean Up Complete",
             $"Successfully deleted {eraCount} Eras and {eventCount} Events.", "OK");
+
+        GameObject eraManagerObj = GameObject.Find("EraManager");
+        if (!eraManagerObj)
+        {
+            Debug.Log("Era Manager not found.");
+            return;
+        }
+
+        EraManager eraManager = eraManagerObj.GetComponent<EraManager>();
+        if (!eraManager)
+        {
+            Debug.Log("Era Manager script not added.");
+            return;
+        }
+
+        bool success = eraManager.LoadEraAssets();
+        if (!success)
+        {
+            Debug.Log("Folder not found.");
+        }
+        else
+        {
+            Debug.Log("Cleared.");
+        }
     }
 
     // This is your LoadNarrativeData function, modified to return the dictionary
     private static Dictionary<string, List<EventData>> LoadAndParseCSV()
     {
-        string filePath = Path.Combine(Application.streamingAssetsPath, CSV_FILE_NAME);
+        string filePath = EditorUtility.OpenFilePanel("Assets", "Assets", "csv");
+        //string filePath = Path.Combine(Application.streamingAssetsPath, CSV_FILE_NAME);
         var eventsDatabase = new Dictionary<string, List<EventData>>();
 
         if (!File.Exists(filePath))
@@ -180,6 +229,8 @@ public class EventDataProcessor
             Debug.LogError("Cannot find the CSV file at: " + filePath);
             return null;
         }
+
+        ClearOldAssets();
 
         string[] lines = File.ReadAllLines(filePath);
 
@@ -226,6 +277,7 @@ public class EventDataProcessor
                 Debug.LogError("Error parsing line: " + line + "\n" + e.Message);
             }
         }
+
         return eventsDatabase;
     }
 

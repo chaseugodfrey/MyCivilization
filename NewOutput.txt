@@ -1,0 +1,50 @@
+[Stone-Bronze]
+
+CULTURAL SCHISM - Disagreements between clans over rituals or traditions create division.
+Deploy specialised teams to analyse and mitigate the issue.
+Shared longhouses and kilns remind clans of unity.
+
+TECHNOLOGICAL BREAKTHROUGH - Early innovations in pottery, weaving, or metallurgy emerge.
+Invest in widespread infrastructure improvements.
+Kiln fires destroy key supplies.
+
+[Classical]
+
+CULTURAL SCHISM - Ideological factions within society clash sharply.
+Invest in widespread infrastructure improvements.
+Building projects become symbols of factional rivalry.
+
+PUBLIC HEALTH CHALLENGE - Disease spreads through dense urban centres.
+Redirect national resources to aggressively solve the problem.
+Sewage failures accelerate infection spread.
+
+[Medieval]
+
+ECONOMIC BOOM - Trade caravans, fertile harvests, or guild prosperity surge wealth.
+Redirect national resources to aggressively solve the problem.
+Overbuilt or corrupt projects collapse, wasting wealth.
+
+WORKER UNREST - Peasants or guild workers revolt over labour conditions.
+Invest in widespread infrastructure improvements.
+Faulty improvements increase labour strain.
+
+[Modern]
+
+POPULATION SURGE - Urbanisation accelerates, straining infrastructure.
+Deploy specialised teams to analyse and mitigate the issue.
+Expanded housing, transport, and sanitation stabilise growth.
+
+ECONOMIC BOOM - Industrial output, global trade, or tech investment surges.
+Allow local communities autonomy to handle the situation.
+Corruption and mismanagement waste the economic surge.
+
+[Space]
+
+PUBLIC HEALTH CHALLENGE - A strange interstellar pathogen or microgravity illness threatens the population.
+Redirect national resources to aggressively solve the problem.
+Breakdowns in containment accelerate infection.
+
+ECONOMIC BOOM - New mining colonies, trade corridors, or technological markets trigger massive prosperity.
+Deploy specialised teams to analyse and mitigate the issue.
+Megastructures, slipspace lanes, and industrial hubs consolidate growth.
+
