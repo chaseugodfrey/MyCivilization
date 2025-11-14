@@ -19,6 +19,7 @@ MonoBehaviour:
     thrives among the stars or fractures under interplanetary pressures.
   mActionMessage: "DISEASE OUTBREAK \u2014 A mutated alien microbe or synthetic pathogen
     escapes containment, threatening multiple worlds."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Seal infected worlds with orbital quarantine rings.
   - "Deploy AI\u2011guided nanomedicine teams to outbreak zones."

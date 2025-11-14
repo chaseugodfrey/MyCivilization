@@ -18,7 +18,8 @@ MonoBehaviour:
     choice shapes whether <CityName> grows into a stable settlement or struggles
     against scarcity, conflict, and the uncertainties of early development.
   mActionMessage: "NATURAL DISASTER - A violent storm, flood, drought, or earth-shaking
-    event disrupts the tribe\u2019s daily life, threatening safety and survival."
+    event disrupts the tribe\u2019s daily life, threatening safety and survival.<CityName>"
+  mProcessedActionMessage: 
   mOptionMessages:
   - Construct emergency earth-and-wood shelters to protect the tribe.
   - Send scouts to seek safer high ground or untouched groves.

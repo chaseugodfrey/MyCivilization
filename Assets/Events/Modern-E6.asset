@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "NATURAL DISASTER \u2014 A hurricane, wildfire, earthquake, chemical
     spill, or heatwave devastates regions of the nation. Emergency services strain
     to respond while the public watches anxiously."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Deploy national guard units and emergency rescue teams to affected areas.
   - Establish emergency shelters stocked with food, water, and medical supplies.

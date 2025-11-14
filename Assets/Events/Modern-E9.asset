@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "DISEASE OUTBREAK \u2014 A fast-spreading virus emerges, overwhelming
     hospitals and alarming citizens. Scientists rush to identify its nature while
     the public demands decisive action."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Implement strict lockdowns and travel restrictions.
   - Accelerate vaccine research through emergency funding.

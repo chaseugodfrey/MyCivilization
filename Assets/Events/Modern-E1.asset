@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "RESOURCE SHORTAGE \u2014 A supply crisis hits the nation as fuel,
     materials, or essential goods run scarce due to embargoes, industrial failures,
     or global disruption. Factories stall, transport slows, and citizens grow anxious."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Implement emergency fuel and energy rationing across major cities.
   - Negotiate an urgent trade deal with foreign suppliers for essential materials.

@@ -7,12 +7,18 @@ public class OutputManager : MonoBehaviour
 {
     [Header("Customizable")]
     public string outputFileName;
+    public string cityName;
 
     [SerializeField] List<string> outputTexts;
 
     public void AddOutputMessage(string msg)
     {
         outputTexts.Add(msg);
+    }
+
+    void ModifyOutputFileName()
+    {
+        outputFileName = $"The History of {cityName}.txt";
     }
 
     public void CreateOutputFile()
@@ -32,6 +38,9 @@ public class OutputManager : MonoBehaviour
         // Create folder if missing
         if (!Directory.Exists(outputFolder))
             Directory.CreateDirectory(outputFolder);
+
+        //Step 2.5 Create File Name with City
+        ModifyOutputFileName();
 
         // Step 3: Full file path
         string filePath = Path.Combine(outputFolder, outputFileName);

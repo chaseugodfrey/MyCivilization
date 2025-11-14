@@ -19,7 +19,8 @@ MonoBehaviour:
     against scarcity, conflict, and the uncertainties of early development.
   mActionMessage: TECHNOLOGICAL BREAKTHROUGH - A new tool, technique, or discovery
     emerges. Innovation promises to elevate the tribe, but its impact depends on
-    how the clans react.
+    how the clans react.<CityName>
+  mProcessedActionMessage: 
   mOptionMessages:
   - Allow the inventors to demonstrate the discovery before the whole tribe.
   - Encourage artisans across clans to experiment with the technique.

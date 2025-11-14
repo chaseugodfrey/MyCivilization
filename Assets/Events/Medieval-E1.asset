@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "RESOURCE SHORTAGE \u2014 A failed harvest, disrupted caravan,
     or mismanaged storehouse has led to widespread scarcity. Grain prices rise, villages
     stir with unease, and whispers of misrule test the kingdom's stability."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Send knights and stewards to inspect granaries for mismanagement or hoarding.
   - Request emergency grain shipments from neighbouring kingdoms through noble diplomacy.

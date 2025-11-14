@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "CULTURAL SCHISM \u2014 As humanity spreads across planets, cultures
     diverge. Colonists, Earth-born citizens, AI-driven societies, and genetically
     modified populations clash over identity, autonomy, and the future of civilisation."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Host holographic cross-colony forums to encourage cultural exchange.
   - Fund cross-planet educational programs standardising history and ethics curricula.

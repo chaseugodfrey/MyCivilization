@@ -1,0 +1,90 @@
+[Stone-Bronze Era]
+John Pork begins as a small community surviving through simple tools, shared labour, and ancestral guidance. Basic farming, early metalwork, and cautious exploration support daily life, but resources remain limited. Every choice shapes whether John Pork grows into a stable settlement or struggles against scarcity, conflict, and the uncertainties of early development.
+
+
+Event: ECONOMIC BOOM - A sudden abundance of valuable resources brings prosperity, but risks pride, waste, and tension between clans.John Pork
+
+Host a Festival of Plenty to celebrate and share the abundance.
+
+Outcome: The festival grows excessive, and accusations arise that some clans contributed less or took more. What should have united instead stirs envy and bitterness.
+
+
+Event: RESOURCE SHORTAGE - A season of scarcity descends upon the tribe, testing unity as food, stone, and natural bounty dwindle.John Pork
+
+Send a hunting–scouting band into distant wildlands.
+
+Outcome: The scouts vanish into the deep wilds, never returning. Their absence casts a shadow across the tribe, and parents forbid their children from wandering far as fear spreads and scarcity tightens its grip.
+
+
+[Classical Era]
+John Pork strengthens into an organised society with structured laws, wider trade, and growing intellectual life. Roads and alliances expand its reach, while diplomacy and conflict reshape its borders. Prosperity rises, but so do rivalries and debates over authority. How John Pork balances ambition and stability determines its path through this transformative age.
+
+
+Event: DISEASE OUTBREAK — Illness sweeps through crowded cities and trade ports. The state must act quickly to contain panic and loss.
+
+Consult herbalists, healers, and foreign physicians for remedies.
+
+Outcome: Quarantine wards overflow and become poorly supplied. Families protest separation, and fear spreads faster than the disease itself.
+
+
+Event: LEADERSHIP CRISIS — Senators, generals, or governors challenge central authority. Power struggles threaten stability and endanger the unity of the classical state.
+
+Call an emergency senate session to negotiate power disputes.
+
+Outcome: Debates run long but produce a compromise that satisfies rival blocs. Citizens regain trust as the government demonstrates its ability to resolve crises through reason.
+
+
+[Medieval Era]
+John Pork enters an age of fortified walls, noble factions, and powerful traditions. Faith shapes governance, merchants connect distant routes, and scholars preserve knowledge. Yet feuds, famine, and shifting loyalties threaten stability. Survival depends on how John Pork navigates obligations, alliances, and the constant pressure of conflict within and beyond its borders.
+
+
+Event: NATURAL DISASTER — A storm, plague of locusts, sudden freeze, or river flood strikes the kingdom. Villages cry for aid; the realm must respond quickly.
+
+Evacuate threatened villages to nearby monasteries for shelter.
+
+Outcome: Crews arrive too late as the disaster breaches defences. Villagers blame poor planning, and resentment grows toward the nobility.
+
+
+Event: MORAL DILEMMA — A controversial case of justice, heresy, or peasant revolt forces the realm to choose between strict order and mercy. The decision will echo through legend.
+
+Hold a public trial for the accused before nobles, clergy, and common folk.
+
+Outcome: The trial proceeds with clear testimony and measured judgment. Even those who disagree with the verdict respect the transparency of the process.
+
+
+[Modern Era]
+Industrial change reshapes John Pork with new technologies, expanding factories, and rapid population growth. Political movements challenge old systems, while global trade raises both opportunity and risk. Innovation accelerates faster than society adapts, and John Pork must balance progress with stability as it confronts competition, unrest, and evolving expectations from its citizens.
+
+
+Event: CULTURAL SCHISM — As communication accelerates and cities expand, ideological and cultural groups clash over identity, values, and national direction. Polarisation threatens to fracture the nation.
+
+Host televised national dialogues between representatives of each faction.
+
+Outcome: The debates devolve into combative shouting matches. Viral clips spread online portraying dysfunction, worsening ideological divides and eroding trust in institutions.
+
+
+Event: DISEASE OUTBREAK — A fast-spreading virus emerges, overwhelming hospitals and alarming citizens. Scientists rush to identify its nature while the public demands decisive action.
+
+Temporarily subsidise essential goods for affected households.
+
+Outcome: Economic disruption fuels anger and protest. Many view the restrictions as an overreach, and trust in leadership declines.
+
+
+[Space Era]
+John Pork extends its influence beyond Earth through orbital facilities, lunar industry, and early colonies. Advanced reactors and long-range travel open new frontiers, but resources stretch thin and political interests diverge across worlds. Each decision carries amplified consequences, shaping whether John Pork thrives among the stars or fractures under interplanetary pressures.
+
+
+Event: ECONOMIC BOOM — Hyper-efficient automation, asteroid mining breakthroughs, or quantum markets trigger explosive economic growth. Wealth surges, but inequality across planets risks destabilising civilisation.
+
+Support small-scale lunar, Martian, and orbital entrepreneurs with microgrants.
+
+Outcome: Labour disputes erupt between colonies competing for contracts. Accusations of unfair hiring spark waves of political backlash.
+
+
+Event: TECHNOLOGICAL BREAKTHROUGH — A quantum AI discovery, new FTL refinement, or bioengineering revolution promises to reshape civilisation—but its implications spark fierce debate.
+
+Share the discovery only with colonies facing economic or social instability.
+
+Outcome: The discovery accelerates development across every world. Innovation flourishes as colonies unlock new potential, strengthening unity through shared advancement.
+
+

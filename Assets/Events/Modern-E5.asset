@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "TECHNOLOGICAL BREAKTHROUGH \u2014 A revolutionary discovery in
     AI, biotechnology, quantum computing, energy, or engineering emerges. The world
     watches to see how it will be used."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Publish the breakthrough openly to accelerate global scientific collaboration.
   - Partner with ethical review boards to guide responsible testing and deployment.

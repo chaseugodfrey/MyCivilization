@@ -19,6 +19,7 @@ MonoBehaviour:
     and stability determines its path through this transformative age.
   mActionMessage: "NATURAL DISASTER \u2014 Earthquakes, fires, droughts, or floods
     strike your civilisation, testing its infrastructure and unity."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Mobilise engineers to reinforce walls, aqueducts, and public structures.
   - Evacuate citizens to rural estates and temples outside the danger zone.

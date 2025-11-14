@@ -19,6 +19,7 @@ MonoBehaviour:
     and the constant pressure of conflict within and beyond its borders.
   mActionMessage: "FOREIGN RELATIONS INCIDENT \u2014 A border skirmish, intercepted
     messenger, or insulted ambassador threatens peace with a neighbouring realm."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Send envoys with gifts to reaffirm peaceful intentions.
   - Hold a tournament inviting foreign knights to compete.

@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "INTERNAL CONFLICT \u2014 Rival noble houses, feuding villages,
     or competing guilds strain the kingdom\u2019s unity. Without careful intervention,
     quarrels may ignite into open violence."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Convene a tribunal where disputing lords present their cases before the crown.
   - Dispatch a neutral order of knights to enforce peace in contested regions.

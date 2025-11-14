@@ -9,6 +9,7 @@ public class EraEvent : ScriptableObject
 {
     [SerializeField] string mIntroMessage;
     [SerializeField] string mActionMessage;    
+    [SerializeField] string mProcessedActionMessage;    
 
     [SerializeField] List<string> mOptionMessages;
     [SerializeField] List<string> mOutcomeMessages;
@@ -36,7 +37,12 @@ public class EraEvent : ScriptableObject
 
     public string GetActionMessage()
     {
-        return mActionMessage;
+        return mProcessedActionMessage;
+    }
+
+    public void SetActionMessage(string cityName)
+    {
+        mProcessedActionMessage = mActionMessage.Replace("<CityName>", cityName);
     }
 
     public Tuple<string, string> GetOptionsText()

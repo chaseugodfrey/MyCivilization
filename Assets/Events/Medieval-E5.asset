@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "TECHNOLOGICAL BREAKTHROUGH \u2014 A new tool, siege device, farming
     technique, or scholarly discovery emerges. How it is used may uplift or endanger
     the realm."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Allow monks and scholars to study and refine the breakthrough in their scriptoria.
   - Introduce the invention to farmers and craftspeople to test practical use.

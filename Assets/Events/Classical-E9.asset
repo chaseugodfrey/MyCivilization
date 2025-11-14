@@ -19,6 +19,7 @@ MonoBehaviour:
     and stability determines its path through this transformative age.
   mActionMessage: "DISEASE OUTBREAK \u2014 Illness sweeps through crowded cities
     and trade ports. The state must act quickly to contain panic and loss."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Build quarantine wards outside the city walls.
   - Consult herbalists, healers, and foreign physicians for remedies.

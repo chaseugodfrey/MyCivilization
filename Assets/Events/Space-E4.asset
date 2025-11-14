@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "LEADERSHIP CRISIS \u2014 A scandal on Earth, a coup attempt on
     Mars, or an AI-governor malfunction shakes the stability of interstellar governance.
     Citizens across worlds question who truly leads humanity."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Broadcast a unified interplanetary address clarifying leadership and responsibility.
   - Form a temporary coalition government including representatives from all major

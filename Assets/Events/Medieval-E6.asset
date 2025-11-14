@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "NATURAL DISASTER \u2014 A storm, plague of locusts, sudden freeze,
     or river flood strikes the kingdom. Villages cry for aid; the realm must respond
     quickly."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Send knights and workers to reinforce levees, dams, and village walls.
   - Evacuate threatened villages to nearby monasteries for shelter.

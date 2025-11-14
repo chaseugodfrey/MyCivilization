@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "MORAL DILEMMA \u2014 A controversial legal case, whistleblower
     leak, or viral injustice forces the nation to confront questions of ethics, justice,
     and social stability."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Hold a transparent public hearing broadcast nationwide.
   - Pursue a lenient sentence focused on rehabilitation.

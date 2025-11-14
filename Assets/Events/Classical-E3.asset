@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "ECONOMIC BOOM \u2014 A surge in trade, production, or discovery
     brings sudden wealth. Prosperity elevates the state but may also fuel extravagance
     or internal competition."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Host a grand festival celebrating prosperity and civic achievement.
   - Invest surplus wealth into expanding libraries and academies.

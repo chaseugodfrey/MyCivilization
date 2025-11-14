@@ -114,16 +114,26 @@ public class SimulationManager : MonoBehaviour
         cityNamed = true;
         cityManager.ActiveCity.Name = nameCity.GetComponentInChildren<TMP_InputField>().text;
         Debug.LogWarning("This is happening too late?");
-        text_cityName.text = cityManager.ActiveCity.Name;
-        foreach (var era in eraManager.eraObjs)
-        {
-            era.SetEraDescription(cityManager.ActiveCity.Name);
-        }
+        SetManagerCityName(cityManager.ActiveCity.Name);
         nameCity.SetActive(false);
         newEra = true;
         Advance();
         //Invoke(nameof(DisappearingTitle), 5);
         //Debug.LogError("This is happening too late 2?");
+    }
+
+    public void SetManagerCityName(string cityName)
+    {
+        text_cityName.text = cityName;
+        foreach (var era in eraManager.eraObjs)
+        {
+            foreach (var eraEvent in era.mEraEvents)
+            {
+                eraEvent.SetActionMessage(cityName);
+            }
+            era.SetEraDescription(cityName);
+        }
+        outputManager.cityName = cityName;
     }
 
     void EventCount()

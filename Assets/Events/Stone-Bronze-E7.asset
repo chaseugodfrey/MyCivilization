@@ -19,7 +19,8 @@ MonoBehaviour:
     against scarcity, conflict, and the uncertainties of early development.
   mActionMessage: FOREIGN RELATIONS INCIDENT - Tension rises with a neighbouring
     tribe, whether through disputed hunts, territory encroachment, or misunderstood
-    signals.
+    signals.<CityName>
+  mProcessedActionMessage: 
   mOptionMessages:
   - Send a small peace-bearing delegation carrying symbolic gifts.
   - Prepare a ceremonial hunt to demonstrate strength without hostility.

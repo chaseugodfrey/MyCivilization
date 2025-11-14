@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "ECONOMIC BOOM \u2014 Hyper-efficient automation, asteroid mining
     breakthroughs, or quantum markets trigger explosive economic growth. Wealth surges,
     but inequality across planets risks destabilising civilisation."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Expand orbital shipyards and hire multi-world labour forces.
   - Lower interplanetary trade tariffs to stimulate economic exchange.

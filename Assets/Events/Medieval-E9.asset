@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "DISEASE OUTBREAK \u2014 A mysterious sickness spreads through
     towns and villages. Healers, priests, and common folk struggle to understand
     and survive the affliction."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Order quarantines in afflicted districts and restrict travel.
   - Support apothecaries and herbalists in experimenting with remedies.

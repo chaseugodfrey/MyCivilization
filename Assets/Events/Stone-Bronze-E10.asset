@@ -18,7 +18,8 @@ MonoBehaviour:
     choice shapes whether <CityName> grows into a stable settlement or struggles
     against scarcity, conflict, and the uncertainties of early development.
   mActionMessage: MORAL DILEMMA - A difficult ethical choice confronts the tribe,
-    forcing clans to weigh tradition, survival, compassion, and long-term consequences.
+    forcing clans to weigh tradition, survival, compassion, and long-term consequences.<CityName>
+  mProcessedActionMessage: 
   mOptionMessages:
   - Grant sanctuary to an injured outsider found near the village.
   - Refuse help to outsiders and strengthen borders to protect your own.

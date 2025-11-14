@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "ECONOMIC BOOM \u2014 Prosperity surges as trade expands and new
     resources flow into the kingdom. Wealth spreads, but so does the temptation toward
     greed and excess."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Expand merchant guild privileges to encourage further trade.
   - Commission new stone roads to connect distant towns.

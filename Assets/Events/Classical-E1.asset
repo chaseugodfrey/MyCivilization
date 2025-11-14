@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: RESOURCE SHORTAGE - Despite the splendour of the Classical age,
     scarcity threatens civilisation as drought, failing mines, or disrupted trade
     routes strain supplies and test public confidence.
+  mProcessedActionMessage: 
   mOptionMessages:
   - Redirect state labour to restore farmlands and irrigation canals.
   - Send envoys to neighbouring kingdoms to secure emergency trade shipments.

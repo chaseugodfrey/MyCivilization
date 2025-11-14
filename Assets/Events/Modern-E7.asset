@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "FOREIGN RELATIONS INCIDENT \u2014 Diplomatic tensions spike after
     a border violation, cyberattack, or leaked intelligence. Nations watch closely
     as the situation threatens global stability."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Send diplomats to negotiate an immediate de-escalation agreement.
   - Strengthen cyberdefences and publicly condemn the hostile action.

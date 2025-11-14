@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "NATURAL DISASTER \u2014 A solar flare surge, terraforming failure,
     asteroid strike warning, or alien microbe outbreak threatens the stability of
     one or more colonies."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Evacuate vulnerable colonies using FTL-capable relief vessels.
   - Activate planetary defense arrays to shield critical infrastructure.

@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "LEADERSHIP CRISIS \u2014 Senators, generals, or governors challenge
     central authority. Power struggles threaten stability and endanger the unity
     of the classical state."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Call an emergency senate session to negotiate power disputes.
   - Empower a respected general to temporarily unify command.

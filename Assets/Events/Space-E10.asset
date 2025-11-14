@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "MORAL DILEMMA \u2014 A sentient AI whistleblower, alien refugee
     crisis, or controversial scientific revelation forces humanity to confront its
     ethical foundations."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Hold an interstellar tribunal with representatives from all species and AI groups.
   - "Grant immediate asylum to affected populations\u2014human, alien, or synthetic."

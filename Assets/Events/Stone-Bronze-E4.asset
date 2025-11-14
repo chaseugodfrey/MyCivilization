@@ -19,7 +19,8 @@ MonoBehaviour:
     against scarcity, conflict, and the uncertainties of early development.
   mActionMessage: LEADERSHIP CRISIS - A fracture forms within the tribe as the authority
     of the chieftain or elders is challenged. Doubt spreads quickly, and the tribe
-    must reaffirm its direction.
+    must reaffirm its direction.<CityName>
+  mProcessedActionMessage: 
   mOptionMessages:
   - Organise a Trial of Strength and Wisdom to select the rightful leader.
   - Ask the shamans to interpret omens to determine who the spirits favour.

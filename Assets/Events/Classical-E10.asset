@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "MORAL DILEMMA \u2014 A controversy erupts over justice, law, or
     the treatment of minority groups. Restoring moral stability requires delicate
     leadership."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Hold a public tribunal with respected judges and philosophers.
   - Offer amnesty to minor offenders to de-escalate tensions.

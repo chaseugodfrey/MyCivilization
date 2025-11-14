@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "TECHNOLOGICAL BREAKTHROUGH \u2014 A quantum AI discovery, new
     FTL refinement, or bioengineering revolution promises to reshape civilisation\u2014but
     its implications spark fierce debate."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Release the breakthrough technology to all colonies immediately.
   - Restrict access until full safety evaluations are complete.

@@ -18,7 +18,8 @@ MonoBehaviour:
     choice shapes whether <CityName> grows into a stable settlement or struggles
     against scarcity, conflict, and the uncertainties of early development.
   mActionMessage: ECONOMIC BOOM - A sudden abundance of valuable resources brings
-    prosperity, but risks pride, waste, and tension between clans.
+    prosperity, but risks pride, waste, and tension between clans.<CityName>
+  mProcessedActionMessage: 
   mOptionMessages:
   - Host a Festival of Plenty to celebrate and share the abundance.
   - Send artisans to craft intricate tools and ornaments from the surplus.

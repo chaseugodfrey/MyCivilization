@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "INTERNAL CONFLICT \u2014 Rising tensions between genetically\u2011modified
     populations, baseline humans, AI citizens, and off\u2011world colonists ignite
     civil unrest."
+  mProcessedActionMessage: 
   mOptionMessages:
   - "Host interspecies and inter\u2011colony reconciliation summits."
   - "Deploy non\u2011lethal peacekeeper drones to stabilise protests."

@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "INTERNAL CONFLICT \u2014 Political extremists, activist groups,
     or rival factions clash within the nation. Civil unrest threatens stability unless
     decisive action is taken."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Hold a nationwide referendum to address core grievances democratically.
   - Deploy peacekeeping units trained in de-escalation.

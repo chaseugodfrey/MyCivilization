@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "MORAL DILEMMA \u2014 A controversial case of justice, heresy,
     or peasant revolt forces the realm to choose between strict order and mercy.
     The decision will echo through legend."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Hold a public trial for the accused before nobles, clergy, and common folk.
   - Show mercy by commuting harsh punishments to lighter sentences.

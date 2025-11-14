@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "TECHNOLOGICAL BREAKTHROUGH \u2014 New inventions, engineering
     marvels, or mathematical insights emerge. Their impact depends on how the state
     chooses to apply them."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Commission engineers to demonstrate the invention publicly.
   - Invite scholars and artisans to refine the breakthrough collaboratively.

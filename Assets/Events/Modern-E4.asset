@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "LEADERSHIP CRISIS \u2014 Scandals, disagreements, or sudden resignations
     shake the government. Confidence in leadership wavers as rivals manoeuvre for
     power."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Hold a fully transparent press conference to address accusations directly.
   - Form an emergency coalition with opposition parties to stabilise governance.

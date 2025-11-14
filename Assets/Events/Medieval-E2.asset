@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "CULTURAL SCHISM \u2014 Rival faiths, regional customs, and noble
     traditions clash, threatening the kingdom\u2019s unity. Priests, nobles, and
     common folk disagree over values that shape daily life."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Hold a grand council between bishops, abbots, and regional priests.
   - Allow regions temporary freedom to follow local customs without interference.

@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "ECONOMIC BOOM \u2014 A surge in technological innovation, investment,
     or global trade brings sudden prosperity. Wealth rises rapidly, but so do the
     risks of inequality and instability."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Invest heavily in public infrastructure and modern transportation.
   - Lower taxes temporarily to encourage consumer spending.

@@ -1,0 +1,90 @@
+[Stone-Bronze Era]
+I Love TDP begins as a small community surviving through simple tools, shared labour, and ancestral guidance. Basic farming, early metalwork, and cautious exploration support daily life, but resources remain limited. Every choice shapes whether I Love TDP grows into a stable settlement or struggles against scarcity, conflict, and the uncertainties of early development.
+
+
+Event: DISEASE OUTBREAK - An unfamiliar sickness spreads through the tribe, weakening hunters, worrying healers, and threatening to overwhelm the settlement.I Love TDP
+
+Perform a grand cleansing ritual involving smoke, ash, and sacred chants.
+
+Outcome: The quarantine slows the illness as healers tend to the afflicted with herbs and rituals. Fear remains, but the tribe sees hope in the controlled spread.
+
+
+Event: LEADERSHIP CRISIS - A fracture forms within the tribe as the authority of the chieftain or elders is challenged. Doubt spreads quickly, and the tribe must reaffirm its direction.I Love TDP
+
+Form a temporary Council of Clans to share leadership.
+
+Outcome: The contest ends in accusations of cheating and bias. Supporters of multiple contenders refuse to accept the outcome, deepening the crisis and dividing the clans.
+
+
+[Classical Era]
+I Love TDP strengthens into an organised society with structured laws, wider trade, and growing intellectual life. Roads and alliances expand its reach, while diplomacy and conflict reshape its borders. Prosperity rises, but so do rivalries and debates over authority. How I Love TDP balances ambition and stability determines its path through this transformative age.
+
+
+Event: ECONOMIC BOOM — A surge in trade, production, or discovery brings sudden wealth. Prosperity elevates the state but may also fuel extravagance or internal competition.
+
+Invest surplus wealth into expanding libraries and academies.
+
+Outcome: The festival becomes overly lavish, draining treasuries and angering poorer citizens who see the wealth gap widening. Resentment spreads beneath the celebrations.
+
+
+Event: ECONOMIC BOOM — A surge in trade, production, or discovery brings sudden wealth. Prosperity elevates the state but may also fuel extravagance or internal competition.
+
+Expand trade fleets and merchant caravans to amplify returns.
+
+Outcome: Citizens gather in theatres, plazas, and markets to celebrate shared success. The festival strengthens civic pride and reminds all that prosperity belongs to everyone.
+
+
+[Medieval Era]
+I Love TDP enters an age of fortified walls, noble factions, and powerful traditions. Faith shapes governance, merchants connect distant routes, and scholars preserve knowledge. Yet feuds, famine, and shifting loyalties threaten stability. Survival depends on how I Love TDP navigates obligations, alliances, and the constant pressure of conflict within and beyond its borders.
+
+
+Event: CULTURAL SCHISM — Rival faiths, regional customs, and noble traditions clash, threatening the kingdom’s unity. Priests, nobles, and common folk disagree over values that shape daily life.
+
+Allow regions temporary freedom to follow local customs without interference.
+
+Outcome: The council resolves disputes peacefully, establishing shared doctrines that unify the clergy. Citizens feel reassured as harmony returns to religious life.
+
+
+Event: DISEASE OUTBREAK — A mysterious sickness spreads through towns and villages. Healers, priests, and common folk struggle to understand and survive the affliction.
+
+Establish dedicated infirmaries staffed by trained healers and clergy.
+
+Outcome: Trade grinds to a halt and separated families despair. Black markets emerge, undermining both the quarantine and trust in royal decrees.
+
+
+[Modern Era]
+Industrial change reshapes I Love TDP with new technologies, expanding factories, and rapid population growth. Political movements challenge old systems, while global trade raises both opportunity and risk. Innovation accelerates faster than society adapts, and I Love TDP must balance progress with stability as it confronts competition, unrest, and evolving expectations from its citizens.
+
+
+Event: DISEASE OUTBREAK — A fast-spreading virus emerges, overwhelming hospitals and alarming citizens. Scientists rush to identify its nature while the public demands decisive action.
+
+Implement strict lockdowns and travel restrictions.
+
+Outcome: Economic disruption fuels anger and protest. Many view the restrictions as an overreach, and trust in leadership declines.
+
+
+Event: TECHNOLOGICAL BREAKTHROUGH — A revolutionary discovery in AI, biotechnology, quantum computing, energy, or engineering emerges. The world watches to see how it will be used.
+
+License the technology to major corporations for rapid industrialisation.
+
+Outcome: Rival nations weaponise or exploit the information first. Critics claim your openness risked national security and economic dominance.
+
+
+[Space Era]
+I Love TDP extends its influence beyond Earth through orbital facilities, lunar industry, and early colonies. Advanced reactors and long-range travel open new frontiers, but resources stretch thin and political interests diverge across worlds. Each decision carries amplified consequences, shaping whether I Love TDP thrives among the stars or fractures under interplanetary pressures.
+
+
+Event: INTERNAL CONFLICT — Rising tensions between genetically‑modified populations, baseline humans, AI citizens, and off‑world colonists ignite civil unrest.
+
+Introduce anti‑discrimination laws across all colonies.
+
+Outcome: The summits foster empathy and reveal shared hopes. Peaceful cooperation reemerges across planets.
+
+
+Event: LEADERSHIP CRISIS — A scandal on Earth, a coup attempt on Mars, or an AI-governor malfunction shakes the stability of interstellar governance. Citizens across worlds question who truly leads humanity.
+
+Stabilise planetary security forces and temporarily centralise authority.
+
+Outcome: The address is criticized as evasive or performative. Colonists react negatively, deepening mistrust toward leadership.
+
+

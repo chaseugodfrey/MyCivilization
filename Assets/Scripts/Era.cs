@@ -8,7 +8,7 @@ public class Era : ScriptableObject
     [SerializeField] string mEraName;
     [SerializeField] string mEraDescription;
     [SerializeField] string mProcessedEraDescription;
-    [SerializeField] List<EraEvent> mEraEvents;
+    [SerializeField] public List<EraEvent> mEraEvents;
     int mCurrentEventIndex = -1;
 
     public string GetEraName()

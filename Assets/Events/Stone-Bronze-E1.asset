@@ -18,7 +18,8 @@ MonoBehaviour:
     choice shapes whether <CityName> grows into a stable settlement or struggles
     against scarcity, conflict, and the uncertainties of early development.
   mActionMessage: RESOURCE SHORTAGE - A season of scarcity descends upon the tribe,
-    testing unity as food, stone, and natural bounty dwindle.
+    testing unity as food, stone, and natural bounty dwindle.<CityName>
+  mProcessedActionMessage: 
   mOptionMessages:
   - "Send a hunting\u2013scouting band into distant wildlands."
   - Perform a ritual of offering to the earth spirits.

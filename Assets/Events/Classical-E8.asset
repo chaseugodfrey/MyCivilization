@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "INTERNAL CONFLICT \u2014 Growing cities strain under class tensions,
     rival guilds, and political clubs. Competing interests threaten to fracture civic
     unity."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Create a council of guilds to negotiate disputes formally.
   - Deploy magistrates to mediate disputes directly in the streets.

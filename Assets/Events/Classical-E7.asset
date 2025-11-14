@@ -20,6 +20,7 @@ MonoBehaviour:
   mActionMessage: "FOREIGN RELATIONS INCIDENT \u2014 A diplomatic dispute, border
     provocation, or misunderstood action from a neighbouring civilisation threatens
     peace."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Send diplomats bearing tribute and requests for peaceful negotiation.
   - Stage a grand military parade to demonstrate strength without declaring war.

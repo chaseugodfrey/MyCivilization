@@ -21,6 +21,7 @@ MonoBehaviour:
     for fusion cores, helium-3 for lunar reactors, rare metals for shipyards, or
     water for colonies. Mining accidents, FTL disruptions, or diplomatic tension
     threaten stability across worlds."
+  mProcessedActionMessage: 
   mOptionMessages:
   - Redirect mining fleets to a high-risk asteroid belt rich in rare materials.
   - Open emergency trade negotiations with independent Martian and Europa federations.

@@ -19,7 +19,8 @@ MonoBehaviour:
     against scarcity, conflict, and the uncertainties of early development.
   mActionMessage: INTERNAL CONFLICT - Tensions rise between clans due to disputes
     over hunting grounds, resources, or personal grievances. Without intervention,
-    violence may erupt.
+    violence may erupt.<CityName>
+  mProcessedActionMessage: 
   mOptionMessages:
   - Host a mediation circle where clan leaders speak openly.
   - Propose a labour-sharing project requiring clans to work together.
