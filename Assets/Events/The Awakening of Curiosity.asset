@@ -12,8 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: The Awakening of Curiosity
   m_EditorClassIdentifier: 
-  mIntroMessage: 
-  mActionMessage: 
+  mIntroMessage: "The world is young, and so is your people. Scattered tribes roam
+    the plains and forests, living day to day with no concept of legacy beyond survival.
+    Your civilisation has only the faintest understanding of tools, shelter, and
+    cooperation. Still, the embers of potential simmer beneath every choice you make.
+    As your people gather beneath a primitive canopy of stars, the first true sparks
+    of progress begin to stir. Your prosperity score is modest\u2014your tribe is
+    neither starving nor flourishing\u2014but every decision in this era will determine
+    whether you enter the next with strength or barely clinging to life."
+  mActionMessage: The leader looks beyond the next sunset. What is the most vital,
+    the most pressing need that will secure not just this night, but the next season?
   mOptionMessages:
   - Experiment with shaping stones into cutting tools.
   - Begin organising a shared storage of food and resources.

@@ -14,6 +14,7 @@ public class SimulationManager : MonoBehaviour
     [Header("Draggables")]
     public EraManager eraManager;
     public TMP_Text text_mainField;
+    public TMP_Text text_eraHeader;
     public TMP_Text text_eraTitle;
     public TMP_Text text_next;
     public TMP_Text text_optionA;
@@ -21,6 +22,11 @@ public class SimulationManager : MonoBehaviour
     public TMP_Text text_end;
     public GameObject screen_end;
     public Slider slider;
+    public GameObject mainField;
+    public Scrollbar verticalScrollbar;
+    public GameObject nextButton;
+    public GameObject optionA;
+    public GameObject optionB;
 
     public delegate void FunctionDelegate();
     Queue<FunctionDelegate> actionQueue = new();
@@ -32,6 +38,7 @@ public class SimulationManager : MonoBehaviour
         {
             FunctionDelegate func = actionQueue.Dequeue();
             func();
+            verticalScrollbar.value = 1;
         }
     }
 
@@ -48,6 +55,7 @@ public class SimulationManager : MonoBehaviour
         currentEra = eraManager.GetRandomEraObj();
         currentEvent = currentEra.GetRandomEvent();
         text_eraTitle.text = currentEra.GetEraName();
+        text_eraHeader.text = currentEra.GetEraName();
 
         // Enqueue Actions
         actionQueue.Enqueue(DisplayIntroMessage);
@@ -62,8 +70,10 @@ public class SimulationManager : MonoBehaviour
 
     // ACTIONS
     void DisplayIntroMessage()
-    {
+    {        
         text_mainField.text = currentEvent.GetIntroMessage();
+        DisplayButtonOptions(false);
+        DisplayButtonNext(true);
     }
 
     void DisplayAction()
@@ -89,6 +99,9 @@ public class SimulationManager : MonoBehaviour
     void DisappearingTitle()
     {
         DisplayEraTitle(false);
+        mainField.SetActive(true);
+        nextButton.SetActive(true);
+        Advance();
     }
 
     void DisplayEraTitle(bool active)
