@@ -207,7 +207,10 @@ public class SimulationManager : MonoBehaviour
     {
         DisplayScreenEnd(false);
         actionQueue.Clear();
-        slider.value = 5;
+        cityManager.ActiveCity.Prosperity = 50;
+        cityManager.UpdateProsperityUI();
+        eraCounter = 0;
+        eventCounter = 0;
         LoadEraData();
     }
 
