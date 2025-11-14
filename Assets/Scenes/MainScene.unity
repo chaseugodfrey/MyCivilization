@@ -4126,6 +4126,7 @@ MonoBehaviour:
   nextButton: {fileID: 521251205}
   optionA: {fileID: 573543508}
   optionB: {fileID: 2021364422}
+  eventsPerEra: 5
 --- !u!4 &2122996985
 Transform:
   m_ObjectHideFlags: 0
