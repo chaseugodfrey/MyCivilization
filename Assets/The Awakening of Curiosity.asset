@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: The Awakening of Curiosity
+  m_EditorClassIdentifier: 
+  mIntroMessage: 
+  mActionMessage: 
+  mOptionMessages:
+  - Experiment with shaping stones into cutting tools.
+  - Begin organising a shared storage of food and resources.
+  - Attempt to domesticate small woodland animals.
+  - Encourage carving symbols and markings to record hunts and discoveries.
+  - Explore deeper into nearby forests to seek new materials.
+  mOutcomeMessages:
+  - Your people discover that even a little pressure and friction can shape river
+    stones into sharp-edged blades. The tribe becomes more efficient in preparing
+    food, skinning animals, and crafting simple objects. Productivity improves noticeably
+    and raising morale
+  - "Inexperience leads to numerous injuries\u2014deep cuts, infections, and panic.
+    Several hunters become unable to work, slowing productivity and causing fear
+    of future innovations. The tribe becomes more hesitant to experiment."
+  - The tribe band together to gather and preserve food in a makeshift communal cache.
+    The improved organisation helps the group withstand sudden shortages and encourages
+    trust among families. Stability rises.
+  - Without understanding preservation, food spoils quickly, contaminating other
+    supplies and causing a short-term illness outbreak. Valuable effort is wasted,
+    and distrust forms over who contaminated the stockpile.
+  - "After many trials, your people manage to hold small animals\u2014rodents, birds\u2014in
+    simple woven cages. Their meat provides intermittent nourishment, and your tribe
+    begins its first steps toward animal management."
+  - Some animals escape and attract predators to your camp, leading to nighttime
+    attacks and several injuries. The tribe interprets this as a sign they angered
+    the spirits of the forest.
+  - The markings evolve into a proto-language. Knowledge becomes easier to share
+    across groups, preventing skills from being lost and strengthening identity.
+    Elders praise the innovation.
+  - "Arguments erupt over differing interpretations of the markings. Rival groups
+    accuse each other of trying to claim hunts they didn\u2019t participate in. This
+    seeds resentment within the tribe."
+  - "Explorers return with new wood types, stones, and plants that enrich the tribe\u2019s
+    understanding of the land. These resources enable better shelters and tools,
+    improving overall prosperity."
+  - A group of explorers is lost in dense terrain. Their disappearance demoralises
+    the tribe, and fear of the unknown grows. The tribe withdraws inward and reducing
+    ambition.
+  mOutcomeValues: 08000000faffffff0a000000f9ffffff06000000f7ffffff0c000000fbffffff09000000f8ffffff
