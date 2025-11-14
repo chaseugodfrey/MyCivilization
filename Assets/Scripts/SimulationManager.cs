@@ -14,6 +14,7 @@ public class SimulationManager : MonoBehaviour
     [Header("Draggables")]
     public EraManager eraManager;
     public TMP_Text text_mainField;
+    public TMP_Text text_eraHeader;
     public TMP_Text text_eraTitle;
     public TMP_Text text_next;
     public TMP_Text text_optionA;
@@ -21,6 +22,11 @@ public class SimulationManager : MonoBehaviour
     public TMP_Text text_end;
     public GameObject screen_end;
     public Slider slider;
+    public GameObject mainField;
+    public Scrollbar verticalScrollbar;
+    public GameObject nextButton;
+    public GameObject optionA;
+    public GameObject optionB;
 
     [Header("Era Transition Settings")]
     public int eventsPerEra = 5;
@@ -37,6 +43,7 @@ public class SimulationManager : MonoBehaviour
         {
             FunctionDelegate func = actionQueue.Dequeue();
             func();
+            verticalScrollbar.value = 1;
         }
     }
 
@@ -69,6 +76,10 @@ public class SimulationManager : MonoBehaviour
 
         currentEvent = currentEra.GetRandomEvent();
         text_eraTitle.text = currentEra.GetEraName();
+        text_eraHeader.text = currentEra.GetEraName();
+        cityManager.ActiveCity = new CityManager.City();
+        cityManager.ActiveCity.Prosperity = 10;
+        cityManager.UpdateProsperityUI();
 
         // Enqueue Actions
         actionQueue.Enqueue(DisplayIntroMessage);
@@ -100,15 +111,34 @@ public class SimulationManager : MonoBehaviour
     // ACTIONS
     void DisplayIntroMessage()
     {
+        slider.gameObject.SetActive(true);
         text_mainField.text = currentEvent.GetIntroMessage();
+        DisplayButtonOptions(false);
+        DisplayButtonNext(true);
     }
 
     void DisplayAction()
     {
         text_mainField.text = currentEvent.GetActionMessage();
+        text_optionA.text = currentEvent.GetOptionsText().Item1;
+        text_optionB.text = currentEvent.GetOptionsText().Item2;
         DisplayButtonOptions(true);
         DisplayButtonNext(false);
     }
+
+    public void OptionPressed(int index)
+    {
+        if (index == 0)
+        {
+            outcomeData = currentEvent.GetOptionOutcome(currentEvent.leftIndex);
+        }
+        else
+        {
+            outcomeData = currentEvent.GetOptionOutcome(currentEvent.rightIndex);
+        }            
+        Advance();
+    }
+
     void DisplayOutcome()
     {
         DisplayButtonOptions(false);
@@ -119,13 +149,17 @@ public class SimulationManager : MonoBehaviour
     void SetOutcome()
     {
         text_mainField.text = outcomeData.Item1;
-        ModifySlider(outcomeData.Item2);
+        cityManager.ModifyProsperity(outcomeData.Item2);
+        ModifySlider(0);
     }
 
     // UI SECTION
     void DisappearingTitle()
     {
         DisplayEraTitle(false);
+        mainField.SetActive(true);
+        nextButton.SetActive(true);
+        Advance();
     }
 
     void DisplayEraTitle(bool active)
@@ -152,13 +186,13 @@ public class SimulationManager : MonoBehaviour
     void ModifySlider(int val)
     {
         slider.value += val;
-        slider.value = Mathf.Clamp(slider.value, 0, 10);
+        slider.value = Mathf.Clamp(slider.value, 0, 20);
         if (slider.value <= 0)
         {
             EndSimulation(false);
         }
 
-        else if (slider.value >= 10)
+        else if (slider.value >= 20)
         {
             EndSimulation(true);
         }
