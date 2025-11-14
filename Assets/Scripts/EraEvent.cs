@@ -45,6 +45,7 @@ public class EraEvent : ScriptableObject
 
         string optionA = mOptionMessages[leftIndex];
         string optionB = mOptionMessages[rightIndex];
+        Debug.Log($"Option A index: {leftIndex}, Option B index: {rightIndex}");
 
         return new Tuple<string, string>(optionA, optionB);
     }

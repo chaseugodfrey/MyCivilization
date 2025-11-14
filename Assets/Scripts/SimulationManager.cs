@@ -34,7 +34,7 @@ public class SimulationManager : MonoBehaviour
     private int eventCounter = 0;
     private int eraCounter = 0;
 
-
+    bool newEra = true;
     public void Advance()
     {
         if (actionQueue.Count > 0)
@@ -74,9 +74,19 @@ public class SimulationManager : MonoBehaviour
         actionQueue.Enqueue(EventCount);
         actionQueue.Enqueue(LoadEraData);
 
-        // Display Era Title
-        DisplayEraTitle(true);
-        Invoke(nameof(DisappearingTitle), 1);
+        if (newEra)
+        {
+            newEra = false;
+
+            // Display Era Title
+            DisplayEraTitle(true);
+            nextButton.SetActive(false);
+            Invoke(nameof(DisappearingTitle), 1);
+        }
+        else
+        {
+            Advance();
+        }
     }
 
     // ACTIONS
@@ -88,7 +98,9 @@ public class SimulationManager : MonoBehaviour
         {
             eventCounter = 0;
             ++eraCounter;
+            newEra = true;
         }
+        Advance();
     }
     void DisplayIntroMessage()
     {
@@ -101,8 +113,9 @@ public class SimulationManager : MonoBehaviour
     void DisplayAction()
     {
         text_mainField.text = currentEvent.GetActionMessage();
-        text_optionA.text = currentEvent.GetOptionsText().Item1;
-        text_optionB.text = currentEvent.GetOptionsText().Item2;
+        Tuple<string, string> leagueOfLegends = currentEvent.GetOptionsText();
+        text_optionA.text = leagueOfLegends.Item1;
+        text_optionB.text = leagueOfLegends.Item2;
         DisplayButtonOptions(true);
         DisplayButtonNext(false);
     }
@@ -145,7 +158,6 @@ public class SimulationManager : MonoBehaviour
     {
         DisplayEraTitle(false);
         mainField.SetActive(true);
-        nextButton.SetActive(true);
         Advance();
     }
 
