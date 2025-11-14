@@ -38,7 +38,7 @@ public class CsvReader : MonoBehaviour
 
             Debug.Log("Parsed Values (" + values.Count + "): " + string.Join(" | ", values));
 
-            if (values.Count < 8)
+            if (values.Count < 12)
             {
                 Debug.LogWarning("Skipping bad CSV line: " + line);
                 continue;
@@ -48,15 +48,20 @@ public class CsvReader : MonoBehaviour
             try
             {
                 option.EraID = int.Parse(values[0]);
-                option.EventID = values[1];
-                option.OptionID = values[2];
-                option.OptionText = values[3];
+                option.EraNarrative = values[1];
+                option.EventID = values[2];
+                option.EventNarrative = values[3];
+                option.EventDifficulty = int.Parse(values[4]);
 
-                option.PositiveOutcomeText = values[4];
-                option.PositivePS_Change = int.Parse(values[5]);
+                option.OptionID = values[5];
+                option.OptionText = values[6];
+                option.OptionTag = values[7];
 
-                option.NegativeOutcomeText = values[6];
-                option.NegativePS_Change = int.Parse(values[7]);
+                option.PositiveOutcomeText = values[8];
+                option.PositivePS_Change = int.Parse(values[9]);
+                option.NegativeOutcomeText = values[10];
+                option.NegativePS_Change = int.Parse(values[11]);
+
 
                 if (!NarrativeDatabase.Events.ContainsKey(option.EventID))
                 {
