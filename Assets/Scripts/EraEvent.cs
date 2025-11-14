@@ -13,6 +13,7 @@ public class EraEvent : ScriptableObject
     [SerializeField] List<string> mOptionMessages;
     [SerializeField] List<string> mOutcomeMessages;
     [SerializeField] List<int> mOutcomeValues;
+    [SerializeField] List<int> mStableValues;
 
     public int leftIndex;
     public int rightIndex;

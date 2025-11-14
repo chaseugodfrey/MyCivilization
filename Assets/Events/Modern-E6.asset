@@ -48,5 +48,7 @@ MonoBehaviour:
   - Costs explode as rebuilding drags on. Critics label the project unrealistic,
     and citizens grow frustrated with slow progress and ballooning budgets.
   mOutcomeValues: 0b000000f6ffffff09000000f9ffffff08000000f9ffffff07000000faffffff0c000000f7ffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0
+  rolledOutcome: 0

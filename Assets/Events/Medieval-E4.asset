@@ -46,5 +46,7 @@ MonoBehaviour:
   - The alliances alienate excluded families, who grow jealous and bitter. Political
     scheming intensifies behind closed doors.
   mOutcomeValues: 0b000000f6ffffff09000000f8ffffff08000000f9ffffff0a000000f7ffffff07000000faffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0
+  rolledOutcome: 0

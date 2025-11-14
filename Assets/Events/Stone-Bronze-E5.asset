@@ -51,5 +51,7 @@ MonoBehaviour:
   - Whispers spread about hidden knowledge and secret gatherings. Fear and paranoia
     destabilise trust between clans long before the truth is revealed.
   mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff08000000f9ffffff09000000f8ffffff0c000000f6ffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0
+  rolledOutcome: 0

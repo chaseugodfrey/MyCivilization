@@ -46,5 +46,7 @@ MonoBehaviour:
   - The contests turn aggressive as tempers flare. Accusations of cheating spread
     rapidly, deepening resentment and worsening relations.
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0
+  rolledOutcome: 0

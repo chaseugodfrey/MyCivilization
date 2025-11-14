@@ -67,6 +67,7 @@ public class EventDataProcessor
             List<string> optionMessages = new List<string>();
             List<string> outcomeMessages = new List<string>();
             List<int> outcomeValues = new List<int>();
+            List<int> stableValues = new List<int>();
 
             foreach (EventData option in options)
             {
@@ -79,12 +80,16 @@ public class EventDataProcessor
                 // Add the Positive value, THEN the negative one
                 outcomeValues.Add(option.PositivePS_Change);
                 outcomeValues.Add(option.NegativePS_Change);
+
+                stableValues.Add(option.PositiveStable_Change);
+                stableValues.Add(option.NegativeStable_Change);
             }
 
             // --- Find the List<T> properties on the SO and set them ---
             soEvent.FindProperty("mOptionMessages").SetList(optionMessages);
             soEvent.FindProperty("mOutcomeMessages").SetList(outcomeMessages);
             soEvent.FindProperty("mOutcomeValues").SetList(outcomeValues);
+            soEvent.FindProperty("mStableValues").SetList(stableValues);
 
             // Apply all changes to the SerializedObject
             soEvent.ApplyModifiedProperties();
@@ -240,7 +245,7 @@ public class EventDataProcessor
             string line = lines[i];
             List<string> values = ParseCSVLine(line);
 
-            if (values.Count < 12)
+            if (values.Count < 14)
             {
                 Debug.LogWarning("Skipping bad CSV line: " + line);
                 continue;
@@ -262,6 +267,8 @@ public class EventDataProcessor
                 option.PositivePS_Change = int.Parse(values[9]);
                 option.NegativeOutcomeText = values[10];
                 option.NegativePS_Change = int.Parse(values[11]);
+                option.PositiveStable_Change = int.Parse(values[12]);
+                option.NegativeStable_Change = int.Parse(values[13]);
 
                 string uniqueEventKey = $"{option.EraID}-{option.EventID}";
 

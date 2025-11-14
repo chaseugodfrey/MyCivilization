@@ -47,5 +47,7 @@ MonoBehaviour:
   - Overambitious projects overextend resources, leaving many structures unfinished.
     Citizens ridicule the failed monuments as signs of leadership hubris.
   mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0
+  rolledOutcome: 0

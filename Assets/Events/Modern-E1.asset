@@ -55,5 +55,7 @@ MonoBehaviour:
   - The research burns through money with little progress. Headlines mock the 'million-dollar
     miracle that never came,' and funding scandals erode trust in scientific institutions.
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f6ffffff0c000000f7ffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0
+  rolledOutcome: 0

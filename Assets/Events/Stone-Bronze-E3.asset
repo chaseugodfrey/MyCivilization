@@ -45,5 +45,7 @@ MonoBehaviour:
   - "The distant lands prove treacherous, and many settlers never return. The losses
     shake the tribe\u2019s confidence and cast a shadow over the boom."
   mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0
+  rolledOutcome: 0

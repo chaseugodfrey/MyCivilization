@@ -15,6 +15,8 @@ public class EventData
     public int PositivePS_Change { get; set; }
     public string NegativeOutcomeText { get; set; }
     public int NegativePS_Change { get; set; }
+    public int PositiveStable_Change { get; set; }
+    public int NegativeStable_Change { get; set; }
 }
 
 public static class NarrativeDatabase

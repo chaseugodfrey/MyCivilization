@@ -47,5 +47,7 @@ MonoBehaviour:
   - Elders interpret the circle as a threat to tradition and forbid participation.
     The youth grow resentful, widening the generational rift.
   mOutcomeValues: 09000000f8ffffff0a000000f7ffffff08000000f9ffffff0b000000f6ffffff07000000faffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0
+  rolledOutcome: 0

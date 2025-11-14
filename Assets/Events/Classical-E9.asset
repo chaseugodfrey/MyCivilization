@@ -45,5 +45,7 @@ MonoBehaviour:
   - Scholars disagree publicly, presenting contradictory theories. Confusion spreads
     across the population, weakening trust in both science and leadership.
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff07000000faffffff0b000000f7ffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0
+  rolledOutcome: 0

@@ -49,5 +49,7 @@ MonoBehaviour:
   - Rumours spread of forbidden knowledge and hidden labs. Citizens grow suspicious,
     and political rivals accuse the state of overreaching, destabilising trust.
   mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0
+  rolledOutcome: 0
