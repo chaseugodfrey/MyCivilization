@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Modern-E2
+  m_EditorClassIdentifier: 
+  mIntroMessage: CULTURAL SCHISM - Ideological, political, or social divisions fracture
+    national unity.
+  mActionMessage: CULTURAL SCHISM - Ideological, political, or social divisions fracture
+    national unity.
+  mOptionMessages:
+  - Invest in widespread infrastructure improvements.
+  - Open dialogue with affected groups to address concerns.
+  - Deploy specialised teams to analyse and mitigate the issue.
+  - Redirect national resources to aggressively solve the problem.
+  - Allow local communities autonomy to handle the situation.
+  mOutcomeMessages:
+  - Public institutions and shared civic spaces rekindle unity.
+  - Projects become battlegrounds for ideological vandalism.
+  - Public debates, assemblies, and mediation calm tensions.
+  - Discussions devolve into protests and street clashes.
+  - Sociologists and analysts propose stabilising reforms.
+  - Misguided recommendations inflame divisions.
+  - Firm government action temporarily suppresses unrest.
+  - Crackdowns energise extremist groups.
+  - Local communities express identity freely, easing friction.
+  - Regions drift ideologically apart, threatening secession.
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff0b000000f7ffffff08000000f6ffffff07000000faffffff
+  leftIndex: 0
+  rightIndex: 0

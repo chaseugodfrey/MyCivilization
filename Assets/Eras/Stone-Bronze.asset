@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25846dacfbde4d241b879346c5a6d768, type: 3}
+  m_Name: Stone-Bronze
+  m_EditorClassIdentifier: 
+  mEraName: Stone-Bronze
+  mEraEvents:
+  - {fileID: 11400000, guid: 621daf9ff36734a41bf11d3b79819b07, type: 2}
+  - {fileID: 11400000, guid: becc75e2212bb3d44a13513b9bb6565d, type: 2}
+  - {fileID: 11400000, guid: 5485dbf5ca15de84a92e4b2b905ee033, type: 2}
+  - {fileID: 11400000, guid: 65a0fd293d7692d4fbd1b25d4c00d06a, type: 2}
+  - {fileID: 11400000, guid: 7e83b53f41b66a4498b9265d2d37e1e9, type: 2}
+  - {fileID: 11400000, guid: 2a88971f7247f9a4ab9d3318a7eadb41, type: 2}
+  - {fileID: 11400000, guid: 0f6382f2e43aef24c8275838f6846287, type: 2}
+  - {fileID: 11400000, guid: e52f57733c5692a489dc36288193e613, type: 2}
+  - {fileID: 11400000, guid: cd93f2def972619419394f44ebd848fa, type: 2}
+  - {fileID: 11400000, guid: 37686e0fb5d081340ac08446166315f1, type: 2}

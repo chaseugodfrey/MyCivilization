@@ -34,6 +34,7 @@ public class SimulationManager : MonoBehaviour
     private int eventCounter = 0;
     private int eraCounter = 0;
 
+
     public void Advance()
     {
         if (actionQueue.Count > 0)

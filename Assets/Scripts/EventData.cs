@@ -3,11 +3,14 @@ using System.Collections.Generic;
 
 public class EventData
 {
-    public int EraID { get; set; }
+    public string EraID { get; set; }
+    public string EraNarrative { get; set; }
     public string EventID { get; set; }
-
+    public string EventNarrative { get; set; }
+    public string EventDifficulty { get; set; }
     public string OptionID { get; set; }
     public string OptionText { get; set; }
+    public string OptionTag { get; set; }
     public string PositiveOutcomeText { get; set; }
     public int PositivePS_Change { get; set; }
     public string NegativeOutcomeText { get; set; }
