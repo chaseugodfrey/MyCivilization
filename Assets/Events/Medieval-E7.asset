@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Medieval-E7
   m_EditorClassIdentifier: 
-  mIntroMessage: Fortified cities, noble houses, and layered loyalties define this
-    era. Faith influences rulers, merchants connect distant markets, and knowledge
-    survives through dedicated scholars. Yet feuds, famine, and disease challenge
-    stability at every turn. Power shifts through alliances and conflict, and your
-    civilisation must navigate duty, honour, and survival to endure the age.
+  mIntroMessage: <CityName> enters an age of fortified walls, noble factions, and
+    powerful traditions. Faith shapes governance, merchants connect distant routes,
+    and scholars preserve knowledge. Yet feuds, famine, and shifting loyalties threaten
+    stability. Survival depends on how <CityName> navigates obligations, alliances,
+    and the constant pressure of conflict within and beyond its borders.
   mActionMessage: "FOREIGN RELATIONS INCIDENT \u2014 A border skirmish, intercepted
     messenger, or insulted ambassador threatens peace with a neighbouring realm."
   mOptionMessages:

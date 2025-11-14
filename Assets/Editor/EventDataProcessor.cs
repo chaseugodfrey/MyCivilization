@@ -120,6 +120,7 @@ public class EventDataProcessor
             // Set the fields using SerializedObject
             SerializedObject soEra = new SerializedObject(newEraSO);
             soEra.FindProperty("mEraName").stringValue = eraID;
+            soEra.FindProperty("mEraDescription").stringValue = eventsInEra[0].GetEraDescription(); //FIX
             soEra.FindProperty("mEraEvents").SetList(eventsInEra); // Assign the list of events
             soEra.ApplyModifiedProperties();
 

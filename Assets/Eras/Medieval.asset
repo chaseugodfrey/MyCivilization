@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Medieval
   m_EditorClassIdentifier: 
   mEraName: Medieval
+  mEraDescription: <CityName> enters an age of fortified walls, noble factions, and
+    powerful traditions. Faith shapes governance, merchants connect distant routes,
+    and scholars preserve knowledge. Yet feuds, famine, and shifting loyalties threaten
+    stability. Survival depends on how <CityName> navigates obligations, alliances,
+    and the constant pressure of conflict within and beyond its borders.
+  mProcessedEraDescription: 
   mEraEvents:
   - {fileID: 11400000, guid: 77e2f4b8b747db74cabd362a4b3d5af0, type: 2}
   - {fileID: 11400000, guid: 6f7ef331795864346b0444f2bcea2bcb, type: 2}

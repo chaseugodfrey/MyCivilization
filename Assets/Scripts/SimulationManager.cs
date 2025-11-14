@@ -35,6 +35,8 @@ public class SimulationManager : MonoBehaviour
     public delegate void FunctionDelegate();
     Queue<FunctionDelegate> actionQueue = new();
     Tuple<string, int> outcomeData;
+
+    [Header("Debug")]
     public int eventCounter = 0;
     public int eraCounter = 0;
 
@@ -72,7 +74,7 @@ public class SimulationManager : MonoBehaviour
 
         string eraName = currentEra.GetEraName();
         Debug.Log("Era Name:" + eraName);
-        string eraDescription = currentEvent.GetEraDescription();
+        string eraDescription = currentEra.GetEraDescription();
         text_eraTitle.text = eraName;
         text_eraDescription.text = eraDescription;
         text_eraHeader.text = eraName;
@@ -111,11 +113,17 @@ public class SimulationManager : MonoBehaviour
     {
         cityNamed = true;
         cityManager.ActiveCity.Name = nameCity.GetComponentInChildren<TMP_InputField>().text;
+        Debug.LogWarning("This is happening too late?");
         text_cityName.text = cityManager.ActiveCity.Name;
+        foreach (var era in eraManager.eraObjs)
+        {
+            era.SetEraDescription(cityManager.ActiveCity.Name);
+        }
         nameCity.SetActive(false);
         newEra = true;
-        //Advance();
+        Advance();
         //Invoke(nameof(DisappearingTitle), 5);
+        //Debug.LogError("This is happening too late 2?");
     }
 
     void EventCount()
@@ -208,8 +216,10 @@ public class SimulationManager : MonoBehaviour
             //newEra = false;
             mainField.SetActive(false);
             DisplayEraTitle(true);
-            string eraDescription = currentEvent.GetEraDescription();
+            Debug.LogWarning(cityManager.ActiveCity.Name + "is THISSS");
+            string eraDescription = currentEra.GetEraDescription();
             text_eraDescription.text = eraDescription;
+            Debug.LogWarning(cityManager.ActiveCity.Name + "is THISSS2");
             //DisplayEraDescription(true);
             nextButton.SetActive(true);
            //Invoke(nameof(DisappearingTitle), 1);
@@ -217,7 +227,7 @@ public class SimulationManager : MonoBehaviour
         if (eventCounter == 0)
         {
             outputManager.AddOutputMessage("[" + currentEra.GetEraName() +" Era" + "]");
-            outputManager.AddOutputMessage(currentEvent.GetEraDescription() + "\n" + "\n");
+            outputManager.AddOutputMessage(currentEra.GetEraDescription() + "\n" + "\n");
 }
 
     }

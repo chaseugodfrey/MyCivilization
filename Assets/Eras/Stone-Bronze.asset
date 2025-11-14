@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: Stone-Bronze
   m_EditorClassIdentifier: 
   mEraName: Stone-Bronze
+  mEraDescription: <CityName> begins as a small community surviving through simple
+    tools, shared labour, and ancestral guidance. Basic farming, early metalwork,
+    and cautious exploration support daily life, but resources remain limited. Every
+    choice shapes whether <CityName> grows into a stable settlement or struggles
+    against scarcity, conflict, and the uncertainties of early development.
+  mProcessedEraDescription: 
   mEraEvents:
   - {fileID: 11400000, guid: 2c62778aebd53874e854c80764bc01c6, type: 2}
   - {fileID: 11400000, guid: 21b24d191e9e410488abcd8cdfb18720, type: 2}

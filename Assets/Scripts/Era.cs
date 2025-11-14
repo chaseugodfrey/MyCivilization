@@ -6,7 +6,8 @@ using UnityEngine;
 public class Era : ScriptableObject
 {
     [SerializeField] string mEraName;
-    //[SerializeField] string mEraDescription;
+    [SerializeField] string mEraDescription;
+    [SerializeField] string mProcessedEraDescription;
     [SerializeField] List<EraEvent> mEraEvents;
     int mCurrentEventIndex = -1;
 
@@ -15,10 +16,15 @@ public class Era : ScriptableObject
         return mEraName;
     }
 
-    //public string GetEraDescription()
-    //{
-    //    return mEraDescription;
-    //}
+    public string GetEraDescription()
+    {
+        return mProcessedEraDescription;
+    }
+
+    public void SetEraDescription(string cityName)
+    {
+        mProcessedEraDescription = mEraDescription.Replace("<CityName>", cityName);
+    }
 
     public List<EraEvent> GetEraEvents()
     {

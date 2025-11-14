@@ -23,6 +23,12 @@ public class EraEvent : ScriptableObject
     {
         return mIntroMessage;
     }
+
+    public void SetEraDescription(string cityName)
+    {
+        string processed = mIntroMessage.Replace("<CityName>", cityName);
+        mIntroMessage = processed;
+    }
     public string GetIntroMessage()
     {
         return mIntroMessage;

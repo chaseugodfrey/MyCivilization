@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Space-E7
   m_EditorClassIdentifier: 
-  mIntroMessage: Humanity expands beyond Earth into orbital stations, lunar cities,
-    and early colonies. Advanced reactors, terraforming, and faster-than-light travel
-    open new frontiers, but resource strain and political fragmentation grow across
-    planets. Each settlement faces unique risks, and decisions now carry consequences
-    stretching far beyond a single world or generation.
+  mIntroMessage: <CityName> extends its influence beyond Earth through orbital facilities,
+    lunar industry, and early colonies. Advanced reactors and long-range travel open
+    new frontiers, but resources stretch thin and political interests diverge across
+    worlds. Each decision carries amplified consequences, shaping whether <CityName>
+    thrives among the stars or fractures under interplanetary pressures.
   mActionMessage: "FOREIGN RELATIONS INCIDENT \u2014 A diplomatic crisis erupts involving
     a newly contacted alien species or a dispute between independent human colonies."
   mOptionMessages:

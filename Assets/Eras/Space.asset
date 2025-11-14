@@ -13,6 +13,13 @@ MonoBehaviour:
   m_Name: Space
   m_EditorClassIdentifier: 
   mEraName: Space
+  mEraDescription: <CityName> extends its influence beyond Earth through orbital
+    facilities, lunar industry, and early colonies. Advanced reactors and long-range
+    travel open new frontiers, but resources stretch thin and political interests
+    diverge across worlds. Each decision carries amplified consequences, shaping
+    whether <CityName> thrives among the stars or fractures under interplanetary
+    pressures.
+  mProcessedEraDescription: 
   mEraEvents:
   - {fileID: 11400000, guid: fdd06231d74ff094da437cc4bdf57ab1, type: 2}
   - {fileID: 11400000, guid: d661ece359aeaef479e01449f362a73b, type: 2}
