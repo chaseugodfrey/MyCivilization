@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Stone-Bronze-E3
+  m_EditorClassIdentifier: 
+  mIntroMessage: ECONOMIC BOOM - A sudden abundance of valuable resources brings
+    prosperity, but risks pride, waste, and tension between clans.
+  mActionMessage: ECONOMIC BOOM - A sudden abundance of valuable resources brings
+    prosperity, but risks pride, waste, and tension between clans.
+  mOptionMessages:
+  - Host a Festival of Plenty to celebrate and share the abundance.
+  - Send artisans to craft intricate tools and ornaments from the surplus.
+  - Establish a Trading Circle with neighbouring tribes.
+  - "Store the surplus in clay\u2011lined pits and smokehouses for future safety."
+  - Send settlers to explore and expand into newly promising regions.
+  mOutcomeMessages:
+  - The tribe feasts joyfully, exchanging goods and stories under torchlit skies.
+    The celebration turns prosperity into unity, leaving clans hopeful for the future.
+  - The festival grows excessive, and accusations arise that some clans contributed
+    less or took more. What should have united instead stirs envy and bitterness.
+  - "Stonecutters and carvers create works of beauty and precision. Their craftsmanship
+    elevates the tribe\u2019s identity and inspires pride across all clans."
+  - Artisans waste rare resources chasing unproven designs. Disputes erupt over ownership
+    of the items, and the boom begins to feel mismanaged.
+  - Trade brings new dyes, hides, tools, and stories into the settlement. Diplomacy
+    strengthens as your tribe becomes a valued partner in regional exchange.
+  - Rival tribes attempt to take advantage of the boom, demanding unfair trades or
+    threatening raids. Prosperity becomes a political burden.
+  - "New storage pits preserve food through harsh seasons, giving the tribe long\u2011term
+    security. For the first time, the people imagine a stable future."
+  - "Structural failures spoil a large portion of the preserved food. Shock and finger\u2011pointing
+    spread as clans question the judgement behind the storage plan."
+  - "Explorers return with tales of fertile valleys, rivers teeming with life, and
+    new stone deposits. Their discoveries broaden the tribe\u2019s vision of its
+    destiny."
+  - "The distant lands prove treacherous, and many settlers never return. The losses
+    shake the tribe\u2019s confidence and cast a shadow over the boom."
+  mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
+  leftIndex: 0
+  rightIndex: 0

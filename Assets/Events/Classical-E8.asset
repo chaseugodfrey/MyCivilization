@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Classical-E8
+  m_EditorClassIdentifier: 
+  mIntroMessage: "INTERNAL CONFLICT \u2014 Growing cities strain under class tensions,
+    rival guilds, and political clubs. Competing interests threaten to fracture civic
+    unity."
+  mActionMessage: "INTERNAL CONFLICT \u2014 Growing cities strain under class tensions,
+    rival guilds, and political clubs. Competing interests threaten to fracture civic
+    unity."
+  mOptionMessages:
+  - Create a council of guilds to negotiate disputes formally.
+  - Deploy magistrates to mediate disputes directly in the streets.
+  - Fund a public works project to provide employment and reduce tensions.
+  - Support a philosopher-led civic campaign promoting shared identity.
+  - Allow each faction temporary autonomy to self-govern locally.
+  mOutcomeMessages:
+  - The guilds meet under structured dialogue, finally airing grievances in a civil
+    manner. Compromise becomes possible, and productivity rises as tensions cool.
+  - Rival guilds use the council as a stage for power plays. Old disagreements ignite
+    into fresh feuds, worsening the struggle for influence within the city.
+  - The presence of magistrates reassures citizens and discourages violence. Their
+    impartial rulings restore a sense of order and fairness.
+  - Magistrates are accused of favoritism, fueling resentment. Crowds begin resisting
+    their authority, escalating rather than resolving conflict.
+  - New jobs ease competition and ease resentment among the lower classes. The project
+    becomes a symbol of civic unity, improving morale across districts.
+  - Costs balloon and supplies vanish under corruption. Workers riot after payment
+    delays, turning a hopeful project into a political disaster.
+  - Philosophers present compelling arguments for unity, reminding citizens of common
+    heritage and purpose. Conflicts fade as people rally around shared ideals.
+  - Philosophers divide into factions themselves, each claiming the true interpretation
+    of civic virtue. Their debates spill into the streets, worsening unrest.
+  - Autonomy eases immediate pressure, giving time for tempers to settle. Citizens
+    appreciate the breathing room and begin cooperating voluntarily.
+  - Local leaders turn autonomy into power grabs, entrenching divisions. Regional
+    loyalty grows stronger than loyalty to the state itself.
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
+  leftIndex: 0
+  rightIndex: 0

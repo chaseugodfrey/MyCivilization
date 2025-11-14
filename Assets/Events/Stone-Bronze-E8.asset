@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Stone-Bronze-E8
+  m_EditorClassIdentifier: 
+  mIntroMessage: INTERNAL CONFLICT - Tensions rise between clans due to disputes
+    over hunting grounds, resources, or personal grievances. Without intervention,
+    violence may erupt.
+  mActionMessage: INTERNAL CONFLICT - Tensions rise between clans due to disputes
+    over hunting grounds, resources, or personal grievances. Without intervention,
+    violence may erupt.
+  mOptionMessages:
+  - Host a mediation circle where clan leaders speak openly.
+  - Propose a labour-sharing project requiring clans to work together.
+  - Host a symbolic offering ceremony to appease ancestral spirits.
+  - Assign neutral elders to judge disputes impartially.
+  - Encourage a feast where clans share food and stories.
+  mOutcomeMessages:
+  - Leaders gather around the central fire, voicing frustrations and misunderstandings.
+    Through patient dialogue, they rediscover shared goals and agree to renewed cooperation.
+  - Discussions escalate into shouting as old grudges resurface. The circle dissolves
+    in hostility, worsening the divide and deepening mistrust.
+  - Building shelters, digging pits, or crafting tools side by side helps clans reconnect.
+    Cooperation rekindles a sense of unity as shared labour mends emotional fractures.
+  - Clans disagree over workload and credit. Accusations of laziness or sabotage
+    emerge, transforming the project into a battleground of resentment.
+  - Clans join in sacred rituals, offering carvings, herbs, and crafted items. The
+    shared spiritual moment softens hearts and reminds them of their ancient common
+    roots.
+  - Some clans dismiss the ceremony as meaningless, sparking further disagreement.
+    Participation becomes a point of pride or defiance, worsening the internal divide.
+  - Respected elders carefully review grievances, delivering fair rulings accepted
+    by most. Their wisdom calms the situation and restores a sense of justice.
+  - Clans claim the elders favour certain families, rejecting their judgments. The
+    authority of the elders weakens, intensifying the conflict instead of resolving
+    it.
+  - A communal feast rekindles bonds as clans trade stories and songs. Laughter replaces
+    bitterness, reminding everyone of the ties that bind the tribe together.
+  - Arguments erupt over food distribution or seating arrangements. What was meant
+    as reconciliation becomes another flashpoint for division.
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
+  leftIndex: 0
+  rightIndex: 0

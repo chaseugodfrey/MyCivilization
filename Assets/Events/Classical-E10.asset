@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Classical-E10
+  m_EditorClassIdentifier: 
+  mIntroMessage: "MORAL DILEMMA \u2014 A controversy erupts over justice, law, or
+    the treatment of minority groups. Restoring moral stability requires delicate
+    leadership."
+  mActionMessage: "MORAL DILEMMA \u2014 A controversy erupts over justice, law, or
+    the treatment of minority groups. Restoring moral stability requires delicate
+    leadership."
+  mOptionMessages:
+  - Hold a public tribunal with respected judges and philosophers.
+  - Offer amnesty to minor offenders to de-escalate tensions.
+  - Commission a new moral code written by philosophers and senators.
+  - Empower local assemblies to resolve disputes autonomously.
+  - Launch a civic virtue campaign promoting duty, honour, and unity.
+  mOutcomeMessages:
+  - The tribunal demonstrates a commitment to fairness and transparency. Citizens
+    witness impartial reasoning and regain faith in the justice system.
+  - The tribunal becomes a battleground for ideology. Judges are accused of bias,
+    and crowds leave feeling more divided than before.
+  - "Amnesty cools tempers and prevents unrest from spiralling. Citizens appreciate
+    the state\u2019s mercy during turbulent times."
+  - Citizens interpret amnesty as softness. Crime spikes as opportunists exploit
+    weakened enforcement, undermining public confidence.
+  - The new code provides clarity and restores order. Its principles resonate widely,
+    and citizens feel united under a shared ethical framework.
+  - "The drafting process becomes mired in political agendas. Senators sabotage each
+    other\u2019s proposals, turning the code into a symbol of disunity."
+  - Local involvement restores trust as communities solve issues directly. Citizens
+    feel respected, easing widespread frustration.
+  - Assemblies make contradictory rulings, creating legal chaos between districts.
+    Citizens lose confidence in both local and central authority.
+  - The campaign inspires citizens to act with restraint and compassion. Murals,
+    speeches, and theatre performances revitalise shared cultural values.
+  - Critics claim the campaign is propaganda. Artists and intellectuals rebel, turning
+    the movement into a divisive cultural conflict.
+  mOutcomeValues: 0a000000f8ffffff08000000f9ffffff0b000000f7ffffff09000000f9ffffff07000000faffffff
+  leftIndex: 0
+  rightIndex: 0

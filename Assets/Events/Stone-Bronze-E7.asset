@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Stone-Bronze-E7
+  m_EditorClassIdentifier: 
+  mIntroMessage: FOREIGN RELATIONS INCIDENT - Tension rises with a neighbouring tribe,
+    whether through disputed hunts, territory encroachment, or misunderstood signals.
+  mActionMessage: FOREIGN RELATIONS INCIDENT - Tension rises with a neighbouring
+    tribe, whether through disputed hunts, territory encroachment, or misunderstood
+    signals.
+  mOptionMessages:
+  - Send a small peace-bearing delegation carrying symbolic gifts.
+  - Prepare a ceremonial hunt to demonstrate strength without hostility.
+  - Have shamans mediate through shared spiritual rites with rival shamans.
+  - Strengthen border patrols to discourage encroachment.
+  - Invite the rival tribe to a shared competition of skill and endurance.
+  mOutcomeMessages:
+  - The neighbouring tribe accepts the offerings graciously. Shared meals and exchanged
+    stories cool tempers, laying the groundwork for future cooperation.
+  - The gifts are misinterpreted as bribes or signs of weakness. The neighbouring
+    tribe grows more aggressive, emboldened by what they perceive as submission.
+  - Your hunters display mastery and discipline, impressing the neighbouring tribe.
+    Respect replaces tension, and both sides agree to avoid future disputes.
+  - The display backfires as rival hunters interpret it as a challenge. Clashes break
+    out at the territory edge, fueling anger and escalating conflict.
+  - The shamans enter a trance-like communion, emerging with signs interpreted as
+    mutual favour. Spiritual harmony spreads, easing tensions between tribes.
+  - The rival tribe accuses your shamans of manipulation. Spiritual distrust hardens
+    positions, making negotiation far more difficult in the future.
+  - "The patrols operate with discipline, avoiding provocation while clearly protecting
+    your land. The rival tribe backs off, respecting your tribe\u2019s vigilance."
+  - A misinterpreted gesture or accidental encounter sparks violence along the border.
+    The neighbouring tribe mobilises, transforming the tension into open threat.
+  - The competition becomes a celebration of strength rather than hostility. Laughter
+    breaks through rivalry as participants recognise shared values of courage and
+    honour.
+  - The contests turn aggressive as tempers flare. Accusations of cheating spread
+    rapidly, deepening resentment and worsening relations.
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
+  leftIndex: 0
+  rightIndex: 0

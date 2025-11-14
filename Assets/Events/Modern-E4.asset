@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Modern-E4
+  m_EditorClassIdentifier: 
+  mIntroMessage: "LEADERSHIP CRISIS \u2014 Scandals, disagreements, or sudden resignations
+    shake the government. Confidence in leadership wavers as rivals manoeuvre for
+    power."
+  mActionMessage: "LEADERSHIP CRISIS \u2014 Scandals, disagreements, or sudden resignations
+    shake the government. Confidence in leadership wavers as rivals manoeuvre for
+    power."
+  mOptionMessages:
+  - Hold a fully transparent press conference to address accusations directly.
+  - Form an emergency coalition with opposition parties to stabilise governance.
+  - Appoint a highly respected non-political figure to temporarily oversee national
+    operations.
+  - Launch a public inquiry led by independent investigators.
+  - Focus on foreign diplomacy to distract and stabilise both domestic and international
+    relations.
+  mOutcomeMessages:
+  - "Clear answers restore trust, and the public appreciates the candor. Media outlets
+    highlight the government\u2019s transparency, calming national anxiety."
+  - The press conference spirals into hostile questioning. Poor responses go viral,
+    worsening the scandal and deepening distrust.
+  - A united leadership presents a calm front. Policies pass efficiently, demonstrating
+    political maturity and reducing partisan tensions.
+  - Ideological clashes paralyse decision-making. The coalition crumbles quickly,
+    sparking even greater leadership vacuum and public frustration.
+  - A revered judge, scientist, or humanitarian restores public confidence. Citizens
+    feel reassured by a neutral expert guiding the nation through crisis.
+  - Critics question the legitimacy of unelected authority. Protests erupt over democratic
+    concerns, weakening societal cohesion.
+  - The investigation uncovers truth and holds guilty parties accountable. Public
+    support surges as justice is seen to prevail over corruption.
+  - Political allies resist the inquiry, leading to accusations of cover-ups. The
+    process becomes politicised, further eroding confidence.
+  - "Successful negotiations and treaties shift public focus to national achievements
+    abroad. Admiration rises for your leadership\u2019s global competence."
+  - Citizens accuse the government of avoiding domestic issues. Headlines proclaim
+    the strategy as escapism, intensifying political distrust.
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff0b000000f6ffffff08000000f9ffffff07000000faffffff
+  leftIndex: 0
+  rightIndex: 0

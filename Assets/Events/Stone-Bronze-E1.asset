@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Stone-Bronze-E1
+  m_EditorClassIdentifier: 
+  mIntroMessage: RESOURCE SHORTAGE - A season of scarcity descends upon the tribe,
+    testing unity as food, stone, and natural bounty dwindle.
+  mActionMessage: RESOURCE SHORTAGE - A season of scarcity descends upon the tribe,
+    testing unity as food, stone, and natural bounty dwindle.
+  mOptionMessages:
+  - "Send a hunting\u2013scouting band into distant wildlands."
+  - Perform a ritual of offering to the earth spirits.
+  - Consolidate resources by merging multiple clan stores temporarily.
+  - Attempt early bronze forging to craft better tools from scarce ores.
+  - Nomadically relocate a portion of the tribe to follow migrating herds.
+  mOutcomeMessages:
+  - "The scouting band returns carrying new stone samples, maps of fertile groves,
+    and stories of distant herds. Their discoveries ease the tribe\u2019s anxiety
+    and create fresh opportunities for settlement. The people celebrate their bravery
+    beneath torchlight."
+  - The scouts vanish into the deep wilds, never returning. Their absence casts a
+    shadow across the tribe, and parents forbid their children from wandering far
+    as fear spreads and scarcity tightens its grip.
+  - "The ritual kindles hope throughout the tribe as the shamans chant into the night.
+    Rain falls lightly the next morning, revealing fresh roots and softening the
+    soil\u2014many believe the spirits have shown mercy."
+  - Despite elaborate rites, the land remains barren. Some accuse the shamans of
+    losing their connection to the spirits, heightening tensions among clans already
+    anxious about survival.
+  - Clans place their stores together inside a great longhouse, guarded by representatives
+    from each family. The shared responsibility rekindles unity, ensuring that even
+    meagre portions stretch farther than before.
+  - Mistrust brews when a stash of dried meat goes missing. Accusations erupt, and
+    the fragile alliance fractures overnight as suspicion replaces cooperation.
+  - Through trial and error, artisans manage to smelt a small batch of crude bronze.
+    The durable tools they forge restore productivity, allowing hunters and gatherers
+    to work efficiently despite the scarcity.
+  - "The forging attempt ends in disaster\u2014molten metal spills as the pit cracks,
+    injuring workers and wasting precious ore. Fear spreads that the tribe is meddling
+    with forces they don\u2019t yet understand."
+  - The migrating group establishes temporary camps and returns with cured meats
+    and hides. Their success reduces local strain and inspires stories of promising
+    distant valleys.
+  - Harsh weather and failed hunts devastate the migrating group. Only a few return,
+    wounded and shaken, warning that wandering too far may doom the tribe.
+  mOutcomeValues: 0a000000f7ffffff08000000f9ffffff09000000f8ffffff0b000000f6ffffff07000000faffffff
+  leftIndex: 0
+  rightIndex: 0
