@@ -1717,11 +1717,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   folderName: Eras
   eraObjs:
+  - {fileID: 11400000, guid: 11755b6c0d7ec0a4cb8925deb82dafd7, type: 2}
   - {fileID: 11400000, guid: 17bb3c3e7f0d02641bc2e989a80d2103, type: 2}
   - {fileID: 11400000, guid: 059c5f8c82717354eb0a3ddee4a84157, type: 2}
   - {fileID: 11400000, guid: e27bef56a5893884ebba19e8d74c1602, type: 2}
   - {fileID: 11400000, guid: 97644e78a14d17441b13bb62c36e5e97, type: 2}
-  - {fileID: 11400000, guid: 11755b6c0d7ec0a4cb8925deb82dafd7, type: 2}
 --- !u!4 &534110278
 Transform:
   m_ObjectHideFlags: 0
