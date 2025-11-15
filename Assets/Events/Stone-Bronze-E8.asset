@@ -22,11 +22,11 @@ MonoBehaviour:
     close to erupting.
   mProcessedActionMessage: 
   mOptionMessages:
-  - Host a mediation circle where clan leaders speak openly.
-  - Propose a labour-sharing project requiring clans to work together.
-  - Host a symbolic offering ceremony to appease ancestral spirits.
-  - Assign neutral elders to judge disputes impartially.
-  - Encourage a feast where clans share food and stories.
+  - Host a mediation circle where clan leaders speak openly. <CityName>
+  - Propose a labour-sharing project requiring clans to work together. <CityName>
+  - Host a symbolic offering ceremony to appease ancestral spirits. <CityName>
+  - Assign neutral elders to judge disputes impartially. <CityName>
+  - Encourage a feast where clans share food and stories. <CityName>
   mOutcomeMessages:
   - Leaders gather around the central fire, voicing frustrations and misunderstandings.
     Through patient dialogue, they rediscover shared goals and agree to renewed cooperation.

@@ -21,11 +21,11 @@ MonoBehaviour:
     customs threatened to fracture the unity of <CityName>.
   mProcessedActionMessage: 
   mOptionMessages:
-  - Hold a Great Fire Gathering where all clans voice their beliefs.
-  - "Ask the shamans to conduct a spirit\u2011walk seeking ancestral guidance."
-  - Permit each clan to freely embrace its customs without interference.
-  - Conduct a symbolic hunt requiring warriors from all clans to cooperate.
-  - "Allow the youth of all clans to form a cross\u2011clan learning circle."
+  - Hold a Great Fire Gathering where all clans voice their beliefs. <CityName>
+  - "Ask the shamans to conduct a spirit\u2011walk seeking ancestral guidance. <CityName>"
+  - Permit each clan to freely embrace its customs without interference. <CityName>
+  - Conduct a symbolic hunt requiring warriors from all clans to cooperate. <CityName>
+  - "Allow the youth of all clans to form a cross\u2011clan learning circle. <CityName>"
   mOutcomeMessages:
   - At the Great Fire Gathering, each clan shares its stories and sacred songs. Differences
     soften as the tribe recognises the shared roots beneath their customs. Warmth

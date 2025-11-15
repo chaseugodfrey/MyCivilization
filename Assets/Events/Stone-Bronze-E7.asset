@@ -21,11 +21,11 @@ MonoBehaviour:
     grounds, threatening the city's food supply.
   mProcessedActionMessage: 
   mOptionMessages:
-  - Send a small peace-bearing delegation carrying symbolic gifts.
-  - Prepare a ceremonial hunt to demonstrate strength without hostility.
-  - Have shamans mediate through shared spiritual rites with rival shamans.
-  - Strengthen border patrols to discourage encroachment.
-  - Invite the rival tribe to a shared competition of skill and endurance.
+  - Send a small peace-bearing delegation carrying symbolic gifts. <CityName>
+  - Prepare a ceremonial hunt to demonstrate strength without hostility. <CityName>
+  - Have shamans mediate through shared spiritual rites with rival shamans. <CityName>
+  - Strengthen border patrols to discourage encroachment. <CityName>
+  - Invite the rival tribe to a shared competition of skill and endurance. <CityName>
   mOutcomeMessages:
   - The neighbouring tribe accepts the offerings graciously. Shared meals and exchanged
     stories cool tempers, laying the groundwork for future cooperation.

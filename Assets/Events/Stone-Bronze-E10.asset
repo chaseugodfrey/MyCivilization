@@ -21,11 +21,11 @@ MonoBehaviour:
     forcing its leaders to weigh tradition, survival, compassion, and long-term consequences.
   mProcessedActionMessage: 
   mOptionMessages:
-  - Grant sanctuary to an injured outsider found near the village.
-  - Refuse help to outsiders and strengthen borders to protect your own.
-  - Ask the clans to vote collectively on the morally ambiguous issue.
-  - Consult ancestral rites to determine the morally correct action.
-  - Choose a pragmatic solution even if it challenges tradition.
+  - Grant sanctuary to an injured outsider found near the village. <CityName>
+  - Refuse help to outsiders and strengthen borders to protect your own. <CityName>
+  - Ask the clans to vote collectively on the morally ambiguous issue. <CityName>
+  - Consult ancestral rites to determine the morally correct action. <CityName>
+  - Choose a pragmatic solution even if it challenges tradition. <CityName>
   mOutcomeMessages:
   - The outsider recovers and proves to be skilled in crafting and gathering. Grateful
     for your compassion, they share knowledge that benefits the entire tribe and

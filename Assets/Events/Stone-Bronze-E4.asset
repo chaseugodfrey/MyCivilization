@@ -22,11 +22,13 @@ MonoBehaviour:
     its direction.
   mProcessedActionMessage: 
   mOptionMessages:
-  - Organise a Trial of Strength and Wisdom to select the rightful leader.
-  - Ask the shamans to interpret omens to determine who the spirits favour.
-  - Form a temporary Council of Clans to share leadership.
+  - Organise a Trial of Strength and Wisdom to select the rightful leader. <CityName>
+  - Ask the shamans to interpret omens to determine who the spirits favour. <CityName>
+  - Form a temporary Council of Clans to share leadership. <CityName>
   - Host a Storytelling Night where elders recount past crises and wise leaders.
+    <CityName>
   - Allow the younger generation to select a representative to voice their concerns.
+    <CityName>
   mOutcomeMessages:
   - The trial unites the tribe as warriors and elders witness a fair contest. The
     victor earns universal respect, restoring confidence and providing the tribe
