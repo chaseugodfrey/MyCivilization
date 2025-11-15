@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176c0d6ad2971cf4ea282d69921dd85b, type: 3}
+  m_Name: NarrationData
+  m_EditorClassIdentifier: 
+  optionPrefixes:
+  - 'To address the challenge, <CityName>''s leadership '
+  - 'In response to the worsening situation, the council '
+  - 'To stabilise matters, the citizens decided to '
+  - 'To protect the prosperity of <CityName>, its people '
+  - 'Seeking a swift remedy, the leaders '
+  - 'Under mounting pressure, the ruling council '
+  - 'To stop the issue before it worsened, the populace '
+  - 'To prevent future complications, the city elders '
+  - 'Driven by necessity, the inhabitants of <CityName> '
+  - 'To ensure long-term stability, the leaders of <CityName> '
+  - 'With limited resources remaining, the community '
+  - 'To mitigate the immediate risks, <CityName> '
+  - 'Facing uncertainty, the people of <CityName> '
