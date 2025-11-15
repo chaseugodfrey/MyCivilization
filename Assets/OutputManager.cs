@@ -34,7 +34,7 @@ public class OutputManager : MonoBehaviour
     public void UpdateFinalOutputTextUI()
     {
         if (outputTexts != null && outputTexts.Count > 0)
-            text_finalOutput.text = string.Join("\n", outputTexts);
+            text_finalOutput.text = string.Join("\n",outputTexts);
         else
             text_finalOutput.text = "";
 
