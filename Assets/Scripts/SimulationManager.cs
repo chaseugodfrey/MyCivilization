@@ -225,21 +225,34 @@ public class SimulationManager : MonoBehaviour
         mainField.SetActive(false);
         DisplayEraTitle(true);
         // Debug.LogWarning(cityManager.ActiveCity.Name + "is THISSS");
+        string eraName = currentEra.GetEraName();
         string eraDescription = currentEra.GetEraDescription();
-        text_eraDescription.text = eraDescription;
+        if (newEra)
+        {
+            DisplayEraDescription(true);
+            text_eraTitle.text = eraName + " Era's 1st Event";
+        }
+        else
+        {
+            text_eraTitle.text = eraName + " Era's 2nd Event";
+            DisplayEraDescription(false);
+        }
+            text_eraDescription.text = eraDescription;
         //Debug.LogWarning(cityManager.ActiveCity.Name + "is THISSS2");
         //DisplayEraDescription(true);
         nextButton.SetActive(true);
         //Invoke(nameof(DisappearingTitle), 1);
-        if (!newEra)
-        {
-            string eraPartTwo = eraDescription;
-        }
+        
         if (eventCounter == 0)
         {
             outputManager.AddOutputMessage("[" + currentEra.GetEraName() +" Era" + "]");
             outputManager.AddOutputMessage(currentEra.GetEraDescription() + "\n" + "\n");
-}
+            outputManager.AddOutputMessage("First Event: ");
+        }
+        else
+        {
+            outputManager.AddOutputMessage("Second Event: ");
+        }
 
     }
     void DisappearingTitle()
