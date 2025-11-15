@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Stone-Bronze-E7
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> begins as a small community surviving through simple
-    tools, shared labour, and ancestral guidance. Basic farming, early metalwork,
-    and cautious exploration support daily life, but resources remain limited. Every
-    choice shapes whether <CityName> grows into a stable settlement or struggles
-    against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: A neighbouring tribe has begun enroaching on <CityName>'s hunting
+  mIntroMessage: <CityName> began as a small community surviving through simple tools,
+    shared labour, and ancestral guidance. Basic farming, early metalwork, and cautious
+    exploration support daily life, but resources remained limited. Every choice
+    shaped whether <CityName> could grow into a stable settlement or struggled against
+    scarcity, conflict, and the uncertainties of early development.
+  mActionMessage: A neighbouring tribe had begun enroaching on <CityName>'s hunting
     grounds, threatening the city's food supply.
   mProcessedActionMessage: 
   mOptionMessages:

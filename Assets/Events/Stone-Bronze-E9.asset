@@ -12,13 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Stone-Bronze-E9
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> begins as a small community surviving through simple
-    tools, shared labour, and ancestral guidance. Basic farming, early metalwork,
-    and cautious exploration support daily life, but resources remain limited. Every
-    choice shapes whether <CityName> grows into a stable settlement or struggles
-    against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: An unfamiliar sickness spreads throughout <CityName>, weakening
-    hunters, worrying healers, and threatening to wipe out the settlement.
+  mIntroMessage: <CityName> began as a small community surviving through simple tools,
+    shared labour, and ancestral guidance. Basic farming, early metalwork, and cautious
+    exploration support daily life, but resources remained limited. Every choice
+    shaped whether <CityName> could grow into a stable settlement or struggled against
+    scarcity, conflict, and the uncertainties of early development.
+  mActionMessage: An unfamiliar sickness spread throughout <CityName>, killing many
+    able people, which threatened to wipe out the settlement.
   mProcessedActionMessage: 
   mOptionMessages:
   - Isolate the sick in a separate camp to prevent further spread.
