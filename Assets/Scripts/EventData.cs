@@ -7,7 +7,7 @@ public class EventData
     public string EraNarrative { get; set; }
     public string EventID { get; set; }
     public string EventNarrative { get; set; }
-    public string EventDifficulty { get; set; }
+    public string EventTag { get; set; }
     public string OptionID { get; set; }
     public string OptionText { get; set; }
     public string OptionTag { get; set; }

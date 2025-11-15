@@ -17,40 +17,48 @@ MonoBehaviour:
     exploration support daily life, but resources remained limited. Every choice
     shaped whether <CityName> could grow into a stable settlement or struggled against
     scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: ' A sudden abundance of valuable resources brought prosperity,
-    but risked pride and tension between the people of <CityName>.'
+  mActionMessage: "A call for renewed leadership arose within <CityName>, as clans
+    proposed fresh voices and new ideas for guiding the city\u2019s path. This moment
+    of transition offered hope for reform, though its success depended on unity and
+    wisdom."
   mProcessedActionMessage: 
+  mOutcomeType: Positive
   mOptionMessages:
-  - hosted a Festival of Plenty to celebrate and share the abundance.
-  - tasked artisans to craft plenty of intricate tools and ornaments from the surplus.
-  - established a trading circle with neighbouring tribes.
-  - "stored the surplus in clay\u2011lined pits and smokehouses for future use."
-  - sent settlers to explore and expand into new and promising regions.
+  - organised a Clash of Clans to select <CityName>'s rightful leader, through pure
+    strength.
+  - asked the shamans to interpret the stars to determine who the spirits favour
+    to be <CityName>'s leader.
+  - formed a temporary Council of Clans to share leadership.
+  - held a Storytelling Night where elders recounted past crises and leaders.
+  - allowed each clan to select a representative to voice their reasonings for their
+    issues with the chief.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The tribe feasts joyfully, exchanging goods and stories under torchlit skies.
-    The celebration turns prosperity into unity, leaving clans hopeful for the future.
-  - The festival grows excessive, and accusations arise that some clans contributed
-    less or took more. What should have united instead stirs envy and bitterness.
-  - "Stonecutters and carvers create works of beauty and precision. Their craftsmanship
-    elevates the tribe\u2019s identity and inspires pride across all clans."
-  - Artisans waste rare resources chasing unproven designs. Disputes erupt over ownership
-    of the items, and the boom begins to feel mismanaged.
-  - Trade brings new dyes, hides, tools, and stories into the settlement. Diplomacy
-    strengthens as your tribe becomes a valued partner in regional exchange.
-  - Rival tribes attempt to take advantage of the boom, demanding unfair trades or
-    threatening raids. Prosperity becomes a political burden.
-  - "New storage pits preserve food through harsh seasons, giving the tribe long\u2011term
-    security. For the first time, the people imagine a stable future."
-  - "Structural failures spoil a large portion of the preserved food. Shock and finger\u2011pointing
-    spread as clans question the judgement behind the storage plan."
-  - "Explorers return with tales of fertile valleys, rivers teeming with life, and
-    new stone deposits. Their discoveries broaden the tribe\u2019s vision of its
-    destiny."
-  - "The distant lands prove treacherous, and many settlers never return. The losses
-    shake the tribe\u2019s confidence and cast a shadow over the boom."
+  - The trial unites the tribe as warriors and elders witness a fair contest. The
+    victor earns universal respect, restoring confidence and providing the tribe
+    with a renewed sense of direction.
+  - The contest ends in accusations of cheating and bias. Supporters of multiple
+    contenders refuse to accept the outcome, deepening the crisis and dividing the
+    clans.
+  - The shamans speak of hawks, fireflies, and river signs that point to a chosen
+    leader. Their message resonates through the tribe, calming tensions and restoring
+    spiritual trust.
+  - "Competing shamans return with contradictory visions. Confusion spreads as clans
+    take sides, each believing a different leader carries the spirits\u2019 blessing."
+  - Representatives from every clan gather to guide the tribe together. Their shared
+    decision-making stabilises the tribe and encourages cooperation through the crisis.
+  - The council becomes paralyzed by constant disagreements. Every clan argues for
+    its interests, leaving the tribe without clear direction as frustration grows.
+  - Ancient tales remind the tribe of the strength found in unity. A respected elder
+    emerges as a natural leader, inspiring trust and guiding the tribe forward.
+  - The recounting of old conflicts reignites forgotten grudges. Elders argue over
+    historical truth, worsening current tensions instead of healing them.
+  - A thoughtful youth rises to speak for the young hunters and gatherers. His calm
+    words bridge generations and help redirect the tribe toward cooperation.
+  - The youth choose a brash warrior who inflames tensions. Older members see the
+    choice as reckless, igniting disagreements between age groups.
   mProcessedOutcomeMessages: []
-  mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
+  mOutcomeValues: 0b000000f6ffffff09000000f8ffffff08000000f9ffffff0a000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0

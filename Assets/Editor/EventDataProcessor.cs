@@ -61,6 +61,7 @@ public class EventDataProcessor
             SerializedObject soEvent = new SerializedObject(newEventSO);
             soEvent.FindProperty("mIntroMessage").stringValue = firstOption.EraNarrative;
             soEvent.FindProperty("mActionMessage").stringValue = firstOption.EventNarrative; // You can change this if needed
+            soEvent.FindProperty("mOutcomeType").stringValue = firstOption.EventTag; // Default value
 
             // Now we map the lists. Your EraEvent.GetOptionOutcome() logic expects
             // outcomes to be paired: [Pos, Neg, Pos, Neg, ...]
@@ -68,6 +69,7 @@ public class EventDataProcessor
             List<string> outcomeMessages = new List<string>();
             List<int> outcomeValues = new List<int>();
             List<int> stableValues = new List<int>();
+            List<string> outcomeType = new List<string>();
 
             foreach (EventData option in options)
             {
@@ -260,7 +262,7 @@ public class EventDataProcessor
                 option.EraNarrative = values[1];
                 option.EventID = values[2];
                 option.EventNarrative = values[3];
-                option.EventDifficulty = values[4];
+                option.EventTag = values[4];
                 option.OptionID = values[5];
                 option.OptionText = values[6];
                 option.OptionTag = values[7];

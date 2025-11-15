@@ -167,8 +167,8 @@ public class SimulationManager : MonoBehaviour
         outputManager.AddOutputMessage("\n" + eventIntro + currentEvent.GetActionMessage());
 
         Tuple<string, string> leagueOfLegends = currentEvent.GetOptionsText();
-        text_optionA.text = narrationData.GetRandomOptionPrefix(OutcomeType.Positive) + leagueOfLegends.Item1;
-        text_optionB.text = narrationData.GetRandomOptionPrefix(OutcomeType.Positive) + leagueOfLegends.Item2;
+        text_optionA.text = narrationData.GetRandomOptionPrefix(currentEvent.GetEventTag()) + leagueOfLegends.Item1;
+        text_optionB.text = narrationData.GetRandomOptionPrefix(currentEvent.GetEventTag()) + leagueOfLegends.Item2;
 
         //Debug.Log("ALOY OVER EHRE" + text_optionA.text);
 

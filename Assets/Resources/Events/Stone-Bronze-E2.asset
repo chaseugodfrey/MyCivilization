@@ -17,44 +17,43 @@ MonoBehaviour:
     exploration support daily life, but resources remained limited. Every choice
     shaped whether <CityName> could grow into a stable settlement or struggled against
     scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: Disagreements between clans over traditions, rituals, and ancestral
-    customs threatened to fracture the unity of <CityName>.
+  mActionMessage: "A sudden abundance of valuable resources uplifted <CityName>,
+    opening doors to prosperity and shared opportunity. Yet with newfound wealth
+    came choices about stewardship, equality, and how the bounty should shape the
+    city\u2019s future."
   mProcessedActionMessage: 
+  mOutcomeType: Positive
   mOptionMessages:
-  - 'held a Great Fire Gathering where all the clans of <CityName> voiced their beliefs. '
-  - "asked the shamans to conduct a spirit\u2011walk, seeking guidance from the all-fathers
-    of <CityName>."
-  - permitted each clan to freely embrace its customs without interference.
-  - conducted a symbolic hunt requiring warriors from all clans to cooperate, in
-    an effort to re-unite the clans.
-  - "gave the youth of the different clans to form a cross\u2011clan learning circle."
+  - hosted a Festival of Plenty to celebrate and share the abundance.
+  - tasked artisans to craft plenty of intricate tools and ornaments from the surplus.
+  - established a trading circle with neighbouring tribes.
+  - "stored the surplus in clay\u2011lined pits and smokehouses for future use."
+  - sent settlers to explore and expand into new and promising regions.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - At the Great Fire Gathering, each clan shares its stories and sacred songs. Differences
-    soften as the tribe recognises the shared roots beneath their customs. Warmth
-    replaces tension.
-  - "The gathering erupts into shouting as long\u2011held grudges surface. Clans
-    storm away from the fire, and the unity meant to be restored fractures even deeper."
-  - The shamans return with visions of clan totems walking side by side. Their message
-    of harmony reassures the people, restoring faith that the ancestors favour unity
-    over discord.
-  - The shamans deliver conflicting visions, each claiming a different clan is favoured.
-    Suspicion spreads rapidly, and spiritual uncertainty deepens the divide.
-  - Allowed to express their identity openly, clans celebrate their songs, carvings,
-    and rites. Curiosity replaces jealousy as traditions flourish peacefully in parallel.
-  - The clans drift further apart, their symbols and customs becoming walls rather
-    than bridges. Soon, families refuse to share hunts or communal meals.
-  - The unified hunting band triumphs, returning with abundant game. The shared victory
-    becomes a legend retold around fires, renewing trust among rival clans.
-  - "The hunt ends in chaos as miscommunication causes injury and lost prey. The
-    failure becomes a symbol of the tribe\u2019s fractured spirit."
-  - "Young hunters and gatherers learn each other\u2019s skills, forming friendships
-    that cut across clan boundaries. Their unity inspires cautious optimism among
-    the elders."
-  - Elders interpret the circle as a threat to tradition and forbid participation.
-    The youth grow resentful, widening the generational rift.
+  - The tribe feasts joyfully, exchanging goods and stories under torchlit skies.
+    The celebration turns prosperity into unity, leaving clans hopeful for the future.
+  - The festival grows excessive, and accusations arise that some clans contributed
+    less or took more. What should have united instead stirs envy and bitterness.
+  - "Stonecutters and carvers create works of beauty and precision. Their craftsmanship
+    elevates the tribe\u2019s identity and inspires pride across all clans."
+  - Artisans waste rare resources chasing unproven designs. Disputes erupt over ownership
+    of the items, and the boom begins to feel mismanaged.
+  - Trade brings new dyes, hides, tools, and stories into the settlement. Diplomacy
+    strengthens as your tribe becomes a valued partner in regional exchange.
+  - Rival tribes attempt to take advantage of the boom, demanding unfair trades or
+    threatening raids. Prosperity becomes a political burden.
+  - "New storage pits preserve food through harsh seasons, giving the tribe long\u2011term
+    security. For the first time, the people imagine a stable future."
+  - "Structural failures spoil a large portion of the preserved food. Shock and finger\u2011pointing
+    spread as clans question the judgement behind the storage plan."
+  - "Explorers return with tales of fertile valleys, rivers teeming with life, and
+    new stone deposits. Their discoveries broaden the tribe\u2019s vision of its
+    destiny."
+  - "The distant lands prove treacherous, and many settlers never return. The losses
+    shake the tribe\u2019s confidence and cast a shadow over the boom."
   mProcessedOutcomeMessages: []
-  mOutcomeValues: 09000000f8ffffff0a000000f7ffffff08000000f9ffffff0b000000f6ffffff07000000faffffff
+  mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0

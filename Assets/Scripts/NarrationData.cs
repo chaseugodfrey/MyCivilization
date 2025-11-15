@@ -56,24 +56,22 @@ public class NarrationData : ScriptableObject
 
     public string cityName;
 
-    public string GetRandomOptionPrefix(OutcomeType outcome) 
+    public string GetRandomOptionPrefix(string outcome) 
     {
         if (positiveOptionPrefixes == null || positiveOptionPrefixes.Count == 0)
             return "";
         if (negativeOptionPrefixes == null || negativeOptionPrefixes.Count == 0)
             return "";
-
-
-        switch(outcome)
+        
+        if(outcome == "Positive")
         {
-            case OutcomeType.Positive:
-                return GetProcessedPrefix(positiveOptionPrefixes);
-            case OutcomeType.Negative:
-                return GetProcessedPrefix(negativeOptionPrefixes);
-            default:
-                return "";
+            return GetProcessedPrefix(positiveOptionPrefixes);
         }
-
+        else if(outcome == "Negative")
+        {
+            return GetProcessedPrefix(negativeOptionPrefixes);
+        }
+        return "FAIL:URE";
     }
 
     public string GetProcessedPrefix(List<string> prefixes)

@@ -17,6 +17,7 @@ public class EraEvent : ScriptableObject
     [SerializeField] string mIntroMessage;
     [SerializeField] string mActionMessage;    
     [SerializeField] string mProcessedActionMessage;    
+    [SerializeField] string mOutcomeType;
 
     [SerializeField]public List<string> mOptionMessages;
     [SerializeField]public List<string> mProcessedOptionMessages;
@@ -28,7 +29,6 @@ public class EraEvent : ScriptableObject
     public int leftIndex;
     public int rightIndex;
     public int rolledOutcome;
-    private OutcomeType outcomeType;
 
     public string GetEraDescription()
     {
@@ -86,6 +86,11 @@ public class EraEvent : ScriptableObject
         Debug.Log("Index Option: " + index);
         Debug.Log("Rolled Outcome: " + roll);
         return new Tuple<string, int>(mProcessedOutcomeMessages[roll], mOutcomeValues[roll]);
+    }
+
+    public string GetEventTag()
+    {
+        return mOutcomeType;
     }
 
     public void SetCityNameForEverything(string cityName)
