@@ -75,8 +75,8 @@ public class EraEvent : ScriptableObject
     {
         int roll = UnityEngine.Random.Range(index * 2, index * 2 + 2);
         rolledOutcome = roll;
-        Debug.LogWarning("Index Option: " + index);
-        Debug.LogWarning("Rolled Outcome: " + roll);
+        Debug.Log("Index Option: " + index);
+        Debug.Log("Rolled Outcome: " + roll);
         return new Tuple<string, int>(mProcessedOutcomeMessages[roll], mOutcomeValues[roll]);
     }
 

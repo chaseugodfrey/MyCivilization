@@ -110,8 +110,7 @@ public class SimulationManager : MonoBehaviour
     public void CityNamed()
     {
         cityNamed = true;
-        cityManager.ActiveCity.Name = nameCity.GetComponentInChildren<TMP_InputField>().text;
-        Debug.LogWarning("This is happening too late?");
+        cityManager.ActiveCity.Name = nameCity.GetComponentInChildren<TMP_InputField>().text;        
         SetManagerCityName(cityManager.ActiveCity.Name);
         nameCity.SetActive(false);
         newEra = true;
@@ -220,7 +219,6 @@ public class SimulationManager : MonoBehaviour
         text_end.text = "The End";
         DisplayScreenEnd(true);
         DisplayButtonNext(false);
-        outputManager.CreateOutputFile();
     }
 
     void DisplayTitle()
