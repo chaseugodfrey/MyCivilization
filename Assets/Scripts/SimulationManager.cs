@@ -72,7 +72,7 @@ public class SimulationManager : MonoBehaviour
         ClearUIText();
 
         currentEra = eraManager.GetEraObj(eraCounter);
-        currentEvent = currentEra.GetRandomEvent();
+        currentEvent = currentEra.GetRandomEvent(cityManager.ActiveCity.mProsperity);
 
         string eraName = currentEra.GetEraName();
         Debug.Log("Era Name:" + eraName);

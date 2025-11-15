@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using System.Collections.Generic;
+using Unity.Properties;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Era", menuName = "Scriptable Objects/Era")]
@@ -31,23 +32,26 @@ public class Era : ScriptableObject
         return mEraEvents;
     }
 
-    public EraEvent GetRandomEvent()
+    public EraEvent GetRandomEvent(int prosperity)
     {
-        // to do : reroll if event has been played
         int roll;
-        if(mCurrentEventIndex == -1)
+
+        if (mCurrentEventIndex == -1)
         {
-            roll = Random.Range(0, mEraEvents.Count);
+            roll = RandomManager.GetWeightedIndex(mEraEvents.Count, prosperity);
             mCurrentEventIndex = roll;
         }
         else
         {
             do
             {
-                roll = UnityEngine.Random.Range(0, mEraEvents.Count);
+                roll = RandomManager.GetWeightedIndex(mEraEvents.Count, prosperity);
             } while (roll == mCurrentEventIndex);
+
+            mCurrentEventIndex = roll;
         }
 
+        Debug.Log($"Selected event index: {roll} with prosperity: {prosperity}");
         return mEraEvents[roll];
     }
 }
