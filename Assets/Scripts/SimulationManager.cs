@@ -87,13 +87,9 @@ public class SimulationManager : MonoBehaviour
         actionQueue.Enqueue(EventCount);
         actionQueue.Enqueue(LoadEraData);
 
-        if (cityNamed)
+        if (!cityNamed)
         {
             //Advance();
-        }
-        
-        else
-        {
             NameCity();
         }
 
@@ -145,6 +141,10 @@ public class SimulationManager : MonoBehaviour
             eventCounter = 0;
             ++eraCounter;
             newEra = true;
+        }
+        if(eventCounter != 0)
+        {
+            newEra = false;
         }
         DisplayMainField(false);
         DisplayEraTitle(true);
@@ -221,24 +221,38 @@ public class SimulationManager : MonoBehaviour
     void DisplayTitle()
     {
         Debug.Log("Display Title");
+        //newEra = false;
+        mainField.SetActive(false);
+        DisplayEraTitle(true);
+        // Debug.LogWarning(cityManager.ActiveCity.Name + "is THISSS");
+        string eraName = currentEra.GetEraName();
+        string eraDescription = currentEra.GetEraDescription();
         if (newEra)
         {
-            //newEra = false;
-            mainField.SetActive(false);
-            DisplayEraTitle(true);
-            Debug.LogWarning(cityManager.ActiveCity.Name + "is THISSS");
-            string eraDescription = currentEra.GetEraDescription();
-            text_eraDescription.text = eraDescription;
-            Debug.LogWarning(cityManager.ActiveCity.Name + "is THISSS2");
-            //DisplayEraDescription(true);
-            nextButton.SetActive(true);
-           //Invoke(nameof(DisappearingTitle), 1);
+            DisplayEraDescription(true);
+            text_eraTitle.text = eraName + " Era's 1st Event";
         }
+        else
+        {
+            text_eraTitle.text = eraName + " Era's 2nd Event";
+            DisplayEraDescription(false);
+        }
+            text_eraDescription.text = eraDescription;
+        //Debug.LogWarning(cityManager.ActiveCity.Name + "is THISSS2");
+        //DisplayEraDescription(true);
+        nextButton.SetActive(true);
+        //Invoke(nameof(DisappearingTitle), 1);
+        
         if (eventCounter == 0)
         {
             outputManager.AddOutputMessage("[" + currentEra.GetEraName() +" Era" + "]");
             outputManager.AddOutputMessage(currentEra.GetEraDescription() + "\n" + "\n");
-}
+            outputManager.AddOutputMessage("First Event: ");
+        }
+        else
+        {
+            outputManager.AddOutputMessage("Second Event: ");
+        }
 
     }
     void DisappearingTitle()
