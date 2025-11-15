@@ -18,8 +18,8 @@ MonoBehaviour:
     risen, but so had rivalries and debates over authority. How <CityName> balanced
     ambition and stability ultimately determined its path through this transformative
     age.
-  mActionMessage: Earthquakes, fires, droughts, or floods strike your civilisation,
-    testing its infrastructure and unity.
+  mActionMessage: Floods strike your civilisation, testing its infrastructure and
+    unity.
   mProcessedActionMessage: 
   mOptionMessages:
   - Mobilise engineers to reinforce walls, aqueducts, and public structures.

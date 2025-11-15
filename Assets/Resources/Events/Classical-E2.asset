@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Classical-E2
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> strengthens into an organised society with structured
-    laws, wider trade, and growing intellectual life. Roads and alliances expand
-    its reach, while diplomacy and conflict reshape its borders. Prosperity rises,
-    but so do rivalries and debates over authority. How <CityName> balances ambition
-    and stability determines its path through this transformative age.
-  mActionMessage: "CULTURAL SCHISM \u2014 Philosophers, generals, priests, and merchants
-    clash over values and the direction of the state. Ideological divides threaten
-    the harmony of the republic or kingdom."
+  mIntroMessage: <CityName> had strengthened into an organised society with structured
+    laws, wider trade, and a growing intellectual life. Roads and alliances had expanded
+    its reach, while diplomacy and conflict reshaped its borders. Prosperity had
+    risen, but so had rivalries and debates over authority. How <CityName> balanced
+    ambition and stability ultimately determined its path through this transformative
+    age.
+  mActionMessage: Philosophers, generals, priests, and merchants clash over values
+    and the direction of the state. Ideological divides threaten the harmony of the
+    republic.
   mProcessedActionMessage: 
   mOptionMessages:
   - Host a public forum where citizens debate openly under magistrate supervision.

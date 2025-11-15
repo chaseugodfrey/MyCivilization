@@ -17,8 +17,8 @@ MonoBehaviour:
     new frontiers, but resources stretched thin and political interests diverged
     across worlds. Each decision carried amplified consequences, shaping whether
     <CityName> thrived among the stars or fractured under interplanetary pressures.
-  mActionMessage: "FOREIGN RELATIONS INCIDENT \u2014 A diplomatic crisis erupts involving
-    a newly contacted alien species or a dispute between independent human colonies."
+  mActionMessage: A diplomatic crisis erupts involving a newly contacted alien species
+    or a dispute between independent human colonies.
   mProcessedActionMessage: 
   mOptionMessages:
   - Send a multilingual diplomatic envoy including AI translators.

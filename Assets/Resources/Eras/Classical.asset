@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: Classical
   m_EditorClassIdentifier: 
   mEraName: Classical
-  mEraDescription: <CityName> strengthens into an organised society with structured
-    laws, wider trade, and growing intellectual life. Roads and alliances expand
-    its reach, while diplomacy and conflict reshape its borders. Prosperity rises,
-    but so do rivalries and debates over authority. How <CityName> balances ambition
-    and stability determines its path through this transformative age.
+  mEraDescription: <CityName> had strengthened into an organised society with structured
+    laws, wider trade, and a growing intellectual life. Roads and alliances had expanded
+    its reach, while diplomacy and conflict reshaped its borders. Prosperity had
+    risen, but so had rivalries and debates over authority. How <CityName> balanced
+    ambition and stability ultimately determined its path through this transformative
+    age.
   mProcessedEraDescription: 
   mEraEvents:
   - {fileID: 11400000, guid: 0628a0d2564d7b140862c6770b21fbda, type: 2}

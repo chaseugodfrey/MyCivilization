@@ -17,8 +17,8 @@ MonoBehaviour:
     exploration support daily life, but resources remained limited. Every choice
     shaped whether <CityName> could grow into a stable settlement or struggled against
     scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: ' A sudden abundance of valuable resources brought prosperity,
-    but risked pride and tension between the people of <CityName>.'
+  mActionMessage: A sudden abundance of valuable resources brought prosperity, but
+    risked pride and tension between the people of <CityName>.
   mProcessedActionMessage: 
   mOptionMessages:
   - hosted a Festival of Plenty to celebrate and share the abundance.

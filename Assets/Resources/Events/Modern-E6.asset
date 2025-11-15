@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Modern-E6
   m_EditorClassIdentifier: 
-  mIntroMessage: Industrial change reshapes <CityName> with new technologies, expanding
-    factories, and rapid population growth. Political movements challenge old systems,
-    while global trade raises both opportunity and risk. Innovation accelerates faster
-    than society adapts, and <CityName> must balance progress with stability as it
-    confronts competition, unrest, and evolving expectations from its citizens.
-  mActionMessage: "NATURAL DISASTER \u2014 A hurricane, wildfire, earthquake, chemical
-    spill, or heatwave devastates regions of the nation. Emergency services strain
-    to respond while the public watches anxiously."
+  mIntroMessage: Industrial change reshaped <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenged old systems,
+    while global trade raised both opportunity and risk. Innovation accelerated faster
+    than society adapted, and <CityName> had to balance progress with stability as
+    it confronted competition, unrest, and evolving expectations from its citizens.
+  mActionMessage: A hurricane, wildfire, earthquake, chemical spill, or heatwave
+    devastates regions of the nation. Emergency services strain to respond while
+    the public watches anxiously.
   mProcessedActionMessage: 
   mOptionMessages:
   - Deploy national guard units and emergency rescue teams to affected areas.

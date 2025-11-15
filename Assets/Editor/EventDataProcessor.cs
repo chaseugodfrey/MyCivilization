@@ -9,8 +9,8 @@ using System.Linq; // Used for GroupBy
 public class EventDataProcessor
 {
     // These paths MUST match your project's folder structure
-    private const string ERAS_SAVE_PATH = "Assets/Eras";
-    private const string EVENTS_SAVE_PATH = "Assets/Events";
+    private const string ERAS_SAVE_PATH = "Assets/Resources/Eras";
+    private const string EVENTS_SAVE_PATH = "Assets/Resources/Events";
 
     // This is the file to read from
     private const string CSV_FILE_NAME = "DetailedEraEvents.csv";

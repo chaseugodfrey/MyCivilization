@@ -17,8 +17,8 @@ MonoBehaviour:
     new frontiers, but resources stretched thin and political interests diverged
     across worlds. Each decision carried amplified consequences, shaping whether
     <CityName> thrived among the stars or fractured under interplanetary pressures.
-  mActionMessage: "DISEASE OUTBREAK \u2014 A mutated alien microbe or synthetic pathogen
-    escapes containment, threatening multiple worlds."
+  mActionMessage: A mutated alien microbe or synthetic pathogen escapes containment,
+    threatening multiple worlds.
   mProcessedActionMessage: 
   mOptionMessages:
   - Seal infected worlds with orbital quarantine rings.

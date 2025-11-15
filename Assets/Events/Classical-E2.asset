@@ -20,7 +20,7 @@ MonoBehaviour:
     age.
   mActionMessage: Philosophers, generals, priests, and merchants clash over values
     and the direction of the state. Ideological divides threaten the harmony of the
-    republic or kingdom.
+    republic.
   mProcessedActionMessage: 
   mOptionMessages:
   - Host a public forum where citizens debate openly under magistrate supervision.

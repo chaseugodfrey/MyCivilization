@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Classical-E1
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> strengthens into an organised society with structured
-    laws, wider trade, and growing intellectual life. Roads and alliances expand
-    its reach, while diplomacy and conflict reshape its borders. Prosperity rises,
-    but so do rivalries and debates over authority. How <CityName> balances ambition
-    and stability determines its path through this transformative age.
-  mActionMessage: RESOURCE SHORTAGE - Despite the splendour of the Classical age,
-    scarcity threatens civilisation as drought, failing mines, or disrupted trade
-    routes strain supplies and test public confidence.
+  mIntroMessage: <CityName> had strengthened into an organised society with structured
+    laws, wider trade, and a growing intellectual life. Roads and alliances had expanded
+    its reach, while diplomacy and conflict reshaped its borders. Prosperity had
+    risen, but so had rivalries and debates over authority. How <CityName> balanced
+    ambition and stability ultimately determined its path through this transformative
+    age.
+  mActionMessage: Despite the splendour of the Classical age, scarcity threatened
+    civilisation as drought, failing mines.
   mProcessedActionMessage: 
   mOptionMessages:
   - Redirect state labour to restore farmlands and irrigation canals.

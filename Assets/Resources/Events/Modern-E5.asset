@@ -12,14 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Modern-E5
   m_EditorClassIdentifier: 
-  mIntroMessage: Industrial change reshapes <CityName> with new technologies, expanding
-    factories, and rapid population growth. Political movements challenge old systems,
-    while global trade raises both opportunity and risk. Innovation accelerates faster
-    than society adapts, and <CityName> must balance progress with stability as it
-    confronts competition, unrest, and evolving expectations from its citizens.
-  mActionMessage: "TECHNOLOGICAL BREAKTHROUGH \u2014 A revolutionary discovery in
-    AI, biotechnology, quantum computing, energy, or engineering emerges. The world
-    watches to see how it will be used."
+  mIntroMessage: Industrial change reshaped <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenged old systems,
+    while global trade raised both opportunity and risk. Innovation accelerated faster
+    than society adapted, and <CityName> had to balance progress with stability as
+    it confronted competition, unrest, and evolving expectations from its citizens.
+  mActionMessage: A revolutionary discovery in AI, biotechnology, quantum computing,
+    energy, or engineering emerges. The world watches to see how it will be used.
   mProcessedActionMessage: 
   mOptionMessages:
   - Publish the breakthrough openly to accelerate global scientific collaboration.

@@ -17,9 +17,8 @@ MonoBehaviour:
     new frontiers, but resources stretched thin and political interests diverged
     across worlds. Each decision carried amplified consequences, shaping whether
     <CityName> thrived among the stars or fractured under interplanetary pressures.
-  mActionMessage: "MORAL DILEMMA \u2014 A sentient AI whistleblower, alien refugee
-    crisis, or controversial scientific revelation forces humanity to confront its
-    ethical foundations."
+  mActionMessage: A sentient AI whistleblower, alien refugee crisis, or controversial
+    scientific revelation forces humanity to confront its ethical foundations.
   mProcessedActionMessage: 
   mOptionMessages:
   - Hold an interstellar tribunal with representatives from all species and AI groups.

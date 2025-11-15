@@ -18,8 +18,8 @@ MonoBehaviour:
     risen, but so had rivalries and debates over authority. How <CityName> balanced
     ambition and stability ultimately determined its path through this transformative
     age.
-  mActionMessage: A surge in trade, production, or discovery brings sudden wealth.
-    Prosperity elevates the state but may also fuel extravagance or internal competition.
+  mActionMessage: Discovery brings sudden wealth. Prosperity elevates the state but
+    may also fuel extravagance.
   mProcessedActionMessage: 
   mOptionMessages:
   - Host a grand festival celebrating prosperity and civic achievement.

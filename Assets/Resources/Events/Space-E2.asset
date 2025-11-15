@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Space-E2
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> extends its influence beyond Earth through orbital facilities,
-    lunar industry, and early colonies. Advanced reactors and long-range travel open
-    new frontiers, but resources stretch thin and political interests diverge across
-    worlds. Each decision carries amplified consequences, shaping whether <CityName>
-    thrives among the stars or fractures under interplanetary pressures.
-  mActionMessage: "CULTURAL SCHISM \u2014 As humanity spreads across planets, cultures
-    diverge. Colonists, Earth-born citizens, AI-driven societies, and genetically
-    modified populations clash over identity, autonomy, and the future of civilisation."
+  mIntroMessage: <CityName> extended its influence beyond Earth through orbital facilities,
+    lunar industry, and early colonies. Advanced reactors and long-range travel opened
+    new frontiers, but resources stretched thin and political interests diverged
+    across worlds. Each decision carried amplified consequences, shaping whether
+    <CityName> thrived among the stars or fractured under interplanetary pressures.
+  mActionMessage: As humanity spreads across planets, cultures diverge. Colonists,
+    Earth-born citizens, AI-driven societies, and genetically modified populations
+    clash over identity, autonomy, and the future of civilisation.
   mProcessedActionMessage: 
   mOptionMessages:
   - Host holographic cross-colony forums to encourage cultural exchange.

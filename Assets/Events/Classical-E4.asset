@@ -18,8 +18,8 @@ MonoBehaviour:
     risen, but so had rivalries and debates over authority. How <CityName> balanced
     ambition and stability ultimately determined its path through this transformative
     age.
-  mActionMessage: Senators, generals, or governors challenge central authority. Power
-    struggles threaten stability and endanger the unity of the classical state.
+  mActionMessage: Governors challenge central authority. Power struggles threaten
+    stability and endanger the unity of the classical state.
   mProcessedActionMessage: 
   mOptionMessages:
   - Call an emergency senate session to negotiate power disputes.

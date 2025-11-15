@@ -12,14 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Medieval-E9
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> enters an age of fortified walls, noble factions, and
-    powerful traditions. Faith shapes governance, merchants connect distant routes,
-    and scholars preserve knowledge. Yet feuds, famine, and shifting loyalties threaten
-    stability. Survival depends on how <CityName> navigates obligations, alliances,
+  mIntroMessage: <CityName> entered an age of fortified walls, noble factions, and
+    powerful traditions. Faith shaped governance, merchants connected distant routes,
+    and scholars preserved knowledge. Yet feuds, famine, and shifting loyalties threatened
+    stability. Survival depended on how <CityName> navigated obligations, alliances,
     and the constant pressure of conflict within and beyond its borders.
-  mActionMessage: "DISEASE OUTBREAK \u2014 A mysterious sickness spreads through
-    towns and villages. Healers, priests, and common folk struggle to understand
-    and survive the affliction."
+  mActionMessage: A mysterious sickness spreads through towns and villages. Healers,
+    priests, and common folk struggle to understand and survive the affliction.
   mProcessedActionMessage: 
   mOptionMessages:
   - Order quarantines in afflicted districts and restrict travel.

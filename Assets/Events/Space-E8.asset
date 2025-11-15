@@ -17,9 +17,8 @@ MonoBehaviour:
     new frontiers, but resources stretched thin and political interests diverged
     across worlds. Each decision carried amplified consequences, shaping whether
     <CityName> thrived among the stars or fractured under interplanetary pressures.
-  mActionMessage: "INTERNAL CONFLICT \u2014 Rising tensions between genetically\u2011modified
-    populations, baseline humans, AI citizens, and off\u2011world colonists ignite
-    civil unrest."
+  mActionMessage: "Rising tensions between genetically\u2011modified populations,
+    baseline humans, AI citizens, and off\u2011world colonists ignite civil unrest."
   mProcessedActionMessage: 
   mOptionMessages:
   - "Host interspecies and inter\u2011colony reconciliation summits."
