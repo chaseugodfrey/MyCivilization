@@ -37,11 +37,11 @@ public class SimulationManager : MonoBehaviour
     Tuple<string, int> outcomeData;
 
     [Header("Debug")]
-    public int eventCounter = 0;
-    public int eraCounter = 0;
+    private int eventCounter = 0;
+    private int eraCounter = 0;
 
-    public bool newEra = true;
-    public bool cityNamed = false;
+    private bool newEra = true;
+    private bool cityNamed = false;
     public void Advance()
     {
         if (actionQueue.Count > 0)
