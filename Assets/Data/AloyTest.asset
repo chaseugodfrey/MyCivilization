@@ -13,11 +13,27 @@ MonoBehaviour:
   m_Name: AloyTest
   m_EditorClassIdentifier: 
   positiveOptionPrefixes:
-  - POSITIVE OPTION PREFIX
-  - POSITIVE OPTION PREFIX:D
+  - 'Seeking to strengthen <CityName>, the clans '
+  - 'With hopes of a better outcome, the people '
+  - 'Guided by steady resolve, the tribes '
+  - 'Looking to preserve harmony  '
+  - 'Acting with mindful intention, '
+  - 'Determined to move forward constructively, <CityName> '
+  - 'With an eye toward long-term stability, the people '
+  - 'Seeking to maintain balance among the clans, the elders '
+  - 'Encouraged by signs of possibility, <CityName> '
+  - "Committed to safeguarding <CityName>\u2019s future, the people "
   negativeOptionPrefixes:
-  - NEGATIVE OPTION PREFIX
-  - NEGATIVE  OPTION PREFIX:D
+  - 'Burdened by rising tensions, the clans '
+  - 'Troubled by uncertainty, the people '
+  - 'Strained by difficulty, <CityName> '
+  - 'Weighed down by the hardships, the elders '
+  - 'Concerned about worsening conditions, the leaders '
+  - 'Pressed by time and necessity, the council '
+  - 'Uneasy about the future, the clans '
+  - Haunted by the risk of further decline, the elders
+  - 'Stressed by the fragility of unity, the clans '
+  - 'Worn down by repeated setbacks, the people of <CityName> '
   eventIntros:
   - 'As days passed, a new challenge emerged: '
   - 'The winds of change brought forth an unexpected turn: '
@@ -47,4 +63,4 @@ MonoBehaviour:
   - Time pressed onward, bringing new tests...
   - The people of <CityName> had little time to rest before...
   - As one chapter closed, another immediately opened...
-  cityName: j8ij
+  cityName: A
