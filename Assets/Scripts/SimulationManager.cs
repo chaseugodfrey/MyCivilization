@@ -165,13 +165,13 @@ public class SimulationManager : MonoBehaviour
         text_mainField.text = currentEvent.GetActionMessage();
 
         string eventIntro = narrationData.GetRandomEventIntro();
-        outputManager.AddOutputMessage(eventIntro + currentEvent.GetActionMessage() + "\n");
+        outputManager.AddOutputMessage("\n" + eventIntro + currentEvent.GetActionMessage());
 
         Tuple<string, string> leagueOfLegends = currentEvent.GetOptionsText();
         text_optionA.text = narrationData.GetRandomOptionPrefix() + leagueOfLegends.Item1;
         text_optionB.text = narrationData.GetRandomOptionPrefix() + leagueOfLegends.Item2;
 
-        Debug.Log("ALOY OVER EHRE" + text_optionA.text);
+        //Debug.Log("ALOY OVER EHRE" + text_optionA.text);
 
         DisplayButtonOptions(true);
         DisplayButtonNext(false);
@@ -182,12 +182,12 @@ public class SimulationManager : MonoBehaviour
 
         if (index == 0)
         {
-            outputManager.AddOutputMessage("\n" + text_optionA.text);
+            outputManager.AddOutputMessage(text_optionA.text);
             outcomeData = currentEvent.GetOptionOutcome(currentEvent.leftIndex);
         }
         else
         {
-            outputManager.AddOutputMessage("\n" + text_optionB.text);
+            outputManager.AddOutputMessage(text_optionB.text);
             outcomeData = currentEvent.GetOptionOutcome(currentEvent.rightIndex);
         }
 
@@ -208,7 +208,7 @@ public class SimulationManager : MonoBehaviour
         text_mainField.text = outcomeData.Item1;
 
         string outcomeIntro = narrationData.GetRandomOutcomeIntro();
-        outputManager.AddOutputMessage("\n" + outcomeIntro + outcomeData.Item1 + "\n");
+        outputManager.AddOutputMessage(outcomeIntro + outcomeData.Item1);
 
         ModifySlider(outcomeData.Item2);
     }
@@ -251,12 +251,12 @@ public class SimulationManager : MonoBehaviour
         {
             // First event of the era add era header with description
             outputManager.AddOutputMessage("\n[" + currentEra.GetEraName() + " Era]");
-            outputManager.AddOutputMessage(currentEra.GetEraDescription() + "\n");
+            outputManager.AddOutputMessage(currentEra.GetEraDescription());
         }
         else
         {
             // Second event add transition phrase
-            outputManager.AddOutputMessage(narrationData.GetRandomEraTransition());
+            outputManager.AddOutputMessage(narrationData.GetRandomEventTransition());
         }
 
     }
@@ -316,7 +316,7 @@ public class SimulationManager : MonoBehaviour
     void EndSimulation(bool win)
     {
         DisplayScreenEnd(true);
-        text_end.text = win ? "Win" : "Lose";
+        text_end.text = "Lose";
     }
     public void RestartSimulation()
     {

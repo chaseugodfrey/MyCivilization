@@ -39,16 +39,16 @@ public class NarrationData : ScriptableObject
         "Fate's judgment came swiftly: "
     };
     
-    [Header("Era Transition Phrases")]
+    [Header("Event Transition Phrases")]
     [Tooltip("Used between events within the same era")]
-    [SerializeField] public List<string> eraTransitions = new List<string>
+    [SerializeField] public List<string> eventTransitions = new List<string>
     {
-        "\n\nBut the trials were far from over...\n",
-        "\n\nYet another challenge awaited them...\n",
-        "\n\nScarcely had they recovered when...\n",
-        "\n\nTime pressed onward, bringing new tests...\n",
-        "\n\nThe people of <CityName> had little time to rest before...\n",
-        "\n\nAs one chapter closed, another immediately opened...\n"
+        "But the trials were far from over...",
+        "Yet another challenge awaited them...",
+        "Scarcely had they recovered when...",
+        "Time pressed onward, bringing new tests...",
+        "The people of <CityName> had little time to rest before...",
+        "As one chapter closed, another immediately opened..."
     };
 
     public string cityName;
@@ -86,13 +86,13 @@ public class NarrationData : ScriptableObject
         return processedIntro;
     }
     
-    public string GetRandomEraTransition()
+    public string GetRandomEventTransition()
     {
-        if (eraTransitions == null || eraTransitions.Count == 0)
-            return "\n\n";
+        if (eventTransitions == null || eventTransitions.Count == 0)
+            return "";
             
-        int roll = UnityEngine.Random.Range(0, eraTransitions.Count);
-        string processedTransition = eraTransitions[roll];
+        int roll = UnityEngine.Random.Range(0, eventTransitions.Count);
+        string processedTransition = eventTransitions[roll];
         processedTransition = processedTransition.Replace("<CityName>", cityName);
         return processedTransition;
     }
