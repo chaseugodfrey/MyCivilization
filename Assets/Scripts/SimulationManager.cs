@@ -87,13 +87,9 @@ public class SimulationManager : MonoBehaviour
         actionQueue.Enqueue(EventCount);
         actionQueue.Enqueue(LoadEraData);
 
-        if (cityNamed)
+        if (!cityNamed)
         {
             //Advance();
-        }
-        
-        else
-        {
             NameCity();
         }
 
@@ -145,6 +141,10 @@ public class SimulationManager : MonoBehaviour
             eventCounter = 0;
             ++eraCounter;
             newEra = true;
+        }
+        if(eventCounter != 0)
+        {
+            newEra = false;
         }
         DisplayMainField(false);
         DisplayEraTitle(true);
@@ -221,18 +221,19 @@ public class SimulationManager : MonoBehaviour
     void DisplayTitle()
     {
         Debug.Log("Display Title");
-        if (newEra)
+        //newEra = false;
+        mainField.SetActive(false);
+        DisplayEraTitle(true);
+        // Debug.LogWarning(cityManager.ActiveCity.Name + "is THISSS");
+        string eraDescription = currentEra.GetEraDescription();
+        text_eraDescription.text = eraDescription;
+        //Debug.LogWarning(cityManager.ActiveCity.Name + "is THISSS2");
+        //DisplayEraDescription(true);
+        nextButton.SetActive(true);
+        //Invoke(nameof(DisappearingTitle), 1);
+        if (!newEra)
         {
-            //newEra = false;
-            mainField.SetActive(false);
-            DisplayEraTitle(true);
-            Debug.LogWarning(cityManager.ActiveCity.Name + "is THISSS");
-            string eraDescription = currentEra.GetEraDescription();
-            text_eraDescription.text = eraDescription;
-            Debug.LogWarning(cityManager.ActiveCity.Name + "is THISSS2");
-            //DisplayEraDescription(true);
-            nextButton.SetActive(true);
-           //Invoke(nameof(DisappearingTitle), 1);
+            string eraPartTwo = eraDescription;
         }
         if (eventCounter == 0)
         {
