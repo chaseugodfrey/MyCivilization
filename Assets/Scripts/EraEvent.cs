@@ -4,6 +4,13 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+public enum OutcomeType
+{
+    Positive,
+    Negative
+}
+
 [CreateAssetMenu(fileName = "EraEvent", menuName = "Scriptable Objects/EraEvent")]
 public class EraEvent : ScriptableObject
 {
@@ -21,6 +28,7 @@ public class EraEvent : ScriptableObject
     public int leftIndex;
     public int rightIndex;
     public int rolledOutcome;
+    private OutcomeType outcomeType;
 
     public string GetEraDescription()
     {
