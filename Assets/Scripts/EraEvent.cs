@@ -80,8 +80,12 @@ public class EraEvent : ScriptableObject
         return new Tuple<string, int>(mProcessedOutcomeMessages[roll], mOutcomeValues[roll]);
     }
 
-    public void SetCityNameOptionsAndOutcome(string cityName)
+    public void SetCityNameForEverything(string cityName)
     {
+        mProcessedOptionMessages.Clear();
+        mProcessedOutcomeMessages.Clear();
+        SetActionMessage(cityName);
+
         foreach(var option in mOptionMessages)
         {
             mProcessedOptionMessages.Add(option.Replace("<CityName>", cityName));

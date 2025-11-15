@@ -5448,6 +5448,7 @@ MonoBehaviour:
   currentEra: {fileID: 0}
   currentEvent: {fileID: 0}
   cityManager: {fileID: 1332355117}
+  narrationData: {fileID: 11400000, guid: 00b5aafcf4c50644aa6022e4c0d18461, type: 2}
   eraManager: {fileID: 534110277}
   outputManager: {fileID: 1349220298}
   text_mainField: {fileID: 96799640}

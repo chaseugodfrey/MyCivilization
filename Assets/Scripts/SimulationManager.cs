@@ -3,6 +3,7 @@ using TMPro;
 using System.Collections.Generic;
 using System;
 using UnityEngine.UI;
+using Unity.VisualScripting;
 
 public class SimulationManager : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class SimulationManager : MonoBehaviour
     public Era currentEra;
     public EraEvent currentEvent;
     public CityManager cityManager;
+    public NarrationData narrationData;
 
     [Header("Draggables")]
     public EraManager eraManager;
@@ -125,42 +127,33 @@ public class SimulationManager : MonoBehaviour
         {
             foreach (var eraEvent in era.mEraEvents)
             {
-                eraEvent.SetActionMessage(cityName);
+                //eraEvent.SetActionMessage(cityName);
 
-                eraEvent.SetCityNameOptionsAndOutcome(cityName);
+                eraEvent.SetCityNameForEverything(cityName);
             }
             era.SetEraDescription(cityName);
         }
         outputManager.cityName = cityName;
+        narrationData.cityName = cityName;
     }
 
     void EventCount()
     {
         Debug.Log("EventCount");
         ++eventCounter;
-        if (eventCounter >=2)
+        if (eventCounter >= 2)
         {
             eventCounter = 0;
             ++eraCounter;
             newEra = true;
         }
-        if(eventCounter != 0)
+        if (eventCounter != 0)
         {
             newEra = false;
         }
         DisplayMainField(false);
         DisplayEraTitle(true);
         Advance();
-    }
-    void DisplayIntroMessage()
-    {
-        Debug.Log("Display Intro Message");
-        slider.gameObject.SetActive(true);
-        string msg = currentEvent.GetIntroMessage();
-        text_mainField.text = msg;
-        outputManager.AddOutputMessage(msg);
-        DisplayButtonOptions(false);
-        DisplayButtonNext(true);
     }
 
     void DisplayAction()
@@ -171,8 +164,8 @@ public class SimulationManager : MonoBehaviour
         text_mainField.text = currentEvent.GetActionMessage();
         outputManager.AddOutputMessage("Event: " + currentEvent.GetActionMessage() + "\n");
         Tuple<string, string> leagueOfLegends = currentEvent.GetOptionsText();
-        text_optionA.text = leagueOfLegends.Item1;
-        text_optionB.text = leagueOfLegends.Item2;
+        text_optionA.text = narrationData.GetRandomOptionPrefix() + leagueOfLegends.Item1;
+        text_optionB.text = narrationData.GetRandomOptionPrefix() + leagueOfLegends.Item2;
         DisplayButtonOptions(true);
         DisplayButtonNext(false);
     }
