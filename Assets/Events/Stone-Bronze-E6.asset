@@ -17,8 +17,8 @@ MonoBehaviour:
     and cautious exploration support daily life, but resources remain limited. Every
     choice shapes whether <CityName> grows into a stable settlement or struggles
     against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: "NATURAL DISASTER - A violent storm, flood, drought, or earth-shaking
-    event disrupts the tribe\u2019s daily life, threatening safety and survival.<CityName>"
+  mActionMessage: A violent tornado looms on the horizon, threatening <CityName>'s
+    daily life, endangering the people's safety and survival.
   mProcessedActionMessage: 
   mOptionMessages:
   - Construct emergency earth-and-wood shelters to protect the tribe.

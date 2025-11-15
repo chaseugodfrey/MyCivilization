@@ -1,0 +1,173 @@
+[Stone-Bronze Era]
+Faker begins as a small community surviving through simple tools, shared labour, and ancestral guidance. Basic farming, early metalwork, and cautious exploration support daily life, but resources remain limited. Every choice shapes whether Faker grows into a stable settlement or struggles against scarcity, conflict, and the uncertainties of early development.
+
+
+Event: A difficult ethical choice confronts the people of Faker, forcing its leaders to weigh tradition, survival, compassion, and long-term consequences.
+
+Refuse help to outsiders and strengthen borders to protect your own.
+
+Outcome: The outsider brings hidden danger — sickness, a vengeful clan, or treachery. Your goodwill backfires as the tribe pays the price for trusting an unknown stranger.
+
+
+Event: A violent tornado looms on the horizon, threatening Faker's daily life, endangering the people's safety and survival.
+
+Construct emergency earth-and-wood shelters to protect the tribe.
+
+Outcome: Despite desperate effort, the shelters collapse under the storm’s fury. Injuries mount and valuable supplies are lost, deepening fear and exposing the tribe’s vulnerability.
+
+
+[Classical Era]
+Faker strengthens into an organised society with structured laws, wider trade, and growing intellectual life. Roads and alliances expand its reach, while diplomacy and conflict reshape its borders. Prosperity rises, but so do rivalries and debates over authority. How Faker balances ambition and stability determines its path through this transformative age.
+
+
+Event: LEADERSHIP CRISIS — Senators, generals, or governors challenge central authority. Power struggles threaten stability and endanger the unity of the classical state.
+
+Call an emergency senate session to negotiate power disputes.
+
+Outcome: The senate erupts into chaos as factions accuse each other of treason. Negotiations fail, and the public witnesses a humiliating collapse of political order.
+
+
+Event: DISEASE OUTBREAK — Illness sweeps through crowded cities and trade ports. The state must act quickly to contain panic and loss.
+
+Organise communal prayer gatherings and rites for health.
+
+Outcome: Quarantine wards overflow and become poorly supplied. Families protest separation, and fear spreads faster than the disease itself.
+
+
+[Medieval Era]
+Faker enters an age of fortified walls, noble factions, and powerful traditions. Faith shapes governance, merchants connect distant routes, and scholars preserve knowledge. Yet feuds, famine, and shifting loyalties threaten stability. Survival depends on how Faker navigates obligations, alliances, and the constant pressure of conflict within and beyond its borders.
+
+
+Event: FOREIGN RELATIONS INCIDENT — A border skirmish, intercepted messenger, or insulted ambassador threatens peace with a neighbouring realm.
+
+Arrange a marriage alliance between noble houses of both realms.
+
+Outcome: The gifts are dismissed as an attempt to buy favour. The rival kingdom grows more suspicious, tightening its military presence along the border.
+
+
+Event: TECHNOLOGICAL BREAKTHROUGH — A new tool, siege device, farming technique, or scholarly discovery emerges. How it is used may uplift or endanger the realm.
+
+Allow monks and scholars to study and refine the breakthrough in their scriptoria.
+
+Outcome: The monks uncover improvements through careful study, producing clearer designs and safer applications. Their contributions earn admiration across the kingdom.
+
+
+[Modern Era]
+Industrial change reshapes Faker with new technologies, expanding factories, and rapid population growth. Political movements challenge old systems, while global trade raises both opportunity and risk. Innovation accelerates faster than society adapts, and Faker must balance progress with stability as it confronts competition, unrest, and evolving expectations from its citizens.
+
+
+Event: MORAL DILEMMA — A controversial legal case, whistleblower leak, or viral injustice forces the nation to confront questions of ethics, justice, and social stability.
+
+Hold a transparent public hearing broadcast nationwide.
+
+Outcome: The hearing becomes politicised, with grandstanding overshadowing substance. Public frustration intensifies as real answers fail to emerge.
+
+
+Event: RESOURCE SHORTAGE — A supply crisis hits the nation as fuel, materials, or essential goods run scarce due to embargoes, industrial failures, or global disruption. Factories stall, transport slows, and citizens grow anxious.
+
+Fund emergency research to engineer synthetic alternatives to the scarce resource.
+
+Outcome: Public frustration boils over as long queues and blackouts spread. Social media amplifies complaints, and protests erupt demanding government accountability. Order becomes harder to maintain.
+
+
+[Space Era]
+Faker extends its influence beyond Earth through orbital facilities, lunar industry, and early colonies. Advanced reactors and long-range travel open new frontiers, but resources stretch thin and political interests diverge across worlds. Each decision carries amplified consequences, shaping whether Faker thrives among the stars or fractures under interplanetary pressures.
+
+
+Event: CULTURAL SCHISM — As humanity spreads across planets, cultures diverge. Colonists, Earth-born citizens, AI-driven societies, and genetically modified populations clash over identity, autonomy, and the future of civilisation.
+
+Fund cross-planet educational programs standardising history and ethics curricula.
+
+Outcome: Activist groups hijack the forums, spreading inflammatory messages. Interplanetary distrust deepens as conversations collapse into ideological chaos.
+
+
+[Stone-Bronze Era]
+Faker begins as a small community surviving through simple tools, shared labour, and ancestral guidance. Basic farming, early metalwork, and cautious exploration support daily life, but resources remain limited. Every choice shapes whether Faker grows into a stable settlement or struggles against scarcity, conflict, and the uncertainties of early development.
+
+
+Event: Tensions are rising between the people of Faker due to disputes over personal grievances. Without intervention from it's leaders, violence may erupt.
+
+Host a symbolic offering ceremony to appease ancestral spirits.
+
+Outcome: Discussions escalate into shouting as old grudges resurface. The circle dissolves in hostility, worsening the divide and deepening mistrust.
+
+
+Event: A season of scarcity descends upon Faker, testing unity as food, stone, and natural bounty dwindle.
+
+Attempt early bronze forging to craft better tools from scarce ores.
+
+Outcome: The scouts vanish into the deep wilds, never returning. Their absence casts a shadow across the tribe, and parents forbid their children from wandering far as fear spreads and scarcity tightens its grip.
+
+
+[Classical Era]
+Faker strengthens into an organised society with structured laws, wider trade, and growing intellectual life. Roads and alliances expand its reach, while diplomacy and conflict reshape its borders. Prosperity rises, but so do rivalries and debates over authority. How Faker balances ambition and stability determines its path through this transformative age.
+
+
+Event: INTERNAL CONFLICT — Growing cities strain under class tensions, rival guilds, and political clubs. Competing interests threaten to fracture civic unity.
+
+Deploy magistrates to mediate disputes directly in the streets.
+
+Outcome: The guilds meet under structured dialogue, finally airing grievances in a civil manner. Compromise becomes possible, and productivity rises as tensions cool.
+
+
+Event: DISEASE OUTBREAK — Illness sweeps through crowded cities and trade ports. The state must act quickly to contain panic and loss.
+
+Dispatch scholars to research the disease’s patterns and causes.
+
+Outcome: Physicians coordinate treatments in safe, isolated wards. Though harsh, the containment slows the spread and reassures citizens that the state is acting decisively.
+
+
+[Medieval Era]
+Faker enters an age of fortified walls, noble factions, and powerful traditions. Faith shapes governance, merchants connect distant routes, and scholars preserve knowledge. Yet feuds, famine, and shifting loyalties threaten stability. Survival depends on how Faker navigates obligations, alliances, and the constant pressure of conflict within and beyond its borders.
+
+
+Event: LEADERSHIP CRISIS — Nobles question the crown’s authority, claiming misrule or favouritism. Whispers of rebellion spread through courtly halls.
+
+Call a grand assembly of nobles to address grievances openly.
+
+Outcome: Arguments escalate into threats as rival houses refuse compromise. The assembly breaks down, deepening political fractures.
+
+
+Event: INTERNAL CONFLICT — Rival noble houses, feuding villages, or competing guilds strain the kingdom’s unity. Without careful intervention, quarrels may ignite into open violence.
+
+Temporarily separate feuding groups by redrawing minor jurisdictions.
+
+Outcome: The tribunal reveals deep grudges that neither side will abandon. Accusations of bias follow, and some lords leave more resentful than when they arrived.
+
+
+[Modern Era]
+Industrial change reshapes Faker with new technologies, expanding factories, and rapid population growth. Political movements challenge old systems, while global trade raises both opportunity and risk. Innovation accelerates faster than society adapts, and Faker must balance progress with stability as it confronts competition, unrest, and evolving expectations from its citizens.
+
+
+Event: LEADERSHIP CRISIS — Scandals, disagreements, or sudden resignations shake the government. Confidence in leadership wavers as rivals manoeuvre for power.
+
+Form an emergency coalition with opposition parties to stabilise governance.
+
+Outcome: Clear answers restore trust, and the public appreciates the candor. Media outlets highlight the government’s transparency, calming national anxiety.
+
+
+Event: LEADERSHIP CRISIS — Scandals, disagreements, or sudden resignations shake the government. Confidence in leadership wavers as rivals manoeuvre for power.
+
+Form an emergency coalition with opposition parties to stabilise governance.
+
+Outcome: Clear answers restore trust, and the public appreciates the candor. Media outlets highlight the government’s transparency, calming national anxiety.
+
+
+[Space Era]
+Faker extends its influence beyond Earth through orbital facilities, lunar industry, and early colonies. Advanced reactors and long-range travel open new frontiers, but resources stretch thin and political interests diverge across worlds. Each decision carries amplified consequences, shaping whether Faker thrives among the stars or fractures under interplanetary pressures.
+
+
+Event: RESOURCE SHORTAGE — A critical shortage emerges: deuterium for fusion cores, helium-3 for lunar reactors, rare metals for shipyards, or water for colonies. Mining accidents, FTL disruptions, or diplomatic tension threaten stability across worlds.
+
+Redirect mining fleets to a high-risk asteroid belt rich in rare materials.
+
+Outcome: The fleet successfully navigates the unstable belt, extracting massive mineral loads. Shipyards roar back to life, and colonists celebrate the swift recovery. Humanity feels unstoppable.
+
+
+Event: RESOURCE SHORTAGE — A critical shortage emerges: deuterium for fusion cores, helium-3 for lunar reactors, rare metals for shipyards, or water for colonies. Mining accidents, FTL disruptions, or diplomatic tension threaten stability across worlds.
+
+Redirect mining fleets to a high-risk asteroid belt rich in rare materials.
+
+Outcome: The fleet successfully navigates the unstable belt, extracting massive mineral loads. Shipyards roar back to life, and colonists celebrate the swift recovery. Humanity feels unstoppable.
+
+

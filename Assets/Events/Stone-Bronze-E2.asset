@@ -17,8 +17,8 @@ MonoBehaviour:
     and cautious exploration support daily life, but resources remain limited. Every
     choice shapes whether <CityName> grows into a stable settlement or struggles
     against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: CULTURAL SCHISM - Disagreements between clans over traditions,
-    rituals, and ancestral customs threaten to fracture the unity of the tribe.<CityName>
+  mActionMessage: Disagreements between clans over traditions, rituals, and ancestral
+    customs threaten to fracture the unity of <CityName>.
   mProcessedActionMessage: 
   mOptionMessages:
   - Hold a Great Fire Gathering where all clans voice their beliefs.

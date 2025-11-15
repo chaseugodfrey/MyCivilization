@@ -53,8 +53,8 @@ public class EraEvent : ScriptableObject
             return new Tuple<string, string>("N/A", "N/A");
         }
 
-        int leftIndex = UnityEngine.Random.Range(0, mOptionMessages.Count);
-        int rightIndex = leftIndex;
+        leftIndex = UnityEngine.Random.Range(0, mOptionMessages.Count);
+        rightIndex = leftIndex;
 
         // ensure indexB is different
         do
@@ -73,6 +73,8 @@ public class EraEvent : ScriptableObject
     {
         int roll = UnityEngine.Random.Range(index * 2, index * 2 + 2);
         rolledOutcome = roll;
+        Debug.LogWarning("Index Option: " + index);
+        Debug.LogWarning("Rolled Outcome: " + roll);
         return new Tuple<string, int>(mOutcomeMessages[roll], mOutcomeValues[roll]);
     }
 }

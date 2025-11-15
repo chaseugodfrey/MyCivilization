@@ -17,8 +17,8 @@ MonoBehaviour:
     and cautious exploration support daily life, but resources remain limited. Every
     choice shapes whether <CityName> grows into a stable settlement or struggles
     against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: DISEASE OUTBREAK - An unfamiliar sickness spreads through the tribe,
-    weakening hunters, worrying healers, and threatening to overwhelm the settlement.<CityName>
+  mActionMessage: An unfamiliar sickness spreads throughout <CityName>, weakening
+    hunters, worrying healers, and threatening to wipe out the settlement.
   mProcessedActionMessage: 
   mOptionMessages:
   - Isolate the sick in a separate camp to prevent further spread.

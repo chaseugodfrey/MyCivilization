@@ -17,9 +17,9 @@ MonoBehaviour:
     and cautious exploration support daily life, but resources remain limited. Every
     choice shapes whether <CityName> grows into a stable settlement or struggles
     against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: TECHNOLOGICAL BREAKTHROUGH - A new tool, technique, or discovery
-    emerges. Innovation promises to elevate the tribe, but its impact depends on
-    how the clans react.<CityName>
+  mActionMessage: A revolutionary discovery is made and its introduction to the people
+    promises to elevate <CityName>'s ability to hunt for food, but its impact depends
+    on how the clans react.
   mProcessedActionMessage: 
   mOptionMessages:
   - Allow the inventors to demonstrate the discovery before the whole tribe.

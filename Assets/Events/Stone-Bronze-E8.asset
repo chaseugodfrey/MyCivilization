@@ -17,9 +17,9 @@ MonoBehaviour:
     and cautious exploration support daily life, but resources remain limited. Every
     choice shapes whether <CityName> grows into a stable settlement or struggles
     against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: INTERNAL CONFLICT - Tensions rise between clans due to disputes
-    over hunting grounds, resources, or personal grievances. Without intervention,
-    violence may erupt.<CityName>
+  mActionMessage: Tensions are rising between the people of <CityName> due to disputes
+    over personal grievances. Without intervention from it's leaders, violence may
+    erupt.
   mProcessedActionMessage: 
   mOptionMessages:
   - Host a mediation circle where clan leaders speak openly.
