@@ -1,0 +1,100 @@
+[Stone-Bronze Era]
+Teo Kok Chin began as a small community surviving through simple tools, shared labour, and ancestral guidance. Basic farming, early metalwork, and cautious exploration support daily life, but resources remained limited. Every choice shaped whether Teo Kok Chin could grow into a stable settlement or struggled against scarcity, conflict, and the uncertainties of early development.
+
+
+First Event: 
+Event: A revolutionary discovery was made and its introduction to the people promised to elevate Teo Kok Chin's ability to hunt for food, but its impact depended on how the clans reacted.
+
+Encourage artisans across clans to experiment with the technique. Teo Kok Chin
+
+Outcome: Competition replaces cooperation as artisans accuse each other of theft and sabotage. The breakthrough becomes a source of rivalry rather than pride.
+
+
+Second Event: 
+Event: Tensions had risen between the people of Teo Kok Chin due to disputes over personal grievances. Without intervention from it's leaders, violence was close to erupting.
+
+Assign neutral elders to judge disputes impartially. Teo Kok Chin
+
+Outcome: Respected elders carefully review grievances, delivering fair rulings accepted by most. Their wisdom calms the situation and restores a sense of justice.
+
+
+[Classical Era]
+Teo Kok Chin strengthens into an organised society with structured laws, wider trade, and growing intellectual life. Roads and alliances expand its reach, while diplomacy and conflict reshape its borders. Prosperity rises, but so do rivalries and debates over authority. How Teo Kok Chin balances ambition and stability determines its path through this transformative age.
+
+
+First Event: 
+Event: INTERNAL CONFLICT — Growing cities strain under class tensions, rival guilds, and political clubs. Competing interests threaten to fracture civic unity.
+
+Create a council of guilds to negotiate disputes formally.
+
+Outcome: Rival guilds use the council as a stage for power plays. Old disagreements ignite into fresh feuds, worsening the struggle for influence within the city.
+
+
+Second Event: 
+Event: CULTURAL SCHISM — Philosophers, generals, priests, and merchants clash over values and the direction of the state. Ideological divides threaten the harmony of the republic or kingdom.
+
+Allow each faction temporary autonomy to follow its own customs.
+
+Outcome: Granting space reduces immediate tension, and citizens appreciate the state’s flexibility. Over time, factions find common ground through voluntary cooperation.
+
+
+[Medieval Era]
+Teo Kok Chin enters an age of fortified walls, noble factions, and powerful traditions. Faith shapes governance, merchants connect distant routes, and scholars preserve knowledge. Yet feuds, famine, and shifting loyalties threaten stability. Survival depends on how Teo Kok Chin navigates obligations, alliances, and the constant pressure of conflict within and beyond its borders.
+
+
+First Event: 
+Event: DISEASE OUTBREAK — A mysterious sickness spreads through towns and villages. Healers, priests, and common folk struggle to understand and survive the affliction.
+
+Order quarantines in afflicted districts and restrict travel.
+
+Outcome: Though harsh, the restrictions slow the spread considerably. People see the crown as willing to make difficult choices to protect the realm.
+
+
+Second Event: 
+Event: DISEASE OUTBREAK — A mysterious sickness spreads through towns and villages. Healers, priests, and common folk struggle to understand and survive the affliction.
+
+Order quarantines in afflicted districts and restrict travel.
+
+Outcome: Trade grinds to a halt and separated families despair. Black markets emerge, undermining both the quarantine and trust in royal decrees.
+
+
+[Modern Era]
+Industrial change reshapes Teo Kok Chin with new technologies, expanding factories, and rapid population growth. Political movements challenge old systems, while global trade raises both opportunity and risk. Innovation accelerates faster than society adapts, and Teo Kok Chin must balance progress with stability as it confronts competition, unrest, and evolving expectations from its citizens.
+
+
+First Event: 
+Event: FOREIGN RELATIONS INCIDENT — Diplomatic tensions spike after a border violation, cyberattack, or leaked intelligence. Nations watch closely as the situation threatens global stability.
+
+Strengthen cyberdefences and publicly condemn the hostile action.
+
+Outcome: Your firm response reassures citizens and allies. Cyberattacks decrease significantly as the aggressor retreats under international pressure.
+
+
+Second Event: 
+Event: TECHNOLOGICAL BREAKTHROUGH — A revolutionary discovery in AI, biotechnology, quantum computing, energy, or engineering emerges. The world watches to see how it will be used.
+
+Build a civilian innovation hub to encourage startups and independent inventors.
+
+Outcome: Entrepreneurs flock to the hub, creating a hotspot of creativity and invention. New industries blossom from unexpected places, diversifying the economy.
+
+
+[Space Era]
+Teo Kok Chin extends its influence beyond Earth through orbital facilities, lunar industry, and early colonies. Advanced reactors and long-range travel open new frontiers, but resources stretch thin and political interests diverge across worlds. Each decision carries amplified consequences, shaping whether Teo Kok Chin thrives among the stars or fractures under interplanetary pressures.
+
+
+First Event: 
+Event: TECHNOLOGICAL BREAKTHROUGH — A quantum AI discovery, new FTL refinement, or bioengineering revolution promises to reshape civilisation—but its implications spark fierce debate.
+
+Restrict access until full safety evaluations are complete.
+
+Outcome: Colonies accuse the government of hoarding progress. Underground markets form, spreading unregulated and dangerous prototypes.
+
+
+Second Event: 
+Event: MORAL DILEMMA — A sentient AI whistleblower, alien refugee crisis, or controversial scientific revelation forces humanity to confront its ethical foundations.
+
+Organise a galaxy‑wide digital referendum to decide on the issue.
+
+Outcome: The referendum empowers every citizen. The final vote creates a shared mandate that strengthens democratic cohesion.
+
+

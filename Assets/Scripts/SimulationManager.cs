@@ -126,6 +126,8 @@ public class SimulationManager : MonoBehaviour
             foreach (var eraEvent in era.mEraEvents)
             {
                 eraEvent.SetActionMessage(cityName);
+
+                eraEvent.SetCityNameOptionsAndOutcome(cityName);
             }
             era.SetEraDescription(cityName);
         }
