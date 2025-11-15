@@ -4,9 +4,12 @@ using System.Collections.Generic;
 [CreateAssetMenu(fileName = "NarrationData", menuName = "Data/Narration Data")]
 public class NarrationData : ScriptableObject
 {
-    [Header("Option Prefixes (for player choices)")]
-    [SerializeField] public List<string> optionPrefixes;
-    
+    [Header("Positive Option Prefixes (for player choices)")]
+    [SerializeField] public List<string> positiveOptionPrefixes;
+
+    [Header("Negative Option Prefixes (for player choices)")]
+    [SerializeField] public List<string> negativeOptionPrefixes;
+
     [Header("Event Introduction Prefixes")]
     [Tooltip("Used to introduce events more narratively")]
     [SerializeField] public List<string> eventIntros = new List<string>
@@ -53,17 +56,34 @@ public class NarrationData : ScriptableObject
 
     public string cityName;
 
-    public string GetRandomOptionPrefix()
+    public string GetRandomOptionPrefix(OutcomeType outcome) 
     {
-        if (optionPrefixes == null || optionPrefixes.Count == 0)
+        if (positiveOptionPrefixes == null || positiveOptionPrefixes.Count == 0)
             return "";
-            
-        int roll = UnityEngine.Random.Range(0, optionPrefixes.Count);
-        string processedPrefix = optionPrefixes[roll];
+        if (negativeOptionPrefixes == null || negativeOptionPrefixes.Count == 0)
+            return "";
+
+
+        switch(outcome)
+        {
+            case OutcomeType.Positive:
+                return GetProcessedPrefix(positiveOptionPrefixes);
+            case OutcomeType.Negative:
+                return GetProcessedPrefix(negativeOptionPrefixes);
+            default:
+                return "";
+        }
+
+    }
+
+    public string GetProcessedPrefix(List<string> prefixes)
+    {
+        int roll = UnityEngine.Random.Range(0, prefixes.Count);
+        string processedPrefix = prefixes[roll];
         processedPrefix = processedPrefix.Replace("<CityName>", cityName);
         return processedPrefix;
     }
-    
+
     public string GetRandomEventIntro()
     {
         if (eventIntros == null || eventIntros.Count == 0)
