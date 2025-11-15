@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 176c0d6ad2971cf4ea282d69921dd85b, type: 3}
+  m_Name: AloyTest
+  m_EditorClassIdentifier: 
+  optionPrefixes:
+  - 'To address the challenge, <CityName>''s leadership '
+  - 'In response to the worsening situation, the council '
+  - 'To stabilise matters, the citizens decided to '
+  - 'To protect the prosperity of <CityName>, its people '
+  - 'Seeking a swift remedy, the leaders '
+  - 'Under mounting pressure, the ruling council '
+  - 'To stop the issue before it worsened, the populace '
+  - 'To prevent future complications, the city elders '
+  - 'Driven by necessity, the inhabitants of <CityName> '
+  - 'To ensure long-term stability, the leaders of <CityName> '
+  - 'With limited resources remaining, the community '
+  - 'To mitigate the immediate risks, <CityName> '
+  - 'Facing uncertainty, the people of <CityName> '
+  eventIntros:
+  - 'As days passed, a new challenge emerged: '
+  - 'The winds of change brought forth an unexpected turn: '
+  - 'In the midst of their journey, the people of <CityName> faced: '
+  - 'Time revealed its next trial when '
+  - 'Without warning, '
+  - 'The horizon darkened as '
+  - 'A pivotal moment arrived when '
+  - 'Destiny''s hand stirred when '
+  - 'The course of history shifted as '
+  - 'A new chapter began when '
+  outcomeIntros:
+  - 'The consequences of this choice soon became clear: '
+  - 'As the dust settled, the result was undeniable: '
+  - 'Time would tell that '
+  - 'History would record that '
+  - 'The outcome proved decisive: '
+  - 'What followed changed everything: '
+  - 'The decision bore fruit when '
+  - 'In the wake of their action, '
+  - 'The path chosen led to an outcome none could ignore: '
+  - 'Fate''s judgment came swiftly: '
+  eraTransitions:
+  - '
+
+
+    But the trials were far from over...
+
+
+'
+  - '
+
+
+    Yet another challenge awaited them...
+
+
+'
+  - '
+
+
+    Scarcely had they recovered when...
+
+
+'
+  - '
+
+
+    Time pressed onward, bringing new tests...
+
+
+'
+  - '
+
+
+    The people of <CityName> had little time to rest before...
+
+
+'
+  - '
+
+
+    As one chapter closed, another immediately opened...
+
+
+'
+  cityName: 

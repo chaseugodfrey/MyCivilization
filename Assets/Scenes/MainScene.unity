@@ -5448,7 +5448,7 @@ MonoBehaviour:
   currentEra: {fileID: 0}
   currentEvent: {fileID: 0}
   cityManager: {fileID: 1332355117}
-  narrationData: {fileID: 11400000, guid: 00b5aafcf4c50644aa6022e4c0d18461, type: 2}
+  narrationData: {fileID: 11400000, guid: dae02ea7f0bb97941ba466040b7f3a0a, type: 2}
   eraManager: {fileID: 534110277}
   outputManager: {fileID: 1349220298}
   text_mainField: {fileID: 96799640}
@@ -5468,10 +5468,6 @@ MonoBehaviour:
   optionA: {fileID: 573543508}
   optionB: {fileID: 2021364422}
   nameCity: {fileID: 428584986}
-  eventCounter: 0
-  eraCounter: 0
-  newEra: 1
-  cityNamed: 0
 --- !u!4 &2122996985
 Transform:
   m_ObjectHideFlags: 0

@@ -161,11 +161,18 @@ public class SimulationManager : MonoBehaviour
         Debug.Log("Display Action");
         DisplayEraTitle(false);
         DisplayMainField(true);
+
         text_mainField.text = currentEvent.GetActionMessage();
-        outputManager.AddOutputMessage("Event: " + currentEvent.GetActionMessage() + "\n");
+
+        string eventIntro = narrationData.GetRandomEventIntro();
+        outputManager.AddOutputMessage(eventIntro + currentEvent.GetActionMessage() + "\n");
+
         Tuple<string, string> leagueOfLegends = currentEvent.GetOptionsText();
         text_optionA.text = narrationData.GetRandomOptionPrefix() + leagueOfLegends.Item1;
         text_optionB.text = narrationData.GetRandomOptionPrefix() + leagueOfLegends.Item2;
+
+        Debug.Log("ALOY OVER EHRE" + text_optionA.text);
+
         DisplayButtonOptions(true);
         DisplayButtonNext(false);
     }
@@ -175,12 +182,12 @@ public class SimulationManager : MonoBehaviour
 
         if (index == 0)
         {
-            outputManager.AddOutputMessage(text_optionA.text + "\n");
+            outputManager.AddOutputMessage("\n" + text_optionA.text);
             outcomeData = currentEvent.GetOptionOutcome(currentEvent.leftIndex);
         }
         else
         {
-            outputManager.AddOutputMessage(text_optionB.text + "\n");
+            outputManager.AddOutputMessage("\n" + text_optionB.text);
             outcomeData = currentEvent.GetOptionOutcome(currentEvent.rightIndex);
         }
 
@@ -199,7 +206,10 @@ public class SimulationManager : MonoBehaviour
     void SetOutcome()
     {
         text_mainField.text = outcomeData.Item1;
-        outputManager.AddOutputMessage("Outcome: " + outcomeData.Item1 + "\n" + "\n");
+
+        string outcomeIntro = narrationData.GetRandomOutcomeIntro();
+        outputManager.AddOutputMessage("\n" + outcomeIntro + outcomeData.Item1 + "\n");
+
         ModifySlider(outcomeData.Item2);
     }
 
@@ -216,12 +226,12 @@ public class SimulationManager : MonoBehaviour
     void DisplayTitle()
     {
         Debug.Log("Display Title");
-        //newEra = false;
         mainField.SetActive(false);
         DisplayEraTitle(true);
-        // Debug.LogWarning(cityManager.ActiveCity.Name + "is THISSS");
+
         string eraName = currentEra.GetEraName();
         string eraDescription = currentEra.GetEraDescription();
+
         if (newEra)
         {
             DisplayEraDescription(true);
@@ -232,21 +242,21 @@ public class SimulationManager : MonoBehaviour
             text_eraTitle.text = eraName + " Era's 2nd Event";
             DisplayEraDescription(false);
         }
-            text_eraDescription.text = eraDescription;
-        //Debug.LogWarning(cityManager.ActiveCity.Name + "is THISSS2");
-        //DisplayEraDescription(true);
+
+        text_eraDescription.text = eraDescription;
         nextButton.SetActive(true);
-        //Invoke(nameof(DisappearingTitle), 1);
-        
+
+
         if (eventCounter == 0)
         {
-            outputManager.AddOutputMessage("[" + currentEra.GetEraName() +" Era" + "]");
-            outputManager.AddOutputMessage(currentEra.GetEraDescription() + "\n" + "\n");
-            outputManager.AddOutputMessage("First Event: ");
+            // First event of the era add era header with description
+            outputManager.AddOutputMessage("\n[" + currentEra.GetEraName() + " Era]");
+            outputManager.AddOutputMessage(currentEra.GetEraDescription() + "\n");
         }
         else
         {
-            outputManager.AddOutputMessage("Second Event: ");
+            // Second event add transition phrase
+            outputManager.AddOutputMessage(narrationData.GetRandomEraTransition());
         }
 
     }
