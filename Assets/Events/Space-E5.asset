@@ -28,6 +28,7 @@ MonoBehaviour:
     elevators.
   - Share the discovery only with colonies facing economic or social instability.
   - Invite a council of human and AI scientists to determine ethical usage.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - The discovery accelerates development across every world. Innovation flourishes
     as colonies unlock new potential, strengthening unity through shared advancement.
@@ -49,6 +50,7 @@ MonoBehaviour:
     and long-term planning.
   - The council deadlocks, fueling cynicism. Fringe groups spread conspiracy theories
     claiming hidden agendas.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0b000000f7ffffff09000000f9ffffff0a000000f8ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

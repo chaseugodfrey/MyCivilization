@@ -27,6 +27,7 @@ MonoBehaviour:
   - Use the invention for state military advancements.
   - Share the breakthrough across academies to inspire wider learning.
   - Keep the breakthrough secret while testing its full potential.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - Citizens marvel at the engineering display as the invention proves reliable and
     transformative. Confidence in state innovation grows, inspiring new waves of
@@ -51,6 +52,7 @@ MonoBehaviour:
     refined marvel that astonishes the nation and strengthens your strategic advantage.
   - Rumours spread of forbidden knowledge and hidden labs. Citizens grow suspicious,
     and political rivals accuse the state of overreaching, destabilising trust.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

@@ -21,12 +21,12 @@ MonoBehaviour:
     but risked pride and tension between the people of <CityName>.'
   mProcessedActionMessage: 
   mOptionMessages:
-  - Host a Festival of Plenty to celebrate and share the abundance. <CityName>
-  - Send artisans to craft intricate tools and ornaments from the surplus. <CityName>
-  - Establish a Trading Circle with neighbouring tribes. <CityName>
-  - "Store the surplus in clay\u2011lined pits and smokehouses for future safety.
-    <CityName>"
-  - Send settlers to explore and expand into newly promising regions. <CityName>
+  - hosted a Festival of Plenty to celebrate and share the abundance.
+  - tasked artisans to craft plenty of intricate tools and ornaments from the surplus.
+  - established a trading circle with neighbouring tribes.
+  - "stored the surplus in clay\u2011lined pits and smokehouses for future use."
+  - sent settlers to explore and expand into new and promising regions.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - The tribe feasts joyfully, exchanging goods and stories under torchlit skies.
     The celebration turns prosperity into unity, leaving clans hopeful for the future.
@@ -49,6 +49,7 @@ MonoBehaviour:
     destiny."
   - "The distant lands prove treacherous, and many settlers never return. The losses
     shake the tribe\u2019s confidence and cast a shadow over the boom."
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

@@ -26,6 +26,7 @@ MonoBehaviour:
   - "Request volunteers for experimental gene\u2011therapy trials."
   - "Broadcast system\u2011wide health protocols using immersive VR training."
   - Establish a temporary unified health authority across all colonies.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - The rings halt interplanetary transmission. Doctors gain crucial time to develop
     treatments, saving millions.
@@ -47,6 +48,7 @@ MonoBehaviour:
     unite under a shared mission to overcome the crisis."
   - Colonies resist central control, sparking political disputes that interfere with
     containment strategies.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0c000000f6ffffff0a000000f8ffffff09000000f9ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

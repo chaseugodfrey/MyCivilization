@@ -27,6 +27,7 @@ MonoBehaviour:
   - Host a grand market fair inviting merchants from across the continent.
   - Lower taxes to reward citizens for their hard work.
   - Construct new granaries and treasuries to secure surplus wealth.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - Merchants flourish under new freedoms, returning with exotic goods and vast profits.
     Prosperity spreads even into remote villages, uplifting morale across the kingdom.
@@ -48,6 +49,7 @@ MonoBehaviour:
     Citizens appreciate the ruler\u2019s wisdom."
   - Heavy investment leaves little gold for emergencies. When minor mishaps occur,
     the crown appears unprepared despite its wealth.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

@@ -27,6 +27,7 @@ MonoBehaviour:
   - Deploy mobile medical units to outbreak hotspots.
   - Launch a mass public health education campaign.
   - Temporarily subsidise essential goods for affected households.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - Transmission rates drop sharply. Citizens acknowledge the necessity of the measures,
     and hospitals gain breathing room to treat severe cases.
@@ -48,6 +49,7 @@ MonoBehaviour:
     becomes more orderly, preventing supply panic.
   - Supply chains buckle under increased demand. Shortages worsen, and citizens accuse
     leaders of poor planning.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0b000000f7ffffff0a000000f8ffffff09000000f9ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

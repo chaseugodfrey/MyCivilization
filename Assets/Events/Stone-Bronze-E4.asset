@@ -17,18 +17,20 @@ MonoBehaviour:
     exploration support daily life, but resources remained limited. Every choice
     shaped whether <CityName> could grow into a stable settlement or struggled against
     scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: A cult formed within <CityName> as the authority of the chieftain
-    was challenged. Doubt spread quickly, and the people of <CityName> had to reaffirm
-    its direction.
+  mActionMessage: A divide formed between the clans of <CityName> as the authority
+    of the chieftain was challenged. Doubt spread quickly, and the people of <CityName>
+    had to reaffirm its direction.
   mProcessedActionMessage: 
   mOptionMessages:
-  - Organise a Trial of Strength and Wisdom to select the rightful leader. <CityName>
-  - Ask the shamans to interpret omens to determine who the spirits favour. <CityName>
-  - Form a temporary Council of Clans to share leadership. <CityName>
-  - Host a Storytelling Night where elders recount past crises and wise leaders.
-    <CityName>
-  - Allow the younger generation to select a representative to voice their concerns.
-    <CityName>
+  - organised a Clash of Clans to select <CityName>'s rightful leader, through pure
+    strength.
+  - asked the shamans to interpret the stars to determine who the spirits favour
+    to be <CityName>'s leader.
+  - formed a temporary Council of Clans to share leadership.
+  - held a Storytelling Night where elders recounted past crises and leaders.
+  - allowed each clan to select a representative to voice their reasonings for their
+    issues with the chief.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - The trial unites the tribe as warriors and elders witness a fair contest. The
     victor earns universal respect, restoring confidence and providing the tribe
@@ -53,6 +55,7 @@ MonoBehaviour:
     words bridge generations and help redirect the tribe toward cooperation.
   - The youth choose a brash warrior who inflames tensions. Older members see the
     choice as reckless, igniting disagreements between age groups.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0b000000f6ffffff09000000f8ffffff08000000f9ffffff0a000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

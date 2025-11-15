@@ -21,11 +21,13 @@ MonoBehaviour:
     daily life, endangering the people's safety and survival.
   mProcessedActionMessage: 
   mOptionMessages:
-  - Construct emergency earth-and-wood shelters to protect the tribe. <CityName>
-  - Send scouts to seek safer high ground or untouched groves. <CityName>
-  - Ask shamans to perform protective rites to calm the raging spirits. <CityName>
-  - Divide the tribe into task-groups to protect food, homes, and children. <CityName>
-  - Retreat temporarily into sacred caves believed to be blessed by ancestors. <CityName>
+  - constructed emergency earth-and-wood shelters to protect the tribe.
+  - sent scouts to search for safer high ground near <CityName>.
+  - asked the shamans to perform protective rites to calm the raging spirits.
+  - divided the tribe into task-groups to safeguard food, homes, and children.
+  - retreated temporarily into sacred caves believed to be blessed by the ancestors
+    of <CityName>.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - Working through wind and rain, families raise sturdy shelters reinforced with
     clay and timber. The structures hold firm, saving lives and giving the tribe
@@ -52,6 +54,7 @@ MonoBehaviour:
     protection.
   - The caves flood unexpectedly, forcing a panicked escape. The tribe suffers injuries
     and morale plummets as once-revered shelters are revealed to be perilous.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

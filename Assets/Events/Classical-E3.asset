@@ -27,6 +27,7 @@ MonoBehaviour:
   - Expand trade fleets and merchant caravans to amplify returns.
   - Reduce taxes temporarily to encourage economic movement.
   - Commission new roads, aqueducts, and public structures.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - Citizens gather in theatres, plazas, and markets to celebrate shared success.
     The festival strengthens civic pride and reminds all that prosperity belongs
@@ -49,6 +50,7 @@ MonoBehaviour:
     landscape. Future generations will benefit from the flourishing civic projects.
   - Overambitious projects overextend resources, leaving many structures unfinished.
     Citizens ridicule the failed monuments as signs of leadership hubris.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

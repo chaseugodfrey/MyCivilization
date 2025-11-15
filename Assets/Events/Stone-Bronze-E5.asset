@@ -22,11 +22,13 @@ MonoBehaviour:
     depended on how the clans reacted.
   mProcessedActionMessage: 
   mOptionMessages:
-  - Allow the inventors to demonstrate the discovery before the whole tribe. <CityName>
-  - Encourage artisans across clans to experiment with the technique. <CityName>
-  - Declare the innovation sacred and entrust its use to the shamans. <CityName>
-  - Use the breakthrough to forge diplomatic offerings for neighbouring tribes. <CityName>
-  - Keep the discovery secret while exploring its full potential. <CityName>
+  - allowed the inventors to demonstrate this discovery before the whole of <CityName>.
+  - encouraged artisans across clans to experiment with the technique.
+  - declared the innovation sacred and entrusted its use to the shamans.
+  - used the breakthrough to forge diplomatic offerings to neighbouring tribes.
+  - 'kept the discovery secret from the people of <CityName> while exploring its
+    full potential. '
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - The demonstration captivates the tribe as young and old gather to watch. The
     innovation inspires excitement and unity as clans recognise its potential to
@@ -53,6 +55,7 @@ MonoBehaviour:
     dramatically."
   - Whispers spread about hidden knowledge and secret gatherings. Fear and paranoia
     destabilise trust between clans long before the truth is revealed.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff08000000f9ffffff09000000f8ffffff0c000000f6ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

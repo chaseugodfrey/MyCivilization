@@ -28,6 +28,7 @@ MonoBehaviour:
   - Redirect castle artisans and blacksmiths to repair damaged mills and farming
     tools.
   - Hold a religious ceremony asking divine blessing for renewal and abundance.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - "The inspection uncovers hidden stockpiles illegally held by corrupt local officials.
     Their seizure restores fairness, and villagers celebrate the kingdom\u2019s vigilance.
@@ -59,6 +60,7 @@ MonoBehaviour:
   - The ceremony draws crowds that spread illness, and no improvement in weather
     follows. Villagers question both the clergy and the throne, deepening despair
     and mistrust.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f6ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

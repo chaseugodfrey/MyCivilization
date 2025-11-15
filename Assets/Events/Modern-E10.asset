@@ -27,6 +27,7 @@ MonoBehaviour:
   - Enforce a strict sentence to reaffirm the rule of law.
   - Establish an independent ethics committee to review the case.
   - Encourage national dialogue through town halls and moderated online forums.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - The hearing demonstrates accountability and transparency. Citizens feel empowered
     by open justice and trust begins to rebuild.
@@ -49,6 +50,7 @@ MonoBehaviour:
     spread, and the issue becomes a catalyst for civic education.
   - Discussions spiral into toxic arguments despite moderation. Echo chambers deepen,
     and the controversy leaves society more divided than before.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

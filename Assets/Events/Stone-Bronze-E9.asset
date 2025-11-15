@@ -21,11 +21,12 @@ MonoBehaviour:
     able people, which threatened to wipe out the settlement.
   mProcessedActionMessage: 
   mOptionMessages:
-  - Isolate the sick in a separate camp to prevent further spread. <CityName>
-  - Send runners to neighbouring tribes seeking herbal remedies. <CityName>
-  - Perform a grand cleansing ritual involving smoke, ash, and sacred chants. <CityName>
-  - Increase hunting and gathering efforts to support the weakened population. <CityName>
-  - Designate a sacred healing area where only healers may tend to the sick. <CityName>
+  - isolated the sick in a separate camp to prevent further spread.
+  - sent runners from <CityName> to neighbouring tribes in search of herbal remedies.
+  - performed a grand cleansing ritual using smoke, ash, and sacred chants.
+  - increased hunting and gathering efforts to support the weakened population.
+  - designated a sacred healing area healers could tend to the sick.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - The quarantine slows the illness as healers tend to the afflicted with herbs
     and rituals. Fear remains, but the tribe sees hope in the controlled spread.
@@ -48,6 +49,7 @@ MonoBehaviour:
     innovate new methods, gradually stabilising the afflicted.
   - Restrictions frustrate families barred from visiting loved ones. Anger builds
     toward the healers, disrupting treatment and fracturing community trust.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
