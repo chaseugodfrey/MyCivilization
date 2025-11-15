@@ -16,8 +16,8 @@ MonoBehaviour:
   - 'Seeking to strengthen <CityName>, the clans '
   - 'With hopes of a better outcome, the people '
   - 'Guided by steady resolve, the tribes '
-  - 'Looking to preserve harmony  '
-  - 'Acting with mindful intention, '
+  - 'Looking to preserve harmony , the people '
+  - 'Acting with mindful intention, <CityName> '
   - 'Determined to move forward constructively, <CityName> '
   - 'With an eye toward long-term stability, the people '
   - 'Seeking to maintain balance among the clans, the elders '
@@ -63,4 +63,4 @@ MonoBehaviour:
   - Time pressed onward, bringing new tests...
   - The people of <CityName> had little time to rest before...
   - As one chapter closed, another immediately opened...
-  cityName: A
+  cityName: Johhnn
