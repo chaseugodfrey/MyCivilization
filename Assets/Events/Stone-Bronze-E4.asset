@@ -12,21 +12,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Stone-Bronze-E4
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> begins as a small community surviving through simple
-    tools, shared labour, and ancestral guidance. Basic farming, early metalwork,
-    and cautious exploration support daily life, but resources remain limited. Every
-    choice shapes whether <CityName> grows into a stable settlement or struggles
-    against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: A fracture forms within <CityName> as the authority of the chieftain
-    or elders is challenged. Doubt spreads quickly, and the people of <CityName>
-    must reaffirm its direction.
+  mIntroMessage: <CityName> began as a small community surviving through simple tools,
+    shared labour, and ancestral guidance. Basic farming, early metalwork, and cautious
+    exploration support daily life, but resources remained limited. Every choice
+    shaped whether <CityName> could grow into a stable settlement or struggled against
+    scarcity, conflict, and the uncertainties of early development.
+  mActionMessage: A cult formed within <CityName> as the authority of the chieftain
+    was challenged. Doubt spread quickly, and the people of <CityName> had to reaffirm
+    its direction.
   mProcessedActionMessage: 
   mOptionMessages:
-  - Organise a Trial of Strength and Wisdom to select the rightful leader.
-  - Ask the shamans to interpret omens to determine who the spirits favour.
-  - Form a temporary Council of Clans to share leadership.
+  - Organise a Trial of Strength and Wisdom to select the rightful leader. <CityName>
+  - Ask the shamans to interpret omens to determine who the spirits favour. <CityName>
+  - Form a temporary Council of Clans to share leadership. <CityName>
   - Host a Storytelling Night where elders recount past crises and wise leaders.
+    <CityName>
   - Allow the younger generation to select a representative to voice their concerns.
+    <CityName>
   mOutcomeMessages:
   - The trial unites the tribe as warriors and elders witness a fair contest. The
     victor earns universal respect, restoring confidence and providing the tribe

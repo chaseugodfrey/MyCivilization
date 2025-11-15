@@ -12,20 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Stone-Bronze-E1
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> begins as a small community surviving through simple
-    tools, shared labour, and ancestral guidance. Basic farming, early metalwork,
-    and cautious exploration support daily life, but resources remain limited. Every
-    choice shapes whether <CityName> grows into a stable settlement or struggles
-    against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: A season of scarcity descends upon <CityName>, testing unity as
-    food, stone, and natural bounty dwindle.
+  mIntroMessage: <CityName> began as a small community surviving through simple tools,
+    shared labour, and ancestral guidance. Basic farming, early metalwork, and cautious
+    exploration support daily life, but resources remained limited. Every choice
+    shaped whether <CityName> could grow into a stable settlement or struggled against
+    scarcity, conflict, and the uncertainties of early development.
+  mActionMessage: A season of scarcity descended upon <CityName>, testing unity as
+    food and clean water sources dwindled.
   mProcessedActionMessage: 
   mOptionMessages:
-  - "Send a hunting\u2013scouting band into distant wildlands."
-  - Perform a ritual of offering to the earth spirits.
-  - Consolidate resources by merging multiple clan stores temporarily.
-  - Attempt early bronze forging to craft better tools from scarce ores.
-  - Nomadically relocate a portion of the tribe to follow migrating herds.
+  - "Send a hunting\u2013scouting band into distant wildlands. <CityName>"
+  - Perform a ritual of offering to the earth spirits. <CityName>
+  - Consolidate resources by merging multiple clan stores temporarily. <CityName>
+  - Attempt early bronze forging to craft better tools from scarce ores. <CityName>
+  - Nomadically relocate a portion of the tribe to follow migrating herds. <CityName>
   mOutcomeMessages:
   - "The scouting band returns carrying new stone samples, maps of fertile groves,
     and stories of distant herds. Their discoveries ease the tribe\u2019s anxiety

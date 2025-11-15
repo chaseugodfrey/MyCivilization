@@ -12,20 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Stone-Bronze-E10
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> begins as a small community surviving through simple
-    tools, shared labour, and ancestral guidance. Basic farming, early metalwork,
-    and cautious exploration support daily life, but resources remain limited. Every
-    choice shapes whether <CityName> grows into a stable settlement or struggles
-    against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: A difficult ethical choice confronts the people of <CityName>,
+  mIntroMessage: <CityName> began as a small community surviving through simple tools,
+    shared labour, and ancestral guidance. Basic farming, early metalwork, and cautious
+    exploration support daily life, but resources remained limited. Every choice
+    shaped whether <CityName> could grow into a stable settlement or struggled against
+    scarcity, conflict, and the uncertainties of early development.
+  mActionMessage: A difficult ethical choice confronted the people of <CityName>,
     forcing its leaders to weigh tradition, survival, compassion, and long-term consequences.
   mProcessedActionMessage: 
   mOptionMessages:
-  - Grant sanctuary to an injured outsider found near the village.
-  - Refuse help to outsiders and strengthen borders to protect your own.
-  - Ask the clans to vote collectively on the morally ambiguous issue.
-  - Consult ancestral rites to determine the morally correct action.
-  - Choose a pragmatic solution even if it challenges tradition.
+  - Grant sanctuary to an injured outsider found near the village. <CityName>
+  - Refuse help to outsiders and strengthen borders to protect your own. <CityName>
+  - Ask the clans to vote collectively on the morally ambiguous issue. <CityName>
+  - Consult ancestral rites to determine the morally correct action. <CityName>
+  - Choose a pragmatic solution even if it challenges tradition. <CityName>
   mOutcomeMessages:
   - The outsider recovers and proves to be skilled in crafting and gathering. Grateful
     for your compassion, they share knowledge that benefits the entire tribe and

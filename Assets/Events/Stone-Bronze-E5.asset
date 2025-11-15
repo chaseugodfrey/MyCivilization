@@ -12,21 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Stone-Bronze-E5
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> begins as a small community surviving through simple
-    tools, shared labour, and ancestral guidance. Basic farming, early metalwork,
-    and cautious exploration support daily life, but resources remain limited. Every
-    choice shapes whether <CityName> grows into a stable settlement or struggles
-    against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: A revolutionary discovery is made and its introduction to the people
-    promises to elevate <CityName>'s ability to hunt for food, but its impact depends
-    on how the clans react.
+  mIntroMessage: <CityName> began as a small community surviving through simple tools,
+    shared labour, and ancestral guidance. Basic farming, early metalwork, and cautious
+    exploration support daily life, but resources remained limited. Every choice
+    shaped whether <CityName> could grow into a stable settlement or struggled against
+    scarcity, conflict, and the uncertainties of early development.
+  mActionMessage: A revolutionary discovery was made and its introduction to the
+    people promised to elevate <CityName>'s ability to hunt for food, but its impact
+    depended on how the clans reacted.
   mProcessedActionMessage: 
   mOptionMessages:
-  - Allow the inventors to demonstrate the discovery before the whole tribe.
-  - Encourage artisans across clans to experiment with the technique.
-  - Declare the innovation sacred and entrust its use to the shamans.
-  - Use the breakthrough to forge diplomatic offerings for neighbouring tribes.
-  - Keep the discovery secret while exploring its full potential.
+  - Allow the inventors to demonstrate the discovery before the whole tribe. <CityName>
+  - Encourage artisans across clans to experiment with the technique. <CityName>
+  - Declare the innovation sacred and entrust its use to the shamans. <CityName>
+  - Use the breakthrough to forge diplomatic offerings for neighbouring tribes. <CityName>
+  - Keep the discovery secret while exploring its full potential. <CityName>
   mOutcomeMessages:
   - The demonstration captivates the tribe as young and old gather to watch. The
     innovation inspires excitement and unity as clans recognise its potential to

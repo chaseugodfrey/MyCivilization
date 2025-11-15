@@ -12,20 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Stone-Bronze-E7
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> begins as a small community surviving through simple
-    tools, shared labour, and ancestral guidance. Basic farming, early metalwork,
-    and cautious exploration support daily life, but resources remain limited. Every
-    choice shapes whether <CityName> grows into a stable settlement or struggles
-    against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: A neighbouring tribe has begun enroaching on <CityName>'s hunting
+  mIntroMessage: <CityName> began as a small community surviving through simple tools,
+    shared labour, and ancestral guidance. Basic farming, early metalwork, and cautious
+    exploration support daily life, but resources remained limited. Every choice
+    shaped whether <CityName> could grow into a stable settlement or struggled against
+    scarcity, conflict, and the uncertainties of early development.
+  mActionMessage: A neighbouring tribe had begun enroaching on <CityName>'s hunting
     grounds, threatening the city's food supply.
   mProcessedActionMessage: 
   mOptionMessages:
-  - Send a small peace-bearing delegation carrying symbolic gifts.
-  - Prepare a ceremonial hunt to demonstrate strength without hostility.
-  - Have shamans mediate through shared spiritual rites with rival shamans.
-  - Strengthen border patrols to discourage encroachment.
-  - Invite the rival tribe to a shared competition of skill and endurance.
+  - Send a small peace-bearing delegation carrying symbolic gifts. <CityName>
+  - Prepare a ceremonial hunt to demonstrate strength without hostility. <CityName>
+  - Have shamans mediate through shared spiritual rites with rival shamans. <CityName>
+  - Strengthen border patrols to discourage encroachment. <CityName>
+  - Invite the rival tribe to a shared competition of skill and endurance. <CityName>
   mOutcomeMessages:
   - The neighbouring tribe accepts the offerings graciously. Shared meals and exchanged
     stories cool tempers, laying the groundwork for future cooperation.

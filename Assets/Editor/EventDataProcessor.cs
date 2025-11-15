@@ -265,8 +265,8 @@ public class EventDataProcessor
                 option.OptionText = values[6];
                 option.OptionTag = values[7];
                 option.PositiveOutcomeText = values[8];
-                option.PositivePS_Change = int.Parse(values[9]);
-                option.NegativeOutcomeText = values[10];
+                option.NegativeOutcomeText = values[9];
+                option.PositivePS_Change = int.Parse(values[10]);
                 option.NegativePS_Change = int.Parse(values[11]);
                 option.PositiveStable_Change = int.Parse(values[12]);
                 option.NegativeStable_Change = int.Parse(values[13]);

@@ -12,20 +12,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Stone-Bronze-E6
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> begins as a small community surviving through simple
-    tools, shared labour, and ancestral guidance. Basic farming, early metalwork,
-    and cautious exploration support daily life, but resources remain limited. Every
-    choice shapes whether <CityName> grows into a stable settlement or struggles
-    against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: A violent tornado looms on the horizon, threatening <CityName>'s
+  mIntroMessage: <CityName> began as a small community surviving through simple tools,
+    shared labour, and ancestral guidance. Basic farming, early metalwork, and cautious
+    exploration support daily life, but resources remained limited. Every choice
+    shaped whether <CityName> could grow into a stable settlement or struggled against
+    scarcity, conflict, and the uncertainties of early development.
+  mActionMessage: A violent tornado loomed on the horizon, threatening <CityName>'s
     daily life, endangering the people's safety and survival.
   mProcessedActionMessage: 
   mOptionMessages:
-  - Construct emergency earth-and-wood shelters to protect the tribe.
-  - Send scouts to seek safer high ground or untouched groves.
-  - Ask shamans to perform protective rites to calm the raging spirits.
-  - Divide the tribe into task-groups to protect food, homes, and children.
-  - Retreat temporarily into sacred caves believed to be blessed by ancestors.
+  - Construct emergency earth-and-wood shelters to protect the tribe. <CityName>
+  - Send scouts to seek safer high ground or untouched groves. <CityName>
+  - Ask shamans to perform protective rites to calm the raging spirits. <CityName>
+  - Divide the tribe into task-groups to protect food, homes, and children. <CityName>
+  - Retreat temporarily into sacred caves believed to be blessed by ancestors. <CityName>
   mOutcomeMessages:
   - Working through wind and rain, families raise sturdy shelters reinforced with
     clay and timber. The structures hold firm, saving lives and giving the tribe

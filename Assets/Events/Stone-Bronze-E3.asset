@@ -12,20 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Stone-Bronze-E3
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> begins as a small community surviving through simple
-    tools, shared labour, and ancestral guidance. Basic farming, early metalwork,
-    and cautious exploration support daily life, but resources remain limited. Every
-    choice shapes whether <CityName> grows into a stable settlement or struggles
-    against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: ' A sudden abundance of valuable resources brings prosperity, but
-    risks pride, waste, and tension between the people of <CityName>.'
+  mIntroMessage: <CityName> began as a small community surviving through simple tools,
+    shared labour, and ancestral guidance. Basic farming, early metalwork, and cautious
+    exploration support daily life, but resources remained limited. Every choice
+    shaped whether <CityName> could grow into a stable settlement or struggled against
+    scarcity, conflict, and the uncertainties of early development.
+  mActionMessage: ' A sudden abundance of valuable resources brought prosperity,
+    but risked pride and tension between the people of <CityName>.'
   mProcessedActionMessage: 
   mOptionMessages:
-  - Host a Festival of Plenty to celebrate and share the abundance.
-  - Send artisans to craft intricate tools and ornaments from the surplus.
-  - Establish a Trading Circle with neighbouring tribes.
-  - "Store the surplus in clay\u2011lined pits and smokehouses for future safety."
-  - Send settlers to explore and expand into newly promising regions.
+  - Host a Festival of Plenty to celebrate and share the abundance. <CityName>
+  - Send artisans to craft intricate tools and ornaments from the surplus. <CityName>
+  - Establish a Trading Circle with neighbouring tribes. <CityName>
+  - "Store the surplus in clay\u2011lined pits and smokehouses for future safety.
+    <CityName>"
+  - Send settlers to explore and expand into newly promising regions. <CityName>
   mOutcomeMessages:
   - The tribe feasts joyfully, exchanging goods and stories under torchlit skies.
     The celebration turns prosperity into unity, leaving clans hopeful for the future.
