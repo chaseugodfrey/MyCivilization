@@ -11,8 +11,10 @@ public class EraEvent : ScriptableObject
     [SerializeField] string mActionMessage;    
     [SerializeField] string mProcessedActionMessage;    
 
-    [SerializeField] List<string> mOptionMessages;
-    [SerializeField] List<string> mOutcomeMessages;
+    [SerializeField]public List<string> mOptionMessages;
+    [SerializeField]public List<string> mProcessedOptionMessages;
+    [SerializeField]public List<string> mOutcomeMessages;
+    [SerializeField]public List<string> mProcessedOutcomeMessages;
     [SerializeField] List<int> mOutcomeValues;
     [SerializeField] List<int> mStableValues;
 
@@ -62,8 +64,8 @@ public class EraEvent : ScriptableObject
             rightIndex = UnityEngine.Random.Range(0, mOptionMessages.Count);
         } while (rightIndex == leftIndex);
 
-        string optionA = mOptionMessages[leftIndex];
-        string optionB = mOptionMessages[rightIndex];
+        string optionA = mProcessedOptionMessages[leftIndex];
+        string optionB = mProcessedOptionMessages[rightIndex];
         Debug.Log($"Option A index: {leftIndex}, Option B index: {rightIndex}");
 
         return new Tuple<string, string>(optionA, optionB);
@@ -75,6 +77,18 @@ public class EraEvent : ScriptableObject
         rolledOutcome = roll;
         Debug.LogWarning("Index Option: " + index);
         Debug.LogWarning("Rolled Outcome: " + roll);
-        return new Tuple<string, int>(mOutcomeMessages[roll], mOutcomeValues[roll]);
+        return new Tuple<string, int>(mProcessedOutcomeMessages[roll], mOutcomeValues[roll]);
+    }
+
+    public void SetCityNameOptionsAndOutcome(string cityName)
+    {
+        foreach(var option in mOptionMessages)
+        {
+            mProcessedOptionMessages.Add(option.Replace("<CityName>", cityName));
+        }
+        foreach (var outcome in mOutcomeMessages)
+        {
+            mProcessedOutcomeMessages.Add(outcome.Replace("<CityName>", cityName));
+        }
     }
 }
