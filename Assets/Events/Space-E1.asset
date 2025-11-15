@@ -30,6 +30,7 @@ MonoBehaviour:
   - Use military cargo cruisers to reroute essential supplies across FTL corridors.
   - Invest in a breakthrough synthetic material engineered in zero-gravity research
     labs.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - The fleet successfully navigates the unstable belt, extracting massive mineral
     loads. Shipyards roar back to life, and colonists celebrate the swift recovery.
@@ -54,6 +55,7 @@ MonoBehaviour:
     rapidly, positioning your civilisation as the technological leader of the galaxy.
   - The prototypes destabilise under atmospheric pressure, destroying the research
     facility. Funding collapses and confidence in off-world science wavers.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0c000000f6ffffff09000000f8ffffff08000000f9ffffff0b000000f7ffffff0a000000f8ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

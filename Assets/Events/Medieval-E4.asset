@@ -27,6 +27,7 @@ MonoBehaviour:
   - Host a royal feast to remind nobles of shared bonds.
   - Strengthen royal guards to deter rebellious nobles.
   - Offer strategic marriages to unite influential noble families.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - "The assembly restores trust through open dialogue. Nobles leave satisfied, and
     unity returns to the realm\u2019s leadership."
@@ -48,6 +49,7 @@ MonoBehaviour:
     the throne. Stability returns.
   - The alliances alienate excluded families, who grow jealous and bitter. Political
     scheming intensifies behind closed doors.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0b000000f6ffffff09000000f8ffffff08000000f9ffffff0a000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

@@ -27,6 +27,7 @@ MonoBehaviour:
   - Launch a national recycling and reclamation initiative to stretch existing resources.
   - Divert military logistics and transport fleets to support civilian supply distribution.
   - Fund emergency research to engineer synthetic alternatives to the scarce resource.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - Rationing slows consumption enough to stabilise the grid. Citizens appreciate
     the fairness of the distribution system, and engineers gain time to redirect
@@ -57,6 +58,7 @@ MonoBehaviour:
     leader in alternative materials.
   - The research burns through money with little progress. Headlines mock the 'million-dollar
     miracle that never came,' and funding scandals erode trust in scientific institutions.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f6ffffff0c000000f7ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

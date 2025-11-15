@@ -28,6 +28,7 @@ MonoBehaviour:
   - Launch a national donation drive supported by celebrities and public figures.
   - Mobilise engineering teams to rebuild infrastructure with modern, disaster-resistant
     designs.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - Swift rescue efforts save thousands of lives. Images of brave responders lift
     national morale, and gratitude toward leadership spreads widely.
@@ -50,6 +51,7 @@ MonoBehaviour:
     your nation\u2019s recovery."
   - Costs explode as rebuilding drags on. Critics label the project unrealistic,
     and citizens grow frustrated with slow progress and ballooning budgets.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0b000000f6ffffff09000000f9ffffff08000000f9ffffff07000000faffffff0c000000f7ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

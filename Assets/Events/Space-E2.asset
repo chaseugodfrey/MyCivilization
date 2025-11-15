@@ -29,6 +29,7 @@ MonoBehaviour:
     customs."
   - Encourage interplanetary festivals showcasing arts, cuisine, and innovation from
     all colonies.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - Shared experiences and immersive communication soften misunderstandings across
     worlds. Unity strengthens as citizens find pride in a multi-planet identity.
@@ -50,6 +51,7 @@ MonoBehaviour:
     and camaraderie. Citizens embrace diversity as a hallmark of civilisation.
   - Attempted sabotage at one event sparks fear. Colonies blame each other for the
     attack, worsening tensions.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f6ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

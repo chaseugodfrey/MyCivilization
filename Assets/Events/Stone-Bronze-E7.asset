@@ -21,11 +21,12 @@ MonoBehaviour:
     grounds, threatening the city's food supply.
   mProcessedActionMessage: 
   mOptionMessages:
-  - Send a small peace-bearing delegation carrying symbolic gifts. <CityName>
-  - Prepare a ceremonial hunt to demonstrate strength without hostility. <CityName>
-  - Have shamans mediate through shared spiritual rites with rival shamans. <CityName>
-  - Strengthen border patrols to discourage encroachment. <CityName>
-  - Invite the rival tribe to a shared competition of skill and endurance. <CityName>
+  - sent a small peace-bearing delegation carrying symbolic gifts.
+  - prepared a ceremonial hunt to demonstrate strength without hostility.
+  - had the shamans mediate through shared spiritual rites with the rival tribe.
+  - strengthened the border patrols around <CityName> to discourage further encroachment.
+  - invited the rival tribe to a shared competition of skill and endurance.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - The neighbouring tribe accepts the offerings graciously. Shared meals and exchanged
     stories cool tempers, laying the groundwork for future cooperation.
@@ -48,6 +49,7 @@ MonoBehaviour:
     honour.
   - The contests turn aggressive as tempers flare. Accusations of cheating spread
     rapidly, deepening resentment and worsening relations.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

@@ -27,6 +27,7 @@ MonoBehaviour:
   - Impose temporary rationing laws enforced by city magistrates.
   - Expand mining operations into unexplored hills and quarries.
   - Appeal to philosophers and scholars to devise new efficiency methods.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - "Farmers and engineers restore ancient canals and expand irrigation networks.
     Crops begin to recover as water returns to the fields, reassuring citizens that
@@ -59,6 +60,7 @@ MonoBehaviour:
   - Scholars disagree bitterly, and their theoretical debates solve nothing. Citizens
     mock the intellectual class for being out of touch, widening the divide between
     thinkers and labourers.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f6ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

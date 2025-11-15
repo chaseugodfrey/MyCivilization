@@ -27,6 +27,7 @@ MonoBehaviour:
   - Expand digital infrastructure to support emerging tech industries.
   - Create a government fund supporting small businesses and entrepreneurs.
   - Promote tourism through global campaigns and cultural showcases.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - High-speed rail, energy-efficient grids, and renovated roads transform the nation.
     Productivity soars as commute times drop and trade accelerates.
@@ -48,6 +49,7 @@ MonoBehaviour:
     districts. Citizens welcome new cultural interactions and opportunities.
   - Overcrowding strains local resources, while environmentalists protest damage
     to natural sites. Public debate erupts over prioritising tourists over citizens.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0b000000f7ffffff09000000f9ffffff0a000000f8ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

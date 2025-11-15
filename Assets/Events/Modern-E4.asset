@@ -29,6 +29,7 @@ MonoBehaviour:
   - Launch a public inquiry led by independent investigators.
   - Focus on foreign diplomacy to distract and stabilise both domestic and international
     relations.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - "Clear answers restore trust, and the public appreciates the candor. Media outlets
     highlight the government\u2019s transparency, calming national anxiety."
@@ -50,6 +51,7 @@ MonoBehaviour:
     abroad. Admiration rises for your leadership\u2019s global competence."
   - Citizens accuse the government of avoiding domestic issues. Headlines proclaim
     the strategy as escapism, intensifying political distrust.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff0b000000f6ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

@@ -27,6 +27,7 @@ MonoBehaviour:
   - Enforce strict containment of all subjects until facts are verified.
   - Commission an ethics AI trained on millennia of philosophical data.
   - "Organise a galaxy\u2011wide digital referendum to decide on the issue."
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - The tribunal becomes a beacon of fairness across the galaxy. Its ruling sets
     a new ethical standard admired by all factions.
@@ -48,6 +49,7 @@ MonoBehaviour:
     that strengthens democratic cohesion.
   - Hackers compromise portions of the vote. Trust in governance collapses as accusations
     of illegitimacy dominate the discourse.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

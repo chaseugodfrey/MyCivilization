@@ -26,6 +26,7 @@ MonoBehaviour:
   - Propose a shared research treaty to build trust.
   - Hold a system-wide referendum on the diplomatic approach.
   - Conduct a show of force by flying a fleet through contested space.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - The envoy impresses with empathy and clarity. Tensions cool as communication
     barriers dissolve, opening new alliances.
@@ -47,6 +48,7 @@ MonoBehaviour:
     action.
   - A vessel misfires during maneuvers, escalating the crisis. Armed conflict appears
     imminent.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0b000000f7ffffff0a000000f8ffffff09000000f9ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

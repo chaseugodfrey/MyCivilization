@@ -27,6 +27,7 @@ MonoBehaviour:
   - Hold athletic festivals to shift focus from ideology to shared civic pride.
   - Invite religious leaders to mediate philosophical disputes.
   - Allow each faction temporary autonomy to follow its own customs.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - The forum becomes a celebration of reasoned discourse. Citizens feel heard, tempers
     ease, and the shared pursuit of knowledge rekindles unity across factions.
@@ -48,6 +49,7 @@ MonoBehaviour:
     flexibility. Over time, factions find common ground through voluntary cooperation."
   - Autonomy deepens ideological separation. Factions grow rigid, developing distinct
     identities that undermine the unity of the civilisation.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

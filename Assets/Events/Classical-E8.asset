@@ -27,6 +27,7 @@ MonoBehaviour:
   - Fund a public works project to provide employment and reduce tensions.
   - Support a philosopher-led civic campaign promoting shared identity.
   - Allow each faction temporary autonomy to self-govern locally.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - The guilds meet under structured dialogue, finally airing grievances in a civil
     manner. Compromise becomes possible, and productivity rises as tensions cool.
@@ -48,6 +49,7 @@ MonoBehaviour:
     appreciate the breathing room and begin cooperating voluntarily.
   - Local leaders turn autonomy into power grabs, entrenching divisions. Regional
     loyalty grows stronger than loyalty to the state itself.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

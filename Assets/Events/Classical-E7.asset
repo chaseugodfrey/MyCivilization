@@ -28,6 +28,7 @@ MonoBehaviour:
     events.
   - Increase border patrols and fortify frontier outposts.
   - Host competitive games between your finest athletes and theirs.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - Diplomats are received warmly, and tribute softens foreign attitudes. A new treaty
     forms, easing tensions and restoring diplomatic balance.
@@ -49,6 +50,7 @@ MonoBehaviour:
     rivalry replaces hostility, renewing trust between nations.
   - National pride sparks conflict; accusations of cheating spiral out of control.
     Diplomatic relations worsen as the games end in discord.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

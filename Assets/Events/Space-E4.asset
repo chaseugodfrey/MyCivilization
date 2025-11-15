@@ -28,6 +28,7 @@ MonoBehaviour:
   - Appoint a respected AI mediator to oversee interplanetary negotiations.
   - Launch a transparent investigation into the crisis with full public access.
   - Stabilise planetary security forces and temporarily centralise authority.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - The speech resonates across colonies, restoring calm. Citizens appreciate clarity
     and renewed stability in government.
@@ -49,6 +50,7 @@ MonoBehaviour:
     but controlled approach to restoring order.
   - Colonists fear authoritarian overreach. Security deployments trigger resistance
     movements demanding autonomy.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff0b000000f6ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0

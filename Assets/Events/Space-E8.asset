@@ -27,6 +27,7 @@ MonoBehaviour:
   - "Introduce anti\u2011discrimination laws across all colonies."
   - "Invest in shared cultural and scientific institutions off\u2011world."
   - Temporarily restrict interplanetary travel to slow hostilities.
+  mProcessedOptionMessages: []
   mOutcomeMessages:
   - The summits foster empathy and reveal shared hopes. Peaceful cooperation reemerges
     across planets.
@@ -48,6 +49,7 @@ MonoBehaviour:
     returns.
   - The restrictions cripple commerce and isolate families. Economic and emotional
     strain ignite new conflicts.
+  mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
