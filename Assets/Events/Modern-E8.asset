@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Modern-E8
+  m_EditorClassIdentifier: 
+  mIntroMessage: Industrial change reshaped <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenged old systems,
+    while global trade raised both opportunity and risk. Innovation accelerated faster
+    than society adapted, and <CityName> had to balance progress with stability as
+    it confronted competition, unrest, and evolving expectations from its citizens.
+  mActionMessage: Political extremists, activist groups, or rival factions clash
+    within the nation. Civil unrest threatens stability unless decisive action is
+    taken.
+  mProcessedActionMessage: 
+  mOptionMessages:
+  - Hold a nationwide referendum to address core grievances democratically.
+  - Deploy peacekeeping units trained in de-escalation.
+  - Create a reform commission involving representatives from every faction.
+  - Increase funding for social programs in high-conflict regions.
+  - Allow controlled public debates between faction leaders.
+  mProcessedOptionMessages: []
+  mOutcomeMessages:
+  - The referendum restores faith in the democratic process. Citizens appreciate
+    being heard, and tensions ease as dialogue replaces confrontation.
+  - Results deepen division as factions reject the outcome. Accusations of fraud
+    spread online, worsening unrest and destabilising cities.
+  - Peacekeepers disperse protests with minimal force, protecting lives and calming
+    tensions. Their restraint earns public respect.
+  - Clashes erupt when a small group of officers misjudge the situation. Viral footage
+    sparks outrage, intensifying the conflict.
+  - Reform talks progress slowly but steadily. Citizens appreciate the inclusive
+    approach, and violence subsides as compromises emerge.
+  - Talks collapse when extremists refuse participation. Critics dismiss the commission
+    as political theatre, fuelling resentment.
+  - New opportunities reduce desperation and anger. Communities respond positively
+    as jobs, education, and stability return.
+  - Funds are mismanaged, leading to scandals. Opponents accuse the government of
+    buying loyalty, worsening political polarization.
+  - The debates humanise rival leaders and reduce misinformation. Citizens begin
+    to see peaceful negotiation as possible again.
+  - Debates devolve into insults and propaganda. Public perception worsens, reinforcing
+    stereotypes and fuelling hostility.
+  mProcessedOutcomeMessages: []
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f6ffffff07000000faffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
+  leftIndex: 0
+  rightIndex: 0
+  rolledOutcome: 0

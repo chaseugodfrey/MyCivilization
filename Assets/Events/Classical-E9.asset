@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Classical-E9
+  m_EditorClassIdentifier: 
+  mIntroMessage: <CityName> had strengthened into an organised society with structured
+    laws, wider trade, and a growing intellectual life. Roads and alliances had expanded
+    its reach, while diplomacy and conflict reshaped its borders. Prosperity had
+    risen, but so had rivalries and debates over authority. How <CityName> balanced
+    ambition and stability ultimately determined its path through this transformative
+    age.
+  mActionMessage: Illness sweeps through crowded cities and trade ports. The state
+    must act quickly to contain panic and loss.
+  mProcessedActionMessage: 
+  mOptionMessages:
+  - Build quarantine wards outside the city walls.
+  - Consult herbalists, healers, and foreign physicians for remedies.
+  - Close major markets and ports temporarily to slow transmission.
+  - Organise communal prayer gatherings and rites for health.
+  - "Dispatch scholars to research the disease\u2019s patterns and causes."
+  mProcessedOptionMessages: []
+  mOutcomeMessages:
+  - Physicians coordinate treatments in safe, isolated wards. Though harsh, the containment
+    slows the spread and reassures citizens that the state is acting decisively.
+  - Quarantine wards overflow and become poorly supplied. Families protest separation,
+    and fear spreads faster than the disease itself.
+  - Knowledge from distant lands combines with local practices, creating effective
+    treatments. Recovery rates rise, and trade networks admire your civilisation's
+    adaptability.
+  - Foreign remedies clash with traditional beliefs. Accusations of poisoning and
+    sabotage spread, causing civil unrest and stalling treatment efforts.
+  - "Though economically painful, the closures drastically slow the spread. Citizens
+    commend the government\u2019s willingness to protect lives over wealth."
+  - Markets collapse under the strain of closures. Merchants rebel, demanding compensation,
+    and the economy plunges into chaos.
+  - Temples teach calm and discipline, easing panic. Citizens find emotional strength
+    in unity, improving resilience against fear-driven disorder.
+  - Crowded rites accelerate disease transmission. Public ire erupts at priests for
+    endangering lives, damaging religious authority.
+  - Scholarly investigation uncovers patterns in symptoms and spread. Their insights
+    allow for targeted interventions that save countless lives.
+  - Scholars disagree publicly, presenting contradictory theories. Confusion spreads
+    across the population, weakening trust in both science and leadership.
+  mProcessedOutcomeMessages: []
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff07000000faffffff0b000000f7ffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
+  leftIndex: 0
+  rightIndex: 0
+  rolledOutcome: 0

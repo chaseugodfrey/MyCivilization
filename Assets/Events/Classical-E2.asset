@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Classical-E2
+  m_EditorClassIdentifier: 
+  mIntroMessage: <CityName> had strengthened into an organised society with structured
+    laws, wider trade, and a growing intellectual life. Roads and alliances had expanded
+    its reach, while diplomacy and conflict reshaped its borders. Prosperity had
+    risen, but so had rivalries and debates over authority. How <CityName> balanced
+    ambition and stability ultimately determined its path through this transformative
+    age.
+  mActionMessage: Philosophers, generals, priests, and merchants clash over values
+    and the direction of the state. Ideological divides threaten the harmony of the
+    republic or kingdom.
+  mProcessedActionMessage: 
+  mOptionMessages:
+  - Host a public forum where citizens debate openly under magistrate supervision.
+  - Commission respected philosophers to write doctrines promoting unity.
+  - Hold athletic festivals to shift focus from ideology to shared civic pride.
+  - Invite religious leaders to mediate philosophical disputes.
+  - Allow each faction temporary autonomy to follow its own customs.
+  mProcessedOptionMessages: []
+  mOutcomeMessages:
+  - The forum becomes a celebration of reasoned discourse. Citizens feel heard, tempers
+    ease, and the shared pursuit of knowledge rekindles unity across factions.
+  - The forum spirals into shouting and personal attacks. Factions leave more entrenched
+    than before, and the forum becomes a symbol of civic dysfunction.
+  - The doctrines spread through academies and marketplaces, persuading citizens
+    that harmony strengthens the state. A new cultural revival follows.
+  - Rival schools of thought dispute the doctrines, each claiming the others distort
+    truth. Citizens divide along intellectual lines, deepening the schism.
+  - Athletes from every region compete honorably, and crowds cheer as one people.
+    The spectacle renews civic pride and distracts from ideological conflicts.
+  - The games highlight regional rivalries instead of easing them. Accusations of
+    cheating ignite fights, converting celebration into chaos.
+  - Religious leaders help bridge differing values, emphasizing moral principles
+    shared across groups. Their guidance brings calm and renewed respect for tradition.
+  - Priests favour certain factions, sparking accusations of corruption. Religious
+    authority fractures, amplifying the ideological conflict.
+  - "Granting space reduces immediate tension, and citizens appreciate the state\u2019s
+    flexibility. Over time, factions find common ground through voluntary cooperation."
+  - Autonomy deepens ideological separation. Factions grow rigid, developing distinct
+    identities that undermine the unity of the civilisation.
+  mProcessedOutcomeMessages: []
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
+  leftIndex: 0
+  rightIndex: 0
+  rolledOutcome: 0

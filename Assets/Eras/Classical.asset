@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25846dacfbde4d241b879346c5a6d768, type: 3}
+  m_Name: Classical
+  m_EditorClassIdentifier: 
+  mEraName: Classical
+  mEraDescription: <CityName> had strengthened into an organised society with structured
+    laws, wider trade, and a growing intellectual life. Roads and alliances had expanded
+    its reach, while diplomacy and conflict reshaped its borders. Prosperity had
+    risen, but so had rivalries and debates over authority. How <CityName> balanced
+    ambition and stability ultimately determined its path through this transformative
+    age.
+  mProcessedEraDescription: 
+  mEraEvents:
+  - {fileID: 11400000, guid: 3b7e20db288c0c74496685e14f5a5564, type: 2}
+  - {fileID: 11400000, guid: c1c9f9779273a0c4a869bee49558db2b, type: 2}
+  - {fileID: 11400000, guid: 6268482ff4e399d469bae545cc30cced, type: 2}
+  - {fileID: 11400000, guid: d9d3dd48aaa7ecc47a59fb1e26a10ec1, type: 2}
+  - {fileID: 11400000, guid: 36427f29830304e428533716f7b63a7e, type: 2}
+  - {fileID: 11400000, guid: 1c046ffa33dbe6f46a61cdb8f24d08a0, type: 2}
+  - {fileID: 11400000, guid: 607d0654c79db514b8dc3b457d097c9f, type: 2}
+  - {fileID: 11400000, guid: 4c416987386754c4c80ba530d6afaace, type: 2}
+  - {fileID: 11400000, guid: d6cdfc8b991fe16459456668470337b9, type: 2}
+  - {fileID: 11400000, guid: 6c78865337564374680d98597135f97d, type: 2}

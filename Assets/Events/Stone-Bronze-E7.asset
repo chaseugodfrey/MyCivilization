@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Stone-Bronze-E7
+  m_EditorClassIdentifier: 
+  mIntroMessage: <CityName> began as a small community surviving through simple tools,
+    shared labour, and ancestral guidance. Basic farming, early metalwork, and cautious
+    exploration support daily life, but resources remained limited. Every choice
+    shaped whether <CityName> could grow into a stable settlement or struggled against
+    scarcity, conflict, and the uncertainties of early development.
+  mActionMessage: A neighbouring tribe had begun enroaching on <CityName>'s hunting
+    grounds, threatening the city's food supply.
+  mProcessedActionMessage: 
+  mOptionMessages:
+  - sent a small peace-bearing delegation carrying symbolic gifts.
+  - prepared a ceremonial hunt to demonstrate strength without hostility.
+  - had the shamans mediate through shared spiritual rites with the rival tribe.
+  - strengthened the border patrols around <CityName> to discourage further encroachment.
+  - invited the rival tribe to a shared competition of skill and endurance.
+  mProcessedOptionMessages: []
+  mOutcomeMessages:
+  - The neighbouring tribe accepts the offerings graciously. Shared meals and exchanged
+    stories cool tempers, laying the groundwork for future cooperation.
+  - The gifts are misinterpreted as bribes or signs of weakness. The neighbouring
+    tribe grows more aggressive, emboldened by what they perceive as submission.
+  - Your hunters display mastery and discipline, impressing the neighbouring tribe.
+    Respect replaces tension, and both sides agree to avoid future disputes.
+  - The display backfires as rival hunters interpret it as a challenge. Clashes break
+    out at the territory edge, fueling anger and escalating conflict.
+  - The shamans enter a trance-like communion, emerging with signs interpreted as
+    mutual favour. Spiritual harmony spreads, easing tensions between tribes.
+  - The rival tribe accuses your shamans of manipulation. Spiritual distrust hardens
+    positions, making negotiation far more difficult in the future.
+  - "The patrols operate with discipline, avoiding provocation while clearly protecting
+    your land. The rival tribe backs off, respecting your tribe\u2019s vigilance."
+  - A misinterpreted gesture or accidental encounter sparks violence along the border.
+    The neighbouring tribe mobilises, transforming the tension into open threat.
+  - The competition becomes a celebration of strength rather than hostility. Laughter
+    breaks through rivalry as participants recognise shared values of courage and
+    honour.
+  - The contests turn aggressive as tempers flare. Accusations of cheating spread
+    rapidly, deepening resentment and worsening relations.
+  mProcessedOutcomeMessages: []
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
+  leftIndex: 0
+  rightIndex: 0
+  rolledOutcome: 0

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Space-E8
+  m_EditorClassIdentifier: 
+  mIntroMessage: <CityName> extended its influence beyond Earth through orbital facilities,
+    lunar industry, and early colonies. Advanced reactors and long-range travel opened
+    new frontiers, but resources stretched thin and political interests diverged
+    across worlds. Each decision carried amplified consequences, shaping whether
+    <CityName> thrived among the stars or fractured under interplanetary pressures.
+  mActionMessage: "INTERNAL CONFLICT \u2014 Rising tensions between genetically\u2011modified
+    populations, baseline humans, AI citizens, and off\u2011world colonists ignite
+    civil unrest."
+  mProcessedActionMessage: 
+  mOptionMessages:
+  - "Host interspecies and inter\u2011colony reconciliation summits."
+  - "Deploy non\u2011lethal peacekeeper drones to stabilise protests."
+  - "Introduce anti\u2011discrimination laws across all colonies."
+  - "Invest in shared cultural and scientific institutions off\u2011world."
+  - Temporarily restrict interplanetary travel to slow hostilities.
+  mProcessedOptionMessages: []
+  mOutcomeMessages:
+  - The summits foster empathy and reveal shared hopes. Peaceful cooperation reemerges
+    across planets.
+  - Radical groups disrupt the meetings, spreading fear and propaganda. Trust between
+    communities collapses.
+  - Drones disperse crowds safely and efficiently. Citizens commend the restraint
+    shown in maintaining order.
+  - A drone malfunction injures civilians, amplifying outrage. Protests intensify
+    across colonies.
+  - The laws improve social harmony as marginalised populations feel protected and
+    respected by central governance.
+  - Some colonies reject the laws as overreach. Movements for planetary autonomy
+    grow stronger.
+  - Joint institutions flourish, offering education and innovation to all species
+    and populations. Collaboration deepens.
+  - Funding disputes erupt between colonies, framing the institutions as politically
+    biased. Resentment spreads.
+  - Travel limits contain tensions and prevent violent outbreaks. Order gradually
+    returns.
+  - The restrictions cripple commerce and isolate families. Economic and emotional
+    strain ignite new conflicts.
+  mProcessedOutcomeMessages: []
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
+  leftIndex: 0
+  rightIndex: 0
+  rolledOutcome: 0

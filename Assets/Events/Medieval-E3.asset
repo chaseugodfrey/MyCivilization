@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Medieval-E3
+  m_EditorClassIdentifier: 
+  mIntroMessage: <CityName> entered an age of fortified walls, noble factions, and
+    powerful traditions. Faith shaped governance, merchants connected distant routes,
+    and scholars preserved knowledge. Yet feuds, famine, and shifting loyalties threatened
+    stability. Survival depended on how <CityName> navigated obligations, alliances,
+    and the constant pressure of conflict within and beyond its borders.
+  mActionMessage: Prosperity surges as trade expands and new resources flow into
+    the kingdom. Wealth spreads, but so does the temptation toward greed and excess.
+  mProcessedActionMessage: 
+  mOptionMessages:
+  - Expand merchant guild privileges to encourage further trade.
+  - Commission new stone roads to connect distant towns.
+  - Host a grand market fair inviting merchants from across the continent.
+  - Lower taxes to reward citizens for their hard work.
+  - Construct new granaries and treasuries to secure surplus wealth.
+  mProcessedOptionMessages: []
+  mOutcomeMessages:
+  - Merchants flourish under new freedoms, returning with exotic goods and vast profits.
+    Prosperity spreads even into remote villages, uplifting morale across the kingdom.
+  - Guilds become arrogant and begin exploiting smaller traders. Corruption spreads
+    through the markets, turning prosperity into resentment.
+  - The new roads increase safety and speed for travelers. Trade booms further, and
+    the crown is praised for fostering long-term growth.
+  - "Construction overruns drain the treasury. Nobles argue over road routes, delaying
+    progress and souring the public\u2019s feelings about the project."
+  - The fair becomes a dazzling success, attracting traders from faraway lands. Knowledge,
+    goods, and culture intermix, enriching the entire realm.
+  - "A fire breaks out during the fair, destroying goods and spreading fear. Merchants
+    flee, vowing never to return, damaging your realm\u2019s reputation."
+  - A wave of relief sweeps through towns and villages. Happy citizens invest more
+    freely, further boosting economic success.
+  - With reduced taxes, the crown struggles to fund essential services. Nobles grow
+    anxious about weakened defenses and rising instability.
+  - "The kingdom becomes a model of foresight, storing prosperity for future hardship.
+    Citizens appreciate the ruler\u2019s wisdom."
+  - Heavy investment leaves little gold for emergencies. When minor mishaps occur,
+    the crown appears unprepared despite its wealth.
+  mProcessedOutcomeMessages: []
+  mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
+  leftIndex: 0
+  rightIndex: 0
+  rolledOutcome: 0

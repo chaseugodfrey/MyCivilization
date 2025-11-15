@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25846dacfbde4d241b879346c5a6d768, type: 3}
+  m_Name: Space
+  m_EditorClassIdentifier: 
+  mEraName: Space
+  mEraDescription: <CityName> extended its influence beyond Earth through orbital
+    facilities, lunar industry, and early colonies. Advanced reactors and long-range
+    travel opened new frontiers, but resources stretched thin and political interests
+    diverged across worlds. Each decision carried amplified consequences, shaping
+    whether <CityName> thrived among the stars or fractured under interplanetary
+    pressures.
+  mProcessedEraDescription: 
+  mEraEvents:
+  - {fileID: 11400000, guid: a28cdb1ed7944464494e708648c92e86, type: 2}
+  - {fileID: 11400000, guid: e9bcda78f6c73b54fbc82650fb3b450f, type: 2}
+  - {fileID: 11400000, guid: 2c9f1a7641dfab3498170ddcc08ce75e, type: 2}
+  - {fileID: 11400000, guid: 903607fe0921308429238fc8d97ad775, type: 2}
+  - {fileID: 11400000, guid: 1cf4385bf6882074a965aec48f158a0e, type: 2}
+  - {fileID: 11400000, guid: c9a08b4d546949f4d991fbf17e62b9f3, type: 2}
+  - {fileID: 11400000, guid: da97e6ef201269a40b5d3cf612c00a48, type: 2}
+  - {fileID: 11400000, guid: 3fe67115cb1ce2147bb908bd27f9840d, type: 2}
+  - {fileID: 11400000, guid: 4f7fd528494a8e942a2e8f8652d548de, type: 2}
+  - {fileID: 11400000, guid: 6ccdd46e5704f3844a156f89932f16ff, type: 2}

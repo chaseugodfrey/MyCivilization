@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Medieval-E10
+  m_EditorClassIdentifier: 
+  mIntroMessage: <CityName> entered an age of fortified walls, noble factions, and
+    powerful traditions. Faith shaped governance, merchants connected distant routes,
+    and scholars preserved knowledge. Yet feuds, famine, and shifting loyalties threatened
+    stability. Survival depended on how <CityName> navigated obligations, alliances,
+    and the constant pressure of conflict within and beyond its borders.
+  mActionMessage: A controversial case of justice, heresy, or peasant revolt forces
+    the realm to choose between strict order and mercy. The decision will echo through
+    legend.
+  mProcessedActionMessage: 
+  mOptionMessages:
+  - Hold a public trial for the accused before nobles, clergy, and common folk.
+  - Show mercy by commuting harsh punishments to lighter sentences.
+  - Enforce strict punishment to demonstrate unwavering authority.
+  - Consult a council of theologians and jurists to rule on the case.
+  - Defer the decision and send the accused on a religious pilgrimage as penance.
+  mProcessedOptionMessages: []
+  mOutcomeMessages:
+  - The trial proceeds with clear testimony and measured judgment. Even those who
+    disagree with the verdict respect the transparency of the process.
+  - The trial devolves into a spectacle of outrage. Shouting drowns out reason, and
+    the final judgment satisfies no one, deepening division.
+  - The act of mercy softens hearts and prevents martyrdom. Stories spread of a just
+    and compassionate ruler, bolstering loyalty among the common folk.
+  - Nobles interpret leniency as weakness. Some troublemakers feel emboldened, believing
+    the crown unwilling to enforce its own laws.
+  - A firm response restores short-term order and deters others from following the
+    same path. Nobles feel reassured that the law still has teeth.
+  - "The severity of the punishment shocks the populace. Whispers of cruelty tarnish
+    the crown\u2019s image, and sympathy for the accused grows quietly."
+  - "Their combined wisdom produces a carefully reasoned judgment. The blend of spiritual
+    and legal authority strengthens public confidence in the realm\u2019s moral compass."
+  - The council becomes deadlocked, issuing vague or contradictory guidance. Confusion
+    spreads, and both sides feel abandoned by those meant to guide them.
+  - The pilgrimage offers a path of redemption rather than simple punishment. Many
+    see the choice as wise, balancing justice with spiritual growth.
+  - Some interpret the decision as avoidance. If the accused later fails or flees,
+    the crown is blamed for indecision and poor judgment.
+  mProcessedOutcomeMessages: []
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
+  leftIndex: 0
+  rightIndex: 0
+  rolledOutcome: 0
