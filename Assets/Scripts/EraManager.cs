@@ -14,7 +14,19 @@ public class EraManager : MonoBehaviour
 
     private void Awake()
     {
+    }
+    public bool LoadEraAssets()
+    {
+        eraObjs = new List<Era>();
 
+        // "Eras" is the folder name inside Resources
+        Era[] loaded = Resources.LoadAll<Era>("Eras");
+
+        if (loaded == null || loaded.Length == 0)
+            return false;
+
+        eraObjs.AddRange(loaded);
+        return true;
     }
 
     public void ClearEraAssets()
@@ -22,27 +34,27 @@ public class EraManager : MonoBehaviour
         eraObjs.Clear();
     }
 
-    public bool LoadEraAssets()
-    {
-        eraObjs = new List<Era>();
-        string folderPath = Path.Combine("Assets\\", folderName);
+    //public bool LoadEraAssets()
+    //{
+    //    eraObjs = new List<Era>();
+    //    string folderPath = Path.Combine("Assets\\", folderName);
 
-        if (!Directory.Exists(folderPath))
-        {
-            return false;
-        }
+    //    if (!Directory.Exists(folderPath))
+    //    {
+    //        return false;
+    //    }
 
-        string[] assetFilePaths = Directory.GetFiles(folderPath);
-        foreach (var filepath in assetFilePaths)
-        {
-            if (filepath.EndsWith(".meta"))
-                continue;
-            Era era = AssetDatabase.LoadAssetAtPath<Era>(filepath);
-            eraObjs.Add(era);
-        }
+    //    string[] assetFilePaths = Directory.GetFiles(folderPath);
+    //    foreach (var filepath in assetFilePaths)
+    //    {
+    //        if (filepath.EndsWith(".meta"))
+    //            continue;
+    //        Era era = AssetDatabase.LoadAssetAtPath<Era>(filepath);
+    //        eraObjs.Add(era);
+    //    }
 
-        return true;
-    }
+    //    return true;
+    //}
 
     public Era GetNextEraObj()
     {
@@ -55,7 +67,7 @@ public class EraManager : MonoBehaviour
         if (eraObjs.Count == 0)
             return ScriptableObject.CreateInstance<Era>();
 
-        if (index > eraObjs.Count)
+        if (index >= eraObjs.Count)
             return eraObjs[0];
 
         return eraObjs[index];
