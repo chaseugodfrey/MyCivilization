@@ -17,8 +17,8 @@ MonoBehaviour:
     and cautious exploration support daily life, but resources remain limited. Every
     choice shapes whether <CityName> grows into a stable settlement or struggles
     against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: MORAL DILEMMA - A difficult ethical choice confronts the tribe,
-    forcing clans to weigh tradition, survival, compassion, and long-term consequences.<CityName>
+  mActionMessage: A difficult ethical choice confronts the people of <CityName>,
+    forcing its leaders to weigh tradition, survival, compassion, and long-term consequences.
   mProcessedActionMessage: 
   mOptionMessages:
   - Grant sanctuary to an injured outsider found near the village.

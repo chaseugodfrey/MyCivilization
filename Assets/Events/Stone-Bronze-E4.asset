@@ -17,9 +17,9 @@ MonoBehaviour:
     and cautious exploration support daily life, but resources remain limited. Every
     choice shapes whether <CityName> grows into a stable settlement or struggles
     against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: LEADERSHIP CRISIS - A fracture forms within the tribe as the authority
-    of the chieftain or elders is challenged. Doubt spreads quickly, and the tribe
-    must reaffirm its direction.<CityName>
+  mActionMessage: A fracture forms within <CityName> as the authority of the chieftain
+    or elders is challenged. Doubt spreads quickly, and the people of <CityName>
+    must reaffirm its direction.
   mProcessedActionMessage: 
   mOptionMessages:
   - Organise a Trial of Strength and Wisdom to select the rightful leader.

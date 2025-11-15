@@ -17,9 +17,8 @@ MonoBehaviour:
     and cautious exploration support daily life, but resources remain limited. Every
     choice shapes whether <CityName> grows into a stable settlement or struggles
     against scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: FOREIGN RELATIONS INCIDENT - Tension rises with a neighbouring
-    tribe, whether through disputed hunts, territory encroachment, or misunderstood
-    signals.<CityName>
+  mActionMessage: A neighbouring tribe has begun enroaching on <CityName>'s hunting
+    grounds, threatening the city's food supply.
   mProcessedActionMessage: 
   mOptionMessages:
   - Send a small peace-bearing delegation carrying symbolic gifts.
