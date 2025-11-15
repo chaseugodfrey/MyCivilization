@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 176c0d6ad2971cf4ea282d69921dd85b, type: 3}
-  m_Name: AloyTest
+  m_Name: NarrativePrefixes
   m_EditorClassIdentifier: 
   positiveOptionPrefixes:
   - 'Seeking to strengthen <CityName>, the clans '
@@ -35,7 +35,7 @@ MonoBehaviour:
   - 'Stressed by the fragility of unity, the clans '
   - 'Worn down by repeated setbacks, the people of <CityName> '
   eventIntros:
-  - 'As days passed, a new challenge emerged: '
+  - 'As days passed, a new development emerged: '
   - 'The winds of change brought forth an unexpected turn: '
   - 'In the midst of their journey, the people of <CityName> faced: '
   - 'Time revealed its next trial when '
@@ -52,15 +52,15 @@ MonoBehaviour:
   - 'History would record that '
   - 'The outcome proved decisive: '
   - 'What followed changed everything: '
-  - 'The decision bore fruit when '
+  - 'The decision showed its effects when '
   - 'In the wake of their action, '
   - 'The path chosen led to an outcome none could ignore: '
   - 'Fate''s judgment came swiftly: '
   eventTransitions:
-  - But the trials were far from over...
-  - Yet another challenge awaited them...
-  - Scarcely had they recovered when...
-  - Time pressed onward, bringing new tests...
-  - The people of <CityName> had little time to rest before...
-  - As one chapter closed, another immediately opened...
-  cityName: Johhnn
+  - 'But the trials were far from over as '
+  - Yet another development awaited them where
+  - 'Scarcely had they recovered when '
+  - 'Time pressed onward, bringing new tests when '
+  - 'The people of <CityName> had little time to rest before '
+  - 'As one chapter closed, another immediately opened when '
+  cityName: John
