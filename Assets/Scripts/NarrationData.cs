@@ -16,7 +16,7 @@ public class NarrationData : ScriptableObject
     {
         "As days passed, a new challenge emerged: ",
         "The winds of change brought forth an unexpected turn: ",
-        "In the midst of their journey, the people of <CityName> faced: ",
+        "In this age, the people of <CityName> faced an issue where ",
         "Time revealed its next trial when ",
         "Without warning, ",
         "The horizon darkened as ",
@@ -25,7 +25,7 @@ public class NarrationData : ScriptableObject
         "The course of history shifted as ",
         "A new chapter began when "
     };
-    
+
     [Header("Outcome Introduction Prefixes")]
     [Tooltip("Used to introduce outcomes more dramatically")]
     [SerializeField] public List<string> outcomeIntros = new List<string>

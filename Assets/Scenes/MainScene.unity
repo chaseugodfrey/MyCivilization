@@ -1852,11 +1852,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   folderName: Eras
   eraObjs:
+  - {fileID: 11400000, guid: 11755b6c0d7ec0a4cb8925deb82dafd7, type: 2}
   - {fileID: 11400000, guid: 2c879c1f46ba93c40a3ec254b997cf30, type: 2}
   - {fileID: 11400000, guid: 445f2c155d9abed45b2a1cdaf73d38e6, type: 2}
   - {fileID: 11400000, guid: 2741900deaeca144dbd06e4b7454ed5d, type: 2}
   - {fileID: 11400000, guid: e4088f712f0a1a245903cf7a824e4451, type: 2}
-  - {fileID: 11400000, guid: 11755b6c0d7ec0a4cb8925deb82dafd7, type: 2}
 --- !u!4 &534110278
 Transform:
   m_ObjectHideFlags: 0
@@ -6886,8 +6886,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -508, y: -24.844}
-  m_SizeDelta: {x: 323.1421, y: 50}
+  m_AnchoredPosition: {x: -299.19, y: -24.843994}
+  m_SizeDelta: {x: 398.87, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1878494686
 MonoBehaviour:

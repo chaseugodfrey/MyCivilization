@@ -12,44 +12,51 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Classical-E8
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> strengthens into an organised society with structured
-    laws, wider trade, and growing intellectual life. Roads and alliances expand
-    its reach, while diplomacy and conflict reshape its borders. Prosperity rises,
-    but so do rivalries and debates over authority. How <CityName> balances ambition
-    and stability determines its path through this transformative age.
-  mActionMessage: "INTERNAL CONFLICT \u2014 Growing cities strain under class tensions,
-    rival guilds, and political clubs. Competing interests threaten to fracture civic
-    unity."
+  mIntroMessage: <CityName> had strengthened into an organised society with structured
+    laws, wider trade, and a growing intellectual life. Roads and alliances had expanded
+    its reach, while diplomacy and conflict reshaped its borders. Prosperity had
+    risen, but so had rivalries and debates over authority. How <CityName> balanced
+    ambition and stability ultimately determined its path through this transformative
+    age.
+  mActionMessage: Reports arrived that a neighbouring city-state had begun expanding
+    into contested farmlands and trade routes near <CityName>. Though no conflict
+    had erupted, tensions rose as the threat to vital resources became clear.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Negative
   mOptionMessages:
-  - Create a council of guilds to negotiate disputes formally.
-  - Deploy magistrates to mediate disputes directly in the streets.
-  - Fund a public works project to provide employment and reduce tensions.
-  - Support a philosopher-led civic campaign promoting shared identity.
-  - Allow each faction temporary autonomy to self-govern locally.
+  - sent diplomats to clarify territorial boundaries and ease tensions.
+  - stationed patrols along the contested routes to assert presence.
+  - offered shared farming or trade rights to prevent conflict.
+  - held a council meeting to decide whether to prepare for war.
+  - sent spies to learn the intentions of the encroaching city-state.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The guilds meet under structured dialogue, finally airing grievances in a civil
-    manner. Compromise becomes possible, and productivity rises as tensions cool.
-  - Rival guilds use the council as a stage for power plays. Old disagreements ignite
-    into fresh feuds, worsening the struggle for influence within the city.
-  - The presence of magistrates reassures citizens and discourages violence. Their
-    impartial rulings restore a sense of order and fairness.
-  - Magistrates are accused of favoritism, fueling resentment. Crowds begin resisting
-    their authority, escalating rather than resolving conflict.
-  - New jobs ease competition and ease resentment among the lower classes. The project
-    becomes a symbol of civic unity, improving morale across districts.
-  - Costs balloon and supplies vanish under corruption. Workers riot after payment
-    delays, turning a hopeful project into a political disaster.
-  - Philosophers present compelling arguments for unity, reminding citizens of common
-    heritage and purpose. Conflicts fade as people rally around shared ideals.
-  - Philosophers divide into factions themselves, each claiming the true interpretation
-    of civic virtue. Their debates spill into the streets, worsening unrest.
-  - Autonomy eases immediate pressure, giving time for tempers to settle. Citizens
-    appreciate the breathing room and begin cooperating voluntarily.
-  - Local leaders turn autonomy into power grabs, entrenching divisions. Regional
-    loyalty grows stronger than loyalty to the state itself.
+  - The diplomats returned with a favourable agreement, and the neighbouring city-state
+    withdrew from the disputed lands. Calm returned to the region, and <CityName>
+    earned praise for resolving the matter peacefully.
+  - "The neighbouring leaders dismissed the diplomats\u2019 appeals, insisting the
+    lands were theirs by right. Tensions escalated, and many feared open conflict
+    was drawing nearer."
+  - "The disciplined patrols discouraged further encroachment, signalling <CityName>\u2019s
+    resolve without provoking hostility. Farmers and traders felt protected once
+    more."
+  - The patrols were interpreted as aggression, prompting the rival city-state to
+    mobilise its own forces. The border grew militarised, and anxiety spread among
+    the citizens.
+  - The proposal was welcomed, creating a cooperative arrangement that benefited
+    both sides. The shared fields flourished, and trade between the cities grew more
+    prosperous than before.
+  - "The offer was seen as a sign of weakness, emboldening the rival city-state to
+    push further into contested territory. <CityName>\u2019s goodwill was exploited
+    rather than respected."
+  - The council agreed on a defensive strategy that reassured the populace without
+    committing to conflict. Morale strengthened, and the city felt united and vigilant.
+  - The council fractured into factions advocating different responses. Rumours spread
+    of impending war, and fear gripped the districts, weakening public confidence.
+  - The spies uncovered plans for expansion but also internal weaknesses, allowing
+    <CityName> to act strategically and prevent further advances without bloodshed.
+  - The spies were discovered and captured, inflaming tensions. The rival city-state
+    accused <CityName> of subterfuge, and relations deteriorated sharply.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

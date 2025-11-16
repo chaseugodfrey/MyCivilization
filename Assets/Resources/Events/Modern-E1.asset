@@ -12,53 +12,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Modern-E1
   m_EditorClassIdentifier: 
-  mIntroMessage: Industrial change reshapes <CityName> with new technologies, expanding
-    factories, and rapid population growth. Political movements challenge old systems,
-    while global trade raises both opportunity and risk. Innovation accelerates faster
-    than society adapts, and <CityName> must balance progress with stability as it
-    confronts competition, unrest, and evolving expectations from its citizens.
-  mActionMessage: "RESOURCE SHORTAGE \u2014 A supply crisis hits the nation as fuel,
-    materials, or essential goods run scarce due to embargoes, industrial failures,
-    or global disruption. Factories stall, transport slows, and citizens grow anxious."
+  mIntroMessage: Industrial change reshaped <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenged old systems,
+    while global trade raised both opportunity and risk. Innovation accelerated faster
+    than society adapted, and <CityName> had to balance progress with stability as
+    it confronted competition, unrest, and evolving expectations from its citizens.
+  mActionMessage: A surge of printed literature, new art forms, and public lectures
+    spread through <CityName>, as industrial prosperity fuelled curiosity and expression.
+    Old traditions mixed with modern ideas, shaping a changing cultural identity.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Implement emergency fuel and energy rationing across major cities.
-  - Negotiate an urgent trade deal with foreign suppliers for essential materials.
-  - Launch a national recycling and reclamation initiative to stretch existing resources.
-  - Divert military logistics and transport fleets to support civilian supply distribution.
-  - Fund emergency research to engineer synthetic alternatives to the scarce resource.
+  - established public reading halls to share new literature with workers and families.
+  - sponsored exhibitions where artists displayed modern and traditional works side
+    by side.
+  - invited philosophers and scientists to deliver lectures on emerging ideas.
+  - "funded a city newspaper to document <CityName>\u2019s cultural transformation."
+  - organised cultural exchanges with neighbouring industrial centres.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - Rationing slows consumption enough to stabilise the grid. Citizens appreciate
-    the fairness of the distribution system, and engineers gain time to redirect
-    power to essential services. Factories resume limited but steady operations.
-  - Public frustration boils over as long queues and blackouts spread. Social media
-    amplifies complaints, and protests erupt demanding government accountability.
-    Order becomes harder to maintain.
-  - Diplomats secure a favourable contract after tense negotiation. Cargo ships arrive
-    within days, restocking industries and calming markets. Global partners praise
-    your nation's reliability under pressure.
-  - Foreign powers demand costly concessions involving tariffs, patents, or political
-    alignment. The deal arrives too late or too expensive, triggering public anger
-    and weakening your international standing.
-  - Industries creatively repurpose scrap materials, sparking innovation in manufacturing.
-    Citizens embrace the campaign enthusiastically, reducing strain on supply chains.
-    A surprising cultural movement forms around sustainability.
-  - "The program collapses under poor organisation, leading to contaminated materials
-    and inefficient recovery. Critics ridicule the government\u2019s 'performative
-    environmentalism,' damaging credibility."
-  - "The military\u2019s precision and discipline restore order in shipping routes.
-    Deliveries become reliable again, and citizens praise the decisive action prioritising
-    public welfare over bureaucracy."
-  - The presence of military personnel in civilian hubs sparks unease. Accusations
-    of intimidation and overreach spread, and mishandled checkpoints cause delays
-    rather than improvements.
-  - Scientists rapidly produce a workable substitute. Industries adopt it quickly,
-    transforming the crisis into a technological triumph. Your nation becomes a world
-    leader in alternative materials.
-  - The research burns through money with little progress. Headlines mock the 'million-dollar
-    miracle that never came,' and funding scandals erode trust in scientific institutions.
+  - The reading halls became lively hubs where workers, scholars, and children gathered
+    to learn and exchange ideas. Literacy improved across <CityName>, and a new sense
+    of shared cultural pride took root.
+  - The halls failed to attract steady interest, and many sat nearly empty. Critics
+    claimed the funds were wasted, and some argued that workers had little time or
+    energy for such pursuits.
+  - The exhibitions drew crowds and sparked meaningful dialogue between old and new
+    schools of thought. Artisans felt revitalised, and <CityName> earned praise for
+    embracing cultural harmony.
+  - The exhibitions provoked heated disputes as conservatives accused modern artists
+    of disrespecting tradition. The cultural debate hardened into division, souring
+    the intended celebration.
+  - "The lectures captivated audiences and encouraged innovation throughout the city.
+    Workers and scholars alike felt empowered by new knowledge, strengthening <CityName>\u2019s
+    intellectual spirit."
+  - The lectures confused or unsettled many citizens who saw the new theories as
+    threats to social order. Attendance dwindled, and critics accused city leaders
+    of promoting dangerous ideas.
+  - "The newspaper flourished, spreading stories of progress and unity. Citizens
+    felt more connected than ever, and the publication became a proud symbol of the
+    city\u2019s new industrial identity."
+  - Editors clashed over political leanings, and the paper became a battleground
+    for competing agendas. Instead of unity, it stirred public disputes and undermined
+    trust in the publication.
+  - The exchanges strengthened diplomatic ties and introduced <CityName> to innovative
+    art, music, and philosophy. The influx of new ideas inspired a wave of cultural
+    creativity.
+  - Some visitors brought conflicting values that clashed with local customs. Misunderstandings
+    escalated, and several guilds accused foreign artists of disrespect, cooling
+    relations.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f6ffffff0c000000f7ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

@@ -12,46 +12,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Classical-E4
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> strengthens into an organised society with structured
-    laws, wider trade, and growing intellectual life. Roads and alliances expand
-    its reach, while diplomacy and conflict reshape its borders. Prosperity rises,
-    but so do rivalries and debates over authority. How <CityName> balances ambition
-    and stability determines its path through this transformative age.
-  mActionMessage: "LEADERSHIP CRISIS \u2014 Senators, generals, or governors challenge
-    central authority. Power struggles threaten stability and endanger the unity
-    of the classical state."
+  mIntroMessage: <CityName> had strengthened into an organised society with structured
+    laws, wider trade, and a growing intellectual life. Roads and alliances had expanded
+    its reach, while diplomacy and conflict reshaped its borders. Prosperity had
+    risen, but so had rivalries and debates over authority. How <CityName> balanced
+    ambition and stability ultimately determined its path through this transformative
+    age.
+  mActionMessage: A remarkable breakthrough in engineering emerged in <CityName>,
+    promising safer construction, improved agriculture, and advances in everyday
+    life. How swiftly the city adopted this knowledge would shape its future achievements.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Call an emergency senate session to negotiate power disputes.
-  - Empower a respected general to temporarily unify command.
-  - Rally the people through public speeches and civic demonstrations.
-  - Establish a council of philosophers to guide decision-making.
-  - Offer amnesty to rebels and dissenters who pledge loyalty to the state.
+  - "invited engineers to demonstrate the invention before the city\u2019s craftsmen
+    and officials."
+  - funded workshops where guild artisans could refine and adapt the new technique.
+  - "entrusted the breakthrough to the scholars\u2019 guild for careful study and
+    controlled adoption."
+  - used the innovation to produce impressive gifts for diplomatic partners.
+  - restricted knowledge of the discovery initially, allowing specialists to test
+    its full potential.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - Debates run long but produce a compromise that satisfies rival blocs. Citizens
-    regain trust as the government demonstrates its ability to resolve crises through
-    reason.
-  - The senate erupts into chaos as factions accuse each other of treason. Negotiations
-    fail, and the public witnesses a humiliating collapse of political order.
-  - The general restores discipline with swift authority. Military order stabilises
-    the state, preventing unrest from consuming the capital.
-  - The general oversteps, gaining too much influence. Citizens fear a slide toward
-    tyranny, and senators plot in secret to counter the growing threat.
-  - Citizens gather in plazas to hear inspiring speeches. Their renewed patriotism
-    pressures political rivals into cooperation, restoring balance in the state.
-  - Crowds become unpredictable, and demonstrations turn violent. Opposing factions
-    exploit the unrest, dragging the state deeper into instability.
-  - The philosopher-council offers measured, ethical solutions that impress both
-    citizens and leaders. Their wisdom helps defuse political tensions.
-  - Philosophers disagree publicly, revealing ideological divides that embarrass
-    the state. Citizens mock the council as elite dreamers disconnected from real
-    governance.
-  - "The offer draws many dissenters back into the fold, reducing the risk of civil
-    conflict. Citizens praise the leadership\u2019s mercy and foresight."
-  - "Some rebels feign loyalty while plotting in secret. The state\u2019s leniency
-    is interpreted as weakness, emboldening those who seek to overthrow central authority."
+  - "The demonstration impressed both craftsmen and officials, who immediately recognised
+    the innovation\u2019s potential. Guilds collaborated to adopt the technique,
+    and <CityName> took its first steps toward a new era of efficiency."
+  - "The demonstration malfunctioned, casting doubt on the discovery\u2019s reliability.
+    Officials hesitated to support further development, and guild advocacy cooled
+    as skepticism spread."
+  - "The guild workshops thrived, producing refined tools, improved designs, and
+    clever adaptations. The innovation spread through the city\u2019s industries,
+    earning <CityName> newfound prestige for its craftsmanship."
+  - "The workshops consumed resources faster than expected, and competing guilds
+    quarreled over funding and ownership. Progress stalled, and public frustration
+    grew as the project\u2019s promise dimmed."
+  - "The scholars approached the breakthrough with patience and precision, uncovering
+    principles that made the innovation safer and more effective. Their findings
+    strengthened <CityName>\u2019s reputation for disciplined knowledge."
+  - "The scholars\u2019 slow, cautious approach frustrated the guilds and citizens.
+    Rumours spread that they were hoarding knowledge, and resentment brewed over
+    the lack of visible progress."
+  - "The crafted gifts astonished foreign dignitaries, who praised <CityName>\u2019s
+    mastery and vision. Several city-states responded with generous treaties, strengthening
+    regional ties and mutual trust."
+  - "Some neighbours interpreted the gifts as veiled demonstrations of power. Diplomatic
+    tension rose as rivals questioned <CityName>\u2019s intentions, fearing that
+    the innovation gave it an advantage."
+  - Specialists refined the invention in secrecy, improving its precision and ensuring
+    its safe use. When finally revealed, the fully developed breakthrough earned
+    admiration and immediate adoption across <CityName>.
+  - Whispers spread about hidden research and concealed dangers. The secrecy eroded
+    public trust, and even when the discovery was unveiled, many questioned whether
+    it was being used responsibly.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0b000000f6ffffff09000000f8ffffff08000000f9ffffff0a000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

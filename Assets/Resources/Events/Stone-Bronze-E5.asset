@@ -17,47 +17,51 @@ MonoBehaviour:
     exploration support daily life, but resources remained limited. Every choice
     shaped whether <CityName> could grow into a stable settlement or struggled against
     scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: A revolutionary discovery was made and its introduction to the
-    people promised to elevate <CityName>'s ability to hunt for food, but its impact
-    depended on how the clans reacted.
+  mActionMessage: An unforeseen chance placed <CityName> at a crossroads, forcing
+    its clans to weigh compassion against caution and duty against desire. The decision
+    would echo through generations, revealing the heart of the city.
   mProcessedActionMessage: 
-  mOutcomeType: TECHNOLOGICAL BREAKTHROUGH
+  mOutcomeType: Positive
   mOptionMessages:
-  - allowed the inventors to demonstrate this discovery before the whole of <CityName>.
-  - encouraged artisans across clans to experiment with the technique.
-  - declared the innovation sacred and entrusted its use to the shamans.
-  - used the breakthrough to forge diplomatic offerings to neighbouring tribes.
-  - 'kept the discovery secret from the people of <CityName> while exploring its
-    full potential. '
+  - extended aid and resources to those in need, choosing generosity over caution.
+  - "withheld aid to protect <CityName>\u2019s resources and ensure its own security."
+  - sought guidance from elders before committing to any course of action.
+  - gathered the clans to debate the opportunity openly and decide through consensus.
+  - "used the opportunity to strengthen <CityName>\u2019s long-term position, even
+    if it required difficult sacrifices."
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The demonstration captivates the tribe as young and old gather to watch. The
-    innovation inspires excitement and unity as clans recognise its potential to
-    improve daily life.
-  - "The demonstration fails dramatically \u2014 the tool breaks or the fire burns
-    too hot. Doubt spreads through the tribe, and the inventors lose prestige before
-    they can refine their craft."
-  - "Artisans from all clans refine the discovery, adding improvements and variations.
-    Their cooperation elevates the tribe\u2019s craftsmanship far beyond its former
-    limits."
-  - Competition replaces cooperation as artisans accuse each other of theft and sabotage.
-    The breakthrough becomes a source of rivalry rather than pride.
-  - The shamans integrate the discovery into rituals, elevating its importance and
-    giving it spiritual meaning. The tribe sees the breakthrough as a blessing from
-    the ancestors.
-  - Clans accuse the shamans of hoarding the tool for influence. Suspicion grows
-    as spiritual authority and practical needs clash, creating subtle fractures.
-  - Your artisans craft gifts that astonish neighbouring clans. Diplomacy strengthens
-    as your tribe becomes known for skill and generosity, forging new alliances.
-  - Rivals misinterpret the offerings as hidden threats. Diplomacy collapses as neighbouring
-    tribes grow wary, suspecting manipulation or concealed power.
-  - "Inventors refine the technique in secrecy until it becomes exceptionally powerful.
-    When finally revealed, the discovery elevates the tribe\u2019s standing and capability
-    dramatically."
-  - Whispers spread about hidden knowledge and secret gatherings. Fear and paranoia
-    destabilise trust between clans long before the truth is revealed.
+  - "The aid reached those in need, and word of <CityName>\u2019s generosity spread
+    far beyond its borders. The clans felt pride in their compassion, and new bonds
+    of goodwill strengthened the city\u2019s reputation."
+  - The generous outpouring strained food stores and labour, leaving <CityName> vulnerable
+    during the following season. Some clans ended up questioning whether kindness
+    had overshadowed prudence.
+  - By withholding aid, <CityName> preserved its stores and labour, allowing the
+    clans to endure an unexpectedly harsh season. Some quietly admitted that caution
+    had protected the city when it needed strength most.
+  - "Those turned away remembered the refusal, and word spread of <CityName>\u2019s
+    coldness. Neighbouring groups withdrew trust, and even within the city some clans
+    questioned what honour remained in choosing safety over compassion."
+  - "The elders\u2019 counsel brought clarity. Their wisdom helped the clans craft
+    a thoughtful response, and the decision was accepted peacefully across <CityName>."
+  - "The elders\u2019 debate dragged on, offering no clear direction. Impatience
+    grew among the clans, and by the time a choice was made, the opportunity had
+    passed and trust in elder judgment faltered."
+  - The clans gathered under open sky, speaking with candor and respect. Through
+    careful discussion, they forged a rare consensus. The unity forged in that circle
+    endured long after the decision itself.
+  - The debate spiraled into arguments as rival clans pushed conflicting agendas.
+    No consensus formed, and bitterness lingered, leaving <CityName> more divided
+    than before the meeting.
+  - "The strategic decision bore fruit in the seasons that followed. Though difficult
+    at first, the sacrifices strengthened <CityName>\u2019s long-term position and
+    secured its future prosperity."
+  - The sacrifices demanded proved harsher than expected. Some clans felt exploited,
+    believing their suffering served no clear purpose. Tension simmered, and loyalty
+    to <CityName> grew uncertain.
   mProcessedOutcomeMessages: []
-  mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff08000000f9ffffff09000000f8ffffff0c000000f6ffffff
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0

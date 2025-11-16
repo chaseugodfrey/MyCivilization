@@ -12,44 +12,47 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Modern-E8
   m_EditorClassIdentifier: 
-  mIntroMessage: Industrial change reshapes <CityName> with new technologies, expanding
-    factories, and rapid population growth. Political movements challenge old systems,
-    while global trade raises both opportunity and risk. Innovation accelerates faster
-    than society adapts, and <CityName> must balance progress with stability as it
-    confronts competition, unrest, and evolving expectations from its citizens.
-  mActionMessage: "INTERNAL CONFLICT \u2014 Political extremists, activist groups,
-    or rival factions clash within the nation. Civil unrest threatens stability unless
-    decisive action is taken."
+  mIntroMessage: Industrial change reshaped <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenged old systems,
+    while global trade raised both opportunity and risk. Innovation accelerated faster
+    than society adapted, and <CityName> had to balance progress with stability as
+    it confronted competition, unrest, and evolving expectations from its citizens.
+  mActionMessage: Conflicts over tariffs, trade routes, and shipping rights strained
+    relations between <CityName> and neighboring powers. Factories relied heavily
+    on these routes, making the tension a looming economic threat.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Negative
   mOptionMessages:
-  - Hold a nationwide referendum to address core grievances democratically.
-  - Deploy peacekeeping units trained in de-escalation.
-  - Create a reform commission involving representatives from every faction.
-  - Increase funding for social programs in high-conflict regions.
-  - Allow controlled public debates between faction leaders.
+  - sent diplomats to renegotiate tariffs and reopen blocked trade channels.
+  - escorted merchant convoys with armed guards to protect shipments.
+  - offered temporary tariff reductions to de-escalate tensions.
+  - stockpiled critical imports in preparation for prolonged disputes.
+  - invested in new rail and river routes to bypass contested trade zones.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The referendum restores faith in the democratic process. Citizens appreciate
-    being heard, and tensions ease as dialogue replaces confrontation.
-  - Results deepen division as factions reject the outcome. Accusations of fraud
-    spread online, worsening unrest and destabilising cities.
-  - Peacekeepers disperse protests with minimal force, protecting lives and calming
-    tensions. Their restraint earns public respect.
-  - Clashes erupt when a small group of officers misjudge the situation. Viral footage
-    sparks outrage, intensifying the conflict.
-  - Reform talks progress slowly but steadily. Citizens appreciate the inclusive
-    approach, and violence subsides as compromises emerge.
-  - Talks collapse when extremists refuse participation. Critics dismiss the commission
-    as political theatre, fuelling resentment.
-  - New opportunities reduce desperation and anger. Communities respond positively
-    as jobs, education, and stability return.
-  - Funds are mismanaged, leading to scandals. Opponents accuse the government of
-    buying loyalty, worsening political polarization.
-  - The debates humanise rival leaders and reduce misinformation. Citizens begin
-    to see peaceful negotiation as possible again.
-  - Debates devolve into insults and propaganda. Public perception worsens, reinforcing
-    stereotypes and fuelling hostility.
+  - The diplomats secured reduced tariffs and restored access to key routes. Merchants
+    celebrated the renewed flow of goods, and <CityName> regained economic momentum.
+  - "Negotiations stalled as foreign powers refused to compromise. Tensions worsened,
+    and several trade routes remained closed, deepening the city\u2019s financial
+    strain."
+  - "The guarded convoys deterred piracy and foreign interference, allowing vital
+    goods to reach <CityName> safely. Confidence in the city\u2019s resolve grew
+    among traders."
+  - "The armed escorts were viewed as hostile, escalating diplomatic conflict. Several
+    ports denied access to <CityName>\u2019s ships, amplifying the crisis."
+  - The gesture eased hostilities and encouraged neighbouring powers to reciprocate.
+    Trade slowly normalised, and a fragile peace returned to the region.
+  - Rivals interpreted the reduction as a sign of weakness. Instead of easing tensions,
+    they increased demands, emboldening foreign powers to press for further concessions.
+  - The stockpiles ensured that factories and households suffered no major shortages.
+    The extra buffer allowed <CityName> to negotiate from a position of stability.
+  - The stockpiling caused shortages elsewhere and drove up prices. Black-market
+    traders exploited the situation, creating further instability within the city.
+  - The alternative routes opened successfully, granting <CityName> independence
+    from contested territories. The new infrastructure boosted long-term trade resilience.
+  - "Construction delays and engineering challenges drained resources. The routes
+    remained unfinished, and critics blamed poor planning for worsening the city\u2019s
+    vulnerability."
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f6ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

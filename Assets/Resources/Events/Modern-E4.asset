@@ -12,46 +12,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Modern-E4
   m_EditorClassIdentifier: 
-  mIntroMessage: Industrial change reshapes <CityName> with new technologies, expanding
-    factories, and rapid population growth. Political movements challenge old systems,
-    while global trade raises both opportunity and risk. Innovation accelerates faster
-    than society adapts, and <CityName> must balance progress with stability as it
-    confronts competition, unrest, and evolving expectations from its citizens.
-  mActionMessage: "LEADERSHIP CRISIS \u2014 Scandals, disagreements, or sudden resignations
-    shake the government. Confidence in leadership wavers as rivals manoeuvre for
-    power."
+  mIntroMessage: Industrial change reshaped <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenged old systems,
+    while global trade raised both opportunity and risk. Innovation accelerated faster
+    than society adapted, and <CityName> had to balance progress with stability as
+    it confronted competition, unrest, and evolving expectations from its citizens.
+  mActionMessage: A breakthrough in machinery spread through <CityName>, promising
+    faster production, reduced labour strain, and new innovations. How the city adopted
+    these innovations would reshape its future.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Hold a fully transparent press conference to address accusations directly.
-  - Form an emergency coalition with opposition parties to stabilise governance.
-  - Appoint a highly respected non-political figure to temporarily oversee national
-    operations.
-  - Launch a public inquiry led by independent investigators.
-  - Focus on foreign diplomacy to distract and stabilise both domestic and international
-    relations.
+  - hosted demonstrations where engineers displayed the new machinery in action.
+  - granted funding to workshops experimenting with mechanised production methods.
+  - restricted initial use of the innovation to skilled engineers for careful testing.
+  - integrated the breakthrough into major factories to boost output.
+  - sent prototypes as diplomatic gifts to strengthen foreign relations.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - "Clear answers restore trust, and the public appreciates the candor. Media outlets
-    highlight the government\u2019s transparency, calming national anxiety."
-  - The press conference spirals into hostile questioning. Poor responses go viral,
-    worsening the scandal and deepening distrust.
-  - A united leadership presents a calm front. Policies pass efficiently, demonstrating
-    political maturity and reducing partisan tensions.
-  - Ideological clashes paralyse decision-making. The coalition crumbles quickly,
-    sparking even greater leadership vacuum and public frustration.
-  - A revered judge, scientist, or humanitarian restores public confidence. Citizens
-    feel reassured by a neutral expert guiding the nation through crisis.
-  - Critics question the legitimacy of unelected authority. Protests erupt over democratic
-    concerns, weakening societal cohesion.
-  - The investigation uncovers truth and holds guilty parties accountable. Public
-    support surges as justice is seen to prevail over corruption.
-  - Political allies resist the inquiry, leading to accusations of cover-ups. The
-    process becomes politicised, further eroding confidence.
-  - "Successful negotiations and treaties shift public focus to national achievements
-    abroad. Admiration rises for your leadership\u2019s global competence."
-  - Citizens accuse the government of avoiding domestic issues. Headlines proclaim
-    the strategy as escapism, intensifying political distrust.
+  - The demonstrations impressed craftsmen, investors, and officials alike. Confidence
+    in the innovation spread quickly, and several factories adopted the new machinery
+    with remarkable success.
+  - The machines malfunctioned during the demonstrations, alarming spectators and
+    investors. Doubts spread rapidly, and support for the breakthrough weakened before
+    it could gain traction.
+  - The workshops made groundbreaking improvements, adapting the innovation into
+    practical, efficient designs. <CityName> soon gained a reputation for mechanical
+    ingenuity.
+  - The workshops drained funds without producing meaningful progress. Fierce competition
+    between guilds led to accusations of waste and mismanagement, dampening enthusiasm
+    for the project.
+  - The engineers refined the invention with precision, resolving early flaws and
+    ensuring its safe adoption. When released to the public, the improved machine
+    was widely praised.
+  - The secrecy surrounding the testing raised suspicion among workers and guilds.
+    Rumours of hidden dangers spread, and resentment built even before the innovation
+    was revealed.
+  - Productivity surged as factories embraced the innovation. Workers saw reduced
+    strain, profits increased, and <CityName> enjoyed a new wave of industrial growth.
+  - "The rapid integration proved unstable\u2014several factories suffered breakdowns
+    or accidents. Workers blamed rushed implementation, and support for the new technology
+    faltered."
+  - "Foreign dignitaries were astonished by the prototypes and praised <CityName>\u2019s
+    craftsmanship. The gifts opened doors to new trade deals and strengthened regional
+    alliances."
+  - Some neighbouring powers interpreted the prototypes as strategic threats. Suspicion
+    grew, and a few states tightened borders, turning diplomacy tense and uncertain.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff0b000000f6ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

@@ -12,44 +12,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Space-E6
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> extends its influence beyond Earth through orbital facilities,
-    lunar industry, and early colonies. Advanced reactors and long-range travel open
-    new frontiers, but resources stretch thin and political interests diverge across
-    worlds. Each decision carries amplified consequences, shaping whether <CityName>
-    thrives among the stars or fractures under interplanetary pressures.
-  mActionMessage: "NATURAL DISASTER \u2014 A solar flare surge, terraforming failure,
-    asteroid strike warning, or alien microbe outbreak threatens the stability of
-    one or more colonies."
+  mIntroMessage: <CityName> extended its influence beyond Earth through orbital facilities,
+    lunar industry, and early colonies. Advanced reactors and long-range travel opened
+    new frontiers, but resources stretched thin and political interests diverged
+    across worlds. Each decision carried amplified consequences, shaping whether
+    <CityName> thrived among the stars or fractured under interplanetary pressures.
+  mActionMessage: A sudden collapse of helium-3 shipments from lunar and gas-giant
+    refineries left FTL reactors starving for fuel. Hyperlane disruptions rippled
+    across <CityName>, threatening to plunge entire sectors into isolation.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Negative
   mOptionMessages:
-  - Evacuate vulnerable colonies using FTL-capable relief vessels.
-  - Activate planetary defense arrays to shield critical infrastructure.
-  - Deploy terraforming stabilizers to contain atmospheric or geological damage.
-  - Mobilise scientific task forces to study the event and prevent recurrence.
-  - Seal affected colonies under temporary quarantine barriers.
+  - rerouted all remaining FTL-capable vessels to secure emergency helium-3 from
+    fringe mining colonies.
+  - activated reserve fusion farms to synthesise limited quantities of emergency
+    FTL fuel.
+  - negotiated temporary hyperlane-sharing treaties with neighbouring sectors to
+    bypass collapsed routes.
+  - transitioned critical supply lines onto slower sublight convoys to maintain minimum
+    connectivity.
+  - issued a system-wide conservation mandate to reduce FTL usage until stability
+    returned.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The evacuation proceeds with precision. Millions are relocated safely, and gratitude
-    strengthens interplanetary unity.
-  - Evacuation corridors overload. Several ships become stranded mid-jump, causing
-    panic and interplanetary outrage.
-  - The planetary shields absorb catastrophic forces, preserving cities and research
-    hubs. Engineers are celebrated for their heroism.
-  - A shield overload causes grid-wide blackouts. Essential systems fail, leaving
-    colonies vulnerable and fearful.
-  - Stabilizers restore balance swiftly. Citizens praise the swift response and renewed
-    confidence in planetary engineering.
-  - A malfunction worsens the disaster. Terraforming systems spiral out of control,
-    rendering entire regions uninhabitable.
-  - Breakthrough insights emerge, improving defensive protocols and technology across
-    every world.
-  - Research delays frustrate colonists demanding immediate action. Trust erodes
-    as debates stall critical solutions.
-  - The swift isolation prevents the disaster from spreading across worlds. Citizens
-    welcome the decisive containment.
-  - "Colonies feel abandoned and revolt against containment measures. Civil unrest
-    spreads system\u2011wide."
+  - "The redirected vessels reached several remote refineries still holding reserve
+    stocks. The emergency fuel convoys returned safely, stabilising <CityName>\u2019s
+    FTL grid and preventing sector-wide isolation."
+  - Space pirates ambushed the rerouted vessels. Several convoys vanished, deepening
+    the crisis and leaving <CityName> more isolated than before.
+  - The reserve farms produced a modest but vital stream of helium-3, enough to keep
+    critical hyperlanes open. Citizens praised the quick thinking that prevented
+    total shutdown.
+  - The aging fusion farms overloaded and failed, triggering blackouts across energy
+    districts. The failed attempt consumed remaining fuel stocks and worsened the
+    shortage.
+  - Several neighbouring systems agreed to share stable hyperlanes, maintaining intersector
+    travel. The diplomatic success bought <CityName> time to rebuild lost supply
+    lines.
+  - Negotiations collapsed when rival systems demanded heavy concessions. <CityName>
+    was denied access, and regional tensions escalated dangerously.
+  - The sublight convoys arrived steadily, if slowly, preserving essential trade
+    flow. Though inconvenient, they prevented total economic and logistical collapse.
+  - The convoys were too slow to meet demand. Supplies arrived late or spoiled, industries
+    stalled, and citizens realised the stopgap solution could not sustain <CityName>.
+  - The mandate dramatically reduced fuel consumption. Essential routes remained
+    powered, and the measured response kept the crisis contained without triggering
+    panic.
+  - The restrictions crippled commerce, research, and transport. Frustration erupted
+    across multiple districts, and black-market FTL jumps surged despite the ban.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0c000000f6ffffff0a000000f8ffffff09000000f9ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

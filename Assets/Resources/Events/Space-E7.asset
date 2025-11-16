@@ -12,43 +12,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Space-E7
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> extends its influence beyond Earth through orbital facilities,
-    lunar industry, and early colonies. Advanced reactors and long-range travel open
-    new frontiers, but resources stretch thin and political interests diverge across
-    worlds. Each decision carries amplified consequences, shaping whether <CityName>
-    thrives among the stars or fractures under interplanetary pressures.
-  mActionMessage: "FOREIGN RELATIONS INCIDENT \u2014 A diplomatic crisis erupts involving
-    a newly contacted alien species or a dispute between independent human colonies."
+  mIntroMessage: <CityName> extended its influence beyond Earth through orbital facilities,
+    lunar industry, and early colonies. Advanced reactors and long-range travel opened
+    new frontiers, but resources stretched thin and political interests diverged
+    across worlds. Each decision carried amplified consequences, shaping whether
+    <CityName> thrived among the stars or fractured under interplanetary pressures.
+  mActionMessage: A rogue solar flare from a nearby unstable star erupted without
+    warning, frying orbital habitats, blinding sensor networks, and threatening <CityName>
+    with the brink of destruction.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Negative
   mOptionMessages:
-  - Send a multilingual diplomatic envoy including AI translators.
-  - Strengthen orbital defenses while maintaining an open diplomatic channel.
-  - Propose a shared research treaty to build trust.
-  - Hold a system-wide referendum on the diplomatic approach.
-  - Conduct a show of force by flying a fleet through contested space.
+  - deployed shield-drones to reinforce damaged orbital habitats and restore structural
+    integrity.
+  - rerouted power through deep-buried superconductive grids to reboot sensor networks
+    safely.
+  - evacuated affected orbital clusters to hardened planetary shelters before secondary
+    flare activity.
+  - launched automated repair swarms to rebuild scorched infrastructure in low-orbit
+    lanes.
+  - commissioned astro-physicists to predict further instability and advise defensive
+    measures.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The envoy impresses with empathy and clarity. Tensions cool as communication
-    barriers dissolve, opening new alliances.
-  - A mistranslation sparks misunderstanding. Talks collapse and relations deteriorate
-    rapidly.
-  - This balanced approach discourages aggression without provoking it. Colonies
-    commend your strategic wisdom.
-  - The maneuver is interpreted as hostile posturing. The opposing faction mobilises
-    fleets in response.
-  - Cooperative projects flourish, leading to technological breakthroughs and cultural
-    exchange. A new golden age of diplomacy dawns.
-  - Rivals view the treaty as unequal or manipulative. The initiative collapses,
-    worsening suspicion.
-  - The referendum unifies citizens under a shared mandate. Public engagement strengthens
-    governance.
-  - The vote reveals deep social fractures. Opposing camps grow hostile, worsening
-    internal instability.
-  - The bold display intimidates rivals into backing down. Colonies praise the decisive
-    action.
-  - A vessel misfires during maneuvers, escalating the crisis. Armed conflict appears
-    imminent.
+  - "The shield-drones stabilised the battered habitats, preventing hull breaches
+    and saving hundreds of residents. Their quick deployment restored calm and confidence
+    in <CityName>\u2019s orbital safety protocols."
+  - "The drones overloaded under the flare\u2019s residual radiation and failed mid-operation.
+    Several habitats sustained additional damage, and evacuation casualties rose
+    sharply."
+  - "The underground grids absorbed the flare\u2019s interference, allowing critical
+    sensors to reboot more quickly than expected. Restored vision of nearby space
+    lanes prevented further disasters."
+  - Residual radiation surged through the system and fried several grid nodes. The
+    partial reboot produced corrupted data, leaving <CityName> effectively blind
+    to incoming traffic.
+  - The evacuation proceeded smoothly, clearing vulnerable habitats before a secondary
+    pulse struck. Thousands were protected, and the planetary shelters handled the
+    influx without strain.
+  - Evacuation ships struggled with damaged navigation systems, causing delays and
+    collisions. Lives were lost during the confusion, and public outrage flared across
+    multiple districts.
+  - The swarms worked at impressive speed, restoring key orbital lanes and patching
+    damaged arrays. Their efficiency helped <CityName> recover far sooner than analysts
+    predicted.
+  - "The flare disrupted the swarms\u2019 coordination signals, sending several units
+    into malfunction. Debris struck nearby habitats, compounding the damage and eroding
+    public trust."
+  - "The scientists identified a pattern in the star\u2019s fluctuations and issued
+    precise warnings. Their models allowed <CityName> to shield vulnerable stations
+    before new bursts arrived."
+  - The predictions proved wildly inaccurate, leaving defenses misaligned during
+    a follow-up flare. Citizens accused the experts of negligence, deepening fear
+    and frustration.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0b000000f7ffffff0a000000f8ffffff09000000f9ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

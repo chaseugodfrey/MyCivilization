@@ -12,44 +12,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Modern-E7
   m_EditorClassIdentifier: 
-  mIntroMessage: Industrial change reshapes <CityName> with new technologies, expanding
-    factories, and rapid population growth. Political movements challenge old systems,
-    while global trade raises both opportunity and risk. Innovation accelerates faster
-    than society adapts, and <CityName> must balance progress with stability as it
-    confronts competition, unrest, and evolving expectations from its citizens.
-  mActionMessage: "FOREIGN RELATIONS INCIDENT \u2014 Diplomatic tensions spike after
-    a border violation, cyberattack, or leaked intelligence. Nations watch closely
-    as the situation threatens global stability."
+  mIntroMessage: Industrial change reshaped <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenged old systems,
+    while global trade raised both opportunity and risk. Innovation accelerated faster
+    than society adapted, and <CityName> had to balance progress with stability as
+    it confronted competition, unrest, and evolving expectations from its citizens.
+  mActionMessage: "A catastrophic failure at <CityName>\u2019s chemical refining
+    plant released toxic gas across several districts. The fumes sickened workers
+    and families alike, disrupting daily life and raising urgent concerns about the
+    safety of the city\u2019s industrial expansion."
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Negative
   mOptionMessages:
-  - Send diplomats to negotiate an immediate de-escalation agreement.
-  - Strengthen cyberdefences and publicly condemn the hostile action.
-  - Deploy military forces for strategic deterrence along contested borders.
-  - Request emergency mediation from neutral global organisations.
-  - Increase humanitarian aid to the affected border population.
+  - ordered an immediate evacuation of all affected districts to safeguard citizens
+    from further exposure.
+  - sent engineers and medical teams to contain the leak, neutralise the gas, and
+    aid the injured.
+  - halted operations at all chemical plants pending a full safety inspection.
+  - set up emergency clinics and distributed protective gear to stabilise the population.
+  - commissioned an independent inquiry to determine the cause of the failure and
+    assign accountability.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - Diplomats manage to calm heated discussions, securing a ceasefire and restoring
-    communication channels. The world praises your restraint and commitment to peace.
-  - Negotiations stall as the opposing nation refuses to cooperate. Your attempts
-    at diplomacy are mocked globally, and tensions worsen.
-  - Your firm response reassures citizens and allies. Cyberattacks decrease significantly
-    as the aggressor retreats under international pressure.
-  - The condemnation backfires, prompting retaliatory cyberassaults. Public systems
-    crash and panic spreads throughout the nation.
-  - Your forces maintain discipline and avoid escalation. The show of strength convinces
-    the rival nation to step back and reconsider aggression.
-  - A border patrol misinterprets enemy movement, triggering a brief firefight. The
-    world condemns you for escalating the crisis.
-  - International mediators defuse tensions effectively, producing a fair diplomatic
-    resolution. Your leadership is credited for seeking peaceful solutions.
-  - The rival nation refuses mediation and portrays your request as an admission
-    of weakness. Allies question your strategic resolve.
-  - Aid workers deliver critical relief, earning goodwill from civilians on both
-    sides of the border. The gesture softens hostility and opens paths to negotiation.
-  - Convoys are blocked or attacked, heightening tensions. Critics accuse you of
-    wasting resources on symbolic gestures with no strategic value.
+  - "The evacuation saved countless lives, clearing the districts before the fumes
+    intensified. Families reached safety, and gratitude grew toward <CityName>\u2019s
+    swift response."
+  - The sudden evacuation caused chaos and trampling in narrow streets. Some families
+    became separated, and several evacuees suffered injuries or exposure during the
+    disorder.
+  - The response teams worked with precision, sealing the breach and treating the
+    affected. Their bravery restored confidence, and the crisis subsided far sooner
+    than feared.
+  - The teams underestimated the severity of the leak. Several responders collapsed,
+    efforts stalled, and the fumes spread farther before containment could resume.
+  - The shutdown prevented further accidents and allowed inspectors to uncover critical
+    faults. Citizens felt reassured knowing <CityName> was prioritising safety over
+    profit.
+  - The shutdown triggered severe economic slowdown. Factories idled, wages fell,
+    and merchants protested the sweeping closures, deepening public frustration.
+  - The clinics treated the sick efficiently, and protective gear limited further
+    poisoning. The swift medical response kept fatalities low and stabilised the
+    districts.
+  - Supplies ran short, and clinics overflowed. Protective gear proved insufficient,
+    and many accused the city of distributing faulty equipment, inflaming public
+    anger.
+  - The inquiry uncovered negligence, leading to major safety reforms and renewed
+    trust in city leadership. Citizens praised the commitment to transparency.
+  - The investigation dragged on with no clear results. Rumours of bribery and hidden
+    evidence spread, causing distrust and widening the rift between workers and industrial
+    leaders.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff0b000000f6ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

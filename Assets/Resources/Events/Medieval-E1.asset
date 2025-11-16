@@ -12,57 +12,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Medieval-E1
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> enters an age of fortified walls, noble factions, and
-    powerful traditions. Faith shapes governance, merchants connect distant routes,
-    and scholars preserve knowledge. Yet feuds, famine, and shifting loyalties threaten
-    stability. Survival depends on how <CityName> navigates obligations, alliances,
+  mIntroMessage: <CityName> entered an age of fortified walls, noble factions, and
+    powerful traditions. Faith shaped governance, merchants connected distant routes,
+    and scholars preserved knowledge. Yet feuds, famine, and shifting loyalties threatened
+    stability. Survival depended on how <CityName> navigated obligations, alliances,
     and the constant pressure of conflict within and beyond its borders.
-  mActionMessage: "RESOURCE SHORTAGE \u2014 A failed harvest, disrupted caravan,
-    or mismanaged storehouse has led to widespread scarcity. Grain prices rise, villages
-    stir with unease, and whispers of misrule test the kingdom's stability."
+  mActionMessage: Rival sects, olden customs, and noble traditions collided within
+    <CityName>, as the common folk argued over whose rites should guide the kingdom.
+    What <CityName> would affect how its future was affected down the line.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Send knights and stewards to inspect granaries for mismanagement or hoarding.
-  - Request emergency grain shipments from neighbouring kingdoms through noble diplomacy.
-  - Establish temporary communal fields worked by peasants under state support.
-  - Redirect castle artisans and blacksmiths to repair damaged mills and farming
-    tools.
-  - Hold a religious ceremony asking divine blessing for renewal and abundance.
+  - allowed different sects the freedom to follow their local customs without interference.
+  - ordered the clergy to hold a great council to settle disputes and agree on unified
+    rites.
+  - granted noble houses authority to enforce their preferred traditions within their
+    own territories.
+  - invited wandering monks and scholars to preach across <CityName>, hoping their
+    wisdom would ease tensions.
+  - commissioned a chronicle of ancestral customs to remind the realm of its shared
+    heritage.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - "The inspection uncovers hidden stockpiles illegally held by corrupt local officials.
-    Their seizure restores fairness, and villagers celebrate the kingdom\u2019s vigilance.
-    Order returns as supplies are redistributed."
-  - Knights overstep their authority, seizing goods from innocent farmers. Panic
-    spreads as rumours of tyranny circulate, and several villages refuse to cooperate
-    with royal officers.
-  - "Allied lords agree to send grain as goodwill payments, strengthening regional
-    alliances. The gesture eases famine fears and elevates your realm\u2019s reputation
-    as honourable and worthy of support."
-  - "Foreign rulers demand steep concessions\u2014land, marriages, or trade privileges.
-    Returning envoys bring little grain and heavy political costs, sowing resentment
-    among your own nobility."
-  - Communal farming boosts output quickly as villagers share labor and tools. The
-    cooperative spirit renews trust in the crown, and harvests slowly stabilise throughout
-    the region.
-  - Peasants resent the forced labour and accuse overseers of favouring certain villages.
-    Fights break out between communities, and productivity plummets under growing
-    hostility.
-  - Restored mills and freshly forged tools revitalise the countryside. Harvests
-    grow more efficient, and villagers speak proudly of a ruler who cares for their
-    livelihood.
-  - "The craftsmen delay essential castle repairs to focus on farms. A later storm
-    weakens the castle\u2019s defences, sparking outrage from nobles who accuse the
-    ruler of neglecting honour and protection."
-  - Priests unite the people in prayer, easing fear and strengthening communal resolve.
-    Many interpret a following rainfall as a miraculous sign, restoring hope and
-    loyalty to the crown.
-  - The ceremony draws crowds that spread illness, and no improvement in weather
-    follows. Villagers question both the clergy and the throne, deepening despair
-    and mistrust.
+  - The freedom granted to each sect eased long-standing tension. Villages embraced
+    their rituals without fear, and respect for diversity grew across <CityName>,
+    weaving a quiet but resilient peace.
+  - Local customs drifted too far apart, deepening divisions between sects. Rival
+    groups formed territorial identities, and <CityName> struggled to maintain unity
+    as its people fractured into competing enclaves.
+  - The council ended in a rare moment of harmony, as priests forged a shared doctrine
+    blessed by all major sects. The new rites strengthened faith across <CityName>
+    and restored trust in its leaders.
+  - The council collapsed into accusations and schisms. Priests left enraged, declaring
+    rival doctrines, and the failed gathering damaged the authority of the clergy
+    throughout <CityName>.
+  - The nobles ruled with measured wisdom, adapting traditions to local needs without
+    stirring unrest. Their leadership brought stability, and <CityName> prospered
+    under a patchwork of well-managed customs.
+  - "The nobles used their authority to impose harsh or biased practices, igniting
+    resentment among their subjects. Feuds erupted between houses over cultural dominance,
+    weakening <CityName>\u2019s unity."
+  - "The monks\u2019 gentle teachings inspired humility and understanding among the
+    people. Their travels rekindled respect between rival sects, and <CityName> enjoyed
+    a renewed sense of spiritual kinship."
+  - Some monks preached radical ideas that inflamed old rivalries. Instead of calm,
+    heated arguments spread throughout <CityName>, and unrest followed in their wake.
+  - The chronicle captivated the realm, reminding families of stories and values
+    older than any sect. A shared pride in ancient lineage soothed conflict, and
+    <CityName> rediscovered a sense of common identity.
+  - "The chroniclers\u2019 work angered several groups who claimed their traditions
+    were misrepresented. Protests erupted, and arguments over the \u201Ctrue\u201D
+    history of <CityName> deepened the cultural rift."
   mProcessedOutcomeMessages: []
-  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f6ffffff07000000faffffff
+  mOutcomeValues: 0a000000f8ffffff08000000f9ffffff09000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0

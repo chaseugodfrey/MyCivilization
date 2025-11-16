@@ -12,45 +12,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Space-E5
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> extends its influence beyond Earth through orbital facilities,
-    lunar industry, and early colonies. Advanced reactors and long-range travel open
-    new frontiers, but resources stretch thin and political interests diverge across
-    worlds. Each decision carries amplified consequences, shaping whether <CityName>
-    thrives among the stars or fractures under interplanetary pressures.
-  mActionMessage: "TECHNOLOGICAL BREAKTHROUGH \u2014 A quantum AI discovery, new
-    FTL refinement, or bioengineering revolution promises to reshape civilisation\u2014but
-    its implications spark fierce debate."
+  mIntroMessage: <CityName> extended its influence beyond Earth through orbital facilities,
+    lunar industry, and early colonies. Advanced reactors and long-range travel opened
+    new frontiers, but resources stretched thin and political interests diverged
+    across worlds. Each decision carried amplified consequences, shaping whether
+    <CityName> thrived among the stars or fractured under interplanetary pressures.
+  mActionMessage: "A controversial discovery which shows evidence of consciousness-like
+    behaviour in dark-matter fluctuations spread through <CityName>, forcing philosophers,
+    scientists, and spiritual orders to confront civilisation\u2019s deepest ethical
+    foundations."
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Release the breakthrough technology to all colonies immediately.
-  - Restrict access until full safety evaluations are complete.
-  - Use the technology to upgrade key megastructures such as Dyson arrays and orbital
-    elevators.
-  - Share the discovery only with colonies facing economic or social instability.
-  - Invite a council of human and AI scientists to determine ethical usage.
+  - assembled a cross-disciplinary council to study the dark-matter behaviour and
+    interpret its meaning.
+  - broadcast the findings openly to all star systems to ensure transparency and
+    shared understanding.
+  - restricted further research until ethical guidelines were established for interacting
+    with potential nonhuman consciousness.
+  - funded deep-space observatories to expand monitoring of dark-matter regions across
+    <CityName>.
+  - "consulted spiritual orders and philosophical traditions to guide <CityName>\u2019s
+    response to the discovery."
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The discovery accelerates development across every world. Innovation flourishes
-    as colonies unlock new potential, strengthening unity through shared advancement.
-  - "Unequal adoption creates chaos\u2014wealthy colonies surge ahead while others
-    fall behind. Protests erupt claiming systemic inequity."
-  - The cautious approach pays off as hidden instabilities are discovered in testing.
-    Lives and infrastructure are saved from potential catastrophe.
-  - Colonies accuse the government of hoarding progress. Underground markets form,
-    spreading unregulated and dangerous prototypes.
-  - Megastructures leap in efficiency, boosting civilisation-wide energy output and
-    transportation capacity. Hope spreads rapidly.
-  - A calibration error destabilises a critical structure. Emergency containment
-    drains resources and stokes public fear.
-  - Targeted support revitalises struggling colonies. Their renewed prosperity stabilises
-    regional tensions and earns deep gratitude.
-  - Other colonies protest perceived favouritism. Rivalries intensify as political
-    blocs form around the allocation decision.
-  - The council produces a balanced, visionary charter. Citizens praise the transparency
-    and long-term planning.
-  - The council deadlocks, fueling cynicism. Fringe groups spread conspiracy theories
-    claiming hidden agendas.
+  - The council uncovered patterns suggesting peaceful intent rather than hostility.
+    Their findings unified scientific and cultural communities, easing fear and inspiring
+    wonder across <CityName>.
+  - The council fractured into competing interpretations, accusing one another of
+    bias. Their disagreements ignited public confusion and intensified ideological
+    divides.
+  - The open broadcast sparked interstellar collaboration. Worlds shared data freely,
+    and <CityName> entered a new age of collective exploration and philosophical
+    growth.
+  - The revelation triggered panic in several sectors. Populations interpreted the
+    discovery as a looming cosmic threat, leading to unrest, hoarding, and widespread
+    anxiety.
+  - "The pause allowed ethicists and scientists to craft a clear, principled approach.
+    Their guidelines became a cornerstone of responsible cosmic exploration and strengthened
+    <CityName>\u2019s moral authority."
+  - The restriction was condemned by research factions who accused <CityName> of
+    suppressing progress. Secret investigations proliferated, risking dangerous or
+    uncontrolled breakthroughs.
+  - "The observatories detected stable, repeating patterns that hinted at structured
+    communication. Excitement surged, and confidence grew in <CityName>\u2019s scientific
+    leadership."
+  - "The expanded surveillance revealed alarming anomalies\u2014mass fluctuations
+    that destabilised local spacetime. Fear spread, and some worlds demanded immediate
+    militarisation."
+  - The spiritual consultation brought calm reflection to the realm. Many citizens
+    embraced a renewed sense of unity, seeing the discovery as a shared cosmic mystery
+    rather than a threat.
+  - Rival spiritual factions offered conflicting interpretations, each claiming exclusive
+    understanding of the phenomenon. Their disputes reignited ancient divisions across
+    <CityName>.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0b000000f7ffffff09000000f9ffffff0a000000f8ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

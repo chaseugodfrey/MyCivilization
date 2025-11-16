@@ -12,44 +12,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Space-E8
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> extends its influence beyond Earth through orbital facilities,
-    lunar industry, and early colonies. Advanced reactors and long-range travel open
-    new frontiers, but resources stretch thin and political interests diverge across
-    worlds. Each decision carries amplified consequences, shaping whether <CityName>
-    thrives among the stars or fractures under interplanetary pressures.
-  mActionMessage: "INTERNAL CONFLICT \u2014 Rising tensions between genetically\u2011modified
-    populations, baseline humans, AI citizens, and off\u2011world colonists ignite
-    civil unrest."
+  mIntroMessage: <CityName> extended its influence beyond Earth through orbital facilities,
+    lunar industry, and early colonies. Advanced reactors and long-range travel opened
+    new frontiers, but resources stretched thin and political interests diverged
+    across worlds. Each decision carried amplified consequences, shaping whether
+    <CityName> thrived among the stars or fractured under interplanetary pressures.
+  mActionMessage: A dormant alien microbe unearthed from an exoplanet excavation
+    awakened unexpectedly, spreading through bio-interfaces and threatening to destabilise
+    ecosystems and cybernetic systems across <CityName>.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Negative
   mOptionMessages:
-  - "Host interspecies and inter\u2011colony reconciliation summits."
-  - "Deploy non\u2011lethal peacekeeper drones to stabilise protests."
-  - "Introduce anti\u2011discrimination laws across all colonies."
-  - "Invest in shared cultural and scientific institutions off\u2011world."
-  - Temporarily restrict interplanetary travel to slow hostilities.
+  - sealed all exoplanetary research labs and enforced a sector-wide biological quarantine.
+  - summoned xenobiologists and cybernetic engineers to design counter-agents targeting
+    both organic and digital infection paths.
+  - purged compromised habitats using controlled atmosphere-cycling protocols.
+  - activated bio-containment drones to isolate and neutralise contaminated zones.
+  - requested emergency assistance from interstellar health authorities experienced
+    with xeno-pathogens.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The summits foster empathy and reveal shared hopes. Peaceful cooperation reemerges
-    across planets.
-  - Radical groups disrupt the meetings, spreading fear and propaganda. Trust between
-    communities collapses.
-  - Drones disperse crowds safely and efficiently. Citizens commend the restraint
-    shown in maintaining order.
-  - A drone malfunction injures civilians, amplifying outrage. Protests intensify
-    across colonies.
-  - The laws improve social harmony as marginalised populations feel protected and
-    respected by central governance.
-  - Some colonies reject the laws as overreach. Movements for planetary autonomy
-    grow stronger.
-  - Joint institutions flourish, offering education and innovation to all species
-    and populations. Collaboration deepens.
-  - Funding disputes erupt between colonies, framing the institutions as politically
-    biased. Resentment spreads.
-  - Travel limits contain tensions and prevent violent outbreaks. Order gradually
-    returns.
-  - The restrictions cripple commerce and isolate families. Economic and emotional
-    strain ignite new conflicts.
+  - The quarantine halted cross-system contamination and contained the microbe within
+    controlled zones. Researchers gained time to study its behaviour, preventing
+    a far wider catastrophe.
+  - "The quarantine arrived too late\u2014undetected carriers had already spread
+    the microbe off-world. Entire districts entered lockdown, and trade networks
+    collapsed under the restrictions."
+  - The joint taskforce developed a hybrid antiviral-firewall agent that neutralised
+    the microbe in both biological hosts and cybernetic systems. Recovery began swiftly
+    across <CityName>.
+  - The specialists clashed over methodology, delaying progress. The microbe mutated
+    faster than anticipated, infecting new interfaces and overwhelming existing defences.
+  - "The cycling sterilised affected domes and stations with impressive efficiency.
+    Once declared safe, habitats reopened with renewed confidence in <CityName>\u2019s
+    emergency systems."
+  - The cycling damaged critical life support systems and destabilised habitat climates.
+    Several zones became uninhabitable for weeks, creating displacement and political
+    backlash.
+  - The drones acted swiftly, sealing off infected areas and deploying targeted sterilisation
+    bursts. Their intervention slowed the spread dramatically and prevented mass
+    casualties.
+  - The microbe infiltrated drone firmware, causing units to malfunction or disobey
+    commands. Rogue drones spread contamination further, escalating the crisis.
+  - The authorities responded quickly, sending specialised teams and advanced countermeasures.
+    Their expertise reduced the outbreak to manageable levels and prevented ecosystem
+    collapse.
+  - The request was delayed by bureaucratic gridlock, and help arrived too late.
+    The outbreak spiralled, and citizens accused <CityName> of relying too heavily
+    on outside intervention.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

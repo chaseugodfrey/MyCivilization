@@ -17,47 +17,52 @@ MonoBehaviour:
     exploration support daily life, but resources remained limited. Every choice
     shaped whether <CityName> could grow into a stable settlement or struggled against
     scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: A divide formed between the clans of <CityName> as the authority
-    of the chieftain was challenged. Doubt spread quickly, and the people of <CityName>
-    had to reaffirm its direction.
+  mActionMessage: "A groundbreaking discovery emerged in <CityName>, promising safer
+    hunts, greater yields, and new ways of understanding the world. How quickly the
+    clans adopted this innovation would shape the city\u2019s progress."
   mProcessedActionMessage: 
-  mOutcomeType: LEADERSHIP CRISIS
+  mOutcomeType: Positive
   mOptionMessages:
-  - organised a Clash of Clans to select <CityName>'s rightful leader, through pure
-    strength.
-  - asked the shamans to interpret the stars to determine who the spirits favour
-    to be <CityName>'s leader.
-  - formed a temporary Council of Clans to share leadership.
-  - held a Storytelling Night where elders recounted past crises and leaders.
-  - allowed each clan to select a representative to voice their reasonings for their
-    issues with the chief.
+  - allowed the inventors to demonstrate the discovery before all of <CityName>.
+  - encouraged smiths from every clan to experiment with the new technique.
+  - declared the innovation sacred and entrusted its practice solely to the shamans.
+  - offered the breakthrough as diplomatic gifts to neighbouring tribes.
+  - kept the discovery hidden from the public while the elders studied its full potential.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The trial unites the tribe as warriors and elders witness a fair contest. The
-    victor earns universal respect, restoring confidence and providing the tribe
-    with a renewed sense of direction.
-  - The contest ends in accusations of cheating and bias. Supporters of multiple
-    contenders refuse to accept the outcome, deepening the crisis and dividing the
-    clans.
-  - The shamans speak of hawks, fireflies, and river signs that point to a chosen
-    leader. Their message resonates through the tribe, calming tensions and restoring
-    spiritual trust.
-  - "Competing shamans return with contradictory visions. Confusion spreads as clans
-    take sides, each believing a different leader carries the spirits\u2019 blessing."
-  - Representatives from every clan gather to guide the tribe together. Their shared
-    decision-making stabilises the tribe and encourages cooperation through the crisis.
-  - The council becomes paralyzed by constant disagreements. Every clan argues for
-    its interests, leaving the tribe without clear direction as frustration grows.
-  - Ancient tales remind the tribe of the strength found in unity. A respected elder
-    emerges as a natural leader, inspiring trust and guiding the tribe forward.
-  - The recounting of old conflicts reignites forgotten grudges. Elders argue over
-    historical truth, worsening current tensions instead of healing them.
-  - A thoughtful youth rises to speak for the young hunters and gatherers. His calm
-    words bridge generations and help redirect the tribe toward cooperation.
-  - The youth choose a brash warrior who inflames tensions. Older members see the
-    choice as reckless, igniting disagreements between age groups.
+  - The demonstration captivated the entire tribe as young and old gathered to watch.
+    The innovation sparked excitement and unity, and the clans recognised its potential
+    to improve daily life, implementing it into their lives immediately.
+  - "The demonstration faltered\u2014tools snapped, flames flared too hot, and the
+    unveiling collapsed into embarrassment. Doubt spread quickly, and the innovation
+    lost credibility, causing the people of <CityName> to begin questioning what
+    the elders were thinking."
+  - "Smiths from the different clans refined the discovery, adding clever improvements
+    and unique variations. Their cooperation elevated <CityName>\u2019s technological
+    prowess far beyond its previous limits."
+  - Competition soon replaced collaboration as smiths raced each other to create
+    the best tool. The breakthrough, once a source of pride, became a spark for rivalry
+    and mistrust.
+  - The shamans wove the discovery into sacred rites, granting it spiritual meaning
+    and ancestral significance. The clans accepted it as a blessing from the spirits,
+    and reverence unified the people.
+  - Clans began accusing the shamans of hoarding the innovation for influence. Suspicion
+    grew as spiritual authority clashed with practical needs, creating quiet fractures
+    within <CityName>.
+  - Artisans shaped the discovery into remarkable gifts that astonished neighbouring
+    tribes. Diplomacy strengthened, and <CityName> earned a reputation for generosity,
+    forging promising new alliances.
+  - Rival tribes misinterpreted the offerings as veiled threats. Diplomacy collapsed
+    as neighbours grew wary, suspecting manipulation or concealed power behind the
+    gesture, decreasing the reputation of <CityName>
+  - "The elders refined the technique in secrecy until it surpassed all expectations.
+    When finally revealed, the enhanced discovery elevated <CityName>\u2019s standing
+    and capability dramatically."
+  - Whispers of hidden knowledge and secret gatherings spread through the clans.
+    Fear and paranoia of the elders concealed power grew long before the truth emerged,
+    eroding trust and unsettling the city.
   mProcessedOutcomeMessages: []
-  mOutcomeValues: 0b000000f6ffffff09000000f8ffffff08000000f9ffffff0a000000f7ffffff07000000faffffff
+  mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff08000000f9ffffff09000000f8ffffff0c000000f6ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0

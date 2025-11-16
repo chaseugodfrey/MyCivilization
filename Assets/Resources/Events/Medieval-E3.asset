@@ -12,46 +12,56 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Medieval-E3
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> enters an age of fortified walls, noble factions, and
-    powerful traditions. Faith shapes governance, merchants connect distant routes,
-    and scholars preserve knowledge. Yet feuds, famine, and shifting loyalties threaten
-    stability. Survival depends on how <CityName> navigates obligations, alliances,
+  mIntroMessage: <CityName> entered an age of fortified walls, noble factions, and
+    powerful traditions. Faith shaped governance, merchants connected distant routes,
+    and scholars preserved knowledge. Yet feuds, famine, and shifting loyalties threatened
+    stability. Survival depended on how <CityName> navigated obligations, alliances,
     and the constant pressure of conflict within and beyond its borders.
-  mActionMessage: "ECONOMIC BOOM \u2014 Prosperity surges as trade expands and new
-    resources flow into the kingdom. Wealth spreads, but so does the temptation toward
-    greed and excess."
+  mActionMessage: "Several powerful nobles began questioning the authority of <CityName>\u2019s
+    ruling council, gathering allies in shadowed halls. Whispers of rebellion drifted
+    through the court, and loyalties wavered as ambitions grew bold."
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Expand merchant guild privileges to encourage further trade.
-  - Commission new stone roads to connect distant towns.
-  - Host a grand market fair inviting merchants from across the continent.
-  - Lower taxes to reward citizens for their hard work.
-  - Construct new granaries and treasuries to secure surplus wealth.
+  - summoned the nobles to a formal council to address their grievances openly.
+  - granted minor concessions to the discontented houses to ease tensions.
+  - strengthened alliances with loyal houses to counter the rebellious lords.
+  - ordered discreet investigations to uncover plots and identify the ringleaders.
+  - "publicly reaffirmed the ruling council\u2019s authority through a grand proclamation."
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - Merchants flourish under new freedoms, returning with exotic goods and vast profits.
-    Prosperity spreads even into remote villages, uplifting morale across the kingdom.
-  - Guilds become arrogant and begin exploiting smaller traders. Corruption spreads
-    through the markets, turning prosperity into resentment.
-  - The new roads increase safety and speed for travelers. Trade booms further, and
-    the crown is praised for fostering long-term growth.
-  - "Construction overruns drain the treasury. Nobles argue over road routes, delaying
-    progress and souring the public\u2019s feelings about the project."
-  - The fair becomes a dazzling success, attracting traders from faraway lands. Knowledge,
-    goods, and culture intermix, enriching the entire realm.
-  - "A fire breaks out during the fair, destroying goods and spreading fear. Merchants
-    flee, vowing never to return, damaging your realm\u2019s reputation."
-  - A wave of relief sweeps through towns and villages. Happy citizens invest more
-    freely, further boosting economic success.
-  - With reduced taxes, the crown struggles to fund essential services. Nobles grow
-    anxious about weakened defenses and rising instability.
-  - "The kingdom becomes a model of foresight, storing prosperity for future hardship.
-    Citizens appreciate the ruler\u2019s wisdom."
-  - Heavy investment leaves little gold for emergencies. When minor mishaps occur,
-    the crown appears unprepared despite its wealth.
+  - "The council meeting calmed tempers as nobles aired long-standing complaints.
+    A compromise was struck, restoring confidence in <CityName>\u2019s leadership
+    and easing the tensions that had clouded the court."
+  - "The debate quickly devolved into open hostility. Accusations flew across the
+    hall, and several nobles stormed out, returning home more determined than ever
+    to challenge <CityName>\u2019s rule."
+  - "The concessions were seen as wise and measured, appeasing the nobles without
+    diminishing the council\u2019s authority. Peace returned to courtly life, and
+    alliances strengthened."
+  - "The nobles interpreted the concessions as weakness. Their ambitions swelled,
+    and more houses joined their cause, believing <CityName>'s leadership could be
+    pressured into further concessions\u2014or forced into submission."
+  - Loyal houses rallied swiftly, forming a united front that discouraged rebellion.
+    The display of unity intimidated would-be traitors, and the realm settled into
+    a firmer, more stable order.
+  - The rebellious nobles saw the alliances forming and fortified their own positions.
+    Court politics polarized sharply, and tensions climbed as both sides in <CityName>
+    prepared for potential conflict.
+  - The investigators uncovered secret communications and hidden promises. With evidence
+    in hand, <CityName> acted swiftly to dismantle the conspiracy, restoring order
+    before rebellion could ignite.
+  - "Rumours of spies and informants spread through the court, heightening paranoia.
+    Innocent nobles felt targeted, and distrust grew so quickly that even loyal houses
+    began questioning <CityName>\u2019s intentions."
+  - "The proclamation inspired confidence among the people and loyal nobles alike.
+    The firm stance reminded the realm of the council\u2019s legitimacy, and several
+    wavering lords backed away from rebellion."
+  - The public display backfired, enraging the rebellious houses, who saw it as an
+    insult. Their defiance hardened, and previously quiet murmurs of treason turned
+    into open declarations of discontent.
   mProcessedOutcomeMessages: []
-  mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
+  mOutcomeValues: 0b000000f6ffffff09000000f8ffffff08000000f9ffffff0a000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0

@@ -12,55 +12,61 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Classical-E1
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> strengthens into an organised society with structured
-    laws, wider trade, and growing intellectual life. Roads and alliances expand
-    its reach, while diplomacy and conflict reshape its borders. Prosperity rises,
-    but so do rivalries and debates over authority. How <CityName> balances ambition
-    and stability determines its path through this transformative age.
-  mActionMessage: RESOURCE SHORTAGE - Despite the splendour of the Classical age,
-    scarcity threatens civilisation as drought, failing mines, or disrupted trade
-    routes strain supplies and test public confidence.
+  mIntroMessage: <CityName> had strengthened into an organised society with structured
+    laws, wider trade, and a growing intellectual life. Roads and alliances had expanded
+    its reach, while diplomacy and conflict reshaped its borders. Prosperity had
+    risen, but so had rivalries and debates over authority. How <CityName> balanced
+    ambition and stability ultimately determined its path through this transformative
+    age.
+  mActionMessage: A vibrant cultural renaissance swept through <CityName>, as poets,
+    philosophers, artisans, and scholars reinterpreted ancient traditions. New ideas
+    filled its forums and academies, strengthening civic identity, but also stirring
+    disagreements with those who preferred old traditions.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Redirect state labour to restore farmlands and irrigation canals.
-  - Send envoys to neighbouring kingdoms to secure emergency trade shipments.
-  - Impose temporary rationing laws enforced by city magistrates.
-  - Expand mining operations into unexplored hills and quarries.
-  - Appeal to philosophers and scholars to devise new efficiency methods.
+  - hosted a grand symposium where scholars and artists shared their new interpretations
+    of tradition.
+  - "commissioned sculptors, playwrights, and musicians to celebrate the city\u2019s
+    heritage through new works."
+  - opened a public forum inviting citizens of all classes to debate philosophy and
+    civic ideals.
+  - established an academy dedicated to preserving ancient customs while teaching
+    innovative practices.
+  - "invited neighbouring cities to a cultural exchange, showcasing <CityName>\u2019s
+    evolving identity."
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - "Farmers and engineers restore ancient canals and expand irrigation networks.
-    Crops begin to recover as water returns to the fields, reassuring citizens that
-    the state remains capable of protecting their livelihood. Public confidence rises
-    in the government\u2019s competence."
-  - Labourers clash with landowners over property rights, delaying repairs. Seasonal
-    rains arrive too late, and the fields fail to recover. Citizens accuse the government
-    of mismanaging both manpower and time.
-  - "Diplomats return with favourable agreements, acquiring grain and metals at a
-    modest cost. Foreign merchants praise your civilisation\u2019s stability, and
-    the relief shipments calm unrest in the capital."
-  - "Envoys are rebuffed or exploited; rival rulers sense desperation and demand
-    outrageous terms. Caravans return empty, and citizens grow suspicious of foreign
-    powers and the state\u2019s diplomacy."
-  - Though strict, the rationing system ensures fair distribution. Citizens, seeing
-    equal sacrifice across all classes, accept the decree and unite under a renewed
-    sense of civic duty.
-  - Magistrates abuse their authority, hoarding supplies for elites. Riots break
-    out in poorer districts, and rumours of corruption spread faster than food. Rationing
-    becomes a symbol of state failure.
-  - Surveyors uncover rich veins of ore that invigorate industry and trade. The discovery
-    sparks optimism as artisans and smiths resume full-scale production, strengthening
-    the economy.
-  - The new mines prove barren or dangerous. Several collapses cause casualties,
-    angering families and triggering investigations into negligence. Productivity
-    drops further under fear and mourning.
-  - Academics propose innovative storage, agricultural, and distribution practices.
-    Their ideas spread quickly through cities and farms, inspiring reforms that stretch
-    resources further than expected.
-  - Scholars disagree bitterly, and their theoretical debates solve nothing. Citizens
-    mock the intellectual class for being out of touch, widening the divide between
-    thinkers and labourers.
+  - The symposium drew thinkers from every district, and spirited debate unfolded
+    with respect and curiosity. New philosophies spread through <CityName>, strengthening
+    civic pride and inspiring collaboration across schools of thought.
+  - "The symposium devolved into heated rivalries as scholars mocked opposing views.
+    Instead of unity, intellectual factions formed, and the city\u2019s newfound
+    creativity splintered into competing circles."
+  - "The artworks captivated the citizens of <CityName>, breathing renewed life into
+    old legends and customs. The city\u2019s streets filled with music and theatre,
+    lifting morale and reinforcing shared identity."
+  - The commissioned works sparked controversy as some guilds claimed their traditions
+    were misrepresented. Accusations of favouritism spread, and the cultural revival
+    gave way to bitterness and artistic feuds.
+  - The forum fostered thoughtful dialogue among merchants, soldiers, nobles, and
+    labourers alike. Citizens felt heard, and the discussions forged unexpected bonds
+    between social groups that rarely met as equals.
+  - The open forum erupted into class-based arguments as long-suppressed grievances
+    surfaced. Instead of bridging divides, the debates sharpened them, leaving <CityName>
+    more polarised than before.
+  - The academy quickly flourished, producing scholars who blended old wisdom with
+    new insight. Its teachings spread throughout <CityName>, stabilising the renaissance
+    and guiding it with discipline and purpose.
+  - The academy became dominated by rigid instructors who rejected ideas that did
+    not align with their doctrine. Innovation stagnated, and resentment grew among
+    those who felt the renaissance had been caged.
+  - Visitors arrived bearing their own traditions, and the exchange blossomed into
+    days of shared performances, philosophy, and trade. <CityName> earned admiration
+    across the region, strengthening diplomatic ties.
+  - Rival cities interpreted the exchange as political posturing. Rumours spread
+    that <CityName> sought cultural dominance, and relations with several neighbours
+    cooled in the months that followed.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f6ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

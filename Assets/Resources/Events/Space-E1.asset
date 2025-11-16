@@ -12,50 +12,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Space-E1
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> extends its influence beyond Earth through orbital facilities,
-    lunar industry, and early colonies. Advanced reactors and long-range travel open
-    new frontiers, but resources stretch thin and political interests diverge across
-    worlds. Each decision carries amplified consequences, shaping whether <CityName>
-    thrives among the stars or fractures under interplanetary pressures.
-  mActionMessage: "RESOURCE SHORTAGE \u2014 A critical shortage emerges: deuterium
-    for fusion cores, helium-3 for lunar reactors, rare metals for shipyards, or
-    water for colonies. Mining accidents, FTL disruptions, or diplomatic tension
-    threaten stability across worlds."
+  mIntroMessage: <CityName> extended its influence beyond Earth through orbital facilities,
+    lunar industry, and early colonies. Advanced reactors and long-range travel opened
+    new frontiers, but resources stretched thin and political interests diverged
+    across worlds. Each decision carried amplified consequences, shaping whether
+    <CityName> thrived among the stars or fractured under interplanetary pressures.
+  mActionMessage: "As humanity spread across the star systems of <CityName>, cultures
+    diverged at light-year distances. Planet-born settlers, orbital megastructure
+    dwellers, AI-guided societies, and gene-augmented lineages clashed over identity
+    and the right to define civilisation\u2019s future."
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Redirect mining fleets to a high-risk asteroid belt rich in rare materials.
-  - Open emergency trade negotiations with independent Martian and Europa federations.
-  - Activate orbital recycling arrays to repurpose derelict satellites and space
-    debris.
-  - Use military cargo cruisers to reroute essential supplies across FTL corridors.
-  - Invest in a breakthrough synthetic material engineered in zero-gravity research
-    labs.
+  - convened an interstellar congress where representatives from every lineage and
+    habitat debated shared cultural principles.
+  - authorised cultural autonomy charters, allowing each world and society to govern
+    its identity without central interference.
+  - deployed cultural mediators for humans and AI alike to ease tensions between
+    divergent communities across the star systems.
+  - commissioned a unified historical archive to preserve the origins of all cultures
+    and strengthen a shared civilisational narrative.
+  - "expanded long-range communication networks to reduce isolation and reconnect
+    distant colonies with <CityName>\u2019s core values."
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The fleet successfully navigates the unstable belt, extracting massive mineral
-    loads. Shipyards roar back to life, and colonists celebrate the swift recovery.
-    Humanity feels unstoppable.
-  - Unstable gravitational tides collapse several mining rigs. Lives are lost, production
-    drops further, and colony governors demand accountability for the reckless gamble.
-  - Despite historic tensions, the federations agree to sell surplus resources at
-    fair prices. Diplomatic channels warm, and interplanetary cooperation reaches
-    a new milestone.
-  - Talks sour when Martian delegates accuse Earth of attempting economic manipulation.
-    Trade routes tighten, and distrust spreads across the solar system.
-  - Massive quantities of refined metals are reclaimed from orbital junkyards. Engineers
-    hail it as the most efficient recycling operation in history, inspiring environmental
-    confidence.
-  - Unexpected debris trajectories cause collisions with active stations. Public
-    outrage grows as orbital safety concerns escalate and salvage output plummets.
-  - Military precision stabilises logistics instantly. Colonies receive life-sustaining
-    shipments, and the fleet earns admiration for protecting civilian interests.
-  - A cruiser miscalculates an FTL jump and disappears. Panic sweeps the colonies,
-    and accusations of militarisation undermine public trust in leadership.
-  - Scientists create a viable replacement for the missing resource. Production scales
-    rapidly, positioning your civilisation as the technological leader of the galaxy.
-  - The prototypes destabilise under atmospheric pressure, destroying the research
-    facility. Funding collapses and confidence in off-world science wavers.
+  - The congress fostered unexpected alliances. Delegates forged a charter of mutual
+    respect that eased rising tensions, and <CityName> entered a new era of cooperative
+    identity-building.
+  - "The congress descended into ideological chaos as factions clashed over incompatible
+    beliefs. Several delegations withdrew in protest, intensifying division across
+    <CityName>\u2019s systems."
+  - Autonomy brought peace. Worlds flourished under self-defined cultures, and loyalty
+    to <CityName> strengthened as citizens felt respected and unthreatened by central
+    authority.
+  - "The charters encouraged fragmentation. Some colonies drifted dangerously close
+    to secession, weakening <CityName>\u2019s influence and fracturing civilisational
+    unity."
+  - "The mediators defused heated disputes with remarkable neutrality. Conflicts
+    cooled across thousands of light-years, and their success restored confidence
+    in <CityName>\u2019s leadership."
+  - Several communities rejected the mediators as biased or intrusive. In some sectors,
+    tensions escalated, and the presence of outside influence only inflamed hostility.
+  - The archive inspired pride across <CityName>. Citizens rediscovered their interconnected
+    past, and shared stories rekindled a sense of belonging across diverse populations.
+  - The archive sparked outrage as some groups felt misrepresented or diminished.
+    Disputes over historical interpretation erupted, and old grievances resurfaced
+    with renewed intensity.
+  - The improved networks bridged star-spanning distances. Delayed communication
+    collapsed to minutes, revitalising cultural exchange and restoring unity across
+    scattered systems.
+  - The expanded networks exposed ideological conflict in real time. Misunderstandings
+    travelled faster than diplomacy, amplifying disputes and accelerating civilisational
+    fragmentation.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0c000000f6ffffff09000000f8ffffff08000000f9ffffff0b000000f7ffffff0a000000f8ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

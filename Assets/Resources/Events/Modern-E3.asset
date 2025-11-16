@@ -12,44 +12,53 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Modern-E3
   m_EditorClassIdentifier: 
-  mIntroMessage: Industrial change reshapes <CityName> with new technologies, expanding
-    factories, and rapid population growth. Political movements challenge old systems,
-    while global trade raises both opportunity and risk. Innovation accelerates faster
-    than society adapts, and <CityName> must balance progress with stability as it
-    confronts competition, unrest, and evolving expectations from its citizens.
-  mActionMessage: "ECONOMIC BOOM \u2014 A surge in technological innovation, investment,
-    or global trade brings sudden prosperity. Wealth rises rapidly, but so do the
-    risks of inequality and instability."
+  mIntroMessage: Industrial change reshaped <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenged old systems,
+    while global trade raised both opportunity and risk. Innovation accelerated faster
+    than society adapted, and <CityName> had to balance progress with stability as
+    it confronted competition, unrest, and evolving expectations from its citizens.
+  mActionMessage: Calls for representation rose among workers, merchants, and intellectuals
+    in <CityName>. Pressure for fair laws, safer labour conditions, and civic accountability
+    signaled a new era of potential reform.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Invest heavily in public infrastructure and modern transportation.
-  - Lower taxes temporarily to encourage consumer spending.
-  - Expand digital infrastructure to support emerging tech industries.
-  - Create a government fund supporting small businesses and entrepreneurs.
-  - Promote tourism through global campaigns and cultural showcases.
+  - held a public assembly to debate proposals for safer labour laws.
+  - formed a temporary reform committee representing workers, owners, and civic leaders.
+  - published pamphlets outlining proposed reforms and distributed them citywide.
+  - invited respected legal scholars to draft a revised civic charter.
+  - allowed each industrial district to elect delegates to present their concerns.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - High-speed rail, energy-efficient grids, and renovated roads transform the nation.
-    Productivity soars as commute times drop and trade accelerates.
-  - Projects overrun budgets and deadlines. Corruption scandals emerge, and citizens
-    accuse leadership of mismanagement despite the booming economy.
-  - Businesses flourish as citizens purchase more goods and services. The economic
-    upswing creates new jobs and boosts national morale.
-  - The reduced tax revenue weakens healthcare, education, and public safety budgets.
-    Critics highlight growing imbalance despite high-level economic gains.
-  - Startups thrive as access to fibre networks, data hubs, and advanced computing
-    accelerates innovation. Investors worldwide turn their attention to your nation.
-  - Rushed expansion results in unreliable service outages. Tech companies suffer
-    delays, and frustration spreads across the private sector.
-  - Local shops and small companies flourish thanks to grants and low-interest loans.
-    Diversity in the economy improves resilience and encourages creativity.
-  - "Funds are misallocated, and accusations of favoritism surface. Scandals weaken
-    public confidence and damage the government\u2019s economic credibility."
-  - Tourist inflow skyrockets, boosting revenue for restaurants, hotels, and entertainment
-    districts. Citizens welcome new cultural interactions and opportunities.
-  - Overcrowding strains local resources, while environmentalists protest damage
-    to natural sites. Public debate erupts over prioritising tourists over citizens.
+  - The assembly produced a unified call for reform, and lawmakers acted swiftly
+    to implement safer working conditions. Workers celebrated the victory, and trust
+    in civic leadership strengthened across <CityName>.
+  - The assembly erupted into conflict between factory owners and labourers, with
+    neither side willing to compromise. The meeting ended in chaos, deepening resentment
+    and stalling reform.
+  - The committee found common ground and drafted balanced policies that satisfied
+    all parties. Their cooperation became a model for shared governance and eased
+    long-standing tensions.
+  - The committee fractured almost immediately as representatives pushed conflicting
+    agendas. Meetings devolved into accusations, and the initiative dissolved without
+    producing any reforms.
+  - The pamphlets spread quickly, educating citizens about labour issues and rallying
+    broad support. The grassroots momentum pressured officials to adopt meaningful
+    reforms.
+  - Opponents of reform printed counter-pamphlets, leading to fierce public arguments.
+    Confusion spread, and the debate turned into propaganda warfare that overshadowed
+    the original cause.
+  - "The scholars produced a thoughtful and comprehensive draft. Citizens praised
+    its fairness, and the charter became a cornerstone of <CityName>\u2019s evolving
+    democratic identity."
+  - "The scholars\u2019 proposals were criticised as overly academic and disconnected
+    from workers\u2019 realities. Public confidence wavered, and the draft was ultimately
+    rejected."
+  - The elected delegates spoke passionately for their districts, revealing overlooked
+    injustices and practical solutions. Their unity inspired hope for a more representative
+    future.
+  - Rival districts clashed, each pushing for their own advantage. The delegates
+    argued bitterly, and the effort collapsed under regional competition.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0b000000f7ffffff09000000f9ffffff0a000000f8ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

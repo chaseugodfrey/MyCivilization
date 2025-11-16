@@ -12,46 +12,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Medieval-E9
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> enters an age of fortified walls, noble factions, and
-    powerful traditions. Faith shapes governance, merchants connect distant routes,
-    and scholars preserve knowledge. Yet feuds, famine, and shifting loyalties threaten
-    stability. Survival depends on how <CityName> navigates obligations, alliances,
+  mIntroMessage: <CityName> entered an age of fortified walls, noble factions, and
+    powerful traditions. Faith shaped governance, merchants connected distant routes,
+    and scholars preserved knowledge. Yet feuds, famine, and shifting loyalties threatened
+    stability. Survival depended on how <CityName> navigated obligations, alliances,
     and the constant pressure of conflict within and beyond its borders.
-  mActionMessage: "DISEASE OUTBREAK \u2014 A mysterious sickness spreads through
-    towns and villages. Healers, priests, and common folk struggle to understand
-    and survive the affliction."
+  mActionMessage: "Two influential guilds in <CityName> came to bitter blows over
+    rights, privileges, and control of the city\u2019s vital trades. Their rivalry
+    spilled into the streets, threatening to spark open violence if no authority
+    intervened."
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Negative
   mOptionMessages:
-  - Order quarantines in afflicted districts and restrict travel.
-  - Support apothecaries and herbalists in experimenting with remedies.
-  - Organise mass prayer processions and offerings for divine mercy.
-  - Establish dedicated infirmaries staffed by trained healers and clergy.
-  - Suspend certain taxes and tithes to ease the burden on afflicted communities.
+  - called both guild leaders to a mediated council to negotiate new terms.
+  - "imposed a temporary halt on both guilds\u2019 operations until peace was restored."
+  - sent royal guards to separate the factions and secure the affected districts.
+  - offered shared contracts and privileges to encourage cooperation between the
+    guilds.
+  - appointed a neutral magistrate to investigate the dispute and issue a binding
+    ruling.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - Though harsh, the restrictions slow the spread considerably. People see the crown
-    as willing to make difficult choices to protect the realm.
-  - Trade grinds to a halt and separated families despair. Black markets emerge,
-    undermining both the quarantine and trust in royal decrees.
-  - Some mixtures ease symptoms and reduce mortality. Word of these treatments spreads,
-    lifting spirits and showcasing the value of learned healers.
-  - Unproven mixtures cause harm in some cases. Rumours of poison turn fear toward
-    the healers themselves, complicating efforts to respond.
-  - The processions bring people together in shared grief and hope. Their renewed
-    faith helps them endure hardship with greater resilience.
-  - Crowded gatherings spread infection further. When no immediate miracle follows,
-    anger turns against both priests and the ruling house.
-  - Centralising care allows better organisation and treatment. The infirmaries become
-    places of both healing and compassion, and survival rates improve.
-  - Resources prove insufficient, and the infirmaries overflow with the sick. Despair
-    grows as people view them as houses of death rather than hope.
-  - The relief allows families to focus on survival rather than debt. Gratitude toward
-    the crown and clergy grows, even in dark times.
-  - "The reduced income weakens the crown\u2019s ability to fund responses. Some
-    nobles complain bitterly, causing new friction among the leadership."
+  - "The mediation eased hostilities as both leaders reached a fair agreement. Street
+    tensions faded, and <CityName> praised the council\u2019s wisdom."
+  - Negotiations collapsed into shouting and accusation. Both guilds left angrier
+    than before, and their feud intensified across <CityName>.
+  - The enforced pause cooled tempers and prevented violence. With time to reflect,
+    both guilds agreed to resume work under revised, peaceful terms.
+  - The shutdown enraged guild members who depended on daily wages. Unrest spread
+    among workers, and resentment toward <CityName>'s leaders grew quickly.
+  - The guards swiftly restored order, dispersing angry mobs before bloodshed occurred.
+    Citizens felt safer, and the guilds retreated from open confrontation.
+  - "The guards\u2019 presence escalated tensions. Clashes broke out, injuries followed,
+    and some citizens accused <CityName> of turning the city into a battlefield."
+  - "The incentive united both guilds in cautious partnership. Their shared successes
+    gradually mended old grudges, strengthening <CityName>\u2019s commerce."
+  - One guild claimed the arrangement favoured the other, fuelling their rivalries.
+    The attempted compromise only deepened their bitterness.
+  - "The magistrate produced a well-received ruling that balanced both guilds\u2019
+    interests. Respect for the law grew, and the feud dissolved under fair judgement."
+  - The investigation angered both sides, who claimed the magistrate was biased.
+    They rejected the ruling outright, pushing the conflict dangerously close to
+    violence.
   mProcessedOutcomeMessages: []
-  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff07000000faffffff0b000000f7ffffff08000000f9ffffff
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0

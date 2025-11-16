@@ -12,46 +12,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Medieval-E6
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> enters an age of fortified walls, noble factions, and
-    powerful traditions. Faith shapes governance, merchants connect distant routes,
-    and scholars preserve knowledge. Yet feuds, famine, and shifting loyalties threaten
-    stability. Survival depends on how <CityName> navigates obligations, alliances,
+  mIntroMessage: <CityName> entered an age of fortified walls, noble factions, and
+    powerful traditions. Faith shaped governance, merchants connected distant routes,
+    and scholars preserved knowledge. Yet feuds, famine, and shifting loyalties threatened
+    stability. Survival depended on how <CityName> navigated obligations, alliances,
     and the constant pressure of conflict within and beyond its borders.
-  mActionMessage: "NATURAL DISASTER \u2014 A storm, plague of locusts, sudden freeze,
-    or river flood strikes the kingdom. Villages cry for aid; the realm must respond
-    quickly."
+  mActionMessage: A mismanaged granary left <CityName> short of grain as winter approached.
+    Prices soared, villagers murmured of incompetence or corruption, and unrest simmered
+    at the edges of the realm.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Negative
   mOptionMessages:
-  - Send knights and workers to reinforce levees, dams, and village walls.
-  - Evacuate threatened villages to nearby monasteries for shelter.
-  - Order a realm-wide prayer vigil led by influential clergy.
-  - Deploy the royal army to deliver supplies and maintain order.
-  - Construct emergency granaries and firebreaks to protect stored goods.
+  - sent knights and stewards to inspect granaries for hoarding.
+  - requested emergency grain shipments from neighbouring kingdoms through noble
+    diplomacy.
+  - established temporary communal fields worked by peasants under state support.
+  - redirected castle artisans and blacksmiths to repair damaged mills and farming
+    tools.
+  - held a religious ceremony asking divine blessing for renewal and abundance.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - "The reinforcements hold strong against the disaster, saving countless homes.
-    Villagers praise the crown\u2019s swift action and renewed sense of security."
-  - Crews arrive too late as the disaster breaches defences. Villagers blame poor
-    planning, and resentment grows toward the nobility.
-  - "Monasteries provide food, warmth, and prayer, easing fear. Grateful families
-    speak highly of the crown\u2019s compassion."
-  - Crowded halls spread sickness. Monks become overwhelmed, and frightened families
-    accuse the crown of abandoning them to unhealthy conditions.
-  - The vigil unifies the realm in shared faith. Even in hardship, citizens find
-    strength through collective hope and religious comfort.
-  - The gathering attracts too large a crowd. Panic spreads when structures fail
-    or weather worsens, injuring many and undermining trust in the clergy.
-  - Soldiers distribute food and enforce calm with discipline. Order is restored,
-    and villagers feel protected and valued by the crown.
-  - Poor coordination leads to misdelivered supplies. Some soldiers act harshly,
-    igniting fear and complaints in already distressed communities.
-  - "The kingdom\u2019s foresight pays off as reserves remain intact despite chaos.
-    Citizens admire the crown\u2019s wisdom and preparation."
-  - Firebreaks or granaries fail due to rushed planning. Precious supplies are lost,
-    worsening famine and frustration.
+  - The inspections uncovered hidden stores and corrupt handlers. The recovered grain
+    stabilised prices, and the people praised <CityName> for swiftly restoring fairness.
+  - The inspections angered several powerful households accused of wrongdoing. Tensions
+    rose, and accusations of overreach deepened mistrust between the council and
+    the nobility.
+  - The neighbouring realm answered with generosity, sending wagons of grain before
+    the frost set in. Their aid carried <CityName> through winter and strengthened
+    diplomatic ties.
+  - "The neighbours refused, demanding heavy tribute in exchange. The failed diplomacy
+    embarrassed <CityName>, and rumours spread that the council had weakened the
+    kingdom\u2019s standing."
+  - The communal fields produced a modest but vital harvest. Peasants felt valued,
+    cooperation flourished, and <CityName> weathered the shortage with resilience.
+  - The initiative overburdened already exhausted peasants. Many fields yielded too
+    little, tempers flared, and resentment grew toward the council for forcing extra
+    labour in desperate times.
+  - The repaired mills ran smoothly again, restoring steady grain production. Villages
+    welcomed the renewed efficiency, and hope returned to <CityName> as winter approached.
+  - "The repairs came too late or proved insufficient. Tools broke again, mills jammed,
+    and the wasted effort frustrated both artisans and farmers, worsening the realm\u2019s
+    anxiety."
+  - The ceremony united the realm in prayer, lifting spirits and calming unrest.
+    Soon after, several villages reported unexpected surpluses, which the people
+    of <CityName> took as a sign of divine favour.
+  - "The ceremony failed to soothe the anxious populace. Some mocked it as empty
+    pageantry, others blamed the priests, and faith in <CityName>\u2019s leadership
+    wavered as hunger loomed."
   mProcessedOutcomeMessages: []
-  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f6ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0

@@ -12,47 +12,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Medieval-E2
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> enters an age of fortified walls, noble factions, and
-    powerful traditions. Faith shapes governance, merchants connect distant routes,
-    and scholars preserve knowledge. Yet feuds, famine, and shifting loyalties threaten
-    stability. Survival depends on how <CityName> navigates obligations, alliances,
+  mIntroMessage: <CityName> entered an age of fortified walls, noble factions, and
+    powerful traditions. Faith shaped governance, merchants connected distant routes,
+    and scholars preserved knowledge. Yet feuds, famine, and shifting loyalties threatened
+    stability. Survival depended on how <CityName> navigated obligations, alliances,
     and the constant pressure of conflict within and beyond its borders.
-  mActionMessage: "CULTURAL SCHISM \u2014 Rival faiths, regional customs, and noble
-    traditions clash, threatening the kingdom\u2019s unity. Priests, nobles, and
-    common folk disagree over values that shape daily life."
+  mActionMessage: "A surge in trade caravans and tribute filled <CityName>\u2019s
+    coffers with grain, coin, and exotic goods. Prosperity swelled across the realm\u2014but
+    so did envy, greed, and quiet disputes over who deserved the spoils."
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Hold a grand council between bishops, abbots, and regional priests.
-  - Allow regions temporary freedom to follow local customs without interference.
-  - Commission monks to create illuminated manuscripts promoting unity and shared
-    heritage.
-  - Introduce cultural festivals celebrating traditions from multiple regions.
-  - "Send knights and heralds to travel the realm teaching the crown\u2019s ideals."
+  - ordered a fair distribution of grain and coin among the villages to prevent resentment.
+  - granted merchants temporary tax relief to encourage further trade and good faith.
+  - tasked the noble houses with overseeing the new wealth, trusting them to allocate
+    resources wisely.
+  - held a grand market festival to showcase the exotic goods and share the prosperity
+    with the people.
+  - secured the coffers behind stricter guard patrols and record-keeping to prevent
+    greed and theft.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The council resolves disputes peacefully, establishing shared doctrines that
-    unify the clergy. Citizens feel reassured as harmony returns to religious life.
-  - The council erupts into accusations of heresy. Bishops storm out, leaving the
-    church fractured and the people uncertain who truly speaks for the divine.
-  - Local pride strengthens as each community rediscovers its heritage. Freed from
-    pressure, regional leaders voluntarily begin cooperating once more.
-  - Autonomy deepens differences. Regions drift apart culturally, and rumours spread
-    that the crown is losing influence over its own lands.
-  - The manuscripts inspire awe with their artistry. They circulate widely, reminding
-    nobles and common folk alike of their shared legacy.
-  - Some nobles see the texts as propaganda and ban them from their halls. The effort
-    backfires, stirring distrust toward the scriptoriums.
-  - Villagers and nobles mingle joyfully during the festivals. Music, dance, and
-    shared meals mend old grudges and renew the sense of belonging.
-  - Rival performers and nobles take offense at how their cultures are represented.
-    Fights break out, turning the festival into a spark for deeper rivalry.
-  - "The knights\u2019 presence inspires admiration, and their message spreads quickly.
-    People unite around the honour and duty associated with the crown."
-  - Harsh enforcement by overzealous knights leads to resentment. Some communities
-    refuse to host them, worsening tensions.
+  - The distribution was carried out with transparency and care. Villages praised
+    <CityName> for its generosity, and the shared prosperity strengthened trust between
+    the people and their rulers.
+  - Accusations of favouritism spread as certain villages claimed they received less
+    than promised. The attempt at fairness only deepened rivalry, and murmurs of
+    injustice echoed across the realm.
+  - Merchants responded with gratitude, expanding their caravans and bringing even
+    more wealth into <CityName>. Trade flourished, and the realm enjoyed a surge
+    of prosperity and goodwill.
+  - Some merchants exploited the leniency, hoarding profits and refusing to reinvest
+    in the city. Their greed angered the populace, and resentment toward the merchant
+    guild grew sharply.
+  - The nobles fulfilled their duty with honour, ensuring fair management and smooth
+    distribution. Their cooperation stabilized the realm and prevented conflict among
+    the classes.
+  - The nobles seized more than their share, enriching their estates while giving
+    little back to the common people. Envy and outrage spread across <CityName>,
+    and several houses came under open criticism.
+  - The festival drew crowds from every corner of the realm. Music, food, and trade
+    revived spirits, and the shared celebration strengthened unity within <CityName>.
+  - The festivities spiraled into chaos when prices inflated and tempers flared.
+    Arguments turned to brawls, thieves prowled the stalls, and the festival ended
+    in disorder rather than joy.
+  - "The increased vigilance deterred thieves and ensured every coin was accounted
+    for. Confidence in <CityName>\u2019s governance grew, and corruption briefly
+    receded from public concern."
+  - The sudden increase in scrutiny offended powerful officials and merchants, who
+    felt accused without cause. Rumours of mistrust spread, and tensions rose between
+    the guards and the elite of <CityName>.
   mProcessedOutcomeMessages: []
-  mOutcomeValues: 0a000000f8ffffff08000000f9ffffff09000000f9ffffff0b000000f7ffffff07000000faffffff
+  mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
   leftIndex: 0
   rightIndex: 0

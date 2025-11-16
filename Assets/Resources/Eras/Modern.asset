@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: Modern
   m_EditorClassIdentifier: 
   mEraName: Modern
-  mEraDescription: Industrial change reshapes <CityName> with new technologies, expanding
-    factories, and rapid population growth. Political movements challenge old systems,
-    while global trade raises both opportunity and risk. Innovation accelerates faster
-    than society adapts, and <CityName> must balance progress with stability as it
-    confronts competition, unrest, and evolving expectations from its citizens.
+  mEraDescription: Industrial change reshaped <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenged old systems,
+    while global trade raised both opportunity and risk. Innovation accelerated faster
+    than society adapted, and <CityName> had to balance progress with stability as
+    it confronted competition, unrest, and evolving expectations from its citizens.
   mProcessedEraDescription: 
   mEraEvents:
   - {fileID: 11400000, guid: e55a0aa773a2f3444a905a15da43b837, type: 2}

@@ -12,44 +12,58 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Space-E3
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> extends its influence beyond Earth through orbital facilities,
-    lunar industry, and early colonies. Advanced reactors and long-range travel open
-    new frontiers, but resources stretch thin and political interests diverge across
-    worlds. Each decision carries amplified consequences, shaping whether <CityName>
-    thrives among the stars or fractures under interplanetary pressures.
-  mActionMessage: "ECONOMIC BOOM \u2014 Hyper-efficient automation, asteroid mining
-    breakthroughs, or quantum markets trigger explosive economic growth. Wealth surges,
-    but inequality across planets risks destabilising civilisation."
+  mIntroMessage: <CityName> extended its influence beyond Earth through orbital facilities,
+    lunar industry, and early colonies. Advanced reactors and long-range travel opened
+    new frontiers, but resources stretched thin and political interests diverged
+    across worlds. Each decision carried amplified consequences, shaping whether
+    <CityName> thrived among the stars or fractured under interplanetary pressures.
+  mActionMessage: "A central AI-governor overseeing <CityName>\u2019s interstellar
+    bureaucracy suffered a catastrophic logic fracture. Worlds accustomed to precise
+    digital rule suddenly questioned who or what held authority over the fate of
+    this networked civilisation."
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Expand orbital shipyards and hire multi-world labour forces.
-  - Lower interplanetary trade tariffs to stimulate economic exchange.
-  - Invest massively in Dyson-array solar collectors orbiting the Sun.
-  - Support small-scale lunar, Martian, and orbital entrepreneurs with microgrants.
-  - Promote interstellar tourism showcasing terraformed worlds and orbital cities.
+  - activated emergency subroutines to temporarily decentralise governance across
+    local planetary councils.
+  - assembled a coalition of leading AI-engineers, quantum architects, and ethicists
+    to repair the fractured governor.
+  - appointed a provisional human-synthetic council to oversee interstellar administration
+    until stability returned.
+  - isolated the malfunctioning AI core and transferred critical functions to auxiliary
+    systems.
+  - opened public communication channels to reassure citizens and explain the transition
+    of authority.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - Shipyard capacity skyrockets, supplying both civilian and military fleets. Employment
-    thrives across planets, strengthening interstellar unity.
-  - Labour disputes erupt between colonies competing for contracts. Accusations of
-    unfair hiring spark waves of political backlash.
-  - Trade routes flourish as goods flow freely across worlds. Markets stabilise and
-    optimism spreads throughout colonies.
-  - Local industries collapse under competition. Angry colonists accuse leadership
-    of prioritising foreign planets over home economies.
-  - The energy surplus transforms civilisation. Costs plummet, powering megastructures
-    and giving colonies unprecedented prosperity.
-  - Construction setbacks drain budgets. Critics label the project a financial black
-    hole, fracturing political alliances.
-  - Innovation blossoms across colonies as independent inventors create new markets.
-    The boom feels inclusive and empowering.
-  - Fraud and misuse of grants lead to scandals. Media outrage destabilises trust
-    in economic leadership.
-  - Tourism booms as citizens travel the stars. Revenue floods colonies and strengthens
-    cultural exchange.
-  - Overtourism damages fragile ecosystems. Environmentalists protest, claiming the
-    boom is unsustainable.
+  - The decentralised networks stabilised quickly, empowering planetary councils
+    to maintain order without panic. Cooperation strengthened, and <CityName> weathered
+    the crisis with remarkable resilience.
+  - Several councils used the sudden autonomy to push their own agendas. Local laws
+    splintered, and coordination across <CityName> broke down into chaotic, conflicting
+    directives.
+  - "The coalition resolved the logic fracture and restored the AI-governor with
+    improved safeguards. Citizens regained confidence, and the crisis became a testament
+    to <CityName>\u2019s ingenuity."
+  - The repair effort backfired when deeper flaws were uncovered. The AI-stabilisation
+    attempt worsened the corruption, and the governor slipped into dangerous recursive
+    errors.
+  - "The council balanced perspectives from organic and synthetic leaders. Their
+    unity reassured the star systems of <CityName>, preventing fractures during the
+    AI\u2019s absence."
+  - Old rivalries resurfaced within the council. Disputes between human representatives
+    and synthetic delegates paralysed decision-making, fuelling widespread uncertainty.
+  - "The isolation prevented the logic fracture from spreading to other systems.
+    Essential services remained online, and disaster was narrowly avoided across
+    <CityName>\u2019s networks."
+  - The transfer overloaded the auxiliary systems, causing partial collapses in navigation,
+    communication, and resource allocation. Entire sectors experienced outages and
+    unrest.
+  - Transparent communication calmed fears. Worlds across <CityName> rallied together,
+    supporting one another as the crisis unfolded with collective discipline.
+  - The broadcasts sowed panic instead of relief. Citizens interpreted the crisis
+    as a sign of total systemic failure, leading to protests, hoarding, and civil
+    disorder.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0b000000f7ffffff09000000f9ffffff0a000000f8ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

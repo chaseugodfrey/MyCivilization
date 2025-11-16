@@ -12,50 +12,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Modern-E2
   m_EditorClassIdentifier: 
-  mIntroMessage: Industrial change reshapes <CityName> with new technologies, expanding
-    factories, and rapid population growth. Political movements challenge old systems,
-    while global trade raises both opportunity and risk. Innovation accelerates faster
-    than society adapts, and <CityName> must balance progress with stability as it
-    confronts competition, unrest, and evolving expectations from its citizens.
-  mActionMessage: "CULTURAL SCHISM \u2014 As communication accelerates and cities
-    expand, ideological and cultural groups clash over identity, values, and national
-    direction. Polarisation threatens to fracture the nation."
+  mIntroMessage: Industrial change reshaped <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenged old systems,
+    while global trade raised both opportunity and risk. Innovation accelerated faster
+    than society adapted, and <CityName> had to balance progress with stability as
+    it confronted competition, unrest, and evolving expectations from its citizens.
+  mActionMessage: Rapid factory growth and new trade networks brought unprecedented
+    wealth to <CityName>. Jobs multiplied, markets flourished, and the city faced
+    decisions on how to distribute and sustain its prosperity.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Host televised national dialogues between representatives of each faction.
-  - Fund multicultural festivals to celebrate shared identity and diversity.
-  - Commission sociologists and historians to produce public education material promoting
-    common heritage.
-  - Enforce stricter regulations on extremist organisations and harmful misinformation
-    networks.
-  - Create a nationwide volunteer program encouraging collaborative community service
-    across factions.
+  - expanded the factory districts to accommodate new workshops and industries.
+  - invested surplus profits into housing projects for workers and their families.
+  - established a trade council to regulate tariffs and stabilise market prices.
+  - sent envoys to negotiate long-term shipping agreements with foreign ports.
+  - directed funds toward modernising roads, rail lines, and warehouses.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The televised debates become surprisingly respectful, with moderates emerging
-    from both sides. Citizens appreciate seeing opposing views exchanged civilly,
-    reducing tension nationwide.
-  - The debates devolve into combative shouting matches. Viral clips spread online
-    portraying dysfunction, worsening ideological divides and eroding trust in institutions.
-  - Communities gather for music, art, and cuisine in a rare show of unity. People
-    rediscover common ground through celebration, and tensions cool as bonds deepen.
-  - Organisers clash over representation, and protests erupt accusing the festival
-    of cultural insensitivity. The event becomes a symbol of misguided government
-    intervention.
-  - Thoughtful documentaries and digital publications remind citizens of shared struggles
-    and achievements. National pride grows, offering a sense of belonging across
-    divides.
-  - Critics accuse the material of bias or political agenda. Online backlash spreads
-    rapidly, further polarising cultural groups and undermining academic authority.
-  - Disrupting extremist groups restores safety and reduces ideological recruitment.
-    Citizens feel protected from radicalisation, and public discourse becomes healthier.
-  - Civil liberty groups decry the crackdown as censorship. Protests erupt over freedom-of-speech
-    violations, and mistrust of the government intensifies.
-  - Shared service projects break down stereotypes through cooperation. Participants
-    form new friendships, and communities begin healing through collective effort.
-  - Volunteers from rival groups clash during projects, reigniting hostilities. Social
-    media sensationalises the incidents, undoing efforts toward unity.
+  - The expansion attracted skilled workers and investors from across the region.
+    Production soared, and <CityName> solidified its reputation as a rising industrial
+    power.
+  - The expansion outpaced planning, causing overcrowding and unsafe conditions.
+    Several workshops suffered accidents, and critics argued that growth had become
+    reckless.
+  - The new housing eased overcrowding and improved living standards. Workers felt
+    valued, productivity rose, and the city gained praise for its forward-thinking
+    civic spirit.
+  - Construction delays and cost overruns plagued the projects. Many buildings remained
+    unfinished, and workers blamed city officials for broken promises and wasted
+    funds.
+  - The council balanced competing interests and kept markets steady during rapid
+    growth. Merchants and consumers alike benefited from fair pricing and predictable
+    trade.
+  - Council members fell into disagreement and formed rival blocs, each pushing their
+    own interests. Markets destabilised further, and accusations of corruption spread
+    quickly.
+  - The envoys secured favourable agreements, guaranteeing steady imports and exports.
+    Trade flourished, and <CityName> strengthened its foothold in international commerce.
+  - Talks broke down when foreign ports demanded concessions <CityName> refused to
+    give. Relations cooled, and merchants feared the boom would collapse without
+    stable shipping routes.
+  - "The modernised infrastructure dramatically improved transport efficiency. Goods
+    moved faster, profits rose, and the entire region benefited from <CityName>\u2019s
+    improved network."
+  - "Poor oversight led to faulty construction and wasted materials. Several key
+    routes remained incomplete, and traders openly criticised the city\u2019s mismanagement."
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f6ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

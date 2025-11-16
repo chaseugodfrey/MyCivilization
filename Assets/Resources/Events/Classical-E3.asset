@@ -12,45 +12,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Classical-E3
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> strengthens into an organised society with structured
-    laws, wider trade, and growing intellectual life. Roads and alliances expand
-    its reach, while diplomacy and conflict reshape its borders. Prosperity rises,
-    but so do rivalries and debates over authority. How <CityName> balances ambition
-    and stability determines its path through this transformative age.
-  mActionMessage: "ECONOMIC BOOM \u2014 A surge in trade, production, or discovery
-    brings sudden wealth. Prosperity elevates the state but may also fuel extravagance
-    or internal competition."
+  mIntroMessage: <CityName> had strengthened into an organised society with structured
+    laws, wider trade, and a growing intellectual life. Roads and alliances had expanded
+    its reach, while diplomacy and conflict reshaped its borders. Prosperity had
+    risen, but so had rivalries and debates over authority. How <CityName> balanced
+    ambition and stability ultimately determined its path through this transformative
+    age.
+  mActionMessage: Calls for political renewal rose within <CityName> as citizens,
+    nobles, and guild leaders proposed reforms to its governance. With optimism in
+    the air, the city faced a pivotal moment that required wisdom and unity.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Host a grand festival celebrating prosperity and civic achievement.
-  - Invest surplus wealth into expanding libraries and academies.
-  - Expand trade fleets and merchant caravans to amplify returns.
-  - Reduce taxes temporarily to encourage economic movement.
-  - Commission new roads, aqueducts, and public structures.
+  - "held a public assembly where citizens proposed reforms to the city\u2019s laws
+    and governance."
+  - appointed a temporary reform council composed of nobles, scholars, and guildmasters.
+  - conducted structured debates between leadership candidates in the central forum.
+  - commissioned respected elders to review existing laws and recommend changes.
+  - allowed each district to nominate a representative to voice their concerns and
+    aspirations.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - Citizens gather in theatres, plazas, and markets to celebrate shared success.
-    The festival strengthens civic pride and reminds all that prosperity belongs
-    to everyone.
-  - The festival becomes overly lavish, draining treasuries and angering poorer citizens
-    who see the wealth gap widening. Resentment spreads beneath the celebrations.
-  - New academies attract scholars from distant lands. Knowledge flourishes, advancements
-    multiply, and the state's prestige rises among neighbouring civilisations.
-  - Funds are mismanaged or stolen. Construction halts, scholars depart, and citizens
-    accuse officials of corruption, casting suspicion over the entire boom.
-  - Trade routes flourish as caravans return with exotic goods, rare metals, and
-    lucrative deals. Wealth flows steadily, solidifying the state's growing influence.
-  - Pirates and bandits target your expanded trade routes. Several shipments vanish,
-    triggering panic among merchants and destabilizing the once-thriving economy.
-  - "Lower taxes invigorate commerce. Citizens praise the government\u2019s generosity,
-    and markets flourish as artisans, farmers, and traders thrive."
-  - Revenue drops too sharply, weakening military upkeep and public services. Citizens
-    begin doubting the state's ability to balance generosity with responsibility.
-  - Infrastructure expands dramatically, creating jobs and transforming the urban
-    landscape. Future generations will benefit from the flourishing civic projects.
-  - Overambitious projects overextend resources, leaving many structures unfinished.
-    Citizens ridicule the failed monuments as signs of leadership hubris.
+  - "The assembly drew crowds from every district, and citizens spoke with uncommon
+    clarity and respect. Practical reforms emerged from the discussion, strengthening
+    <CityName>\u2019s laws and reinforcing trust between the people and their leaders."
+  - The assembly spiraled into disorder as citizens argued over conflicting demands.
+    No reforms were agreed upon, and frustration simmered as the public left feeling
+    unheard and disillusioned.
+  - The reform council worked diligently, blending aristocratic experience with guild
+    and scholarly insight. Their balanced proposals won broad approval, ushering
+    in a period of thoughtful change in <CityName>.
+  - The council quickly fractured as nobles clashed with guildmasters and scholars
+    over priorities. Accusations of hidden agendas spread, and the council dissolved
+    in a storm of political rivalry.
+  - "The debates showcased eloquent and principled candidates who impressed citizens
+    with their reasoning. The forum became a symbol of civic maturity, and confidence
+    in <CityName>\u2019s future leadership grew."
+  - "The debates devolved into personal attacks, exposing corruption and deep-seated
+    grudges. Instead of inspiring trust, the candidates revealed weaknesses that
+    left the public anxious about the city\u2019s direction."
+  - "The elders\u2019 review clarified outdated statutes and proposed wise adjustments.
+    Their measured judgement reassured the clans, and the reforms were accepted peacefully
+    across <CityName>."
+  - "The elders\u2019 recommendations were met with skepticism, as many believed
+    they clung too tightly to tradition. Younger citizens protested the lack of progress,
+    widening divisions between generations."
+  - The district representatives spoke passionately for their communities, uncovering
+    needs long overlooked. Their collaboration strengthened civic unity, and <CityName>
+    embraced a renewed sense of shared purpose.
+  - Rival districts used the platform to compete rather than cooperate. Representatives
+    pushed conflicting interests, and the resulting tensions hardened territorial
+    divides across the city.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

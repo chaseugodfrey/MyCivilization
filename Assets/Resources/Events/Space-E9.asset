@@ -12,43 +12,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Space-E9
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> extends its influence beyond Earth through orbital facilities,
-    lunar industry, and early colonies. Advanced reactors and long-range travel open
-    new frontiers, but resources stretch thin and political interests diverge across
-    worlds. Each decision carries amplified consequences, shaping whether <CityName>
-    thrives among the stars or fractures under interplanetary pressures.
-  mActionMessage: "DISEASE OUTBREAK \u2014 A mutated alien microbe or synthetic pathogen
-    escapes containment, threatening multiple worlds."
+  mIntroMessage: <CityName> extended its influence beyond Earth through orbital facilities,
+    lunar industry, and early colonies. Advanced reactors and long-range travel opened
+    new frontiers, but resources stretched thin and political interests diverged
+    across worlds. Each decision carried amplified consequences, shaping whether
+    <CityName> thrived among the stars or fractured under interplanetary pressures.
+  mActionMessage: Rising tensions between gene-altered humans, baseline populations,
+    uplifted animals, and fully synthetic intelligences ignited systemic unrest across
+    <CityName>. Centuries-old social contracts suddenly strained under the weight
+    of evolution.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Negative
   mOptionMessages:
-  - Seal infected worlds with orbital quarantine rings.
-  - "Deploy AI\u2011guided nanomedicine teams to outbreak zones."
-  - "Request volunteers for experimental gene\u2011therapy trials."
-  - "Broadcast system\u2011wide health protocols using immersive VR training."
-  - Establish a temporary unified health authority across all colonies.
+  - convened a multi-species, multi-intelligence mediation council to address grievances
+    openly.
+  - deployed neutral peacekeeping units composed of mixed populations to deter escalating
+    violence.
+  - implemented temporary legal reforms to guarantee equal rights across biological
+    and synthetic categories.
+  - opened cultural exchange hubs to encourage dialogue and reduce tribal tensions.
+  - restricted high-risk districts under emergency protocols to prevent large-scale
+    riots.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The rings halt interplanetary transmission. Doctors gain crucial time to develop
-    treatments, saving millions.
-  - Quarantined colonies revolt violently, demanding freedom. Riots spread as panic
-    overtakes order.
-  - Nanobots neutralise the pathogen with precision. The breakthrough becomes a landmark
-    in medical history.
-  - Nanobots malfunction under alien biochemistry. Unexpected mutations worsen the
-    outbreak dramatically.
-  - Trials succeed, creating resilient immune responses. Hope resurges across colonies
-    as infection rates fall.
-  - "Severe side\u2011effects spark fear. Anti\u2011science movements gain momentum,
-    destabilising the healthcare response."
-  - Compliance improves dramatically as citizens learn proper safety measures. Spread
-    slows significantly.
-  - VR misinformation circulates from fringe groups, confusing the public. Infection
-    surges due to improper compliance.
-  - "Centralisation streamlines treatment efforts and data\u2011sharing. Colonies
-    unite under a shared mission to overcome the crisis."
-  - Colonies resist central control, sparking political disputes that interfere with
-    containment strategies.
+  - The council exceeded expectations, allowing all groups to voice concerns and
+    negotiate shared policies. Mutual respect grew, and several longstanding disputes
+    were peacefully resolved.
+  - The council collapsed under ideological clashes. Representatives walked out,
+    denouncing the process as biased, and hostilities intensified across several
+    districts.
+  - The diverse peacekeeping units gained trust from every faction, preventing riots
+    and stabilising volatile streets. Their presence reassured citizens that fairness
+    still existed in <CityName>.
+  - Even mixed units were accused of favouritism by rival factions. When skirmishes
+    erupted, peacekeepers were overwhelmed, and their failure worsened the unrest.
+  - The reforms eased tensions as oppressed groups saw genuine steps toward equality.
+    Many factions paused protests, hopeful that permanent legislation would follow.
+  - Baseline groups interpreted the reforms as preferential treatment, sparking counter-protests.
+    Instead of healing divisions, the sudden changes triggered new waves of conflict.
+  - The hubs became popular neutral grounds where species and intelligences shared
+    customs, stories, and technologies. Bonds formed, and several key factions publicly
+    denounced violence.
+  - The hubs became flashpoints for ideological confrontation. Arguments escalated
+    into physical clashes, forcing officials to shut them down and worsening distrust.
+  - The restrictions prevented several planned uprisings and allowed authorities
+    to regain control. Violence subsided, giving negotiators valuable time to work
+    toward long-term solutions.
+  - The lockdowns angered multiple groups, who saw them as targeted suppression.
+    Underground resistance cells formed, and unrest spread to previously stable districts.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0c000000f6ffffff0a000000f8ffffff09000000f9ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

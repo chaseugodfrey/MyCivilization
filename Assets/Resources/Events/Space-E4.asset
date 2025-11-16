@@ -12,45 +12,57 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Space-E4
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> extends its influence beyond Earth through orbital facilities,
-    lunar industry, and early colonies. Advanced reactors and long-range travel open
-    new frontiers, but resources stretch thin and political interests diverge across
-    worlds. Each decision carries amplified consequences, shaping whether <CityName>
-    thrives among the stars or fractures under interplanetary pressures.
-  mActionMessage: "LEADERSHIP CRISIS \u2014 A scandal on Earth, a coup attempt on
-    Mars, or an AI-governor malfunction shakes the stability of interstellar governance.
-    Citizens across worlds question who truly leads humanity."
+  mIntroMessage: <CityName> extended its influence beyond Earth through orbital facilities,
+    lunar industry, and early colonies. Advanced reactors and long-range travel opened
+    new frontiers, but resources stretched thin and political interests diverged
+    across worlds. Each decision carried amplified consequences, shaping whether
+    <CityName> thrived among the stars or fractured under interplanetary pressures.
+  mActionMessage: "A breakthrough in quantum-guided bioengineering promised to rewrite
+    humanity\u2019s limits, offering immunity to radiation, low-gravity adaptation,
+    and century-long vitality. But its potential reshaped debates about what it meant
+    to remain human."
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Broadcast a unified interplanetary address clarifying leadership and responsibility.
-  - Form a temporary coalition government including representatives from all major
-    colonies.
-  - Appoint a respected AI mediator to oversee interplanetary negotiations.
-  - Launch a transparent investigation into the crisis with full public access.
-  - Stabilise planetary security forces and temporarily centralise authority.
+  - approved controlled trials of the bioengineering breakthrough under strict scientific
+    oversight.
+  - restricted its use to medical necessity while banning enhancements deemed purely
+    cosmetic or excessive.
+  - invited philosophers, scientists, and synthetic intelligences to debate new definitions
+    of humanity.
+  - distributed the breakthrough to frontier colonies most vulnerable to radiation
+    and low gravity.
+  - placed a temporary moratorium on further modifications until long-term effects
+    were understood.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The speech resonates across colonies, restoring calm. Citizens appreciate clarity
-    and renewed stability in government.
-  - The address is criticized as evasive or performative. Colonists react negatively,
-    deepening mistrust toward leadership.
-  - Shared leadership eases political tensions. Colonies feel genuinely included,
-    stabilising the governance structure.
-  - Ideological clashes paralyse decision-making. The coalition quickly fractures,
-    worsening the crisis.
-  - "The AI\u2019s neutrality restores trust and accelerates problem-solving. Citizens
-    across worlds feel reassured by fair arbitration."
-  - Opponents accuse the government of ceding control to machines. Protests rise
-    across colonies rejecting algorithmic authority.
-  - Transparency strengthens democracy. Citizens rally behind the commitment to truth,
-    smoothing tensions across planets.
-  - The investigation reveals uncomfortable truths, sparking fear and anger. Stability
-    worsens as political factions seize the narrative.
-  - Centralised command prevents unrest from spreading. Colonies appreciate the firm
-    but controlled approach to restoring order.
-  - Colonists fear authoritarian overreach. Security deployments trigger resistance
-    movements demanding autonomy.
+  - The trials proved safe and effective. Enhanced resilience spread through key
+    sectors of <CityName>, and public trust grew in the careful approach to human
+    advancement.
+  - Unexpected mutations appeared in early test groups. Panic spread, and critics
+    condemned <CityName> for allowing experimentation before understanding the risks.
+  - The limitations reassured anxious citizens, preventing reckless overuse. The
+    breakthrough saved countless lives without destabilising the cultural balance
+    of <CityName>.
+  - "Black-market demand exploded. Illegal enhancement clinics emerged across several
+    worlds, deepening inequality and undermining <CityName>\u2019s control."
+  - The symposium forged a visionary consensus on identity and personhood. This new
+    ethical charter unified divergent populations and guided future research with
+    clarity.
+  - The debate spiralled into ideological conflict. Uplifted citizens, baseline humans,
+    and synthetics could not agree on shared principles, widening the fracture over
+    what humanity meant.
+  - The colonies flourished as newly adapted settlers overcame environmental hazards.
+    Prosperity spread outward, and <CityName> earned praise for its strategic compassion.
+  - "Some colonies used their enhanced abilities to claim greater autonomy. Their
+    demands for independence surged, threatening <CityName>\u2019s hold over frontier
+    regions."
+  - "The moratorium strengthened confidence in <CityName>\u2019s caution. Citizens
+    valued the restraint, and research teams gained time to ensure the breakthrough
+    posed no hidden dangers."
+  - Corporations and radical enhancement groups condemned the delay. Several factions
+    pursued unauthorized research in secret, risking unpredictable consequences for
+    the entire civilisation.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff0b000000f6ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

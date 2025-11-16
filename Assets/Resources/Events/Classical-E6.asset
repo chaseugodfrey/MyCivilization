@@ -12,43 +12,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Classical-E6
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> strengthens into an organised society with structured
-    laws, wider trade, and growing intellectual life. Roads and alliances expand
-    its reach, while diplomacy and conflict reshape its borders. Prosperity rises,
-    but so do rivalries and debates over authority. How <CityName> balances ambition
-    and stability determines its path through this transformative age.
-  mActionMessage: "NATURAL DISASTER \u2014 Earthquakes, fires, droughts, or floods
-    strike your civilisation, testing its infrastructure and unity."
+  mIntroMessage: <CityName> had strengthened into an organised society with structured
+    laws, wider trade, and a growing intellectual life. Roads and alliances had expanded
+    its reach, while diplomacy and conflict reshaped its borders. Prosperity had
+    risen, but so had rivalries and debates over authority. How <CityName> balanced
+    ambition and stability ultimately determined its path through this transformative
+    age.
+  mActionMessage: A difficult season gripped <CityName> as harvest yields fell below
+    expectation and water reserves dwindled. Though not yet dire, the pressure tested
+    cooperation among households, guilds, and political factions.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Negative
   mOptionMessages:
-  - Mobilise engineers to reinforce walls, aqueducts, and public structures.
-  - Evacuate citizens to rural estates and temples outside the danger zone.
-  - Hold religious rites asking the gods for protection and mercy.
-  - Deploy the army to maintain order and deliver emergency aid.
-  - Create emergency granaries and water reserves for public use.
+  - sent labourers to dredge wells and restore neglected irrigation channels.
+  - ordered rationing across all districts to stretch remaining supplies.
+  - dispatched envoys to request emergency grain from allied city-states.
+  - redirected temple offerings toward feeding the poorest households.
+  - imposed strict market controls to prevent merchants from raising prices.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - Teams of builders and engineers stabilise infrastructure just in time. Citizens
-    praise the swift response, and the damage is contained before it spreads.
-  - "Reinforcement efforts come too late. Key structures collapse, causing casualties
-    and eroding the population\u2019s confidence in state protection."
-  - The evacuation is orderly and efficient, saving countless lives. Rural communities
-    welcome refugees, strengthening bonds across regions.
-  - The evacuation becomes chaotic. Crowded roads and poor coordination trigger panic,
-    leading to injuries and mistrust in government command.
-  - Citizens gather in temples to offer prayers and sacrifices, finding unity and
-    calm. The rites give hope, helping the population endure hardship.
-  - Priests disagree on the correct rites, causing confusion and fear. Citizens question
-    divine favour and blame the priesthood for misinterpreting omens.
-  - Soldiers act with discipline and compassion, restoring order and delivering supplies.
-    Their presence reassures citizens and prevents looting.
-  - Some soldiers abuse their authority or prioritize elite districts. Complaints
-    spread rapidly, igniting outrage and damaging military reputation.
-  - "The reserves sustain the population throughout the disaster. Citizens praise
-    the state\u2019s foresight, and famine is averted."
-  - Supplies are insufficient or poorly guarded. Thieves raid the reserves, causing
-    shortages and intensifying unrest.
+  - "The labourers cleared irrigation paths and deepened old wells, uncovering long-blocked
+    water flow. The restored channels eased the shortage and renewed hope among the
+    city\u2019s districts."
+  - Despite the effort, the wells yielded little and several channels collapsed during
+    repairs. The failed attempt drained morale and left <CityName> more anxious than
+    before.
+  - The rationing measures stabilised food distribution and prevented hoarding. Though
+    strict, the policy ensured every household received enough to endure the season.
+  - Rationing bred resentment as some districts claimed others received better portions.
+    Tensions rose, and accusations of corruption spread through the city.
+  - "The envoys returned with generous shipments of grain and dried goods. Allies
+    praised <CityName>\u2019s diplomacy, and the relief softened the hardship across
+    the districts."
+  - The envoys returned empty-handed, some allies citing shortages of their own.
+    Word of refusal stung civic pride, and many questioned whether <CityName> had
+    grown too dependent on outside support.
+  - The redirection brought immediate relief to struggling families. Citizens praised
+    the act as a noble expression of civic virtue, and support for temple leadership
+    grew.
+  - Some priests condemned the decision as sacrilege, claiming the gods were deprived
+    of their due. Disputes erupted around the temples, deepening unrest during an
+    already strained season.
+  - The price controls worked as intended, stopping profiteering and keeping essential
+    goods affordable. Many citizens praised the government for acting decisively
+    and fairly.
+  - Merchants rebelled quietly, withdrawing goods from stalls or selling in secret
+    at inflated prices. Shortages worsened, and black markets took root across <CityName>.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

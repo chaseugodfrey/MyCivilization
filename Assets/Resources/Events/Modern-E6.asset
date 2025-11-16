@@ -12,46 +12,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Modern-E6
   m_EditorClassIdentifier: 
-  mIntroMessage: Industrial change reshapes <CityName> with new technologies, expanding
-    factories, and rapid population growth. Political movements challenge old systems,
-    while global trade raises both opportunity and risk. Innovation accelerates faster
-    than society adapts, and <CityName> must balance progress with stability as it
-    confronts competition, unrest, and evolving expectations from its citizens.
-  mActionMessage: "NATURAL DISASTER \u2014 A hurricane, wildfire, earthquake, chemical
-    spill, or heatwave devastates regions of the nation. Emergency services strain
-    to respond while the public watches anxiously."
+  mIntroMessage: Industrial change reshaped <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenged old systems,
+    while global trade raised both opportunity and risk. Innovation accelerated faster
+    than society adapted, and <CityName> had to balance progress with stability as
+    it confronted competition, unrest, and evolving expectations from its citizens.
+  mActionMessage: Industrial demand outpaced supply as coal reserves thinned and
+    timber shipments slowed. Factories strained to operate, and the city faced hard
+    choices about rationing and imports.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Negative
   mOptionMessages:
-  - Deploy national guard units and emergency rescue teams to affected areas.
-  - Establish emergency shelters stocked with food, water, and medical supplies.
-  - Coordinate with scientists to forecast and mitigate secondary disasters.
-  - Launch a national donation drive supported by celebrities and public figures.
-  - Mobilise engineering teams to rebuild infrastructure with modern, disaster-resistant
-    designs.
+  - redirected factory shifts to conserve dwindling fuel reserves.
+  - sent procurement teams to distant regions in search of new suppliers.
+  - negotiated emergency resource contracts with rival industrial cities.
+  - introduced strict rationing for coal and metals across all workshops.
+  - invested in experimental substitutes for traditional fuel sources.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - Swift rescue efforts save thousands of lives. Images of brave responders lift
-    national morale, and gratitude toward leadership spreads widely.
-  - Logistical failures lead to delayed rescue attempts. Media broadcasts the chaos,
-    sparking outrage and demands for accountability.
-  - Shelters become safe havens for displaced families. Volunteers and professionals
-    work together efficiently, restoring hope amid devastation.
-  - Supply shortages and overcrowding overwhelm shelters. Illness spreads, and desperate
-    families accuse officials of mismanagement.
-  - Advanced modeling prevents follow-up catastrophes such as landslides or chemical
-    leaks. Citizens admire the fusion of science and governance.
-  - Forecasts conflict, sowing confusion. When mitigation efforts fail, critics weaponise
-    the inconsistent advice to undermine trust in experts.
-  - A wave of compassion sweeps the nation as citizens donate supplies, funds, and
-    time. Communities unite in resilience, boosting national spirit.
-  - Charitable funds are mishandled or misused by partners. A scandal erupts, transforming
-    goodwill into bitter cynicism.
-  - "Reconstructed roads, bridges, and buildings showcase futuristic resilience.
-    Citizens take pride in rising stronger than before, and global observers praise
-    your nation\u2019s recovery."
-  - Costs explode as rebuilding drags on. Critics label the project unrealistic,
-    and citizens grow frustrated with slow progress and ballooning budgets.
+  - The reduced shifts slowed consumption and stabilised fuel use. Factories adapted
+    efficiently, and <CityName> avoided a total shutdown while awaiting new shipments.
+  - The reduced hours crippled production, worsening economic pressure. Workers saw
+    pay cuts, resentment grew, and some factories risked closure.
+  - The teams secured promising contracts abroad, bringing in fresh coal and materials.
+    Relief arrived just in time, restoring confidence across the factory districts.
+  - "The journeys proved costly and fruitless\u2014distant suppliers were already
+    overcommitted. The failed mission drained funds and morale alike."
+  - Rival cities agreed to limited support, easing immediate shortages. Though uneasy,
+    the cooperation prevented industrial collapse and kept factories running.
+  - "The rivals saw <CityName>\u2019s desperation and demanded steep prices. Accepting
+    the terms sparked outrage among merchants and workers, who felt exploited."
+  - The rationing was implemented fairly, and most factories adapted by prioritising
+    essential goods. The city endured the shortage without widespread disruption.
+  - The rationing ignited competition among workshops, with accusations of hidden
+    reserves and unequal treatment. Several guilds staged protests, deepening internal
+    strife.
+  - The experiments yielded a workable alternative, reducing dependence on scarce
+    coal. The breakthrough impressed neighbouring cities and secured <CityName> a
+    technological edge.
+  - The substitutes failed in testing, damaging machines and wasting resources. Critics
+    attacked the failed gamble, calling it reckless during an already fragile crisis.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0b000000f6ffffff09000000f9ffffff08000000f9ffffff07000000faffffff0c000000f7ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

@@ -12,44 +12,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Classical-E9
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> strengthens into an organised society with structured
-    laws, wider trade, and growing intellectual life. Roads and alliances expand
-    its reach, while diplomacy and conflict reshape its borders. Prosperity rises,
-    but so do rivalries and debates over authority. How <CityName> balances ambition
-    and stability determines its path through this transformative age.
-  mActionMessage: "DISEASE OUTBREAK \u2014 Illness sweeps through crowded cities
-    and trade ports. The state must act quickly to contain panic and loss."
+  mIntroMessage: <CityName> had strengthened into an organised society with structured
+    laws, wider trade, and a growing intellectual life. Roads and alliances had expanded
+    its reach, while diplomacy and conflict reshaped its borders. Prosperity had
+    risen, but so had rivalries and debates over authority. How <CityName> balanced
+    ambition and stability ultimately determined its path through this transformative
+    age.
+  mActionMessage: Disputes among the people of <CityName> intensified, fueled by
+    political rivalries, economic grievances, and clashing ideals. Though unrest
+    had not yet broken into open conflict, the need for careful mediation grew pressing.
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Negative
   mOptionMessages:
-  - Build quarantine wards outside the city walls.
-  - Consult herbalists, healers, and foreign physicians for remedies.
-  - Close major markets and ports temporarily to slow transmission.
-  - Organise communal prayer gatherings and rites for health.
-  - "Dispatch scholars to research the disease\u2019s patterns and causes."
+  - appointed neutral mediators to settle disputes between rival factions.
+  - held a public hearing to uncover the root causes of grievances.
+  - expanded city watch patrols to discourage escalating violence.
+  - invited respected philosophers to lecture on civic unity and virtue.
+  - enforced temporary curfews in troubled districts to restore order.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - Physicians coordinate treatments in safe, isolated wards. Though harsh, the containment
-    slows the spread and reassures citizens that the state is acting decisively.
-  - Quarantine wards overflow and become poorly supplied. Families protest separation,
-    and fear spreads faster than the disease itself.
-  - Knowledge from distant lands combines with local practices, creating effective
-    treatments. Recovery rates rise, and trade networks admire your civilisation's
-    adaptability.
-  - Foreign remedies clash with traditional beliefs. Accusations of poisoning and
-    sabotage spread, causing civil unrest and stalling treatment efforts.
-  - "Though economically painful, the closures drastically slow the spread. Citizens
-    commend the government\u2019s willingness to protect lives over wealth."
-  - Markets collapse under the strain of closures. Merchants rebel, demanding compensation,
-    and the economy plunges into chaos.
-  - Temples teach calm and discipline, easing panic. Citizens find emotional strength
-    in unity, improving resilience against fear-driven disorder.
-  - Crowded rites accelerate disease transmission. Public ire erupts at priests for
-    endangering lives, damaging religious authority.
-  - Scholarly investigation uncovers patterns in symptoms and spread. Their insights
-    allow for targeted interventions that save countless lives.
-  - Scholars disagree publicly, presenting contradictory theories. Confusion spreads
-    across the population, weakening trust in both science and leadership.
+  - The mediators earned the trust of both sides, guiding heated arguments into constructive
+    dialogue. Several longstanding disputes were resolved, easing tensions across
+    <CityName>.
+  - "The mediators were accused of favouring certain factions, and their rulings
+    were rejected. Hostility deepened, and the attempt at peace only exposed the
+    city\u2019s divisions further."
+  - The hearing revealed overlooked injustices, prompting swift reforms that calmed
+    tempers. Citizens felt heard, and the city regained a sense of shared purpose.
+  - The hearing devolved into shouting as rival groups aired attacks rather than
+    solutions. No agreement was reached, and animosity hardened on all sides.
+  - The presence of disciplined patrols deterred brawls and intimidation. Streets
+    grew calmer, giving tempers time to settle and restoring basic order.
+  - The heavier patrols were seen as oppressive, provoking resentment. Several confrontations
+    broke out, worsening tensions and undermining confidence in the watch.
+  - "The philosophers\u2019 words resonated across the districts, encouraging empathy,
+    patience, and civic responsibility. Their teachings helped soften tempers and
+    rebuild mutual respect."
+  - Many dismissed the lectures as out of touch with real grievances. Some mocked
+    the speakers openly, and the attempt to soothe anger instead sparked renewed
+    frustration.
+  - The curfews kept conflicts from escalating, allowing tensions to cool. When restrictions
+    lifted, the districts emerged more stable and less volatile.
+  - The curfews angered residents who felt unjustly punished. Secret gatherings continued
+    despite the restrictions, and distrust of city leadership grew sharply.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff07000000faffffff0b000000f7ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

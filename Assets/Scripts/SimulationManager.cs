@@ -192,9 +192,13 @@ public class SimulationManager : MonoBehaviour
         text_mainField.text = currentEvent.GetActionMessage();
 
         string eventIntro = narrationData.GetRandomEventIntro();
-        outputManager.AddOutputMessage("\n" + eventIntro + currentEvent.GetActionMessage());
+        string eventTransition = narrationData.GetRandomEventTransition();
+        if(eventCounter == 0)
+            outputManager.AddOutputMessage(eventIntro + currentEvent.GetActionMessage());
+        else
+            outputManager.AddOutputMessage("\n" + eventTransition + currentEvent.GetActionMessage());
 
-        Tuple<string, string> leagueOfLegends = currentEvent.GetOptionsText();
+            Tuple<string, string> leagueOfLegends = currentEvent.GetOptionsText();
         text_optionA.text = narrationData.GetRandomOptionPrefix(currentEvent.GetEventTag()) + leagueOfLegends.Item1;
         text_optionB.text = narrationData.GetRandomOptionPrefix(currentEvent.GetEventTag()) + leagueOfLegends.Item2;
 
@@ -279,11 +283,11 @@ public class SimulationManager : MonoBehaviour
             outputManager.AddOutputMessage("\n[" + currentEra.GetEraName() + " Era]");
             outputManager.AddOutputMessage(currentEra.GetEraDescription());
         }
-        else
-        {
-            // Second event add transition phrase
-            outputManager.AddOutputMessage(narrationData.GetRandomEventTransition());
-        }
+        //else
+        //{
+        //    // Second event add transition phrase
+        //    outputManager.AddOutputMessage(narrationData.GetRandomEventTransition());
+        //}
 
     }
     void DisappearingTitle()

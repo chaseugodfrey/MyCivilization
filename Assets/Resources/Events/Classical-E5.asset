@@ -12,47 +12,59 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Classical-E5
   m_EditorClassIdentifier: 
-  mIntroMessage: <CityName> strengthens into an organised society with structured
-    laws, wider trade, and growing intellectual life. Roads and alliances expand
-    its reach, while diplomacy and conflict reshape its borders. Prosperity rises,
-    but so do rivalries and debates over authority. How <CityName> balances ambition
-    and stability determines its path through this transformative age.
-  mActionMessage: "TECHNOLOGICAL BREAKTHROUGH \u2014 New inventions, engineering
-    marvels, or mathematical insights emerge. Their impact depends on how the state
-    chooses to apply them."
+  mIntroMessage: <CityName> had strengthened into an organised society with structured
+    laws, wider trade, and a growing intellectual life. Roads and alliances had expanded
+    its reach, while diplomacy and conflict reshaped its borders. Prosperity had
+    risen, but so had rivalries and debates over authority. How <CityName> balanced
+    ambition and stability ultimately determined its path through this transformative
+    age.
+  mActionMessage: "An unexpected diplomatic and civic opportunity confronted <CityName>,
+    compelling its citizens to weigh justice, loyalty, compassion, and long-term
+    stability. Whichever path they chose would become a defining chapter in the city\u2019s
+    legacy."
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Commission engineers to demonstrate the invention publicly.
-  - Invite scholars and artisans to refine the breakthrough collaboratively.
-  - Use the invention for state military advancements.
-  - Share the breakthrough across academies to inspire wider learning.
-  - Keep the breakthrough secret while testing its full potential.
+  - "extended aid and resources to those affected, choosing generosity as the city\u2019s
+    guiding principle."
+  - "withheld involvement until the implications became clearer, prioritising <CityName>\u2019s
+    stability."
+  - consulted philosophers and elders in the agora to weigh moral and practical outcomes.
+  - gathered citizens from every district to decide the matter through open deliberation.
+  - leveraged the opportunity to secure long-term strategic benefits for <CityName>,
+    even at a cost.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - Citizens marvel at the engineering display as the invention proves reliable and
-    transformative. Confidence in state innovation grows, inspiring new waves of
-    curiosity and ambition.
-  - "The demonstration fails dramatically\u2014devices malfunction or collapse. The
-    public's embarrassment turns to doubt, weakening faith in the state's technological
-    leadership."
-  - Scholars improve theoretical models while artisans perfect practical designs.
-    The innovation becomes a polished achievement, boosting both prestige and productivity.
-  - Scholars clash over methodology while artisans argue over credit. The project
-    stagnates as collaboration breaks down, delaying progress and draining resources.
-  - Generals integrate the breakthrough into strategic planning, giving your army
-    a decisive advantage. Citizens feel safer knowing the state guards them with
-    superior knowledge.
-  - The invention proves unstable in combat trials. A catastrophic failure injures
-    soldiers, stirring backlash against reckless experimentation.
-  - Academies flourish as students and thinkers expand upon the new discovery. A
-    cultural renaissance blooms, elevating your civilisation's intellectual prestige.
-  - Widespread access sparks plagiarism, competition, and disputes among scholars.
-    Rival academies accuse each other of theft, eroding academic unity.
-  - In secret workshops, engineers perfect the invention, eventually revealing a
-    refined marvel that astonishes the nation and strengthens your strategic advantage.
-  - Rumours spread of forbidden knowledge and hidden labs. Citizens grow suspicious,
-    and political rivals accuse the state of overreaching, destabilising trust.
+  - "The aid reached those in need, earning <CityName> admiration across neighbouring
+    regions. Citizens felt pride in their generosity, and the city\u2019s reputation
+    for honour strengthened its diplomatic ties."
+  - The generous outpouring strained grain reserves and civic budgets. When the next
+    season proved harsher than expected, some citizens questioned whether goodwill
+    had outweighed foresight.
+  - By refraining from involvement, <CityName> preserved its stability and weathered
+    unforeseen difficulties that followed. Even skeptics conceded that caution had
+    protected the city at a crucial moment.
+  - Those denied help remembered the refusal, and neighbouring groups grew distant.
+    Within the city, citizens debated whether survival had come at the cost of honour,
+    stirring quiet moral unease.
+  - The philosophers and elders offered clear reasoning that guided <CityName> to
+    a fair and balanced decision. Their wisdom reassured the people, and the final
+    choice was widely accepted as just.
+  - The council of thinkers argued endlessly, producing no unified recommendation.
+    Their indecision frustrated the public, and the opportunity slipped away unresolved,
+    diminishing confidence in their wisdom.
+  - Citizens from every district gathered in the central forum and debated with respect
+    and purpose. The resulting consensus strengthened civic unity, and the decision
+    reflected the will of the whole city.
+  - The deliberations became heated as factions pushed conflicting ideals. Old rivalries
+    resurfaced, and the forum adjourned without agreement, leaving <CityName> more
+    divided than before.
+  - "The strategic decision brought significant benefits in the seasons that followed\u2014new
+    alliances, secure resources, and strengthened influence. Though difficult at
+    first, the choice proved wise in the long run."
+  - "The sacrifices required fell heavily on certain districts, breeding resentment.
+    Some citizens felt their hardship had served ambitions rather than the common
+    good, stirring unrest beneath the city\u2019s surface."
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

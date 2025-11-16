@@ -17,39 +17,43 @@ MonoBehaviour:
     exploration support daily life, but resources remained limited. Every choice
     shaped whether <CityName> could grow into a stable settlement or struggled against
     scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: An unfamiliar sickness spread throughout <CityName>, killing many
-    able people, which threatened to wipe out the settlement.
+  mActionMessage: Disputes among the tribemates of <CityName> began to intensify,
+    rooted in unresolved grievances and clashing priorities. While unrest simmered
+    beneath the surface, the path forward still depended on guidance and dialogue.
   mProcessedActionMessage: 
-  mOutcomeType: DISEASE OUTBREAK
+  mOutcomeType: Negative
   mOptionMessages:
-  - isolated the sick in a separate camp to prevent further spread.
-  - sent runners from <CityName> to neighbouring tribes in search of herbal remedies.
-  - performed a grand cleansing ritual using smoke, ash, and sacred chants.
-  - increased hunting and gathering efforts to support the weakened population.
-  - designated a sacred healing area healers could tend to the sick.
+  - hosted a mediation circle where clan leaders of <CityName> spoke openly.
+  - proposed a labour-sharing project that required the clans to work together.
+  - held a symbolic offering ceremony between clans to appease the ancestral spirits.
+  - assigned neutral elders to judge the disputes impartially.
+  - encouraged a communal feast where clans shared food and stories.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The quarantine slows the illness as healers tend to the afflicted with herbs
-    and rituals. Fear remains, but the tribe sees hope in the controlled spread.
-  - Families protest the separation, sneaking into the isolation camp and undermining
-    containment. The sickness spreads faster than before, creating panic.
-  - The runners return with rare herbs and knowledge of treatments. Healers incorporate
-    these remedies quickly, slowing the disease and restoring hope.
-  - The neighbouring tribes refuse help or provide incorrect knowledge. The remedies
-    fail, wasting time and resources as the sickness worsens.
-  - "The ritual lifts the tribe\u2019s spirits and reduces fear. Whether through
-    belief or coincidence, symptoms ease slightly, and morale strengthens."
-  - The ritual fails to show any effect. Some accuse the shamans of incompetence,
-    while others blame specific clans for angering the spirits, intensifying social
-    strain.
-  - Healthy hunters and gatherers push themselves to provide for all. Their efforts
-    sustain the tribe through the worst days of the outbreak, preventing starvation.
-  - The intensified work leads to exhaustion and injuries. With fewer capable hunters,
-    food shortages worsen, compounding the crisis.
-  - The healing area becomes a place of focused care and disciplined treatment. Healers
-    innovate new methods, gradually stabilising the afflicted.
-  - Restrictions frustrate families barred from visiting loved ones. Anger builds
-    toward the healers, disrupting treatment and fracturing community trust.
+  - Leaders gathered around the central fire, voicing frustrations and misunderstandings.
+    Through patient dialogue, they rediscovered shared goals and agreed to renewed
+    cooperation.
+  - Discussions escalated into shouting as old grudges resurfaced. The circle dissolved
+    in hostility, worsening the divide and deepening mistrust.
+  - Building shelters, digging pits, and crafting tools side by side helped the clans
+    reconnect. Cooperation rekindled a sense of unity as shared labour mended emotional
+    fractures.
+  - Clans disagreed over workload and credit. Accusations of laziness or sabotage
+    emerged, turning the project into a battleground of resentment.
+  - Clans joined in sacred rituals, offering carvings, herbs, and crafted items.
+    The shared spiritual moment softened hearts and reminded them of their ancient
+    common roots.
+  - Some clans dismissed the ceremony as meaningless, sparking further disagreement.
+    Participation became a point of pride or defiance, worsening the internal divide.
+  - Respected elders carefully reviewed grievances, delivering fair rulings accepted
+    by most. Their wisdom calmed the situation and restored a sense of justice.
+  - Clans claimed the elders favoured certain families and rejected their judgments.
+    The authority of the elders weakened, intensifying the conflict instead of resolving
+    it.
+  - A communal feast rekindled bonds as clans traded stories and songs. Laughter
+    replaced bitterness, reminding everyone of the ties that bound the tribe together.
+  - Arguments erupted over food distribution or seating arrangements. What was meant
+    as reconciliation became another flashpoint for division.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

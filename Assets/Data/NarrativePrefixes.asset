@@ -23,6 +23,7 @@ MonoBehaviour:
   - 'Seeking to maintain balance among the clans, the elders '
   - 'Encouraged by signs of possibility, <CityName> '
   - "Committed to safeguarding <CityName>\u2019s future, the people "
+  - 'In response to this, <CityName> '
   negativeOptionPrefixes:
   - 'Burdened by rising tensions, the clans '
   - 'Troubled by uncertainty, the people '
@@ -34,13 +35,14 @@ MonoBehaviour:
   - Haunted by the risk of further decline, the elders
   - 'Stressed by the fragility of unity, the clans '
   - 'Worn down by repeated setbacks, the people of <CityName> '
+  - 'In response to this, <CityName> '
   eventIntros:
   - 'As days passed, a new development emerged: '
   - 'The winds of change brought forth an unexpected turn: '
-  - 'In the midst of their journey, the people of <CityName> faced: '
+  - 'In this age, the people of <CityName> faced an issue where '
   - 'Time revealed its next trial when '
   - 'Without warning, '
-  - 'The horizon darkened as '
+  - 'Conditions changed as '
   - 'A pivotal moment arrived when '
   - 'Destiny''s hand stirred when '
   - 'The course of history shifted as '
@@ -57,10 +59,14 @@ MonoBehaviour:
   - 'The path chosen led to an outcome none could ignore: '
   - 'Fate''s judgment came swiftly: '
   eventTransitions:
-  - 'But the trials were far from over as '
-  - Yet another development awaited them where
-  - 'Scarcely had they recovered when '
+  - 'But the civilisation''s trials were far from over as '
+  - 'Yet another development awaited them where '
+  - 'However, scarcely had they recovered when '
   - 'Time pressed onward, bringing new tests when '
-  - 'The people of <CityName> had little time to rest before '
+  - 'Fortunately or unfortunately, the people of <CityName> had little time to rest
+    before '
   - 'As one chapter closed, another immediately opened when '
-  cityName: John
+  - 'Despite the lessons learned, <CityName> had a development where '
+  - 'Amid the earlier developments, new issues arised as '
+  - 'Nevertheless, <CityName>''s stability was still not guaranteed, as '
+  cityName: The Quick Brown Fox

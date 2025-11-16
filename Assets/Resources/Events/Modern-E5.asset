@@ -12,44 +12,52 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
   m_Name: Modern-E5
   m_EditorClassIdentifier: 
-  mIntroMessage: Industrial change reshapes <CityName> with new technologies, expanding
-    factories, and rapid population growth. Political movements challenge old systems,
-    while global trade raises both opportunity and risk. Innovation accelerates faster
-    than society adapts, and <CityName> must balance progress with stability as it
-    confronts competition, unrest, and evolving expectations from its citizens.
-  mActionMessage: "TECHNOLOGICAL BREAKTHROUGH \u2014 A revolutionary discovery in
-    AI, biotechnology, quantum computing, energy, or engineering emerges. The world
-    watches to see how it will be used."
+  mIntroMessage: Industrial change reshaped <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenged old systems,
+    while global trade raised both opportunity and risk. Innovation accelerated faster
+    than society adapted, and <CityName> had to balance progress with stability as
+    it confronted competition, unrest, and evolving expectations from its citizens.
+  mActionMessage: "An unexpected humanitarian and diplomatic opportunity confronted
+    <CityName}, demanding a balance between industrial ambition, moral responsibility,
+    and the city\u2019s long-term reputation."
   mProcessedActionMessage: 
-  mOutcomeType: Variable
+  mOutcomeType: Positive
   mOptionMessages:
-  - Publish the breakthrough openly to accelerate global scientific collaboration.
-  - Partner with ethical review boards to guide responsible testing and deployment.
-  - License the technology to major corporations for rapid industrialisation.
-  - Apply the breakthrough to national defence initiatives.
-  - Build a civilian innovation hub to encourage startups and independent inventors.
+  - provided relief supplies to affected regions, prioritising compassion over profit.
+  - declined involvement until the long-term consequences became clearer.
+  - consulted civic philosophers, clergy, and legal advisors before taking action.
+  - held a citywide forum to let citizens decide the ethical course.
+  - leveraged the situation to secure future trade rights and industrial advantages.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - International labs build upon the discovery rapidly. Your nation becomes synonymous
-    with scientific leadership, and global goodwill increases.
-  - Rival nations weaponise or exploit the information first. Critics claim your
-    openness risked national security and economic dominance.
-  - The process becomes a model for safe innovation. Citizens feel protected from
-    reckless experimentation, and global organisations praise your transparency.
-  - Regulatory delays frustrate scientists and investors. The breakthrough loses
-    momentum, and competing nations surpass your progress.
-  - Corporations deploy the technology at scale, boosting productivity and creating
-    new markets. Employment rises and the economy accelerates dramatically.
-  - Corporate monopolies emerge, exploiting workers and consumers. Scandals erupt
-    over unethical use, damaging both national image and public trust.
-  - Military capabilities leap forward, deterring foreign threats. Citizens feel
-    safe knowing the nation is protected by cutting-edge technology.
-  - Global tensions spike as neighbouring nations accuse you of escalating an arms
-    race. Sanctions and diplomatic pressure increase.
-  - Entrepreneurs flock to the hub, creating a hotspot of creativity and invention.
-    New industries blossom from unexpected places, diversifying the economy.
-  - The hub becomes a money sink with little output. Mismanagement and fraud lead
-    to scandal, discrediting the initiative.
+  - The relief reached those in need, and <CityName> earned widespread admiration
+    for its humanity. Citizens felt pride in their generosity, and the goodwill forged
+    strong diplomatic ties.
+  - The effort strained local budgets and supply chains. When shortages struck at
+    home, critics accused the city of giving too freely, sparking debates about misplaced
+    compassion.
+  - "The cautious approach protected <CityName> when the situation worsened unexpectedly.
+    Many later praised the city\u2019s restraint, recognising that haste might have
+    caused greater harm."
+  - Those seeking aid viewed the refusal as cold indifference. Relations weakened,
+    and some citizens questioned whether <CityName> had sacrificed honour for convenience.
+  - The advisors offered balanced insight, guiding <CityName> toward a thoughtful
+    and ethical decision. Citizens appreciated the deliberate process and accepted
+    the outcome peacefully.
+  - Endless debate among the advisors caused delays, and the opportunity passed unresolved.
+    Frustration spread through the city, weakening trust in institutional guidance.
+  - The forum united citizens from every district, and a rare consensus emerged.
+    The collective decision strengthened civic identity and reminded <CityName> of
+    its shared values.
+  - "The discussions grew heated as factions clashed over competing morals. No agreement
+    formed, the forum dissolved in anger, and the issue only deepened the city\u2019s
+    divisions."
+  - "The strategic gamble paid off, yielding long-term trade privileges and strengthening
+    <CityName>\u2019s influence in regional markets. Even skeptics admitted the decision
+    brought lasting benefit."
+  - "The move was criticised as opportunistic and exploitative. Several partners
+    withdrew trust, and <CityName>\u2019s reputation suffered among those who valued
+    honour over profit."
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff0b000000f6ffffff08000000f9ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
