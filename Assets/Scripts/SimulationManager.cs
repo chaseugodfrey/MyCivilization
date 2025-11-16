@@ -107,10 +107,38 @@ public class SimulationManager : MonoBehaviour
         nameCity.SetActive(true);
     }
 
-    public void CityNamed()
+    public void CityNamed30Prosperity()
     {
+        cityManager.ActiveCity.Prosperity = 30;
+        cityManager.UpdateProsperityUI();
         cityNamed = true;
         cityManager.ActiveCity.Name = nameCity.GetComponentInChildren<TMP_InputField>().text;        
+        SetManagerCityName(cityManager.ActiveCity.Name);
+        nameCity.SetActive(false);
+        newEra = true;
+        Advance();
+        //Invoke(nameof(DisappearingTitle), 5);
+        //Debug.LogError("This is happening too late 2?");
+    }
+    public void CityNamed50Prosperity()
+    {
+        cityManager.ActiveCity.Prosperity = 50;
+        cityManager.UpdateProsperityUI();
+        cityNamed = true;
+        cityManager.ActiveCity.Name = nameCity.GetComponentInChildren<TMP_InputField>().text;
+        SetManagerCityName(cityManager.ActiveCity.Name);
+        nameCity.SetActive(false);
+        newEra = true;
+        Advance();
+        //Invoke(nameof(DisappearingTitle), 5);
+        //Debug.LogError("This is happening too late 2?");
+    }
+    public void CityNamed70Prosperity()
+    {
+        cityManager.ActiveCity.Prosperity = 70;
+        cityManager.UpdateProsperityUI();
+        cityNamed = true;
+        cityManager.ActiveCity.Name = nameCity.GetComponentInChildren<TMP_InputField>().text;
         SetManagerCityName(cityManager.ActiveCity.Name);
         nameCity.SetActive(false);
         newEra = true;
@@ -344,8 +372,6 @@ public class SimulationManager : MonoBehaviour
     {
         LoadEraData();
         cityManager.ActiveCity = new CityManager.City();
-        cityManager.ActiveCity.Prosperity = 50;
-        cityManager.UpdateProsperityUI();
     }
 
 
