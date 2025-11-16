@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25846dacfbde4d241b879346c5a6d768, type: 3}
+  m_Name: Classical
+  m_EditorClassIdentifier: 
+  mEraName: Classical
+  mEraDescription: <CityName> strengthens into an organised society with structured
+    laws, wider trade, and growing intellectual life. Roads and alliances expand
+    its reach, while diplomacy and conflict reshape its borders. Prosperity rises,
+    but so do rivalries and debates over authority. How <CityName> balances ambition
+    and stability determines its path through this transformative age.
+  mProcessedEraDescription: 
+  mEraEvents:
+  - {fileID: 11400000, guid: 9cb23e8a779ee4b4da037cde71da8616, type: 2}
+  - {fileID: 11400000, guid: 5d498d28330892443a661cf50e493a72, type: 2}
+  - {fileID: 11400000, guid: 362889c5439223c4b9916fd5ad716ac5, type: 2}
+  - {fileID: 11400000, guid: 0e1ab61962bc2c34a8c371cbf302a25e, type: 2}
+  - {fileID: 11400000, guid: 106bdfe0c5aab964cbfbdb79c417c487, type: 2}
+  - {fileID: 11400000, guid: 15c9e5d608d987940b6dcccb9c364a09, type: 2}
+  - {fileID: 11400000, guid: ed4b5a6b2e9a2834299acd8d0f1a68b3, type: 2}
+  - {fileID: 11400000, guid: 124ba3e6361310d4b979d99cbfb1a883, type: 2}
+  - {fileID: 11400000, guid: 0bff112dae69a154cabd39bbc111be2c, type: 2}
+  - {fileID: 11400000, guid: 380557cc41794d94298150c66d99e65e, type: 2}

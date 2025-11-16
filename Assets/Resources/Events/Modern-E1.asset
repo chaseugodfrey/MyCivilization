@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Modern-E1
+  m_EditorClassIdentifier: 
+  mIntroMessage: Industrial change reshapes <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenge old systems,
+    while global trade raises both opportunity and risk. Innovation accelerates faster
+    than society adapts, and <CityName> must balance progress with stability as it
+    confronts competition, unrest, and evolving expectations from its citizens.
+  mActionMessage: "RESOURCE SHORTAGE \u2014 A supply crisis hits the nation as fuel,
+    materials, or essential goods run scarce due to embargoes, industrial failures,
+    or global disruption. Factories stall, transport slows, and citizens grow anxious."
+  mProcessedActionMessage: 
+  mOutcomeType: Variable
+  mOptionMessages:
+  - Implement emergency fuel and energy rationing across major cities.
+  - Negotiate an urgent trade deal with foreign suppliers for essential materials.
+  - Launch a national recycling and reclamation initiative to stretch existing resources.
+  - Divert military logistics and transport fleets to support civilian supply distribution.
+  - Fund emergency research to engineer synthetic alternatives to the scarce resource.
+  mProcessedOptionMessages: []
+  mOutcomeMessages:
+  - Rationing slows consumption enough to stabilise the grid. Citizens appreciate
+    the fairness of the distribution system, and engineers gain time to redirect
+    power to essential services. Factories resume limited but steady operations.
+  - Public frustration boils over as long queues and blackouts spread. Social media
+    amplifies complaints, and protests erupt demanding government accountability.
+    Order becomes harder to maintain.
+  - Diplomats secure a favourable contract after tense negotiation. Cargo ships arrive
+    within days, restocking industries and calming markets. Global partners praise
+    your nation's reliability under pressure.
+  - Foreign powers demand costly concessions involving tariffs, patents, or political
+    alignment. The deal arrives too late or too expensive, triggering public anger
+    and weakening your international standing.
+  - Industries creatively repurpose scrap materials, sparking innovation in manufacturing.
+    Citizens embrace the campaign enthusiastically, reducing strain on supply chains.
+    A surprising cultural movement forms around sustainability.
+  - "The program collapses under poor organisation, leading to contaminated materials
+    and inefficient recovery. Critics ridicule the government\u2019s 'performative
+    environmentalism,' damaging credibility."
+  - "The military\u2019s precision and discipline restore order in shipping routes.
+    Deliveries become reliable again, and citizens praise the decisive action prioritising
+    public welfare over bureaucracy."
+  - The presence of military personnel in civilian hubs sparks unease. Accusations
+    of intimidation and overreach spread, and mishandled checkpoints cause delays
+    rather than improvements.
+  - Scientists rapidly produce a workable substitute. Industries adopt it quickly,
+    transforming the crisis into a technological triumph. Your nation becomes a world
+    leader in alternative materials.
+  - The research burns through money with little progress. Headlines mock the 'million-dollar
+    miracle that never came,' and funding scandals erode trust in scientific institutions.
+  mProcessedOutcomeMessages: []
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f6ffffff0c000000f7ffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
+  leftIndex: 0
+  rightIndex: 0
+  rolledOutcome: 0

@@ -17,40 +17,40 @@ MonoBehaviour:
     exploration support daily life, but resources remained limited. Every choice
     shaped whether <CityName> could grow into a stable settlement or struggled against
     scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: Rumours of a strange illness circulated throughout <CityName>,
-    leaving several residents weakened and anxious. Though the spread remained limited,
-    uncertainty and fear threatened to unsettle daily life.
+  mActionMessage: A difficult ethical choice confronted the people of <CityName>,
+    forcing its leaders to weigh tradition, survival, compassion, and long-term consequences.
   mProcessedActionMessage: 
-  mOutcomeType: Negative
+  mOutcomeType: MORAL DILEMMA
   mOptionMessages:
-  - isolated the sick in a separate camp to prevent further spread.
-  - sent runners from <CityName> to neighbouring tribes in search of herbal remedies.
-  - performed a grand cleansing ritual using smoke, ash, and sacred chants.
-  - increased hunting and gathering efforts to support the weakened population.
-  - designated a sacred healing area healers could tend to the sick.
+  - granted sanctuary to an injured outsider discovered near <CityName>.
+  - refused help to outsiders and strengthened the borders to protect the community.
+  - asked the clans to vote collectively on the morally ambiguous issue.
+  - consulted the ancestral rites to determine what action was deemed righteous.
+  - chose a pragmatic solution even if it challenged long-held traditions.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - The quarantine slows the illness as healers tend to the afflicted with herbs
-    and rituals. Fear remains, but the tribe sees hope in the controlled spread.
-  - Families protest the separation, sneaking into the isolation camp and undermining
-    containment. The sickness spreads faster than before, creating panic.
-  - The runners return with rare herbs and knowledge of treatments. Healers incorporate
-    these remedies quickly, slowing the disease and restoring hope.
-  - The neighbouring tribes refuse help or provide incorrect knowledge. The remedies
-    fail, wasting time and resources as the sickness worsens.
-  - "The ritual lifts the tribe\u2019s spirits and reduces fear. Whether through
-    belief or coincidence, symptoms ease slightly, and morale strengthens."
-  - The ritual fails to show any effect. Some accuse the shamans of incompetence,
-    while others blame specific clans for angering the spirits, intensifying social
-    strain.
-  - Healthy hunters and gatherers push themselves to provide for all. Their efforts
-    sustain the tribe through the worst days of the outbreak, preventing starvation.
-  - The intensified work leads to exhaustion and injuries. With fewer capable hunters,
-    food shortages worsen, compounding the crisis.
-  - The healing area becomes a place of focused care and disciplined treatment. Healers
-    innovate new methods, gradually stabilising the afflicted.
-  - Restrictions frustrate families barred from visiting loved ones. Anger builds
-    toward the healers, disrupting treatment and fracturing community trust.
+  - The outsider recovers and proves to be skilled in crafting and gathering. Grateful
+    for your compassion, they share knowledge that benefits the entire tribe and
+    reinforces values of empathy.
+  - "The outsider brings hidden danger \u2014 sickness, a vengeful clan, or treachery.
+    Your goodwill backfires as the tribe pays the price for trusting an unknown stranger."
+  - By focusing solely on internal strength, the tribe avoids external risks and
+    reinforces its sense of identity. Resources remain plentiful for your people.
+  - The tribe grows insular and fearful. Rumours spread of cruelty, damaging relations
+    with neighbouring clans and weakening future alliances.
+  - "The act of collective decision-making reinforces trust in community processes.
+    Even those who disagree feel heard, strengthening the tribe\u2019s unity."
+  - The vote divides the tribe sharply, creating winners and losers in a matter of
+    principle. Resentment lingers long after the decision is made.
+  - "The ritual provides clarity \u2014 a symbolic message or omen convinces the
+    tribe of a righteous path. Shared faith becomes a guiding force, easing tension."
+  - The ritual yields no clear sign, leading clans to interpret the silence differently.
+    Conflicting beliefs erupt as each group insists their interpretation is true.
+  - The bold choice leads to stability and improved survival, proving that adaptability
+    can strengthen the tribe. Though not universally loved, the decision wins respect
+    over time.
+  - The abandonment of tradition upsets elders and spiritual leaders. The tribe becomes
+    divided between those who embrace change and those who cling to ancient ways.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

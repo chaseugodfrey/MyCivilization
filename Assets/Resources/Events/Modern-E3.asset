@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Modern-E3
+  m_EditorClassIdentifier: 
+  mIntroMessage: Industrial change reshapes <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenge old systems,
+    while global trade raises both opportunity and risk. Innovation accelerates faster
+    than society adapts, and <CityName> must balance progress with stability as it
+    confronts competition, unrest, and evolving expectations from its citizens.
+  mActionMessage: "ECONOMIC BOOM \u2014 A surge in technological innovation, investment,
+    or global trade brings sudden prosperity. Wealth rises rapidly, but so do the
+    risks of inequality and instability."
+  mProcessedActionMessage: 
+  mOutcomeType: Variable
+  mOptionMessages:
+  - Invest heavily in public infrastructure and modern transportation.
+  - Lower taxes temporarily to encourage consumer spending.
+  - Expand digital infrastructure to support emerging tech industries.
+  - Create a government fund supporting small businesses and entrepreneurs.
+  - Promote tourism through global campaigns and cultural showcases.
+  mProcessedOptionMessages: []
+  mOutcomeMessages:
+  - High-speed rail, energy-efficient grids, and renovated roads transform the nation.
+    Productivity soars as commute times drop and trade accelerates.
+  - Projects overrun budgets and deadlines. Corruption scandals emerge, and citizens
+    accuse leadership of mismanagement despite the booming economy.
+  - Businesses flourish as citizens purchase more goods and services. The economic
+    upswing creates new jobs and boosts national morale.
+  - The reduced tax revenue weakens healthcare, education, and public safety budgets.
+    Critics highlight growing imbalance despite high-level economic gains.
+  - Startups thrive as access to fibre networks, data hubs, and advanced computing
+    accelerates innovation. Investors worldwide turn their attention to your nation.
+  - Rushed expansion results in unreliable service outages. Tech companies suffer
+    delays, and frustration spreads across the private sector.
+  - Local shops and small companies flourish thanks to grants and low-interest loans.
+    Diversity in the economy improves resilience and encourages creativity.
+  - "Funds are misallocated, and accusations of favoritism surface. Scandals weaken
+    public confidence and damage the government\u2019s economic credibility."
+  - Tourist inflow skyrockets, boosting revenue for restaurants, hotels, and entertainment
+    districts. Citizens welcome new cultural interactions and opportunities.
+  - Overcrowding strains local resources, while environmentalists protest damage
+    to natural sites. Public debate erupts over prioritising tourists over citizens.
+  mProcessedOutcomeMessages: []
+  mOutcomeValues: 0b000000f7ffffff09000000f9ffffff0a000000f8ffffff08000000f9ffffff07000000faffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
+  leftIndex: 0
+  rightIndex: 0
+  rolledOutcome: 0

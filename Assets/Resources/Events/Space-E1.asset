@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Space-E1
+  m_EditorClassIdentifier: 
+  mIntroMessage: <CityName> extends its influence beyond Earth through orbital facilities,
+    lunar industry, and early colonies. Advanced reactors and long-range travel open
+    new frontiers, but resources stretch thin and political interests diverge across
+    worlds. Each decision carries amplified consequences, shaping whether <CityName>
+    thrives among the stars or fractures under interplanetary pressures.
+  mActionMessage: "RESOURCE SHORTAGE \u2014 A critical shortage emerges: deuterium
+    for fusion cores, helium-3 for lunar reactors, rare metals for shipyards, or
+    water for colonies. Mining accidents, FTL disruptions, or diplomatic tension
+    threaten stability across worlds."
+  mProcessedActionMessage: 
+  mOutcomeType: Variable
+  mOptionMessages:
+  - Redirect mining fleets to a high-risk asteroid belt rich in rare materials.
+  - Open emergency trade negotiations with independent Martian and Europa federations.
+  - Activate orbital recycling arrays to repurpose derelict satellites and space
+    debris.
+  - Use military cargo cruisers to reroute essential supplies across FTL corridors.
+  - Invest in a breakthrough synthetic material engineered in zero-gravity research
+    labs.
+  mProcessedOptionMessages: []
+  mOutcomeMessages:
+  - The fleet successfully navigates the unstable belt, extracting massive mineral
+    loads. Shipyards roar back to life, and colonists celebrate the swift recovery.
+    Humanity feels unstoppable.
+  - Unstable gravitational tides collapse several mining rigs. Lives are lost, production
+    drops further, and colony governors demand accountability for the reckless gamble.
+  - Despite historic tensions, the federations agree to sell surplus resources at
+    fair prices. Diplomatic channels warm, and interplanetary cooperation reaches
+    a new milestone.
+  - Talks sour when Martian delegates accuse Earth of attempting economic manipulation.
+    Trade routes tighten, and distrust spreads across the solar system.
+  - Massive quantities of refined metals are reclaimed from orbital junkyards. Engineers
+    hail it as the most efficient recycling operation in history, inspiring environmental
+    confidence.
+  - Unexpected debris trajectories cause collisions with active stations. Public
+    outrage grows as orbital safety concerns escalate and salvage output plummets.
+  - Military precision stabilises logistics instantly. Colonies receive life-sustaining
+    shipments, and the fleet earns admiration for protecting civilian interests.
+  - A cruiser miscalculates an FTL jump and disappears. Panic sweeps the colonies,
+    and accusations of militarisation undermine public trust in leadership.
+  - Scientists create a viable replacement for the missing resource. Production scales
+    rapidly, positioning your civilisation as the technological leader of the galaxy.
+  - The prototypes destabilise under atmospheric pressure, destroying the research
+    facility. Funding collapses and confidence in off-world science wavers.
+  mProcessedOutcomeMessages: []
+  mOutcomeValues: 0c000000f6ffffff09000000f8ffffff08000000f9ffffff0b000000f7ffffff0a000000f8ffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
+  leftIndex: 0
+  rightIndex: 0
+  rolledOutcome: 0

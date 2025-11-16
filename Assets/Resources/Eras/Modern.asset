@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25846dacfbde4d241b879346c5a6d768, type: 3}
+  m_Name: Modern
+  m_EditorClassIdentifier: 
+  mEraName: Modern
+  mEraDescription: Industrial change reshapes <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenge old systems,
+    while global trade raises both opportunity and risk. Innovation accelerates faster
+    than society adapts, and <CityName> must balance progress with stability as it
+    confronts competition, unrest, and evolving expectations from its citizens.
+  mProcessedEraDescription: 
+  mEraEvents:
+  - {fileID: 11400000, guid: e55a0aa773a2f3444a905a15da43b837, type: 2}
+  - {fileID: 11400000, guid: fa458323a74112841ac197d16b19fb1e, type: 2}
+  - {fileID: 11400000, guid: 48335d9780860054b837e4f9f8b63bd8, type: 2}
+  - {fileID: 11400000, guid: 540b9bea1d6715743b07d79afcdcd0be, type: 2}
+  - {fileID: 11400000, guid: 1d85ec6083e73f84a8e55c881aeca6fa, type: 2}
+  - {fileID: 11400000, guid: 9732fe9f3d1baac49939b3264eab6396, type: 2}
+  - {fileID: 11400000, guid: 24cbef9a64f9e6f489610589a4dace0f, type: 2}
+  - {fileID: 11400000, guid: 0a3b57de65026844783035eb2cec2cf8, type: 2}
+  - {fileID: 11400000, guid: f1f1703f71410984588a6a743e7d4062, type: 2}
+  - {fileID: 11400000, guid: 4df88e053b8094a46b67075390b21879, type: 2}

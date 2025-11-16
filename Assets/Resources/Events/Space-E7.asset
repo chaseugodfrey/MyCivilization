@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Space-E7
+  m_EditorClassIdentifier: 
+  mIntroMessage: <CityName> extends its influence beyond Earth through orbital facilities,
+    lunar industry, and early colonies. Advanced reactors and long-range travel open
+    new frontiers, but resources stretch thin and political interests diverge across
+    worlds. Each decision carries amplified consequences, shaping whether <CityName>
+    thrives among the stars or fractures under interplanetary pressures.
+  mActionMessage: "FOREIGN RELATIONS INCIDENT \u2014 A diplomatic crisis erupts involving
+    a newly contacted alien species or a dispute between independent human colonies."
+  mProcessedActionMessage: 
+  mOutcomeType: Variable
+  mOptionMessages:
+  - Send a multilingual diplomatic envoy including AI translators.
+  - Strengthen orbital defenses while maintaining an open diplomatic channel.
+  - Propose a shared research treaty to build trust.
+  - Hold a system-wide referendum on the diplomatic approach.
+  - Conduct a show of force by flying a fleet through contested space.
+  mProcessedOptionMessages: []
+  mOutcomeMessages:
+  - The envoy impresses with empathy and clarity. Tensions cool as communication
+    barriers dissolve, opening new alliances.
+  - A mistranslation sparks misunderstanding. Talks collapse and relations deteriorate
+    rapidly.
+  - This balanced approach discourages aggression without provoking it. Colonies
+    commend your strategic wisdom.
+  - The maneuver is interpreted as hostile posturing. The opposing faction mobilises
+    fleets in response.
+  - Cooperative projects flourish, leading to technological breakthroughs and cultural
+    exchange. A new golden age of diplomacy dawns.
+  - Rivals view the treaty as unequal or manipulative. The initiative collapses,
+    worsening suspicion.
+  - The referendum unifies citizens under a shared mandate. Public engagement strengthens
+    governance.
+  - The vote reveals deep social fractures. Opposing camps grow hostile, worsening
+    internal instability.
+  - The bold display intimidates rivals into backing down. Colonies praise the decisive
+    action.
+  - A vessel misfires during maneuvers, escalating the crisis. Armed conflict appears
+    imminent.
+  mProcessedOutcomeMessages: []
+  mOutcomeValues: 0b000000f7ffffff0a000000f8ffffff09000000f9ffffff08000000f9ffffff07000000faffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
+  leftIndex: 0
+  rightIndex: 0
+  rolledOutcome: 0

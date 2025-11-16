@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25846dacfbde4d241b879346c5a6d768, type: 3}
+  m_Name: Medieval
+  m_EditorClassIdentifier: 
+  mEraName: Medieval
+  mEraDescription: <CityName> enters an age of fortified walls, noble factions, and
+    powerful traditions. Faith shapes governance, merchants connect distant routes,
+    and scholars preserve knowledge. Yet feuds, famine, and shifting loyalties threaten
+    stability. Survival depends on how <CityName> navigates obligations, alliances,
+    and the constant pressure of conflict within and beyond its borders.
+  mProcessedEraDescription: 
+  mEraEvents:
+  - {fileID: 11400000, guid: 92cdab330be5d19448ca788efb64f3c4, type: 2}
+  - {fileID: 11400000, guid: 02d3b332295faa34eb1983ea7aa4c2f5, type: 2}
+  - {fileID: 11400000, guid: 7e19f63f7b7617b469d813184455e994, type: 2}
+  - {fileID: 11400000, guid: da0273ad900b33549985d7c82a9e5a56, type: 2}
+  - {fileID: 11400000, guid: 7b00c6d8b6d38a840b21bb42f8c5d014, type: 2}
+  - {fileID: 11400000, guid: 868d075dbbd629148b2f8045bb78e788, type: 2}
+  - {fileID: 11400000, guid: 8a29c328d81865b438f4201a75b920fa, type: 2}
+  - {fileID: 11400000, guid: a77407b08090dcd418581217604c1805, type: 2}
+  - {fileID: 11400000, guid: 137e1e9e4415e76498b6dfd458abe4a7, type: 2}
+  - {fileID: 11400000, guid: f7319f452fc471247b0c2dd365cf9a7d, type: 2}

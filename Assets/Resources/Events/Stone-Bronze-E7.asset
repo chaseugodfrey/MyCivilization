@@ -17,45 +17,39 @@ MonoBehaviour:
     exploration support daily life, but resources remained limited. Every choice
     shaped whether <CityName> could grow into a stable settlement or struggled against
     scarcity, conflict, and the uncertainties of early development.
-  mActionMessage: Unstable weather patterns approached <CityName>, raising fears
-    of a destructive storm. The people prepared as best they could, uncertain how
-    severely their homes and routines might be affected.
+  mActionMessage: A neighbouring tribe had begun enroaching on <CityName>'s hunting
+    grounds, threatening the city's food supply.
   mProcessedActionMessage: 
-  mOutcomeType: Negative
+  mOutcomeType: FOREIGN RELATIONS INCIDENT
   mOptionMessages:
-  - constructed emergency earth-and-wood shelters to protect the tribe.
-  - sent scouts to search for safer high ground near <CityName>.
-  - asked the shamans to perform protective rites to calm the raging spirits.
-  - divided the tribe into task-groups to safeguard food, homes, and children.
-  - retreated temporarily into sacred caves believed to be blessed by the ancestors
-    of <CityName>.
+  - sent a small peace-bearing delegation carrying symbolic gifts.
+  - prepared a ceremonial hunt to demonstrate strength without hostility.
+  - had the shamans mediate through shared spiritual rites with the rival tribe.
+  - strengthened the border patrols around <CityName> to discourage further encroachment.
+  - invited the rival tribe to a shared competition of skill and endurance.
   mProcessedOptionMessages: []
   mOutcomeMessages:
-  - Working through wind and rain, families raise sturdy shelters reinforced with
-    clay and timber. The structures hold firm, saving lives and giving the tribe
-    a fragile but vital sense of security.
-  - "Despite desperate effort, the shelters collapse under the storm\u2019s fury.
-    Injuries mount and valuable supplies are lost, deepening fear and exposing the
-    tribe\u2019s vulnerability."
-  - "The scouts return with news of a sheltered ridge where the storm\u2019s reach
-    weakens. The tribe relocates just in time, weathering the disaster with minimal
-    loss and renewed gratitude."
-  - The scouts misjudge the land, leading the tribe into an exposed hollow. The storm
-    intensifies, bringing devastating floods that shatter morale and resources.
-  - Chants echo across the village as flames crackle in ritual pits. The storm seems
-    to ease briefly, giving the tribe precious moments to regroup and restore order.
-  - The rites fail to bring relief. Some clans blame the shamans for angering the
-    spirits further, and fear quickly turns to mistrust and blame among families.
-  - "Every clan works with fierce determination\u2014some reinforcing shelters, others
-    guarding stores or carrying the vulnerable to safety. Cooperation in crisis strengthens
-    unity."
-  - Task-groups clash over priorities, creating chaos instead of order. Precious
-    time is wasted in arguments, allowing the disaster to inflict deeper damage.
-  - The caves withstand the storm, their walls etched with ancient symbols that comfort
-    the tribe. Survival becomes a spiritual triumph, reinforcing belief in ancestral
-    protection.
-  - The caves flood unexpectedly, forcing a panicked escape. The tribe suffers injuries
-    and morale plummets as once-revered shelters are revealed to be perilous.
+  - The neighbouring tribe accepts the offerings graciously. Shared meals and exchanged
+    stories cool tempers, laying the groundwork for future cooperation.
+  - The gifts are misinterpreted as bribes or signs of weakness. The neighbouring
+    tribe grows more aggressive, emboldened by what they perceive as submission.
+  - Your hunters display mastery and discipline, impressing the neighbouring tribe.
+    Respect replaces tension, and both sides agree to avoid future disputes.
+  - The display backfires as rival hunters interpret it as a challenge. Clashes break
+    out at the territory edge, fueling anger and escalating conflict.
+  - The shamans enter a trance-like communion, emerging with signs interpreted as
+    mutual favour. Spiritual harmony spreads, easing tensions between tribes.
+  - The rival tribe accuses your shamans of manipulation. Spiritual distrust hardens
+    positions, making negotiation far more difficult in the future.
+  - "The patrols operate with discipline, avoiding provocation while clearly protecting
+    your land. The rival tribe backs off, respecting your tribe\u2019s vigilance."
+  - A misinterpreted gesture or accidental encounter sparks violence along the border.
+    The neighbouring tribe mobilises, transforming the tension into open threat.
+  - The competition becomes a celebration of strength rather than hostility. Laughter
+    breaks through rivalry as participants recognise shared values of courage and
+    honour.
+  - The contests turn aggressive as tempers flare. Accusations of cheating spread
+    rapidly, deepening resentment and worsening relations.
   mProcessedOutcomeMessages: []
   mOutcomeValues: 0a000000f8ffffff09000000f9ffffff08000000f9ffffff0b000000f7ffffff07000000faffffff
   mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff

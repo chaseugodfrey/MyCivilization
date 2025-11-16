@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Modern-E9
+  m_EditorClassIdentifier: 
+  mIntroMessage: Industrial change reshapes <CityName> with new technologies, expanding
+    factories, and rapid population growth. Political movements challenge old systems,
+    while global trade raises both opportunity and risk. Innovation accelerates faster
+    than society adapts, and <CityName> must balance progress with stability as it
+    confronts competition, unrest, and evolving expectations from its citizens.
+  mActionMessage: "DISEASE OUTBREAK \u2014 A fast-spreading virus emerges, overwhelming
+    hospitals and alarming citizens. Scientists rush to identify its nature while
+    the public demands decisive action."
+  mProcessedActionMessage: 
+  mOutcomeType: Variable
+  mOptionMessages:
+  - Implement strict lockdowns and travel restrictions.
+  - Accelerate vaccine research through emergency funding.
+  - Deploy mobile medical units to outbreak hotspots.
+  - Launch a mass public health education campaign.
+  - Temporarily subsidise essential goods for affected households.
+  mProcessedOptionMessages: []
+  mOutcomeMessages:
+  - Transmission rates drop sharply. Citizens acknowledge the necessity of the measures,
+    and hospitals gain breathing room to treat severe cases.
+  - Economic disruption fuels anger and protest. Many view the restrictions as an
+    overreach, and trust in leadership declines.
+  - Scientists achieve breakthroughs quickly, producing an effective early vaccine
+    candidate. Global praise floods in as your nation leads the fight.
+  - Research setbacks reveal safety concerns, delaying progress. Media sensationalises
+    missteps, creating fear and confusion.
+  - Rapid-response teams contain clusters before they spread. Their effectiveness
+    restores hope in the healthcare system and reduces panic.
+  - Medical units become overwhelmed or attacked by frightened citizens. The chaos
+    undermines containment efforts and sparks national fear.
+  - Clear instructions empower citizens to protect themselves. Infection rates fall
+    as compliance rises and misinformation declines.
+  - Conflicting messages from influencers and fringe groups drown out official guidance.
+    Confusion spreads, worsening the outbreak.
+  - Families feel supported during hardship, easing public anxiety. Resource distribution
+    becomes more orderly, preventing supply panic.
+  - Supply chains buckle under increased demand. Shortages worsen, and citizens accuse
+    leaders of poor planning.
+  mProcessedOutcomeMessages: []
+  mOutcomeValues: 0b000000f7ffffff0a000000f8ffffff09000000f9ffffff08000000f9ffffff07000000faffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
+  leftIndex: 0
+  rightIndex: 0
+  rolledOutcome: 0

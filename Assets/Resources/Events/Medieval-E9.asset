@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Medieval-E9
+  m_EditorClassIdentifier: 
+  mIntroMessage: <CityName> enters an age of fortified walls, noble factions, and
+    powerful traditions. Faith shapes governance, merchants connect distant routes,
+    and scholars preserve knowledge. Yet feuds, famine, and shifting loyalties threaten
+    stability. Survival depends on how <CityName> navigates obligations, alliances,
+    and the constant pressure of conflict within and beyond its borders.
+  mActionMessage: "DISEASE OUTBREAK \u2014 A mysterious sickness spreads through
+    towns and villages. Healers, priests, and common folk struggle to understand
+    and survive the affliction."
+  mProcessedActionMessage: 
+  mOutcomeType: Variable
+  mOptionMessages:
+  - Order quarantines in afflicted districts and restrict travel.
+  - Support apothecaries and herbalists in experimenting with remedies.
+  - Organise mass prayer processions and offerings for divine mercy.
+  - Establish dedicated infirmaries staffed by trained healers and clergy.
+  - Suspend certain taxes and tithes to ease the burden on afflicted communities.
+  mProcessedOptionMessages: []
+  mOutcomeMessages:
+  - Though harsh, the restrictions slow the spread considerably. People see the crown
+    as willing to make difficult choices to protect the realm.
+  - Trade grinds to a halt and separated families despair. Black markets emerge,
+    undermining both the quarantine and trust in royal decrees.
+  - Some mixtures ease symptoms and reduce mortality. Word of these treatments spreads,
+    lifting spirits and showcasing the value of learned healers.
+  - Unproven mixtures cause harm in some cases. Rumours of poison turn fear toward
+    the healers themselves, complicating efforts to respond.
+  - The processions bring people together in shared grief and hope. Their renewed
+    faith helps them endure hardship with greater resilience.
+  - Crowded gatherings spread infection further. When no immediate miracle follows,
+    anger turns against both priests and the ruling house.
+  - Centralising care allows better organisation and treatment. The infirmaries become
+    places of both healing and compassion, and survival rates improve.
+  - Resources prove insufficient, and the infirmaries overflow with the sick. Despair
+    grows as people view them as houses of death rather than hope.
+  - The relief allows families to focus on survival rather than debt. Gratitude toward
+    the crown and clergy grows, even in dark times.
+  - "The reduced income weakens the crown\u2019s ability to fund responses. Some
+    nobles complain bitterly, causing new friction among the leadership."
+  mProcessedOutcomeMessages: []
+  mOutcomeValues: 0a000000f8ffffff09000000f9ffffff07000000faffffff0b000000f7ffffff08000000f9ffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
+  leftIndex: 0
+  rightIndex: 0
+  rolledOutcome: 0

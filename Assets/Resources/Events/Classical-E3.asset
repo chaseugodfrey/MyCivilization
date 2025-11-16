@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09fef9afa302c104982c8b34c1e28272, type: 3}
+  m_Name: Classical-E3
+  m_EditorClassIdentifier: 
+  mIntroMessage: <CityName> strengthens into an organised society with structured
+    laws, wider trade, and growing intellectual life. Roads and alliances expand
+    its reach, while diplomacy and conflict reshape its borders. Prosperity rises,
+    but so do rivalries and debates over authority. How <CityName> balances ambition
+    and stability determines its path through this transformative age.
+  mActionMessage: "ECONOMIC BOOM \u2014 A surge in trade, production, or discovery
+    brings sudden wealth. Prosperity elevates the state but may also fuel extravagance
+    or internal competition."
+  mProcessedActionMessage: 
+  mOutcomeType: Variable
+  mOptionMessages:
+  - Host a grand festival celebrating prosperity and civic achievement.
+  - Invest surplus wealth into expanding libraries and academies.
+  - Expand trade fleets and merchant caravans to amplify returns.
+  - Reduce taxes temporarily to encourage economic movement.
+  - Commission new roads, aqueducts, and public structures.
+  mProcessedOptionMessages: []
+  mOutcomeMessages:
+  - Citizens gather in theatres, plazas, and markets to celebrate shared success.
+    The festival strengthens civic pride and reminds all that prosperity belongs
+    to everyone.
+  - The festival becomes overly lavish, draining treasuries and angering poorer citizens
+    who see the wealth gap widening. Resentment spreads beneath the celebrations.
+  - New academies attract scholars from distant lands. Knowledge flourishes, advancements
+    multiply, and the state's prestige rises among neighbouring civilisations.
+  - Funds are mismanaged or stolen. Construction halts, scholars depart, and citizens
+    accuse officials of corruption, casting suspicion over the entire boom.
+  - Trade routes flourish as caravans return with exotic goods, rare metals, and
+    lucrative deals. Wealth flows steadily, solidifying the state's growing influence.
+  - Pirates and bandits target your expanded trade routes. Several shipments vanish,
+    triggering panic among merchants and destabilizing the once-thriving economy.
+  - "Lower taxes invigorate commerce. Citizens praise the government\u2019s generosity,
+    and markets flourish as artisans, farmers, and traders thrive."
+  - Revenue drops too sharply, weakening military upkeep and public services. Citizens
+    begin doubting the state's ability to balance generosity with responsibility.
+  - Infrastructure expands dramatically, creating jobs and transforming the urban
+    landscape. Future generations will benefit from the flourishing civic projects.
+  - Overambitious projects overextend resources, leaving many structures unfinished.
+    Citizens ridicule the failed monuments as signs of leadership hubris.
+  mProcessedOutcomeMessages: []
+  mOutcomeValues: 0a000000f8ffffff0b000000f7ffffff09000000f9ffffff08000000faffffff0c000000f6ffffff
+  mStableValues: 01000000ffffffff02000000feffffff03000000fdffffff04000000fcffffff05000000fbffffff
+  leftIndex: 0
+  rightIndex: 0
+  rolledOutcome: 0
